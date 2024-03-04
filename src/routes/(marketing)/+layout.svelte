@@ -4,14 +4,16 @@
 
 <div class="navbar bg-base-100 container mx-auto">
   <div class="flex-1">
-    <a class="btn btn-ghost normal-case text-xl" href="/">SaaS Starter</a>
+    <a class="btn btn-ghost normal-case text-xl" href="/"
+      >App Starter Template</a
+    >
   </div>
   <div class="flex-none">
     <ul class="menu menu-horizontal px-1 hidden sm:flex font-bold text-lg">
       <li class="md:mx-4">
         <a
           href="https://github.com/CriticalMoments/CMSaasStarter"
-          class="border border-primary">★ us on Github</a
+          class="border border-primary">See our Github</a
         >
       </li>
       <li class="md:mx-2"><a href="/blog">Blog</a></li>
@@ -47,7 +49,7 @@
         <li>
           <a
             href="https://github.com/CriticalMoments/CMSaasStarter"
-            class="border border-primary">★ us on Github</a
+            class="border border-primary">See our Code</a
           >
         </li>
       </ul>
