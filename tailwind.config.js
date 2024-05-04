@@ -10,6 +10,7 @@ export default {
   ],
   daisyui: {
     themes: [
+      "forest",
       {
         saasstartertheme: {
           "primary": "#180042",
@@ -22,7 +23,7 @@ export default {
           "base-100": "#fefbf6",
         },
       },
-      "cyberpunk"
+   
     ],
   }
 }
