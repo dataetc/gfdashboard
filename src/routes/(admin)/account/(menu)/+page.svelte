@@ -2,17 +2,11 @@
   import { writable } from "svelte/store"
   import { onMount } from "svelte"
 
-  // Initialize the supabase connection:
-  import { createClient } from "@supabase/supabase-js"
-  import {
-    PUBLIC_SUPABASE_ANON_KEY,
-    PUBLIC_SUPABASE_URL,
-  } from "$env/static/public"
-
   // Import the user session information
   export let data
   let { session, supabase } = data
 
+  console.log("data", data.profile.default_country)
   // Store to hold the count of rows
   let userMetadataCount = writable(0)
 
@@ -85,6 +79,11 @@
 <svelte:head>
   <title>Account</title>
 </svelte:head>
+{#if data.profile.default_country}
+  <p>Default country: {data.profile.default_country}</p>
+{:else}
+  <p>Loading...</p>
+{/if}
 <button on:click={addUserToTable}>Add User ID to Table</button>
 <h1 class="text-2xl font-bold mb-1">Dashboard</h1>
 <!-- Button to add user ID to the table -->

@@ -44,6 +44,9 @@ export const _hasFullProfile = (
   if (!profile.full_name) {
     return false
   }
+  if (!profile.default_country) {
+    return false
+  }
   if (!profile.company_name) {
     return false
   }

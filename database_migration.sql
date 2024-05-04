@@ -5,7 +5,8 @@ create table profiles (
   full_name text,
   company_name text,
   avatar_url text,
-  website text
+  website text,
+  default_country text,
 );
 -- Set up Row Level Security (RLS)
 -- See https://supabase.com/docs/guides/auth/row-level-security for more details.

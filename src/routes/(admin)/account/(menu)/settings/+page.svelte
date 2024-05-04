@@ -22,6 +22,11 @@
   fields={[
     { id: "fullName", label: "Name", initialValue: profile?.full_name ?? "" },
     {
+      id: "defaultCountry",
+      label: "Default Country",
+      initialValue: profile?.default_country ?? "",
+    },
+    {
       id: "companyName",
       label: "Company Name",
       initialValue: profile?.company_name ?? "",
@@ -53,7 +58,7 @@
 />
 
 <SettingsModule
-  title="Danger Zone"
+  title="Delete Account"
   editable={false}
   dangerous={true}
   fields={[]}

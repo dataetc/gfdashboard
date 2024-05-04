@@ -30,6 +30,11 @@
       placeholder: "Your full name",
     },
     {
+      id: "defaultCountry",
+      label: "Default Country",
+      initialValue: profile?.default_country ?? "",
+    },
+    {
       id: "companyName",
       label: "Company Name",
       initialValue: profile?.company_name ?? "",

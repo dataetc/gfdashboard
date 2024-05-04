@@ -201,6 +201,7 @@ export const actions = {
     const fullName = formData.get("fullName") as string
     const companyName = formData.get("companyName") as string
     const website = formData.get("website") as string
+    const defaultCountry = formData.get("defaultCountry") as string
 
     let validationError
     const errorFields = []
@@ -225,6 +226,7 @@ export const actions = {
         fullName,
         companyName,
         website,
+        defaultCountry,
       })
     }
 
@@ -233,6 +235,7 @@ export const actions = {
       full_name: fullName,
       company_name: companyName,
       website: website,
+      default_country: defaultCountry, 
       updated_at: new Date(),
     })
 
