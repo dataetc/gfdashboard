@@ -57,13 +57,13 @@
         Explore a wealth of Global Health Data
       </div>
       <div class="mt-6 text-xl font-bold">
-        Try the tools now or
+        Try our tools now or create a
         <span
           class="underline decoration-secondary decoration-[3px] md:decoration-[4px]"
         >
           free user account
         </span>
-        to store your preferences, and key insights
+        to save your preferences and key insights
       </div>
     </div>
 

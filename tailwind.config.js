@@ -10,7 +10,7 @@ export default {
   ],
   daisyui: {
     themes: [
-      "forest",
+      "autumn",
       {
         saasstartertheme: {
           "primary": "#180042",

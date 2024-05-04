@@ -72,18 +72,14 @@
   >
     <div class="px-6">
       <h1 class="text-2xl lg:text-4xl font-bold mb-4">Contact Us</h1>
-      <p class="text-lg">Talk to one of our service professionals to:</p>
+      <p class="text-lg">Tell us your data and advocacy needs:</p>
       <ul class="list-disc list-outside pl-6 py-4 space-y-1">
-        <li class="">Get a live demo</li>
-        <li class="">Discuss your specific needs</li>
-        <li>Get a quote</li>
+        <li class="">Request new features</li>
+        <li class="">Learn your rights</li>
+        <li>Report a bug</li>
         <li>Answer any technical questions you have</li>
       </ul>
       <p>Once you complete the form, we'll reach out to you! *</p>
-      <p class="text-sm pt-8">
-        *Not really for this demo page, but you should say something like that
-        😉
-      </p>
     </div>
   </div>
 
