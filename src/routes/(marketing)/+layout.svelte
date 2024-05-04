@@ -73,16 +73,14 @@
     </nav>
     <aside>
       <span class="footer-title opacity-80">Sponsor</span>
-      <a
-        class="link link-hover max-w-[260px]"
-        href="https://criticalmoments.io"
-      >
+      <a class="link link-hover max-w-[260px]" href="https://dataetc.org">
         <img
-          alt="Critical Moments Logo"
+          alt="Data Etc Logo"
           src="/images/cm_logo.svg"
           class="w-[180px] mb-3 aspect-[420/154]"
         />
-        Make mobile apps? Improve conversion rates and ratings with Critical Moments.
+        A dynamic partnership of researchers, advocates, and health experts, weaving
+        together the threads of diverse perspectives and skills.
       </a>
     </aside>
   </footer>

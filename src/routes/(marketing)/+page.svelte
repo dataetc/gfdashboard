@@ -36,14 +36,14 @@
         Supporting people and projects around the world like <a
           href="https://kit.svelte.dev"
           class="link font-bold"
-          target="_blank">Community-led monitoring</a
+          target="_blank">Community-led Monitoring</a
         >,
         <a href="https://supabase.com" class="link font-bold" target="_blank"
-          >Data transparency initiatives</a
+          >Data Transparency Initiatives</a
         >, with data from
         <a href="https://stripe.com" class="link font-bold" target="_blank"
           >the Global Fund</a
-        >
+        > and others
       </div>
     </div>
   </div>

@@ -21,7 +21,8 @@ export default {
           "base-content": "#180042",
           "base-100": "#fefbf6",
         },
-      }
+      },
+      "cyberpunk"
     ],
   }
 }
