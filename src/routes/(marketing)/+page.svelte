@@ -152,7 +152,7 @@
       <div
         class="text-xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent mb-4 md:mb-8"
       >
-        SaasStarter Demo
+        Global Data Hub
       </div>
 
       <div
@@ -162,40 +162,25 @@
         The
         <span
           class="underline decoration-secondary decoration-4 md:decoration-[6px]"
-          >open source</span
-        >,
-        <span
-          class="underline decoration-secondary decoration-4 md:decoration-[6px]"
-          >fast</span
+          >transparent</span
         >, and
         <span
           class="underline decoration-secondary decoration-4 md:decoration-[6px]"
-          >free to host</span
+          >free</span
         >
-        <span> SaaS template</span>
+        <span> source of global public health data</span>
       </div>
       <div class="mt-6 md:mt-10 text-sm md:text-lg">
-        Built with <a
+        Supporting projects around the world like <a
           href="https://kit.svelte.dev"
           class="link font-bold"
-          target="_blank">SvelteKit</a
+          target="_blank">Community-led monitoring</a
         >,
         <a href="https://supabase.com" class="link font-bold" target="_blank"
-          >Supabase</a
-        >,
+          >Data transparency</a
+        >, with data from
         <a href="https://stripe.com" class="link font-bold" target="_blank"
-          >Stripe</a
-        >,
-        <a href="https://tailwindcss.com" class="link font-bold" target="_blank"
-          >Tailwind</a
-        >,
-        <a href="https://daisyui.com" class="link font-bold" target="_blank"
-          >daisyUI</a
-        >, and
-        <a
-          href="https://www.postgresql.org"
-          class="link font-bold"
-          target="_blank">Postgres</a
+          >the Global Fund</a
         >
       </div>
       <div class="mt-6 md:mt-2">
