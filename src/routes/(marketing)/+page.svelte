@@ -8,53 +8,51 @@
   <meta name="description" content="{PUBLIC_SITE_NAME} Home Page" />
 </svelte:head>
 
-<div class="hero min-h-[60vh]">
+<!--<div class="hero min-h-[60vh] bg-white">-->
+<div
+  class="hero min-h-[60vh] bg-white"
+  style="background-image: url('src/routes/(marketing)/images/background.jpg'); background-size: cover; background-position: center;"
+>
   <div class="hero-content text-center py-12">
-    <div class="max-w-xl">
+    <div class="max-w-xl px-0">
       <div
-        class="text-xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent mb-4 md:mb-8"
+        class="text-xl md:text-3xl font-bold bg-clip-text text-white bg-gradient-to-r from-primary to-accent mb-4 md:mb-8"
       >
-        Global Data Hub
+        The Global Fund Dashboard
       </div>
 
       <div
-        class="text-4xl md:text-6xl font-bold px-2"
+        class="text-4xl md:text-6xl font-bold px-2 text-white"
         style="line-height: 1.2;"
       >
         The
         <span
           class="underline decoration-secondary decoration-4 md:decoration-[6px]"
           >transparent</span
-        >, and
+        >
+        and
         <span
           class="underline decoration-secondary decoration-4 md:decoration-[6px]"
           >free</span
         >
-        <span> source of global public health data</span>
+        <span> source of Global Fund data</span>
       </div>
-      <div class="mt-6 md:mt-10 text-sm md:text-lg">
-        Supporting people and projects around the world like <a
-          href="https://kit.svelte.dev"
-          class="link font-bold"
-          target="_blank">Community-led Monitoring</a
-        >,
-        <a href="https://supabase.com" class="link font-bold" target="_blank"
-          >Data Transparency Initiatives</a
-        >, with data from
-        <a href="https://stripe.com" class="link font-bold" target="_blank"
-          >the Global Fund</a
-        > and others
+      <div class="mt-6 md:mt-10 text-sm md:text-lg text-white">
+        Communities most impacted by HIV, tuberculosis, and malaria are at the
+        heart of the Global Fund model. This platform provides the information,
+        resources, and data that communities to advocate for an accountable
+        Global Fund.
       </div>
     </div>
   </div>
 </div>
-<div class="min-h-[60vh]">
+<div class="min-h-[60vh] bg-white">
   <div class="pt-20 pb-8 px-7">
     <div class="max-w-lg mx-auto text-center">
       <div
         class="text-3xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent"
       >
-        Explore a wealth of Global Health Data
+        Welcome to the Global Fund Dashboard
       </div>
       <div class="mt-6 text-xl font-bold">
         Try our tools now or create a
@@ -66,7 +64,6 @@
         to save your preferences and key insights
       </div>
     </div>
-
     <div
       class="flex gap-6 mt-12 max-w-[1064px] mx-auto place-content-center flex-wrap"
     >

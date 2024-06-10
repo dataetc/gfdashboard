@@ -27,17 +27,21 @@
     <div class="card bg-white w-[270px] min-h-[300px] flex-none shadow-xl">
       <div class="card-body items-center text-center p-[24px] pt-[32px]">
         <div>
-          <svg
+          <!-- <svg
             width="50px"
             height="50px"
             class="mb-2 mt-1"
             viewBox="0 0 24 24"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-          >
-            <!-- eslint-disable-next-line svelte/no-at-html-tags -->
             {@html feature.svgContent}
-          </svg>
+          </svg> -->
+          <img
+            src={feature.image}
+            alt={feature.name}
+            class="mb-2 mt-1"
+            style="width: 50px; height: 50px;"
+          />
         </div>
         <h2 class="card-title">
           {feature.name}

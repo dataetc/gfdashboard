@@ -2,14 +2,17 @@
   import "../../app.css"
 </script>
 
-<div class="navbar bg-base-100 container mx-auto">
+<div class="navbar bg-white container mx-auto">
   <div class="flex-1">
-    <a class="btn btn-ghost normal-case text-xl" href="/">Global Data Hub</a>
+    <a class="btn btn-ghost normal-case text-xl" href="/"
+      >The Global Fund Dashboard</a
+    >
   </div>
   <div class="flex-none">
     <ul class="menu menu-horizontal px-1 hidden sm:flex font-bold text-lg">
+      <li class="md:mx-2"><a href="/blog">Home</a></li>
       <li class="md:mx-2"><a href="/blog">About</a></li>
-      <li class="md:mx-2"><a href="/pricing">Projects</a></li>
+      <li class="md:mx-2"><a href="/pricing">Resources</a></li>
       <li class="md:mx-2"><a href="/account">Account</a></li>
     </ul>
     <div class="dropdown dropdown-end sm:hidden">
@@ -58,7 +61,7 @@
 <div class="">
   <div class="border-t max-w-[1000px] mx-auto"></div>
   <footer
-    class="footer p-10 gap-x-48 lg:gap-x-64 xl:gap-x-96 place-content-center text-base"
+    class="footer p-10 gap-x-48 lg:gap-x-64 xl:gap-x-96 place-content-center text-base bg-white"
   >
     <nav>
       <span class="footer-title opacity-80">Explore</span>
@@ -72,15 +75,18 @@
       >
     </nav>
     <aside>
-      <span class="footer-title opacity-80">Sponsor</span>
-      <a class="link link-hover max-w-[260px]" href="https://dataetc.org">
+      <span class="footer-title opacity-80">The Global Fund dashboard</span>
+      <a
+        class="link link-hover max-w-[260px]"
+        href="https://dataetc.org"
+        target="_blank"
+      >
         <img
           alt="Data Etc Logo"
-          src="/images/cm_logo.svg"
-          class="w-[180px] mb-3 aspect-[420/154]"
+          src="src/routes/(marketing)/images/logo.jpg"
+          class="w-[180px] mb-3 aspect-[681/730]"
         />
-        A dynamic partnership of researchers, advocates, and health experts, weaving
-        together the threads of diverse perspectives and skills.
+        This resource is brought to you by Data Etc.
       </a>
     </aside>
   </footer>
