@@ -33,14 +33,14 @@
         and
         <span
           class="underline decoration-secondary decoration-4 md:decoration-[6px]"
-          >free</span
+          >independent</span
         >
         <span> source of Global Fund data</span>
       </div>
       <div class="mt-6 md:mt-10 text-sm md:text-lg text-white">
         Communities most impacted by HIV, tuberculosis, and malaria are at the
         heart of the Global Fund model. This platform provides the information,
-        resources, and data that communities to advocate for an accountable
+        resources, and data that communities need to advocate for an accountable
         Global Fund.
       </div>
     </div>
