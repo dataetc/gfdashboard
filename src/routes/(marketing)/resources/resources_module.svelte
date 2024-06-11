@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { pricingPlans } from "./resource_details"
+  import { resourceList } from "./resource_details"
 
   // Module context
   export let highlightedPlanId: string = ""
@@ -20,28 +20,32 @@
     ? 'place-content-center'
     : ''} flex-wrap"
 >
-  {#each pricingPlans as plan}
+  {#each resourceList as plan}
     <div
       class="flex-none card card-bordered {plan.id === highlightedPlanId
         ? 'border-primary'
         : 'border-gray-200'} shadow-xl flex-1 flex-grow min-w-[260px] max-w-[310px] p-6"
     >
       <div class="flex flex-col h-full">
-        <div class="text-xl font-bold">{plan.name}</div>
+        <div class="text-2xl font-bold text-center">{plan.name}</div>
+        <div
+          class="mx-auto mt-4 rounded-full"
+          style="width: 150px; height: 150px; overflow: hidden;"
+        >
+          <img
+            src={plan.image}
+            alt={plan.name}
+            style="width: 100%; height: 100%; object-fit: cover;"
+          />
+        </div>
         <p class="mt-2 text-sm text-gray-500 leading-relaxed">
           {plan.description}
         </p>
-        <div class="mt-auto pt-4 text-sm text-gray-600">
-          Highlights:
-          <ul class="list-disc list-inside mt-2 space-y-1">
-            {#each plan.features as feature}
-              <li class="">{feature}</li>
-            {/each}
-            <ul></ul>
-          </ul>
-        </div>
-        <div class="pt-8">
-          <div class="mt-6 pt-4 flex-1 flex flex-row items-center">
+        <div class="flex-grow"></div>
+        <!-- Add this div to push the button to the bottom -->
+        <div class="pt-4">
+          <!-- Adjust the padding here -->
+          <div class="mt-6 flex flex-row items-center">
             <a
               href={plan.url}
               target="_blank"

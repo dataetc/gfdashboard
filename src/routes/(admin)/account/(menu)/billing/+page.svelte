@@ -4,7 +4,7 @@
   import SettingsModule from "../settings/settings_module.svelte"
   import PricingModule from "../../../../(marketing)/resources/resources_module.svelte"
   import {
-    pricingPlans,
+    resourceList,
     defaultPlanId,
   } from "../../../../(marketing)/resources/resource_details"
 
@@ -14,7 +14,7 @@
   export let data
 
   let currentPlanId = data.currentPlanId ?? defaultPlanId
-  let currentPlanName = pricingPlans.find(
+  let currentPlanName = resourceList.find(
     (x) => x.id === data.currentPlanId,
   )?.name
 </script>

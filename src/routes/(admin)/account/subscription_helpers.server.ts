@@ -1,7 +1,7 @@
 import type { SupabaseClient, Session } from "@supabase/supabase-js"
 import type { Database } from "../../../DatabaseDefinitions"
 
-import { pricingPlans } from "../../(marketing)/resources/resource_details"
+import { resourceList } from "../../(marketing)/resources/resource_details"
 import { PRIVATE_STRIPE_API_KEY } from "$env/static/private"
 import Stripe from "stripe"
 const stripe = new Stripe(PRIVATE_STRIPE_API_KEY, { apiVersion: "2023-08-16" })
@@ -103,7 +103,7 @@ export const fetchSubscription = async ({
   if (primaryStripeSubscription) {
     const productId =
       primaryStripeSubscription?.items?.data?.[0]?.price.product ?? ""
-    appSubscription = pricingPlans.find((x) => {
+    appSubscription = resourceList.find((x) => {
       return x.stripe_product_id === productId
     })
     if (!appSubscription) {

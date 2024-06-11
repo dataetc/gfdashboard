@@ -1,9 +1,10 @@
 export const defaultPlanId = "free"
 
-export const pricingPlans = [
+export const resourceList = [
   {
     id: "ccm",
     name: "CCM Dashboard",
+    image: "/images/ccmdashboard_thumbnail.png",
     description: "A resource for CCM members and community advocates, which provides data about CCM governance, grant funding, and performance, to support decision-making and evidence-based advocacy.",
     stripe_price_id: null,
     features: ["Contact information for CCM members", "Grant timelines", "Budgets and expenditures","Performance data"],
@@ -13,6 +14,7 @@ export const pricingPlans = [
   {
     id: "uqd",
     name: "UQD Dashboard",
+    image: "/images/uqddashboard_thumbnail.png",
     description:
       "This dashboard is a space to track the Unfunded Quality Demand, or UQD.  The UQD contains strategically focused and technically sound activities that can be funded throughout the three-year cycle through savings, efficiencies, or when additional resources become available during the cycle.",
     features: [
@@ -25,6 +27,7 @@ export const pricingPlans = [
   {
     id: "rise",
     name: "RISE Report",
+    image: "/images/rise_thumbnail.png",
     description:
       "The Representation, Inclusion, Sustainability, and Equity (RISE) study was a global, independent, civil society-owned research project to assess the accountability of Country Coordinating Mechanisms (CCMs) to communities and civil society.",
     features: [

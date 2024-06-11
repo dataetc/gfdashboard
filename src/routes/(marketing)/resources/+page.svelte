@@ -9,7 +9,7 @@
 </svelte:head>
 
 <div class="min-h-[70vh] pb-8 pt-[5vh] px-4">
-  <h1 class="text-3xl font-bold text-center">All our resources</h1>
+  <h1 class="text-4xl font-bold text-center">All our resources</h1>
   <h2 class="text-xl text-center text-slate-500 mt-1 pb-3">
     Data tools, reports, and resources for Global Fund advocacy
   </h2>
