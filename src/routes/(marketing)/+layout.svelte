@@ -83,8 +83,8 @@
       >
         <img
           alt="Data Etc Logo"
-          src="/images/logo.jpg"
-          class="w-[180px] mb-3 aspect-[681/730]"
+          src="/images/logo2.jpg"
+          class="w-[180px] mb-3 aspect-[384/288]"
         />
         This resource is brought to you by Data Etc.
       </a>
