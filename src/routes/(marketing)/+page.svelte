@@ -11,7 +11,7 @@
 <!--<div class="hero min-h-[60vh] bg-white">-->
 <div
   class="hero min-h-[60vh] bg-white"
-  style="background-image: url('src/routes/(marketing)/images/background.jpg'); background-size: cover; background-position: center;"
+  style="background-image: url('/images/background.jpg'); background-size: cover; background-position: center;"
 >
   <div class="hero-content text-center py-12">
     <div class="max-w-xl px-0">
