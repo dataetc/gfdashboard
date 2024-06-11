@@ -81,9 +81,10 @@
         href="https://dataetc.org"
         target="_blank"
       >
+        <!-- src="src/routes/(marketing)/images/logo.jpg" -->
         <img
           alt="Data Etc Logo"
-          src="src/routes/(marketing)/images/logo.jpg"
+          src=""
           class="w-[180px] mb-3 aspect-[681/730]"
         />
         This resource is brought to you by Data Etc.
