@@ -11,8 +11,8 @@
   <div class="flex-none">
     <ul class="menu menu-horizontal px-1 hidden sm:flex font-bold text-lg">
       <li class="md:mx-2"><a href="/">Home</a></li>
-      <li class="md:mx-2"><a href="/blog">About</a></li>
       <li class="md:mx-2"><a href="/resources">Resources</a></li>
+      <li class="md:mx-2"><a href="/about">About</a></li>
       <li class="md:mx-2"><a href="/account">Account</a></li>
     </ul>
     <div class="dropdown dropdown-end sm:hidden">
@@ -39,7 +39,7 @@
         class="menu menu-lg dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-bold"
       >
         <li><a href="/blog">Home</a></li>
-        <li><a href="/blog">About</a></li>
+        <li><a href="/about">About</a></li>
         <li><a href="/resources">Resources</a></li>
         <li><a href="/account">Account</a></li>
       </ul>
