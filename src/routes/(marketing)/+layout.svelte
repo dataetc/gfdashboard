@@ -38,7 +38,7 @@
         tabindex="0"
         class="menu menu-lg dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-bold"
       >
-        <li><a href="/blog">Home</a></li>
+        <li><a href="/about">Home</a></li>
         <li><a href="/about">About</a></li>
         <li><a href="/resources">Resources</a></li>
         <li><a href="/account">Account</a></li>
@@ -62,7 +62,6 @@
       <span class="footer-title opacity-80">Explore</span>
       <a class="link link-hover mb-1" href="/">Overview</a>
       <a class="link link-hover my-1" href="/resources">Resources</a>
-      <a class="link link-hover my-1" href="/blog">Projects</a>
       <a class="link link-hover my-1" href="/contact_us">Contact Us</a>
       <a
         class="link link-hover my-1"
