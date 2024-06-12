@@ -2,8 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="/images/logo.jpg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/images/logo2.jpg">
+    <style>
+        /* Adjust the size of the favicon */
+        head > link[rel='icon'] {
+            width: 32px; /* Set the width of the favicon */
+            height: auto; /* Automatically adjust the height to maintain aspect ratio */
+        }
+    </style>    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     %sveltekit.head%
   </head>
   <body
