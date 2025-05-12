@@ -1,0 +1,94 @@
+<!-- navbar.html -->
+<style>
+    header {
+        background-color: transparent;
+        color: #fff;
+        padding: 15px;
+        position: relative;
+        z-index: 1;
+    }
+
+    @media (max-width: 767px) {
+        header {
+            padding: 15px;
+        }
+    }
+
+    header::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 97vw;
+        height: 0.3px;
+/*        background-color: #fff; SETTING ON EACH PAGE */
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    nav a {
+/*      color: #fff;  SETTING THIS ON EACH PAGE */
+      text-decoration: none;
+      padding: 10px;
+      font-weight: bold;
+      font-family: "Roboto Condensed", sans-serif;
+      font-size: 1.3em;
+    }
+  
+    @media (max-width: 767px) {
+      .logo {
+        display: none;
+      }
+    }
+  
+    nav a:hover {
+      background-color: #a85a3e;
+      transform: scale(1.05);
+      transition: all 0.3s ease-in-out;
+    }
+  
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+  
+    nav li {
+      margin-right: 20px;
+      position: relative;
+    }
+  
+    nav li:hover .dropdown-menu {
+      display: block;
+    }
+  
+    .dropdown-menu {
+      display: none;
+      position: absolute;
+      padding: 10px;
+      z-index: 1;
+    }
+  
+    .dropdown-menu li {
+      margin-right: 0;
+    }
+  </style>
+  
+  <nav>
+    <div class="logo">
+      <a href="/index.html">THE GLOBAL ADVOCACY DATA HUB</a>
+    </div>
+    <ul>
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/resources.html">Resources</a></li>
+      <li><a href="/about.html">About</a></li>
+    </ul>
+  </nav>
+  
