@@ -7,6 +7,7 @@
   <link rel="stylesheet" type="text/css" href="text/css_landing.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="lang/language-data.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Barrio&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -21,21 +22,39 @@
       <div id="navbar"></div>
     </header>
     <div class="hero-content">
-      <h1>The Global Advocacy Data Hub</h1>
-      <h2>The <span>transparent</span> and <span>independent</span> source of Global Fund data</h2>
-      <p>Communities most impacted by HIV, tuberculosis, and malaria are at the heart of the Global Fund model. This platform provides the information, resources, and data that communities need to advocate for an accountable Global Fund.</p>
-      <a href="/about.html"><button>Learn More</button></a>
+      <h1 id="hero-title">The Global Advocacy Data Hub</h1>
+      <h2 id="hero-subtitle">The <span>transparent</span> and <span>independent</span> source of Global Fund data</h2>
+      <p id="hero-description">Communities most impacted by HIV, tuberculosis, and malaria are at the heart of the Global Fund model. This platform provides the information, resources, and data that communities need to advocate for an accountable Global Fund.</p>
+      <a href="/about.html"><button id="hero-button">Learn More</button></a>
     </div>
   </div>
 
   <script>
+
+  function changeLanguage(lang) {
+      console.log('changeLanguage function called with lang:', lang);
+      document.getElementById('active-language').textContent = lang;
+
+      // Update the text content based on the selected language
+      document.getElementById('title').innerHTML = languageData[lang].Title;
+      document.getElementById('hero-title').innerHTML = languageData[lang].heroTitle;
+      document.getElementById('hero-subtitle').innerHTML = languageData[lang].heroSubtitle;
+      document.getElementById('hero-description').textContent = languageData[lang].heroDescription;
+      document.getElementById('hero-button').textContent = languageData[lang].heroButtonText;
+      document.getElementById('nav-home').textContent = languageData[lang].navHome;
+      document.getElementById('nav-resources').textContent = languageData[lang].navResources;
+      document.getElementById('nav-about').textContent = languageData[lang].navAbout;
+    }
+  
     // Fetch the navbar HTML
     fetch('navbar.html')
       .then(response => response.text())
       .then(data => {
+        
         // Insert the navbar HTML into the placeholder
         document.getElementById('navbar').innerHTML = data;
       });
+      
   </script>
 
 </body>

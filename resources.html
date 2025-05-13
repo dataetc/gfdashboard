@@ -7,6 +7,7 @@
   <link rel="stylesheet" type="text/css" href="text/css_resources.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="lang/language-data.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Barrio&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -20,7 +21,7 @@
       <div id="navbar"></div>
     </header>
     <div class="hero-content">
-      <h1>Resources</h1>
+      <h1 id="resources-title">Resources</h1>
       <h2 style="display: inline;">I'm looking for:</h2>
     <div class="dropdown" style="display: inline;">
         <button class="dropbtn">Select an option</button>
@@ -87,12 +88,29 @@
   </div>
 
   <script>
+  function changeLanguage(lang) {
+      console.log('changeLanguage function called with lang:', lang);
+      document.getElementById('active-language').textContent = lang;
+
+      // Update the text content based on the selected language
+      document.getElementById('title').innerHTML = languageData[lang].Title;
+      document.getElementById('nav-home').textContent = languageData[lang].navHome;
+      document.getElementById('nav-resources').textContent = languageData[lang].navResources;
+      document.getElementById('nav-about').textContent = languageData[lang].navAbout;
+      document.getElementById('resources-title').textContent = languageData[lang].resourcesTitle;
+    }
+
     // Fetch the navbar HTML
     fetch('navbar.html')
       .then(response => response.text())
       .then(data => {
         // Insert the navbar HTML into the placeholder
         document.getElementById('navbar').innerHTML = data;
+
+        // Set the icon based on the page
+        const languageIcon = document.querySelector('.language-icon');
+        languageIcon.setAttribute('data-icon', 'black'); // Set to black for this page
+        languageIcon.src = './images/translation-svg-bl.svg';
       });
   </script>
 

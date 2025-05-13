@@ -8,6 +8,10 @@ header::after {
   background-color: #000;
 }
 
+.language-dropdown {
+      color: #000 !important;
+}
+
 .hero {
   position: relative;
   width: 100%;

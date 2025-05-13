@@ -1,0 +1,50 @@
+const languageData = {
+  EN: {
+    Title: "THE GLOBAL ADVOCACY DATA HUB",
+    heroTitle: "The Global Advocacy Data Hub",
+    heroSubtitle: "The <span>transparent</span> and <span>independent</span> source of Global Fund data",
+    heroDescription: "Communities most impacted by HIV, tuberculosis, and malaria are at the heart of the Global Fund model. This platform provides the information, resources, and data that communities need to advocate for an accountable Global Fund.",
+    heroButtonText: "Learn More",
+    navHome: "Home",
+    navResources: "Resources",
+    navAbout: "About",
+    aboutTitle: "Who we are:",
+    aboutP1: "Communities most impacted by HIV, tuberculosis, and malaria are at the heart of the Global Fund model. Yet communities often face the greatest barriers to meaningful engagement.",
+    aboutP2: "The <span>Global Advocacy Data Hub</span> (GADH) is a one-stop shop for communities, advocates, CCM representatives, and other health system stakeholders.  Here you may find publicly-available information, data, guides, and other resources designed to help communities fully participate in decision-making about their lives, communities, and countries.",
+    aboutP3: "This web platform is built for advocates, by advocates.",
+    aboutButton: "Explore Resources",
+    resourcesTitle: "Resources"
+  },
+  FR: {
+    Title: "LE HUB MONDIAL DE DONNEES POUR LE PLAIDOYER",
+    heroTitle: "Le Hub Mondial de Données pour le Plaidoyer",
+    heroSubtitle: "La source <span>transparente</span> et <span>indépendante</span> des données du Fonds mondial",
+    heroDescription: "Les communautés les plus touchées par le VIH, la tuberculose et le paludisme sont au cœur du modèle du Fonds mondial. Cette plateforme fournit les informations, les ressources et les données dont les communautés ont besoin pour plaider en faveur d'un Fonds mondial responsable.",
+    heroButtonText: "En savoir plus",
+    navHome: "Accueil",
+    navResources: "Ressources",
+    navAbout: "À propos",
+    aboutTitle: "Qui sommes-nous ?",
+    aboutP1: "Les communautés les plus touchées par le VIH, la tuberculose et le paludisme sont au cœur du modèle du Fonds mondial. Pourtant, les communautés sont souvent confrontées aux plus grands obstacles à un engagement significatif.",
+    aboutP2: "Le <span>Hub Mondial de Données pour le Plaidoyer</span> (GADH) est un guichet unique pour les communautés, les défenseurs, les représentants des ICN et les autres acteurs du système de santé.  Vous y trouverez des informations, des données, des guides et d'autres ressources accessibles au public, conçus pour aider les communautés à participer pleinement à la prise de décisions concernant leur vie, leur communauté et leur pays.",
+    aboutP3: "Cette plateforme web est conçue pour les militants, par les militants.",
+    aboutButton: "Explorer les ressources",
+    resourcesTitle: "Resources"
+  },
+  ES: {
+    Title: "EL HUB GLOBAL DE DATOS PARA LA DEFENSA",
+    heroTitle: "El Hub Global de Datos para la Defensa",
+    heroSubtitle: "La fuente <span>transparente</span> e <span>independiente</span> de datos del Fondo Mundial",
+    heroDescription: "Las comunidades más afectadas por el VIH, la tuberculosis y la malaria están en el corazón del modelo del Fondo Mundial. Esta plataforma proporciona la información, los recursos y los datos que las comunidades necesitan para abogar por un Fondo Mundial responsable.",
+    heroButtonText: "Más información",
+    navHome: "Inicio",
+    navResources: "Recursos",
+    navAbout: "Acerca de",
+    aboutTitle: "Quiénes somos:",
+    aboutP1: "Las comunidades más afectadas por el VIH, la tuberculosis y la malaria son el núcleo del modelo del Fondo Mundial. Sin embargo, a menudo son ellas las que se enfrentan a los mayores obstáculos para una participación significativa.",
+    aboutP2: "El <span>Hub Global de Datos para la Defensa</span> (GADH) es una ventanilla única para comunidades, defensores, representantes de MCP y otras partes interesadas del sistema sanitario.  Aquí podrá encontrar información, datos, guías y otros recursos de acceso público diseñados para ayudar a las comunidades a participar plenamente en la toma de decisiones sobre sus vidas, comunidades y países.",
+    aboutP3: "Esta plataforma web ha sido creada por abogados y para abogados.",
+    aboutButton: "Explorar recursos",
+    resourcesTitle: "Resources"
+  }
+};

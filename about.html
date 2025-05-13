@@ -7,6 +7,7 @@
   <link rel="stylesheet" type="text/css" href="text/css_about.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="lang/language-data.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Barrio&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -21,26 +22,48 @@
       <div id="navbar"></div>
     </header>
     <div class="hero-content">
-      <h1>Who we are:</h1>
+      <h1 id="about-title">Who we are:</h1>
       <div class="hero-content-inner">
-      <p>Communities most impacted by HIV, tuberculosis, and malaria are at the heart of the Global Fund model. Yet communities often face the greatest barriers to meaningful engagement.
-      
-        <br><br>
-        The <span>Global Advocacy Data Hub</span> (GADH) is a one-stop shop for communities, advocates, CCM representatives, and other health system stakeholders.  Here you may find publicly-available information, data, guides, and other resources designed to help communities fully participate in decision-making about their lives, communities, and countries. 
-      <br><br>
-      This web platform is built for advocates, by advocates. </p>
-      <a href="/resources.html"><button>Explore Resources</button></a>
+      <p id="about-p1">Communities most impacted by HIV, tuberculosis, and malaria are at the heart of the Global Fund model. Yet communities often face the greatest barriers to meaningful engagement.
+        </p>
+        <br>
+      <p id="about-p2">The <span>Global Advocacy Data Hub</span> (GADH) is a one-stop shop for communities, advocates, CCM representatives, and other health system stakeholders.  Here you may find publicly-available information, data, guides, and other resources designed to help communities fully participate in decision-making about their lives, communities, and countries. 
+      </p>
+      <p id="about-p3">This web platform is built for advocates, by advocates.</p>
+      <a href="/resources.html"><button id="about-button">Explore Resources</button></a>
       </div>
     </div>
   </div>
 
   <script>
+
+  function changeLanguage(lang) {
+      console.log('changeLanguage function called with lang:', lang);
+      document.getElementById('active-language').textContent = lang;
+
+      // Update the text content based on the selected language
+      document.getElementById('title').innerHTML = languageData[lang].Title;
+      document.getElementById('nav-home').textContent = languageData[lang].navHome;
+      document.getElementById('nav-resources').textContent = languageData[lang].navResources;
+      document.getElementById('nav-about').textContent = languageData[lang].navAbout;
+      document.getElementById('about-title').textContent = languageData[lang].aboutTitle;
+      document.getElementById('about-p1').innerHTML = languageData[lang].aboutP1;
+      document.getElementById('about-p2').innerHTML = languageData[lang].aboutP2;
+      document.getElementById('about-p3').innerHTML = languageData[lang].aboutP3;
+      document.getElementById('about-button').innerHTML = languageData[lang].aboutButton;
+    }
+
     // Fetch the navbar HTML
     fetch('navbar.html')
       .then(response => response.text())
       .then(data => {
         // Insert the navbar HTML into the placeholder
         document.getElementById('navbar').innerHTML = data;
+
+        // Set the icon based on the page
+        const languageIcon = document.querySelector('.language-icon');
+        languageIcon.setAttribute('data-icon', 'black'); // Set to black for this page
+        languageIcon.src = './images/translation-svg-bl.svg';
       });
   </script>
 
