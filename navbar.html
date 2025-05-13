@@ -79,6 +79,64 @@
     .dropdown-menu li {
       margin-right: 0;
     }
+
+    .language-dropdown {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+  .language-btn {
+      background-color: transparent;
+      border: none;
+      color: #fff;
+      padding: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      align-items: center;
+      display: flex; 
+  }
+
+  .language-icon {
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+  }
+
+  .active-language {
+      margin-right: 5px;
+      font-weight: bold;
+      font-family: "Roboto Condensed", sans-serif;
+      font-size: 1.3em;
+  }
+
+  .language-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 100px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+      right: 0;
+  }
+
+  .language-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      font-size: 1.1em;
+  }
+
+  .language-content a:hover {
+      background-color: #a85a3e;
+      color: #fff;
+    }
+
+  .language-dropdown:hover .language-content {
+      display: block;
+  }
+  
   </style>
   
   <nav>
@@ -89,6 +147,31 @@
       <li><a href="/index.html">Home</a></li>
       <li><a href="/resources.html">Resources</a></li>
       <li><a href="/about.html">About</a></li>
+      <li class="language-dropdown">
+          <img src="./images/translation-svg-wh.svg" alt="Language" class="language-icon">
+          <span id="active-language" class="active-language">EN</span>
+          <div class="language-content">
+            <a href="#" onclick="changeLanguage('EN')">EN</a>
+            <a href="#" onclick="changeLanguage('FR')">FR</a>
+            <a href="#" onclick="changeLanguage('ES')">ES</a>
+          </div>
+        </li>
     </ul>
   </nav>
   
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    function changeLanguage(lang) {
+      document.getElementById('active-language').textContent = lang;
+    }
+
+    var languageLinks = document.querySelectorAll('.language-content a');
+    languageLinks.forEach(function(link) {
+      link.addEventListener('click', function(event) {
+        event.preventDefault();
+        changeLanguage(this.textContent);
+      });
+    });
+  });
+</script>
