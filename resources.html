@@ -22,44 +22,44 @@
     </header>
     <div class="hero-content">
       <h1 id="resources-title">Resources</h1>
-      <h2 style="display: inline;">I'm looking for:</h2>
+      <h2 style="display: inline;" id="resources-looking">I'm looking for: </h2>
     <div class="dropdown" style="display: inline;">
-        <button class="dropbtn">Select an option</button>
+        <button class="dropbtn" id="resources-select">Select an option</button>
         <div class="dropdown-content">
-        <a href="#dashboards">Dashboards</a>
-        <a href="#guides">Guides</a>
-        <a href="#reports">Reports</a>
+        <a href="#dashboards" id="resources-drop-dashboards">Dashboards</a>
+        <a href="#guides" id="resources-drop-guides">Guides</a>
+        <a href="#reports" id="resources-drop-reports">Reports</a>
         </div>
     </div>
     <section id="dashboards">
-      <h2>Dashboards</h2>
+      <h2 id="resources-title-dashboards">Dashboards</h2>
       <div class="image-grid">
         <div class="image-item" data-language="english">
             <a href="https://dataetc.org/projects/ccm" target=_blank>
               <img src="images/ccm_dashboard.png" alt="CCM Dashboard" class="image-placeholder">
               <img src="images/ccm_dashboard.gif" alt="CCM Dashboard" class="image-gif" style="display: none;">
             </a>
-            <a href="https://dataetc.org/projects/ccm" target=_blank><h5>CCM Dashboard</h5></a>
+            <a href="https://dataetc.org/projects/ccm" target=_blank><h5 id="resources-ccmdash">CCM Dashboard</h5></a>
         </div>
         <div class="image-item" data-language="english">
             <a href="https://dataetc.org/projects/uqd" target=_blank>
               <img src="images/uqd_dashboard.png" alt="UQD Dashboard" class="image-placeholder">
               <img src="images/uqd_dashboard.gif" alt="UQD Dashboard" class="image-gif" style="display: none;">
             </a>
-            <a href="https://dataetc.org/projects/uqd" target=_blank><h5>UQD Dashboard</h5></a>
+            <a href="https://dataetc.org/projects/uqd" target=_blank><h5 id="resources-uqddash">UQD Dashboard</h5></a>
         </div>
         <div class="image-item" data-language="english">
             <a href="https://dataetc.org/projects/gf-allocation" target=_blank>
               <img src="images/replenishment_dashboard.png" alt="Replenishment" class="image-placeholder">
               <img src="images/replenishment_dashboard.gif" alt="Replenishment" class="image-gif" style="display: none;">
             </a>
-            <a href="https://dataetc.org/projects/gf-allocation" target=_blank><h5>Global Fund Replenishment 8 Scenarios</h5></a>
+            <a href="https://dataetc.org/projects/gf-allocation" target=_blank><h5 id="resources-r8dash">Global Fund Replenishment 8 Scenarios</h5></a>
         </div>
 
     </section>
 
       <section id="guides">
-        <h2>Guides</h2>
+        <h2 id="resources-title-guides">Guides</h2>
         <div class="image-grid">
           <div class="image-item" data-language="english">
               <a href="resources/Community Guide to Reprogramming Global Fund Grants.pdf"><img src="images/reprogramming-en.png" alt="Reprogramming Eng"></a>
@@ -72,7 +72,7 @@
       </section>
 
       <section id="reports">
-        <h2>Reports</h2>
+        <h2 id="resources-title-reports">Reports</h2>
         <div class="image-grid">
           <div class="image-item" data-language="english">
               <a href="resources/A Roadmap for Strengthening Community Engagement with Global Fund.pdf"><img src="images/roadmap.png" alt="Roadmap Eng"></a>
@@ -98,6 +98,17 @@
       document.getElementById('nav-resources').textContent = languageData[lang].navResources;
       document.getElementById('nav-about').textContent = languageData[lang].navAbout;
       document.getElementById('resources-title').textContent = languageData[lang].resourcesTitle;
+      document.getElementById('resources-looking').textContent = languageData[lang].resourcesLooking;
+      document.getElementById('resources-drop-dashboards').textContent = languageData[lang].resourcesDropDashboards;
+      document.getElementById('resources-drop-guides').textContent = languageData[lang].resourcesDropGuides;
+      document.getElementById('resources-drop-reports').textContent = languageData[lang].resourcesDropReports;
+      document.getElementById('resources-select').textContent = languageData[lang].resourcesSelect;
+      document.getElementById('resources-title-dashboards').textContent = languageData[lang].resourcesTitleDashboards;
+      document.getElementById('resources-title-guides').textContent = languageData[lang].resourcesTitleGuides;
+      document.getElementById('resources-title-reports').textContent = languageData[lang].resourcesTitleReports;
+      document.getElementById('resources-ccmdash').textContent = languageData[lang].resourcesCCMDash;
+      document.getElementById('resources-uqddash').textContent = languageData[lang].resourcesUQDDash;
+      document.getElementById('resources-r8dash').textContent = languageData[lang].resourcesR8Dash;
     }
 
     // Fetch the navbar HTML

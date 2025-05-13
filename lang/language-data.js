@@ -13,7 +13,18 @@ const languageData = {
     aboutP2: "The <span>Global Advocacy Data Hub</span> (GADH) is a one-stop shop for communities, advocates, CCM representatives, and other health system stakeholders.  Here you may find publicly-available information, data, guides, and other resources designed to help communities fully participate in decision-making about their lives, communities, and countries.",
     aboutP3: "This web platform is built for advocates, by advocates.",
     aboutButton: "Explore Resources",
-    resourcesTitle: "Resources"
+    resourcesTitle: "Resources",
+    resourcesLooking: "I'm looking for: ",
+    resourcesDropDashboards: "Dashboards",
+    resourcesDropGuides: "Guides",
+    resourcesDropReports: "Reports",
+    resourcesSelect: "Select an option",
+    resourcesTitleDashboards: "Dashboards",
+    resourcesTitleGuides: "Guides",
+    resourcesTitleReports: "Reports",
+    resourcesCCMDash: "CCM Dashboard",
+    resourcesUQDDash: "UQD Dashboard",
+    resourcesR8Dash: "Global Fund Replenishment 8 Scenarios"
   },
   FR: {
     Title: "LE HUB MONDIAL DE DONNEES POUR LE PLAIDOYER",
@@ -29,7 +40,18 @@ const languageData = {
     aboutP2: "Le <span>Hub Mondial de Données pour le Plaidoyer</span> (GADH) est un guichet unique pour les communautés, les défenseurs, les représentants des ICN et les autres acteurs du système de santé.  Vous y trouverez des informations, des données, des guides et d'autres ressources accessibles au public, conçus pour aider les communautés à participer pleinement à la prise de décisions concernant leur vie, leur communauté et leur pays.",
     aboutP3: "Cette plateforme web est conçue pour les militants, par les militants.",
     aboutButton: "Explorer les ressources",
-    resourcesTitle: "Resources"
+    resourcesTitle: "Ressources",
+    resourcesLooking: "Je cherche : ",
+    resourcesDropDashboards: "Tableaux de bord",
+    resourcesDropGuides: "Guides",
+    resourcesDropReports: "Rapports",
+    resourcesSelect: "Sélectionner une option",
+    resourcesTitleDashboards: "Tableaux de bord",
+    resourcesTitleGuides: "Guides",
+    resourcesTitleReports: "Rapports",
+    resourcesCCMDash: "Tableau de bord des données sur les ICN",
+    resourcesUQDDash: "Tableau de bord UQD",
+    resourcesR8Dash: "Scénarios pour la 8e reconstitution du Fonds mondial"
   },
   ES: {
     Title: "EL HUB GLOBAL DE DATOS PARA LA DEFENSA",
@@ -45,6 +67,17 @@ const languageData = {
     aboutP2: "El <span>Hub Global de Datos para la Defensa</span> (GADH) es una ventanilla única para comunidades, defensores, representantes de MCP y otras partes interesadas del sistema sanitario.  Aquí podrá encontrar información, datos, guías y otros recursos de acceso público diseñados para ayudar a las comunidades a participar plenamente en la toma de decisiones sobre sus vidas, comunidades y países.",
     aboutP3: "Esta plataforma web ha sido creada por abogados y para abogados.",
     aboutButton: "Explorar recursos",
-    resourcesTitle: "Resources"
+    resourcesTitle: "Recursos",
+    resourcesLooking: "Estoy buscando:",
+    resourcesDropDashboards: "Cuadros de mando",
+    resourcesDropGuides: "Guías",
+    resourcesDropReports: "Informes",
+    resourcesSelect: "Seleccione una opción",
+    resourcesTitleDashboards: "Cuadros de mando",
+    resourcesTitleGuides: "Guías",
+    resourcesTitleReports: "Informes",
+    resourcesCCMDash: "Cuadro de mando de los datos de MCP",
+    resourcesUQDDash: "Cuadro de mandos de UQD",
+    resourcesR8Dash: "Escenarios para la 8ª reposición del Fondo Mundial"
   }
 };
