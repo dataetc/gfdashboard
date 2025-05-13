@@ -37,16 +37,17 @@
 
   <script>
 
-  
-
-   
-
       // Fetch the navbar HTML
       fetch('navbar.html')
         .then(response => response.text())
         .then(data => {
           // Insert the navbar HTML into the placeholder
           document.getElementById('navbar').innerHTML = data;
+
+          // Set the icon based on the page
+          const languageIcon = document.querySelector('.language-icon');
+          languageIcon.setAttribute('data-icon', 'black'); // Set to black for this page
+          languageIcon.src = './images/translation-svg-bl.svg';
           
           // After navbar is loaded, initialize language
           setTimeout(() => {
