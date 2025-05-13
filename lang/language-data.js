@@ -81,3 +81,97 @@ const languageData = {
     resourcesR8Dash: "Escenarios para la 8ª reposición del Fondo Mundial"
   }
 };
+
+/* Language functionality */
+function changeLanguage(lang) {
+  console.log('changeLanguage function called with lang:', lang);
+  
+  // Save language preference to localStorage
+  localStorage.setItem('preferredLanguage', lang);
+  console.log('Language preference saved to localStorage:', lang);
+  
+  // Helper function to safely update an element if it exists
+  function updateElement(id, content, useInnerHTML = false) {
+    const element = document.getElementById(id);
+    if (element) {
+      if (useInnerHTML) {
+        element.innerHTML = content;
+      } else {
+        element.textContent = content;
+      }
+    }
+  }
+  
+  // Update the active language display
+  updateElement('active-language', lang);
+  
+  // Update the URL without reloading the page
+  const url = new URL(window.location);
+  url.searchParams.set('lang', lang);
+  window.history.pushState({}, '', url);
+  
+  // Make sure languageData is available
+  if (!window.languageData || !window.languageData[lang]) {
+    console.error('Language data not available for', lang);
+    return;
+  }
+  
+  // Update all UI elements by category
+  
+  // Landing page and nav bar
+  updateElement('title', languageData[lang].Title, true);
+  updateElement('hero-title', languageData[lang].heroTitle, true);
+  updateElement('hero-subtitle', languageData[lang].heroSubtitle, true);
+  updateElement('hero-description', languageData[lang].heroDescription);
+  updateElement('hero-button', languageData[lang].heroButtonText);
+  updateElement('nav-home', languageData[lang].navHome);
+  updateElement('nav-resources', languageData[lang].navResources);
+  updateElement('nav-about', languageData[lang].navAbout);
+
+  // About section
+  updateElement('about-title', languageData[lang].aboutTitle);
+  updateElement('about-p1', languageData[lang].aboutP1, true);
+  updateElement('about-p2', languageData[lang].aboutP2, true);
+  updateElement('about-p3', languageData[lang].aboutP3, true);
+  updateElement('about-button', languageData[lang].aboutButton, true);
+
+  // Resources section
+  updateElement('resources-title', languageData[lang].resourcesTitle);
+  updateElement('resources-looking', languageData[lang].resourcesLooking);
+  updateElement('resources-drop-dashboards', languageData[lang].resourcesDropDashboards);
+  updateElement('resources-drop-guides', languageData[lang].resourcesDropGuides);
+  updateElement('resources-drop-reports', languageData[lang].resourcesDropReports);
+  updateElement('resources-select', languageData[lang].resourcesSelect);
+  updateElement('resources-title-dashboards', languageData[lang].resourcesTitleDashboards);
+  updateElement('resources-title-guides', languageData[lang].resourcesTitleGuides);
+  updateElement('resources-title-reports', languageData[lang].resourcesTitleReports);
+  updateElement('resources-ccmdash', languageData[lang].resourcesCCMDash);
+  updateElement('resources-uqddash', languageData[lang].resourcesUQDDash);
+  updateElement('resources-r8dash', languageData[lang].resourcesR8Dash);
+}
+    
+
+// Function to initialize language on page load
+function initializeLanguage() {
+  // First check URL parameter
+  const params = new URLSearchParams(window.location.search);
+  const urlLang = params.get('lang');
+  
+  // Then check localStorage
+  const storedLang = localStorage.getItem('preferredLanguage');
+  
+  // Choose language with priority: URL > localStorage > default ('EN')
+  const lang = storedLang || urlLang  || 'EN';
+  
+  console.log('Initializing language:', lang, 
+    urlLang ? '(from URL)' : 
+    storedLang ? '(from localStorage)' : 
+    '(default)');
+  
+  // Apply the selected language
+  changeLanguage(lang);
+}
+
+  /* Langauge (end) */
+// Make sure languageData is accessible globally
+window.languageData = languageData;

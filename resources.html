@@ -88,44 +88,37 @@
   </div>
 
   <script>
-  function changeLanguage(lang) {
-      console.log('changeLanguage function called with lang:', lang);
-      document.getElementById('active-language').textContent = lang;
+  // Load navbar first
 
-      // Update the text content based on the selected language
-      document.getElementById('title').innerHTML = languageData[lang].Title;
-      document.getElementById('nav-home').textContent = languageData[lang].navHome;
-      document.getElementById('nav-resources').textContent = languageData[lang].navResources;
-      document.getElementById('nav-about').textContent = languageData[lang].navAbout;
-      document.getElementById('resources-title').textContent = languageData[lang].resourcesTitle;
-      document.getElementById('resources-looking').textContent = languageData[lang].resourcesLooking;
-      document.getElementById('resources-drop-dashboards').textContent = languageData[lang].resourcesDropDashboards;
-      document.getElementById('resources-drop-guides').textContent = languageData[lang].resourcesDropGuides;
-      document.getElementById('resources-drop-reports').textContent = languageData[lang].resourcesDropReports;
-      document.getElementById('resources-select').textContent = languageData[lang].resourcesSelect;
-      document.getElementById('resources-title-dashboards').textContent = languageData[lang].resourcesTitleDashboards;
-      document.getElementById('resources-title-guides').textContent = languageData[lang].resourcesTitleGuides;
-      document.getElementById('resources-title-reports').textContent = languageData[lang].resourcesTitleReports;
-      document.getElementById('resources-ccmdash').textContent = languageData[lang].resourcesCCMDash;
-      document.getElementById('resources-uqddash').textContent = languageData[lang].resourcesUQDDash;
-      document.getElementById('resources-r8dash').textContent = languageData[lang].resourcesR8Dash;
-    }
-
-    // Fetch the navbar HTML
-    fetch('navbar.html')
-      .then(response => response.text())
-      .then(data => {
-        // Insert the navbar HTML into the placeholder
-        document.getElementById('navbar').innerHTML = data;
-
-        // Set the icon based on the page
-        const languageIcon = document.querySelector('.language-icon');
-        languageIcon.setAttribute('data-icon', 'black'); // Set to black for this page
-        languageIcon.src = './images/translation-svg-bl.svg';
-      });
+      // Fetch the navbar HTML
+      fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => {
+          // Insert the navbar HTML into the placeholder
+          document.getElementById('navbar').innerHTML = data;
+          
+          // After navbar is loaded, initialize language
+          setTimeout(() => {
+            initializeLanguage();
+            
+            // Add click handlers for language switching
+            const languageLinks = document.querySelectorAll('.language-content a');
+            languageLinks.forEach(function(link) {
+              link.addEventListener('click', function(event) {
+                event.preventDefault();
+                const selectedLang = this.textContent;
+                changeLanguage(selectedLang);
+              });
+            });
+          }, 0); // Small delay to ensure DOM is updated
+        })
+        .catch(error => {
+          console.error('Error loading navbar:', error);
+        });
+    
   </script>
 
-  <script>
+  <script >
     document.addEventListener('DOMContentLoaded', function() {
   var imagePlaceholders = document.querySelectorAll('.image-placeholder');
   var imageGifs = document.querySelectorAll('.image-gif');

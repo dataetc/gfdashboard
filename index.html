@@ -29,33 +29,41 @@
     </div>
   </div>
 
-  <script>
-
-  function changeLanguage(lang) {
-      console.log('changeLanguage function called with lang:', lang);
-      document.getElementById('active-language').textContent = lang;
-
-      // Update the text content based on the selected language
-      document.getElementById('title').innerHTML = languageData[lang].Title;
-      document.getElementById('hero-title').innerHTML = languageData[lang].heroTitle;
-      document.getElementById('hero-subtitle').innerHTML = languageData[lang].heroSubtitle;
-      document.getElementById('hero-description').textContent = languageData[lang].heroDescription;
-      document.getElementById('hero-button').textContent = languageData[lang].heroButtonText;
-      document.getElementById('nav-home').textContent = languageData[lang].navHome;
-      document.getElementById('nav-resources').textContent = languageData[lang].navResources;
-      document.getElementById('nav-about').textContent = languageData[lang].navAbout;
-    }
-  
-    // Fetch the navbar HTML
-    fetch('navbar.html')
-      .then(response => response.text())
-      .then(data => {
-        
-        // Insert the navbar HTML into the placeholder
-        document.getElementById('navbar').innerHTML = data;
-      });
-      
-  </script>
+ 
 
 </body>
+
+
+<script>   
+   
+// Load navbar first
+
+      // Fetch the navbar HTML
+      fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => {
+          // Insert the navbar HTML into the placeholder
+          document.getElementById('navbar').innerHTML = data;
+          
+          // After navbar is loaded, initialize language
+          setTimeout(() => {
+            initializeLanguage();
+            
+            // Add click handlers for language switching
+            const languageLinks = document.querySelectorAll('.language-content a');
+            languageLinks.forEach(function(link) {
+              link.addEventListener('click', function(event) {
+                event.preventDefault();
+                const selectedLang = this.textContent;
+                changeLanguage(selectedLang);
+              });
+            });
+          }, 0); // Small delay to ensure DOM is updated
+        })
+        .catch(error => {
+          console.error('Error loading navbar:', error);
+        });
+    
+    
+</script>
 </html>
