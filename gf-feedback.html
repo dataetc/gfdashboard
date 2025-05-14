@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="text/css_sitewide.css">
+  <link rel="stylesheet" type="text/css" href="text/css_gf_feedback.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="lang/language-data.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Barrio&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <script src="scripts/js.js"></script>
+  <title>The Global Fund Dashboard: Global Fund Feedback</title>
+</head>
+
+<body>
+  <div class="hero">
+    <div class="hero-image"></div>
+    <header>
+      <div id="navbar"></div>
+    </header>
+    <div class="hero-content">
+      <h1>Share your feedback</h1>
+      <div class="hero-content-inner">
+      <p>The Global Fund is taking several steps to respond to the uncertain financial landscape.  This includes slowing down implementation, deallocation funds from countries, and reprioritizing activities. The timeline for communities to engage in this process is short, which means that understanding the process and quickly addressing barriers to engagement will be key.
+      </p>
+      <p>Please use this form to ask any questions about the process, to share any challenges or barriers to engagement, and to request additional support from the GADH and its partners.  <span>You may share information anonymously</span> or with your contact information.  Even if you do share personal information, nothing you share in this form will be shared with the Global Fund or the CCM, unless formally agreed.</p>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfz6tW9_x9PvNrMnHMCRyhYkoc7V7ARWLxJF4ictvZthrSHUQ/viewform?embedded=true" width="800" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      </div>
+    </div>
+  </div>
+
+  <script>
+
+      // Fetch the navbar HTML
+      fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => {
+          // Insert the navbar HTML into the placeholder
+          document.getElementById('navbar').innerHTML = data;
+
+          // Set the icon based on the page
+          const languageIcon = document.querySelector('.language-icon');
+          languageIcon.setAttribute('data-icon', 'white'); // Set to black for this page
+          languageIcon.src = './images/translation-svg-wh.svg';
+          
+          // After navbar is loaded, initialize language
+          setTimeout(() => {
+            initializeLanguage();
+            
+            // Add click handlers for language switching
+            const languageLinks = document.querySelectorAll('.language-content a');
+            languageLinks.forEach(function(link) {
+              link.addEventListener('click', function(event) {
+                event.preventDefault();
+                const selectedLang = this.textContent;
+                changeLanguage(selectedLang);
+              });
+            });
+          }, 0); // Small delay to ensure DOM is updated
+        })
+        .catch(error => {
+          console.error('Error loading navbar:', error);
+        });
+    
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+nav a {
+  color: #fff;
+}
+
+header::after {
+  background-color: #fff;
+}
+
+.language-dropdown {
+      color: #fff !important;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 150vh;
+  overflow: hidden;
+}
+
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/gf-feedback-bkgd.jpg');
+  background-size: cover;
+  background-position: left center;
+  z-index: -1;
+  transform: rotate(0deg);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  max-width: 75vw;
+  padding: 5vh 3vw 3vw;
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  .hero-content {
+    max-width: 100vw;
+    padding: 1vh 3vw 3vw;
+  }
+}
+
+.hero h1 {
+  font-size: 6em;
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: 'Barrio', Arial, sans-serif;
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  .hero h1 {
+    font-size: 3em;
+  }
+}
+
+.hero h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: 'Barriecito', Arial, sans-serif;
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  .hero h2 {
+    font-size: 1.5em;
+  }
+}
+
+.hero h1 span,
+.hero p span {
+  position: relative;
+}
+
+.hero-content-inner {
+  background-color: #38206e;
+  padding: 20px;
+  border-radius: 0px;
+  display: inline-block;
+}
+
+.hero p {
+  font-size: 1.5em;
+  display: inline-block;
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-top: 0;
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  .hero p {
+    font-size: 1em;
+  }
+}
+
+.hero button {
+  background-color: #a85a3e;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.5em;
+  cursor: pointer;
+  display: block;
+  margin-left: 0;
+  font-weight: bold;
+}
+
+.hero button:hover {
+  background-color: #cb764e;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
