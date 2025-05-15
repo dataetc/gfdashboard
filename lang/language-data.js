@@ -26,8 +26,8 @@ const languageData = {
     resourcesUQDDash: "UQD Dashboard",
     resourcesR8Dash: "Global Fund Replenishment 8 Scenarios",
     feedbackTitle: "Share your feedback",
-    feedbackP1: "The Global Fund is taking several steps to respond to the uncertain financial landscape.  This includes slowing down implementation, deallocation funds from countries, and reprioritizing activities.",
-    feedbackP2: "Please use this form to ask any questions about the process, to share any challenges or barriers to engagement, and to request additional support from the GADH and its partners.  <span>You may share information anonymously</span> or with your contact information.  Even if you do share personal information, nothing you share in this form will be shared with the Global Fund or the CCM, unless formally agreed.",
+    feedbackP1: "This form is for registering questions, challenges, or issues with the Global Fund slow-down or deallocation process. This is an independent community-run initiative meant to document and resolve issues of community exclusion or discrimination.", 
+    feedbackP2: "Everything you report is anonymous and we will never share anything without your agreement and consent. If you choose to escalate an issue from your country will can help contact the right people at the Global Fund, connect you with other people having the same issue, and/or advocate on your behalf. Our goal is to support you.",
     calendarTitle: "Calendar"
   },
   FR: {
@@ -57,8 +57,8 @@ const languageData = {
     resourcesUQDDash: "Tableau de bord UQD",
     resourcesR8Dash: "Scénarios pour la 8e reconstitution du Fonds mondial",
     feedbackTitle: "Partagez vos commentaires",
-    feedbackP1: "Le Fonds mondial prend plusieurs mesures pour répondre à l'incertitude du paysage financier.  Il s'agit notamment de ralentir la mise en œuvre, de désaffecter les fonds des pays et de redéfinir les priorités des activités.",
-    feedbackP2: "Veuillez utiliser ce formulaire pour poser des questions sur le processus, pour faire part des défis ou des obstacles à l'engagement et pour demander un soutien supplémentaire de la part de la GADH et de ses partenaires.  Vous pouvez partager des informations de manière anonyme ou avec vos coordonnées.  Même si vous communiquez des informations personnelles, rien de ce que vous indiquez dans ce formulaire ne sera communiqué au Fonds mondial ou à l'ICN, sauf accord formel.",
+    feedbackP1: "Ce formulaire est destiné à enregistrer les questions, les défis ou les problèmes liés au processus de ralentissement ou de désaffectation du Fonds mondial. Il s'agit d'une initiative communautaire indépendante destinée à documenter et à résoudre les problèmes d'exclusion ou de discrimination communautaire.",
+    feedbackP2: "Tout ce que vous signalez est anonyme et nous ne partagerons jamais rien sans votre accord et votre consentement. Si vous décidez de faire remonter un problème de votre pays, nous pouvons vous aider à contacter les bonnes personnes au Fonds mondial, vous mettre en contact avec d'autres personnes ayant le même problème, et/ou plaider en votre faveur. Notre objectif est de vous soutenir.",
     calendarTitle: "Calendrier"
   },
   ES: {
@@ -88,9 +88,40 @@ const languageData = {
     resourcesUQDDash: "Cuadro de mandos de UQD",
     resourcesR8Dash: "Escenarios para la 8ª reposición del Fondo Mundial",
     feedbackTitle: "Comparta sus comentarios",
-    feedbackP1: "El Fondo Mundial está tomando varias medidas para responder al incierto panorama financiero.  Entre ellas se incluyen la ralentización de la ejecución, la reasignación de fondos de los países y el replanteamiento de las prioridades de las actividades.",
-    feedbackP2: "Utilice este formulario para plantear cualquier pregunta sobre el proceso, compartir cualquier reto o barrera a la participación y solicitar apoyo adicional del GADH y sus socios.  Puede compartir la información de forma anónima o con sus datos de contacto.  Incluso si comparte información personal, nada de lo que comparta en este formulario será compartido con el Fondo Mundial o el MCP, a menos que se acuerde formalmente.",
+    feedbackP1: "Este formulario es para registrar preguntas, retos o problemas con el proceso de ralentización o reasignación del Fondo Mundial. Se trata de una iniciativa comunitaria independiente destinada a documentar y resolver problemas de exclusión o discriminación comunitaria.",
+    feedbackP2: "Todo lo que informe es anónimo y nunca compartiremos nada sin su acuerdo y consentimiento. Si decide plantear un problema desde su país, podemos ayudarle a ponerse en contacto con las personas adecuadas en el Fondo Mundial, ponerle en contacto con otras personas que tengan el mismo problema y/o abogar en su nombre. Nuestro objetivo es apoyarle.",
     calendarTitle: "Calendario"
+  },
+    SW: {
+    Title: "KITOVU CHA DATA CHA UTETEZI WA ULIMWENGUNI",
+    heroTitle: "Kitovu cha Data cha Utetezi wa Ulimwenguni",
+    heroSubtitle: "Chanzo cha <span>uwazi</span> na <span>inayojitegemea</span> cha data ya Global Fund",
+    heroDescription: "Jamii zilizoguswa zaidi na VVU, kifua kikuu, na malaria ziko katika moyo wa modeli ya Global Fund. Jukwaa hili hutoa habari, rasilimali, na data ambazo jamii zinahitaji ili kutetea Global Fund inayowajibika.",
+    heroButtonText: "Jifunze Zaidi",
+    navHome: "Nyumbani",
+    navResources: "Rasilimali",
+    navAbout: "Kuhusu",
+    aboutTitle: "Sisi ni nani:",
+    aboutP1: "Jamii zilizoguswa zaidi na VVU, kifua kikuu, na malaria ziko katika moyo wa modeli ya Global Fund. Hata hivyo, jamii mara nyingi hukabiliwa na vikwazo vikubwa zaidi vya ushiriki wenye maana.",
+    aboutP2: "<span>Kitovu cha Data cha Utetezi wa Ulimwenguni</span> (GADH) ni duka la kuzuia kwa jamii, watetezi, wawakilishi wa CCM, na wadau wengine wa mfumo wa afya. Hapa unaweza kupata habari inayopatikana kwa umma, data, miongozo, na rasilimali nyingine zilizoundwa ili kusaidia jamii kushiriki kikamilifu katika maamuzi kuhusu maisha yao, jamii zao, na nchi zao.",
+    aboutP3: "This web platform is built for advocates, by advocates.",
+    aboutButton: "Chunguza Rasilimali",
+    resourcesTitle: "Rasilimali",
+    resourcesLooking: "Ninatafuta: ",
+    resourcesDropDashboards: "Vidashbodi",
+    resourcesDropGuides: "Miongozo",
+    resourcesDropReports: "Taarifa",
+    resourcesSelect: "Chagua chaguo:",
+    resourcesTitleDashboards: "Vidashbodi",
+    resourcesTitleGuides: "Miongozo",
+    resourcesTitleReports: "Taarifa",
+    resourcesCCMDash: "Dashbodi ya CCM",
+    resourcesUQDDash: "Dashbodi ya UQD",
+    resourcesR8Dash: "Mitazamo 8 ya Kuongeza Fedha za Global Fund",
+    feedbackTitle: "Shiriki maoni yako",
+    feedbackP1: "Fomu hii ni kwa ajili ya kusajili maswali, changamoto, au matatizo na mchakato wa kupunguzwa kwa fedha au kukataliwa kwa Global Fund. Hii ni juhudi zinazoendesha jamii kwa uhuru zinazolenga kurekodi na kutatua matatizo ya ukiukwaji wa haki au ubaguzi dhidi ya jamii.", 
+    feedbackP2: "Kila kitu unachoripoti ni isiyo na utambulisho na hatutashiriki chochote bila idhini na ridhaa yako. Ikiwa utachagua kuendeleza suala kutoka nchi yako, tunaweza kusaidia kuwasiliana na watu sahihi katika Global Fund, kukuunganisha na watu wengine wanaokabiliwa na tatizo lile lile, na/au kutetea kwa niaba yako. Lengo letu ni kukusaidia.",
+    calendarTitle: "Kalenda"
   }
 };
 
