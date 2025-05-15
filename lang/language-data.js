@@ -104,7 +104,7 @@ const languageData = {
     aboutTitle: "Sisi ni nani:",
     aboutP1: "Jamii zilizoguswa zaidi na VVU, kifua kikuu, na malaria ziko katika moyo wa modeli ya Global Fund. Hata hivyo, jamii mara nyingi hukabiliwa na vikwazo vikubwa zaidi vya ushiriki wenye maana.",
     aboutP2: "<span>Kitovu cha Data cha Utetezi wa Ulimwenguni</span> (GADH) ni duka la kuzuia kwa jamii, watetezi, wawakilishi wa CCM, na wadau wengine wa mfumo wa afya. Hapa unaweza kupata habari inayopatikana kwa umma, data, miongozo, na rasilimali nyingine zilizoundwa ili kusaidia jamii kushiriki kikamilifu katika maamuzi kuhusu maisha yao, jamii zao, na nchi zao.",
-    aboutP3: "This web platform is built for advocates, by advocates.",
+    aboutP3: "Jukwaa hili la wavuti limeundwa kwa ajili ya mawakili, na watetezi.",
     aboutButton: "Chunguza Rasilimali",
     resourcesTitle: "Rasilimali",
     resourcesLooking: "Ninatafuta: ",
