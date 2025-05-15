@@ -27,7 +27,8 @@ const languageData = {
     resourcesR8Dash: "Global Fund Replenishment 8 Scenarios",
     feedbackTitle: "Share your feedback",
     feedbackP1: "The Global Fund is taking several steps to respond to the uncertain financial landscape.  This includes slowing down implementation, deallocation funds from countries, and reprioritizing activities.",
-    feedbackP2: "Please use this form to ask any questions about the process, to share any challenges or barriers to engagement, and to request additional support from the GADH and its partners.  <span>You may share information anonymously</span> or with your contact information.  Even if you do share personal information, nothing you share in this form will be shared with the Global Fund or the CCM, unless formally agreed."
+    feedbackP2: "Please use this form to ask any questions about the process, to share any challenges or barriers to engagement, and to request additional support from the GADH and its partners.  <span>You may share information anonymously</span> or with your contact information.  Even if you do share personal information, nothing you share in this form will be shared with the Global Fund or the CCM, unless formally agreed.",
+    calendarTitle: "Calendar"
   },
   FR: {
     Title: "LE HUB MONDIAL DE DONNEES POUR LE PLAIDOYER",
@@ -57,7 +58,8 @@ const languageData = {
     resourcesR8Dash: "Scénarios pour la 8e reconstitution du Fonds mondial",
     feedbackTitle: "Partagez vos commentaires",
     feedbackP1: "Le Fonds mondial prend plusieurs mesures pour répondre à l'incertitude du paysage financier.  Il s'agit notamment de ralentir la mise en œuvre, de désaffecter les fonds des pays et de redéfinir les priorités des activités.",
-    feedbackP2: "Veuillez utiliser ce formulaire pour poser des questions sur le processus, pour faire part des défis ou des obstacles à l'engagement et pour demander un soutien supplémentaire de la part de la GADH et de ses partenaires.  Vous pouvez partager des informations de manière anonyme ou avec vos coordonnées.  Même si vous communiquez des informations personnelles, rien de ce que vous indiquez dans ce formulaire ne sera communiqué au Fonds mondial ou à l'ICN, sauf accord formel."
+    feedbackP2: "Veuillez utiliser ce formulaire pour poser des questions sur le processus, pour faire part des défis ou des obstacles à l'engagement et pour demander un soutien supplémentaire de la part de la GADH et de ses partenaires.  Vous pouvez partager des informations de manière anonyme ou avec vos coordonnées.  Même si vous communiquez des informations personnelles, rien de ce que vous indiquez dans ce formulaire ne sera communiqué au Fonds mondial ou à l'ICN, sauf accord formel.",
+    calendarTitle: "Calendrier"
   },
   ES: {
     Title: "EL HUB GLOBAL DE DATOS PARA LA DEFENSA",
@@ -87,7 +89,8 @@ const languageData = {
     resourcesR8Dash: "Escenarios para la 8ª reposición del Fondo Mundial",
     feedbackTitle: "Comparta sus comentarios",
     feedbackP1: "El Fondo Mundial está tomando varias medidas para responder al incierto panorama financiero.  Entre ellas se incluyen la ralentización de la ejecución, la reasignación de fondos de los países y el replanteamiento de las prioridades de las actividades.",
-    feedbackP2: "Utilice este formulario para plantear cualquier pregunta sobre el proceso, compartir cualquier reto o barrera a la participación y solicitar apoyo adicional del GADH y sus socios.  Puede compartir la información de forma anónima o con sus datos de contacto.  Incluso si comparte información personal, nada de lo que comparta en este formulario será compartido con el Fondo Mundial o el MCP, a menos que se acuerde formalmente."
+    feedbackP2: "Utilice este formulario para plantear cualquier pregunta sobre el proceso, compartir cualquier reto o barrera a la participación y solicitar apoyo adicional del GADH y sus socios.  Puede compartir la información de forma anónima o con sus datos de contacto.  Incluso si comparte información personal, nada de lo que comparta en este formulario será compartido con el Fondo Mundial o el MCP, a menos que se acuerde formalmente.",
+    calendarTitle: "Calendario"
   }
 };
 
@@ -161,9 +164,13 @@ function changeLanguage(lang) {
   updateElement('resources-r8dash', languageData[lang].resourcesR8Dash);
 
   // GF Feedback
-    updateElement('feedback-title', languageData[lang].feedbackTitle);
-    updateElement('feedback-p1', languageData[lang].feedbackP1);
-    updateElement('feedback-p2', languageData[lang].feedbackP2);
+  updateElement('feedback-title', languageData[lang].feedbackTitle);
+  updateElement('feedback-p1', languageData[lang].feedbackP1);
+  updateElement('feedback-p2', languageData[lang].feedbackP2);
+
+  // Calendar
+  updateElement('calendar-title', languageData[lang].calendarTitle);
+
 
 }
     

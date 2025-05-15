@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="text/css_sitewide.css">
-  <link rel="stylesheet" type="text/css" href="text/css_landing.css">
+  <link rel="stylesheet" type="text/css" href="text/css_calendar.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <script src="lang/language-data.js"></script>
@@ -12,31 +12,41 @@
   <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Barrio&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <script src="scripts/js.js"></script>
-  <title>The GADH: Home</title>
+  <title>The GADH: Calendar</title>
 </head>
 
 <body>
   <div class="hero">
-    <div class="hero-image"></div>
     <header>
       <div id="navbar"></div>
     </header>
     <div class="hero-content">
-      <h1 id="hero-title">The Global Advocacy Data Hub</h1>
-      <h2 id="hero-subtitle">The <span>transparent</span> and <span>independent</span> source of Global Fund data</h2>
-      <p id="hero-description">Communities most impacted by HIV, tuberculosis, and malaria are at the heart of the Global Fund model. This platform provides the information, resources, and data that communities need to advocate for an accountable Global Fund.</p>
-      <a href="/about.html"><button id="hero-button">Learn More</button></a>
+      <h1 id="calendar-title">Calendar</h1>
+      <h2 style="display: inline;" id="resources-looking">I'm looking for: </h2>
     </div>
   </div>
 
- 
+  <div class="calendar">
+    <div class="header">
+      <div class="prev-month">&lt;</div>
+      <div class="current-month"></div>
+      <div class="next-month">&gt;</div>
+    </div>
+    <div class="weekdays">
+      <div>Sun</div>
+      <div>Mon</div>
+      <div>Tue</div>
+      <div>Wed</div>
+      <div>Thu</div>
+      <div>Fri</div>
+      <div>Sat</div>
+    </div>
+    <div class="days"></div>
+  </div>
 
-</body>
-
-
-<script>   
-   
-// Load navbar first
+  <script src="scripts/calendar.js"></script>
+  <script>
+  // Load navbar first
 
       // Fetch the navbar HTML
       fetch('navbar.html')
@@ -44,6 +54,11 @@
         .then(data => {
           // Insert the navbar HTML into the placeholder
           document.getElementById('navbar').innerHTML = data;
+
+          // Set the icon based on the page
+          const languageIcon = document.querySelector('.language-icon');
+          languageIcon.setAttribute('data-icon', 'black'); // Set to black for this page
+          languageIcon.src = './images/translation-svg-bl.svg';
           
           // After navbar is loaded, initialize language
           setTimeout(() => {
@@ -64,6 +79,23 @@
           console.error('Error loading navbar:', error);
         });
     
-    
-</script>
+  </script>
+
+  <script >
+    document.addEventListener('DOMContentLoaded', function() {
+  var imagePlaceholders = document.querySelectorAll('.image-placeholder');
+  var imageGifs = document.querySelectorAll('.image-gif');
+
+  imagePlaceholders.forEach(function(placeholder, index) {
+    var gif = imageGifs[index];
+    gif.onload = function() {
+      placeholder.style.display = 'none';
+      gif.style.display = 'inline';
+    };
+  });
+});
+
+  </script>
+
+</body>
 </html>
