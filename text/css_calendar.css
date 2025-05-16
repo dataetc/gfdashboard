@@ -121,6 +121,7 @@ header::after {
 }
 
 .day {
+  position: relative;
   border: 1px solid #ccc;
   padding: 10px;
   text-align: right;
@@ -130,4 +131,45 @@ header::after {
 .day.event {
   background-color: #f0f0f0;
   font-weight: bold;
+  position: relative;
+}
+
+.day.event .event-text {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 50%;
+  font-size: 12px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.day.today {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.day.prev-month,
+.day.next-month {
+  color: #ccc;
+}
+
+.event-circle {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 20px;
+  height: 20px;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 50%;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

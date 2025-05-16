@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2025-05-15",
+    "time": "10:00 AM",
+    "title": "Meeting",
+    "host": "John Doe",
+    "description": "Weekly team meeting",
+    "link": "https://example.com/meeting"
+  },
+  {
+    "date": "2025-05-20",
+    "time": "2:00 PM",
+    "title": "Appointment",
+    "host": "Jane Smith",
+    "description": "Discuss project progress",
+    "link": "https://example.com/appointment"
+  },
+  {
+    "date": "2025-06-01",
+    "time": "7:00 PM",
+    "title": "Birthday Party",
+    "host": "Alice Johnson",
+    "description": "Celebrate John's birthday",
+    "link": "https://example.com/birthday-party"
+  }
+]
