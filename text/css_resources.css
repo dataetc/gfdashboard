@@ -47,7 +47,6 @@ header::after {
 
 .hero h2 {
   font-size: 2em;
-  margin-bottom: 20px;
   font-family: 'Barriecito', Arial, sans-serif;
   text-align: left;
 }
@@ -92,48 +91,47 @@ header::after {
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-  }
+  position: relative;
+  display: inline-block;
 
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    left: 0;
-    width: 100%;
-    font-family: "Roboto Condensed", sans-serif; 
-    font-size: 1.5em; 
-    border: 1px solid orange; 
-    border-radius: 3px;
-  }
+}
 
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: max-content;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  left: 0;
+  font-family: "Roboto Condensed", sans-serif; 
+  font-size: 1.2em; 
+  border: 1px solid orange; 
+  padding: 8px 12px;
+  background-color: #f9f9f9;
+  border-radius: 3px;
+}
 
-  .dropdown-content a:hover {
-    background-color: #f1f1f1;
-  }
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
 
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
 
+.dropdown:hover .dropdown-content {
+  display: block;
+}
   .dropbtn {
     font-family: "Roboto Condensed", sans-serif;
-    font-size: 1.5em;
     background-color: #fff;
     color: #000;
     padding: 8px 8px;
-    border: 3px solid orange;
+    border: 1px solid orange !important;
     border-radius: 5px;
     cursor: pointer;
   }
@@ -150,82 +148,148 @@ section {
     position: relative;
   }
 
-  section h2::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -10px;
-    width: 93vw;
-    height: 0.5px;
-    background-color: #000;
-  }
+section h2::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+  width: 93vw;
+  height: 0.5px;
+  background-color: #000;
+}
 
-  section h3 {
-    color: black;
-  }
+section h3 {
+  color: black;
+}
 
 
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .dropdown-container {
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
 }  
 
 .image-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left; 
-    padding: 0px;
-    margin: 0 auto; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left; 
+  padding: 0px;
+  margin: 0 auto; 
+}
+
+@media (max-width: 500px) {
+.image-grid {
+  display: block;
+}
+}
+
+.image-item {
+  flex: 0 0 28%; 
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+  overflow: hidden;
+  justify-content: center; 
 }
 
 @media (max-width: 500px) {
   .image-grid {
-    display: block;
+    max-width: 100%; 
+  }
+
+  .image-item {
+    flex: 0 0 40%; 
   }
 }
 
-.image-item {
-    flex: 0 0 28%; 
-    margin: 5px;
-    border-radius: 5px;
-    text-align: center;
-    overflow: hidden;
-    justify-content: center; 
-}
-
-@media (max-width: 500px) {
-    .image-grid {
-        max-width: 100%; 
-    }
-
-    .image-item {
-        flex: 0 0 40%; 
-    }
-}
-
 .image-item img {
-    width: auto;
-    max-height: 40vh;
-    border: 0.5px solid #ccc;
+  width: auto;
+  max-height: 40vh;
+  border: 0.5px solid #ccc;
 }
 
 .image-item h3 {
-    padding: 10px;
-    font-size: 1.2em;
-    color: #333;
+  padding: 10px;
+  font-size: 1.2em;
+  color: #333;
 }
 
 .image-item h5 {
-  padding: 10px;
-  font-size: 1.2em;
-  font-family: "Roboto Condensed", sans-serif;
-  color: #333;
+padding: 10px;
+font-size: 1.2em;
+font-family: "Roboto Condensed", sans-serif;
+color: #333;
+}
+
+.search-and-dropdown {
+display: flex;
+align-items: center;
+margin-bottom: 20px;
+}
+
+.search-and-dropdown h2 {
+margin-right: 10px;
+white-space: nowrap;
+}
+
+.dropdown {
+margin-right: 10px;
+}
+
+.dropdown .dropbtn {
+padding: 8px 12px;
+font-size: 1.2em;
+border: 1px solid #ccc;
+border-radius: 4px;
+background-color: #f1f1f1;
+cursor: pointer;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.search-container {
+margin-left: auto;
+
+}
+
+.search-container input {
+padding: 8px 12px;
+font-size: 1.2em;
+font-family: "Roboto Condensed", sans-serif;
+border: 1px solid orange;
+background-color: #f1f1f1;
+border-radius: 4px;
+}
+
+.search-container #searchResults {
+margin-top: 10px;
 }

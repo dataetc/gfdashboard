@@ -17,19 +17,26 @@
 
 <body>
   <div class="hero">
-    <header>
-      <div id="navbar"></div>
-    </header>
-    <div class="hero-content">
-      <h1 id="resources-title">Resources</h1>
+  <header>
+    <div id="navbar"></div>
+  </header>
+  <div class="hero-content">
+    <h1 id="resources-title">Resources</h1>
+    <div class="search-and-dropdown">
       <h2 style="display: inline;" id="resources-looking">I'm looking for: </h2>
-    <div class="dropdown" style="display: inline;">
+      <div class="dropdown" style="display: inline;">
         <button class="dropbtn" id="resources-select">Select an option</button>
         <div class="dropdown-content">
-        <a href="#dashboards" id="resources-drop-dashboards">Dashboards</a>
-        <a href="#guides" id="resources-drop-guides">Guides</a>
-        <a href="#reports" id="resources-drop-reports">Reports</a>
+          <a href="#dashboards" id="resources-drop-dashboards">Dashboards</a>
+          <a href="#guides" id="resources-drop-guides">Guides</a>
+          <a href="#reports" id="resources-drop-reports">Reports</a>
         </div>
+      </div>
+    <div class="search-container">
+      <input type="text" id="searchInput" />
+      <label for="searchInput" id="resources-searchinput">Test</label>
+      <div id="searchResults"></div>
+    </div>
     </div>
     <section id="dashboards">
       <h2 id="resources-title-dashboards">Dashboards</h2>
@@ -154,6 +161,44 @@
       placeholder.style.display = 'none';
       gif.style.display = 'inline';
     };
+  });
+});
+
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+  // Get all the resource sections, titles, and items
+  const resourceSections = document.querySelectorAll('section');
+  const resourceTitles = document.querySelectorAll('.image-item h5');
+  const resourceItems = document.querySelectorAll('.image-item');
+
+  const searchInput = document.getElementById('searchInput');
+
+  // Add event listener to the search input
+  searchInput.addEventListener('input', function() {
+    const searchTerm = this.value.toLowerCase();
+
+    // Loop through the resource items
+    resourceItems.forEach(function(item, index) {
+      const title = resourceTitles[index];
+      if (title.textContent.toLowerCase().includes(searchTerm)) {
+        item.style.display = 'block';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+
+    // Loop through the resource sections
+    resourceSections.forEach(function(section) {
+      // Check if any items in the section are visible
+      const visibleItems = section.querySelectorAll('.image-item:not([style*="display: none"])');
+      if (visibleItems.length > 0) {
+        section.style.display = 'block';
+      } else {
+        section.style.display = 'none';
+      }
+    });
   });
 });
 
