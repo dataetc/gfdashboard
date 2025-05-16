@@ -1,26 +1,18 @@
 [
   {
-    "date": "2025-05-15",
-    "time": "10:00 AM",
-    "title": "Meeting",
-    "host": "John Doe",
-    "description": "Weekly team meeting",
-    "link": "https://example.com/meeting"
-  },
-  {
     "date": "2025-05-20",
-    "time": "2:00 PM",
-    "title": "Appointment",
-    "host": "Jane Smith",
-    "description": "Discuss project progress",
-    "link": "https://example.com/appointment"
+    "time": "8:00 ET / 13:00 WAT / 14:00 CAT, SAST / 15:00 EAT",
+    "title": "Global Fund Reprioritization and Deallocation : What it means and how communities can engage and prepare",
+    "host": "<a href='https://eannaso.org/' target=_blank>EANNASO</a>, COMPASS, <a href='https://tbwomen.org/' target=_blank>TB Women</a>, <a href='https://www.dataetc.org/' target=_blank>Data, Etc</a>, CHANGE, Anglophone Africa Learning Hub, <a href='https://communitiesdelegation.org/' target=_blank>Communities Delegation</a>",
+    "description": "Global Fund Reprioritization and Deallocation : What it means and how communities can engage and prepare.",
+    "link": "https://shorturl.at/dKci8"
   },
   {
-    "date": "2025-06-01",
-    "time": "7:00 PM",
-    "title": "Birthday Party",
-    "host": "Alice Johnson",
-    "description": "Celebrate John's birthday",
-    "link": "https://example.com/birthday-party"
+    "date": "2025-05-22",
+    "time": "10:00 ET / 15:00 WAT / 16:00 CAT, SAST / 17:00 EAT",
+    "title": "Redefinition des priorites et desallocation du Fonds mondial: Qu'est-ce que cela veut dire et comment les communautes peuvent-elle se preparer et s'y engager",
+    "host": "<a href='https://www.rame-int.org/' target=_blank>RAME</a>, <a href='https://prf-fondsmondial.org/' target=_blank>Hub Regional Afrique Francophone</a>, CHANGE, <a href='https://communitiesdelegation.org/' target=_blank>Communities Delegation</a>, <a href='https://cs4me.org/' target=_blank>CS4ME</a>, <a href='https://www.dataetc.org/' target=_blank>Data, Etc</a>",
+    "description": "L'objectif de ce webinaire est d'assister à une séance d'information sur la réunion du Conseil d’Administration du Fonds mondial, partager les dernières mises à jour sur la redéfinition des priorités, le ralentissement et la désaffectation du Fonds mondial, discuter des stratégies de plaidoyer avec les CCM, les PRs et SRs, et partager les ressources et le soutien disponibles.",
+    "link": "https://us02web.zoom.us/meeting/register/22nQi7S_Tm6HS-48f_vFfg"
   }
 ]

@@ -29,7 +29,13 @@ const languageData = {
     feedbackP1: "This form is for registering questions, challenges, or issues with the Global Fund slow-down or deallocation process. This is an independent community-run initiative meant to document and resolve issues of community exclusion or discrimination.", 
     feedbackP2: "Everything you report is anonymous and we will never share anything without your agreement and consent. If you choose to escalate an issue from your country will can help contact the right people at the Global Fund, connect you with other people having the same issue, and/or advocate on your behalf. Our goal is to support you.",
     calendarTitle: "Calendar",
-    resourcesSearchInput: "Search"
+    resourcesSearchInput: "Search",
+    calendarDescription: "Find events related to Global Fund advocacy.",
+    daysShort: ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"],
+    monthsLong: [
+      "January", "February", "March", "April", "May", "June",
+      "July", "August", "September", "October", "November", "December"
+    ],
   },
   FR: {
     Title: "LE HUB MONDIAL DE DONNEES POUR LE PLAIDOYER",
@@ -61,7 +67,13 @@ const languageData = {
     feedbackP1: "Ce formulaire est destiné à enregistrer les questions, les défis ou les problèmes liés au processus de ralentissement ou de désaffectation du Fonds mondial. Il s'agit d'une initiative communautaire indépendante destinée à documenter et à résoudre les problèmes d'exclusion ou de discrimination communautaire.",
     feedbackP2: "Tout ce que vous signalez est anonyme et nous ne partagerons jamais rien sans votre accord et votre consentement. Si vous décidez de faire remonter un problème de votre pays, nous pouvons vous aider à contacter les bonnes personnes au Fonds mondial, vous mettre en contact avec d'autres personnes ayant le même problème, et/ou plaider en votre faveur. Notre objectif est de vous soutenir.",
     calendarTitle: "Calendrier",
-    resourcesSearchInput: "Rechercher"
+    resourcesSearchInput: "Rechercher",
+    calendarDescription: "Trouver des événements liés au plaidoyer auprès du Fonds mondial.",
+    daysShort: ["DIM", "LUN", "MAR", "MER", "JEU", "VEN", "SAM"],
+    monthsLong: [
+    "janvier", "février", "mars", "avril", "mai", "juin",
+    "juillet", "août", "septembre", "octobre", "novembre", "décembre"
+   ],
   },
   ES: {
     Title: "EL HUB GLOBAL DE DATOS PARA LA DEFENSA",
@@ -93,7 +105,13 @@ const languageData = {
     feedbackP1: "Este formulario es para registrar preguntas, retos o problemas con el proceso de ralentización o reasignación del Fondo Mundial. Se trata de una iniciativa comunitaria independiente destinada a documentar y resolver problemas de exclusión o discriminación comunitaria.",
     feedbackP2: "Todo lo que informe es anónimo y nunca compartiremos nada sin su acuerdo y consentimiento. Si decide plantear un problema desde su país, podemos ayudarle a ponerse en contacto con las personas adecuadas en el Fondo Mundial, ponerle en contacto con otras personas que tengan el mismo problema y/o abogar en su nombre. Nuestro objetivo es apoyarle.",
     calendarTitle: "Calendario",
-    resourcesSearchInput: "Buscar"
+    resourcesSearchInput: "Buscar",
+    calendarDescription: "Encontrar eventos relacionados con la defensa sobre el Fondo Mundial.",
+    daysShort: ["DOM", "LUN", "MAR", "MIE", "JUE", "VIE", "SAB"],
+    monthsLong: [
+      "enero", "febrero", "marzo", "abril", "mayo", "junio",
+      "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ],
   },
     SW: {
     Title: "KITOVU CHA DATA CHA UTETEZI WA ULIMWENGUNI",
@@ -125,7 +143,13 @@ const languageData = {
     feedbackP1: "Fomu hii ni kwa ajili ya kusajili maswali, changamoto, au matatizo na mchakato wa kupunguzwa kwa fedha au kukataliwa kwa Global Fund. Hii ni juhudi zinazoendesha jamii kwa uhuru zinazolenga kurekodi na kutatua matatizo ya ukiukwaji wa haki au ubaguzi dhidi ya jamii.", 
     feedbackP2: "Kila kitu unachoripoti ni isiyo na utambulisho na hatutashiriki chochote bila idhini na ridhaa yako. Ikiwa utachagua kuendeleza suala kutoka nchi yako, tunaweza kusaidia kuwasiliana na watu sahihi katika Global Fund, kukuunganisha na watu wengine wanaokabiliwa na tatizo lile lile, na/au kutetea kwa niaba yako. Lengo letu ni kukusaidia.",
     calendarTitle: "Kalenda",
-    resourcesSearchInput: "Tafuta"
+    resourcesSearchInput: "Tafuta",
+    calendarDescription: "Pata matukio yanayohusiana na utetezi wa Global Fund.",
+    daysShort: ["Jumapili", "Jumatatu", "Jumanne", "Jumatano", "Alhamisi", "Ijumaa", "Jumamosi"],
+    monthsLong: [
+      "Januari", "Februari", "Machi", "Aprili", "Mei", "Juni",
+      "Julai", "Agosti", "Septemba", "Oktoba", "Novemba", "Desemba"
+    ],
   }
 };
 
@@ -210,7 +234,10 @@ function changeLanguage(lang) {
 
   // Calendar
   updateElement('calendar-title', languageData[lang].calendarTitle);
-
+  updateElement('calendar-description', languageData[lang].calendarDescription);
+  
+  renderWeekdays();
+  renderCalendar();
 
 }
     

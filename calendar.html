@@ -22,7 +22,7 @@
     </header>
     <div class="hero-content">
       <h1 id="calendar-title">Calendar</h1>
-      <h2 style="display: inline;" id="resources-looking">I'm looking for: </h2>
+      <p id="calendar-description"></p>
     </div>
   </div>
 
@@ -43,6 +43,14 @@
     </div>
     <div class="days"></div>
   </div>
+
+  <div id="event-modal" class="modal">
+  <div class="modal-content">
+    <span class="close-button">&times;</span>
+    <h3><span id="modal-date"></span></h3>
+    <div id="modal-events" class="modal-events-list"></div>
+  </div>
+</div>
 
   <script src="scripts/calendar.js"></script>
   <script>
