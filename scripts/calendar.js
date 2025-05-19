@@ -20,9 +20,11 @@ fetch('events.json')
   });
 
 function hasEvent(year, month, day) {
-  const eventDate = new Date(year, month, day).toISOString().slice(0, 10);
-  const eventCount = events.filter(event => event.date === eventDate).length;
-  return eventCount;
+//  const eventDate = new Date(year, month, day).toISOString().slice(0, 10);
+  const eventDate = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+  //const eventCount = events.filter(event => event.date === eventDate).length;
+  //return eventCount;
+  return events.filter(event => event.date === eventDate).length;
 }
 
 function renderCalendar() {
@@ -111,12 +113,21 @@ function showModal(dateStr, eventList) {
   const modalEvents = document.getElementById('modal-events');
   const closeButton = document.querySelector('.close-button');
 
-  const dateObj = new Date(dateStr);
-  const weekday = dateObj.toLocaleDateString('en-US', { weekday: 'short' }).toUpperCase(); // "WED"
-  const day = dateObj.getDate(); // 16
+//  const dateObj = new Date(dateStr);
+//  const weekday = dateObj.toLocaleDateString('en-US', { weekday: 'short' }).toUpperCase(); // "WED"
+//  const day = dateObj.getDate(); // 16
 
-  modalDate.innerHTML = `<div class="modal-title">${weekday}<br>${day}</div>`;
+//  modalDate.innerHTML = `<div class="modal-title">${weekday}<br>${day}</div>`;
 
+// Parse the date string as local, not UTC
+  const [year, month, day] = dateStr.split('-').map(Number);
+  const dateObj = new Date(year, month - 1, day); // month is 0-based
+
+  const weekday = dateObj.toLocaleDateString('en-US', { weekday: 'short' }).toUpperCase();
+  const dayNum = dateObj.getDate();
+
+  modalDate.innerHTML = `<div class="modal-title">${weekday}<br>${dayNum}</div>`;
+  
   modalEvents.innerHTML = '';
 
   if (eventList.length === 0) {
