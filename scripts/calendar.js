@@ -108,26 +108,20 @@ function renderWeekdays() {
 }
 
 function showModal(dateStr, eventList) {
+  const { daysLong, monthsLong } = window.languageData[localStorage.getItem('preferredLanguage') || 'EN'];
   const modal = document.getElementById('event-modal');
   const modalDate = document.getElementById('modal-date');
   const modalEvents = document.getElementById('modal-events');
   const closeButton = document.querySelector('.close-button');
 
-//  const dateObj = new Date(dateStr);
-//  const weekday = dateObj.toLocaleDateString('en-US', { weekday: 'short' }).toUpperCase(); // "WED"
-//  const day = dateObj.getDate(); // 16
-
-//  modalDate.innerHTML = `<div class="modal-title">${weekday}<br>${day}</div>`;
-
-// Parse the date string as local, not UTC
+  // Parse the date string as local, not UTC
   const [year, month, day] = dateStr.split('-').map(Number);
   const dateObj = new Date(year, month - 1, day); // month is 0-based
-
-  const weekday = dateObj.toLocaleDateString('en-US', { weekday: 'short' }).toUpperCase();
+  const weekday = daysLong[dateObj.getDay()];
   const dayNum = dateObj.getDate();
 
   modalDate.innerHTML = `<div class="modal-title">${weekday}<br>${dayNum}</div>`;
-  
+
   modalEvents.innerHTML = '';
 
   if (eventList.length === 0) {
