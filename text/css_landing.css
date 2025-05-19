@@ -1,7 +1,13 @@
-nav a {
+nav a,
+.active-language {
   color: #fff;
   text-shadow: -1px -1px 0 #5b5b5b, 1px -1px 0 #5b5b5b, -1px 1px 0 #5b5b5b, 1px 1px 0 #5b5b5b;
   color: #fff;
+}
+
+.language-content,
+.language-content * {
+  text-shadow: none !important;
 }
 
 header::after {

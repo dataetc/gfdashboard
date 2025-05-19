@@ -7,6 +7,8 @@ const languageData = {
     heroButtonText: "Learn More",
     navHome: "Home",
     navResources: "Resources",
+    navCalendar: "Calendar",
+    navSupport: "Support",
     navAbout: "About",
     aboutTitle: "Who we are:",
     aboutP1: "Communities most impacted by HIV, tuberculosis, and malaria are at the heart of the Global Fund model. Yet communities often face the greatest barriers to meaningful engagement.",
@@ -45,6 +47,8 @@ const languageData = {
     heroButtonText: "En savoir plus",
     navHome: "Accueil",
     navResources: "Ressources",
+    navCalendar: "Calendrier",
+    navSupport: "Soutien",
     navAbout: "À propos",
     aboutTitle: "Qui sommes-nous ?",
     aboutP1: "Les communautés les plus touchées par le VIH, la tuberculose et le paludisme sont au cœur du modèle du Fonds mondial. Pourtant, les communautés sont souvent confrontées aux plus grands obstacles à un engagement significatif.",
@@ -83,6 +87,8 @@ const languageData = {
     heroButtonText: "Más información",
     navHome: "Inicio",
     navResources: "Recursos",
+    navCalendar: "Calendario",
+    navSupport: "Apoyo",
     navAbout: "Acerca de",
     aboutTitle: "Quiénes somos:",
     aboutP1: "Las comunidades más afectadas por el VIH, la tuberculosis y la malaria son el núcleo del modelo del Fondo Mundial. Sin embargo, a menudo son ellas las que se enfrentan a los mayores obstáculos para una participación significativa.",
@@ -113,6 +119,46 @@ const languageData = {
       "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
     ],
   },
+  PT: {
+    Title: "O CENTRO GLOBAL DE DADOS DE ADVOCACIA",
+    heroTitle: "O Centro Global de Dados de Advocacia",
+    heroSubtitle: "A fonte <span>transparente</span> e <span>independente</span> de dados do Fundo Global",
+    heroDescription: "As comunidades mais afectadas pelo VIH, tuberculose e malária estão no centro do modelo do Fundo Global. Esta plataforma fornece as informações, os recursos e os dados de que as comunidades necessitam para defenderem um Fundo Global responsável.",
+    heroButtonText: "Saiba mais",
+    navHome: "Início",
+    navResources: "Recursos",
+    navCalendar: "Calendário",
+    navSupport: "Apoio",
+    navAbout: "Sobre",
+    aboutTitle: "Quem somos:",
+    aboutP1: "As comunidades mais afetadas pelo HIV, tuberculose e malária estão no centro do modelo do Fundo Global. No entanto, as comunidades muitas vezes enfrentam as maiores barreiras para um envolvimento significativo.",
+    aboutP2: "O <span>Centro Global de Dados de Advocacia</span> (GADH) é um balcão único para comunidades, defensores, representantes do MCP e outras partes interessadas do sistema de saúde. Aqui você pode encontrar informações, dados, guias e outros recursos públicos projetados para ajudar as comunidades a participar plenamente da tomada de decisões sobre suas vidas, comunidades e países.",
+    aboutP3: "Esta plataforma web é construída por defensores, para defensores.",
+    aboutButton: "Explorar Recursos",
+    resourcesTitle: "Recursos",
+    resourcesLooking: "Estou procurando por: ",
+    resourcesDropDashboards: "Painéis",
+    resourcesDropGuides: "Guias",
+    resourcesDropReports: "Relatórios",
+    resourcesSelect: "Selecione uma opção",
+    resourcesTitleDashboards: "Painéis",
+    resourcesTitleGuides: "Guias",
+    resourcesTitleReports: "Relatórios",
+    resourcesCCMDash: "Painel MCP",
+    resourcesUQDDash: "Painel UQD",
+    resourcesR8Dash: "Cenários de Reabastecimento 8 do Fundo Global",
+    feedbackTitle: "Compartilhe seu feedback",
+    feedbackP1: "Este formulário é para registrar perguntas, desafios ou problemas com o processo de redução ou realocação do Fundo Global. Esta é uma iniciativa independente da comunidade destinada a documentar e resolver problemas de exclusão ou discriminação da comunidade.", 
+    feedbackP2: "Tudo o que você relatar é anônimo e nunca compartilharemos nada sem seu acordo e consentimento. Se você optar por escalar um problema de seu país, podemos ajudar a entrar em contato com as pessoas certas no Fundo Global, conectá-lo com outras pessoas que estão tendo o mesmo problema e/ou defender em seu nome. Nosso objetivo é apoiá-lo.",
+    calendarTitle: "Calendário",
+    resourcesSearchInput: "Pesquisar",
+    calendarDescription: "Encontre eventos relacionados à defesa do Fundo Global",
+    daysShort: ["DOM", "SEG", "TER", "QUA", "QUI", "SEX", "SÁB"],
+    monthsLong: [
+      "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
+      "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"
+    ],
+  },
     SW: {
     Title: "KITOVU CHA DATA CHA UTETEZI WA ULIMWENGUNI",
     heroTitle: "Kitovu cha Data cha Utetezi wa Ulimwenguni",
@@ -121,6 +167,8 @@ const languageData = {
     heroButtonText: "Jifunze Zaidi",
     navHome: "Nyumbani",
     navResources: "Rasilimali",
+    navCalendar: "Kalenda",
+    navSupport: "Msaada",
     navAbout: "Kuhusu",
     aboutTitle: "Sisi ni nani:",
     aboutP1: "Jamii zilizoguswa zaidi na VVU, kifua kikuu, na malaria ziko katika moyo wa modeli ya Global Fund. Hata hivyo, jamii mara nyingi hukabiliwa na vikwazo vikubwa zaidi vya ushiriki wenye maana.",
@@ -197,7 +245,9 @@ function changeLanguage(lang) {
 // Navbar
   updateElement('nav-home', languageData[lang].navHome);
   updateElement('nav-resources', languageData[lang].navResources);
+  updateElement('nav-calendar', languageData[lang].navCalendar);
   updateElement('nav-about', languageData[lang].navAbout);
+  updateElement('nav-support', languageData[lang].navSupport);
 
   // About section
   updateElement('about-title', languageData[lang].aboutTitle);
