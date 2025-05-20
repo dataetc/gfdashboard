@@ -140,6 +140,23 @@
       display: block;
   }
   
+  @media (max-width: 767px) {
+  nav {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  nav ul {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  nav li {
+    flex-shrink: 0;
+  }
+}
   </style>
   <nav>
     <div class="logo">
