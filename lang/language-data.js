@@ -309,11 +309,6 @@ function initializeLanguage() {
   // Choose language with priority: URL > localStorage > default ('EN')
   const lang = storedLang || urlLang  || 'EN';
   
-  console.log('Initializing language:', lang, 
-    urlLang ? '(from URL)' : 
-    storedLang ? '(from localStorage)' : 
-    '(default)');
-  
   // Apply the selected language
   changeLanguage(lang);
 }
