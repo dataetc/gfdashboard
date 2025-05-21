@@ -314,6 +314,7 @@ class SiteNavbar extends HTMLElement {
                   <a href="#" data-lang="FR">Français</a>
                   <a href="#" data-lang="ES">Español</a>
                   <a href="#" data-lang="PT">Português</a>
+                  <a href="#" data-lang="RU">Русский</a>
                   <a href="#" data-lang="SW">Kiswahili</a>
                 </div>
               </li>
