@@ -18,8 +18,9 @@
 <body>
   <div class="hero">
     <div class="hero-image"></div>
-    <header>
-      <div id="navbar"></div>
+    <<header>
+      <script src="site-navbar.js"></script>
+      <site-navbar id="main-navbar"></site-navbar>
     </header>
     <div class="hero-content">
       <h1 id="feedback-title"></h1>
@@ -34,36 +35,37 @@
 
   <script>
 
-      // Fetch the navbar HTML
-      fetch('navbar.html')
-        .then(response => response.text())
-        .then(data => {
-          // Insert the navbar HTML into the placeholder
-          document.getElementById('navbar').innerHTML = data;
+      // Style the navbar and set up event listeners for changing languages
+document.addEventListener('DOMContentLoaded', function() {
 
-          // Set the icon based on the page
-          const languageIcon = document.querySelector('.language-icon');
-          languageIcon.setAttribute('data-icon', 'white'); // Set to black for this page
-          languageIcon.src = './images/translation-svg-wh.svg';
-          
-          // After navbar is loaded, initialize language
-          setTimeout(() => {
-            initializeLanguage();
-            
-            // Add click handlers for language switching
-            const languageLinks = document.querySelectorAll('.language-content a');
-            languageLinks.forEach(function(link) {
-              link.addEventListener('click', function(event) {
-                event.preventDefault();
-                const selectedLang = this.textContent;
-                changeLanguage(selectedLang);
-              });
-            });
-          }, 0); // Small delay to ensure DOM is updated
-        })
-        .catch(error => {
-          console.error('Error loading navbar:', error);
-        });
+
+const theme_color = "light" // Options: "dark", "light"
+const color_main = theme_color === "dark" ? "#000" : "#fff"
+const color_secondary = theme_color === "dark" ? "#fff" : "#000"
+
+// Get reference to the navbar component
+const navbar = document.getElementById('main-navbar');
+
+// Set text color for main navigation items
+navbar.setTextColor(color_main);
+
+// Set text color specifically for language dropdown items
+navbar.setLanguageSelectorTextColor(color_secondary);
+
+// Set bottom border color
+navbar.setBottomBorderColor(color_main);
+
+// Listen for language change events from the navbar
+navbar.addEventListener('languagechange', function(event) {
+  const selectedLang = event.detail.language;
+  
+  // Call your existing language change function
+  changeLanguage(selectedLang);
+});
+
+// Initialize the language from your page's system
+initializeLanguage();
+});
     
   </script>
 
