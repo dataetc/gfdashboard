@@ -25,6 +25,7 @@ const languageData = {
     resourcesTitleGuides: "Guides",
     resourcesTitleReports: "Reports",
     resourcesCCMDash: "CCM Dashboard",
+    resourcesPEPFARDash: "PEPFAR + Global Fund Dashboard",
     resourcesUQDDash: "UQD Dashboard",
     resourcesR8Dash: "Global Fund Replenishment 8 Scenarios",
     feedbackTitle: "Share your feedback",
@@ -65,7 +66,8 @@ const languageData = {
     resourcesTitleDashboards: "Tableaux de bord",
     resourcesTitleGuides: "Guides",
     resourcesTitleReports: "Rapports",
-    resourcesCCMDash: "Tableau de bord des données sur les ICN",
+    resourcesCCMDash: "Tableau de bord ICN",
+    resourcesPEPFARDash: "Tableau de bord PEPFAR + Fonds mondial",
     resourcesUQDDash: "Tableau de bord UQD",
     resourcesR8Dash: "Scénarios pour la 8e reconstitution du Fonds mondial",
     feedbackTitle: "Partagez vos commentaires",
@@ -106,7 +108,8 @@ const languageData = {
     resourcesTitleDashboards: "Cuadros de mando",
     resourcesTitleGuides: "Guías",
     resourcesTitleReports: "Informes",
-    resourcesCCMDash: "Cuadro de mando de los datos de MCP",
+    resourcesCCMDash: "Cuadro de mando MCP",
+    resourcesPEPFARDash: "Cuadro de mando PEPFAR + Fondo Mundial",
     resourcesUQDDash: "Cuadro de mandos de UQD",
     resourcesR8Dash: "Escenarios para la 8ª reposición del Fondo Mundial",
     feedbackTitle: "Comparta sus comentarios",
@@ -148,6 +151,7 @@ const languageData = {
     resourcesTitleGuides: "Guias",
     resourcesTitleReports: "Relatórios",
     resourcesCCMDash: "Painel MCP",
+    resourcesPEPFARDash: "Painel PEPFAR + Fundo Global",
     resourcesUQDDash: "Painel UQD",
     resourcesR8Dash: "Cenários de Reabastecimento 8 do Fundo Global",
     feedbackTitle: "Compartilhe seu feedback",
@@ -313,6 +317,7 @@ function changeLanguage(lang) {
   updateElement('resources-title-guides', languageData[lang].resourcesTitleGuides);
   updateElement('resources-title-reports', languageData[lang].resourcesTitleReports);
   updateElement('resources-ccmdash', languageData[lang].resourcesCCMDash);
+  updateElement('resources-pepfardash', languageData[lang].resourcesPEPFARDash);
   updateElement('resources-uqddash', languageData[lang].resourcesUQDDash);
   updateElement('resources-r8dash', languageData[lang].resourcesR8Dash);
   updateElement('resources-searchinput', languageData[lang].resourcesSearchInput);
