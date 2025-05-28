@@ -191,8 +191,8 @@ section h3 {
 }
 
 .image-item {
-  flex: 0 0 28%; 
-  margin: 5px;
+  flex: 0 0 20vw; 
+  margin: 1vw;
   border-radius: 5px;
   text-align: center;
   overflow: hidden;
