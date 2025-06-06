@@ -20,10 +20,12 @@ const languageData = {
     resourcesDropDashboards: "Dashboards",
     resourcesDropGuides: "Guides",
     resourcesDropReports: "Reports",
+    resourcesDropGF: "Global Fund materials",
     resourcesSelect: "Select an option",
     resourcesTitleDashboards: "Dashboards",
     resourcesTitleGuides: "Guides",
     resourcesTitleReports: "Reports",
+    resourcesTitleGF: "Global Fund materials",
     resourcesCCMDash: "CCM Dashboard",
     resourcesPEPFARDash: "PEPFAR + Global Fund Dashboard",
     resourcesUQDDash: "UQD Dashboard",
@@ -62,10 +64,12 @@ const languageData = {
     resourcesDropDashboards: "Tableaux de bord",
     resourcesDropGuides: "Guides",
     resourcesDropReports: "Rapports",
+    resourcesDropGF: "Matériel du Fonds mondial",
     resourcesSelect: "Sélectionner une option",
     resourcesTitleDashboards: "Tableaux de bord",
     resourcesTitleGuides: "Guides",
     resourcesTitleReports: "Rapports",
+    resourcesTitleGF: "Matériel du Fonds mondial",
     resourcesCCMDash: "Tableau de bord ICN",
     resourcesPEPFARDash: "Tableau de bord PEPFAR + Fonds mondial",
     resourcesUQDDash: "Tableau de bord UQD",
@@ -104,10 +108,12 @@ const languageData = {
     resourcesDropDashboards: "Cuadros de mando",
     resourcesDropGuides: "Guías",
     resourcesDropReports: "Informes",
+    resourcesDropGF: "Materiales del Fondo Mundial",
     resourcesSelect: "Seleccione una opción",
     resourcesTitleDashboards: "Cuadros de mando",
     resourcesTitleGuides: "Guías",
     resourcesTitleReports: "Informes",
+    resourcesTitleGF: "Materiales del Fondo Mundial",
     resourcesCCMDash: "Cuadro de mando MCP",
     resourcesPEPFARDash: "Cuadro de mando PEPFAR + Fondo Mundial",
     resourcesUQDDash: "Cuadro de mandos de UQD",
@@ -146,10 +152,12 @@ const languageData = {
     resourcesDropDashboards: "Painéis",
     resourcesDropGuides: "Guias",
     resourcesDropReports: "Relatórios",
+    resourcesDropGF: "Materiais do Fundo Global",
     resourcesSelect: "Selecione uma opção",
     resourcesTitleDashboards: "Painéis",
     resourcesTitleGuides: "Guias",
     resourcesTitleReports: "Relatórios",
+    resourcesTitleGF: "Materiais do Fundo Global",
     resourcesCCMDash: "Painel MCP",
     resourcesPEPFARDash: "Painel PEPFAR + Fundo Global",
     resourcesUQDDash: "Painel UQD",
@@ -188,10 +196,12 @@ const languageData = {
     resourcesDropDashboards: "Панели мониторинга",
     resourcesDropGuides: "Руководства",
     resourcesDropReports: "Отчеты",
+    resourcesDropGF: "Материалы Глобального фонда",
     resourcesSelect: "Выберите вариант",
     resourcesTitleDashboards: "Панели мониторинга",
     resourcesTitleGuides: "Руководства",
     resourcesTitleReports: "Отчеты",
+    resourcesTitleGF: "Материалы Глобального фонда",
     resourcesCCMDash: "Панель мониторинга CKK",
     resourcesUQDDash: "Панель мониторинга UQD",
     resourcesR8Dash: "Сценарии 8-го пополнения Глобального фонда",
@@ -229,10 +239,12 @@ const languageData = {
     resourcesDropDashboards: "Vidashbodi",
     resourcesDropGuides: "Miongozo",
     resourcesDropReports: "Taarifa",
+    resourcesDropGF: "Vifaa vya Global Fund",
     resourcesSelect: "Chagua chaguo",
     resourcesTitleDashboards: "Vidashbodi",
     resourcesTitleGuides: "Miongozo",
     resourcesTitleReports: "Taarifa",
+    resourcesTitleGF: "Vifaa vya Global Fund",
     resourcesCCMDash: "Dashbodi ya CCM",
     resourcesUQDDash: "Dashbodi ya UQD",
     resourcesR8Dash: "Mitazamo 8 ya Kuongeza Fedha za Global Fund",
@@ -312,10 +324,12 @@ function changeLanguage(lang) {
   updateElement('resources-drop-dashboards', languageData[lang].resourcesDropDashboards);
   updateElement('resources-drop-guides', languageData[lang].resourcesDropGuides);
   updateElement('resources-drop-reports', languageData[lang].resourcesDropReports);
+  updateElement('resources-drop-gf', languageData[lang].resourcesDropGF);
   updateElement('resources-select', languageData[lang].resourcesSelect);
   updateElement('resources-title-dashboards', languageData[lang].resourcesTitleDashboards);
   updateElement('resources-title-guides', languageData[lang].resourcesTitleGuides);
   updateElement('resources-title-reports', languageData[lang].resourcesTitleReports);
+  updateElement('resources-title-gf', languageData[lang].resourcesTitleGF);
   updateElement('resources-ccmdash', languageData[lang].resourcesCCMDash);
   updateElement('resources-pepfardash', languageData[lang].resourcesPEPFARDash);
   updateElement('resources-uqddash', languageData[lang].resourcesUQDDash);
