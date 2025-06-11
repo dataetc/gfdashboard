@@ -88,8 +88,8 @@ const languageData = {
    ],
   },
   ES: {
-    Title: "EL HUB GLOBAL DE DATOS PARA LA DEFENSA",
-    heroTitle: "El Hub Global de Datos para la Defensa",
+    Title: "EL HUB GLOBAL DE DATOS PARA LA ABOGACÍA",
+    heroTitle: "El Hub Global de Datos para la Abogacía",
     heroSubtitle: "La fuente <span>transparente</span> e <span>independiente</span> de datos del Fondo Mundial",
     heroDescription: "Las comunidades más afectadas por el VIH, la tuberculosis y la malaria están en el corazón del modelo del Fondo Mundial. Esta plataforma proporciona la información, los recursos y los datos que las comunidades necesitan para abogar por un Fondo Mundial responsable.",
     heroButtonText: "Más información",
@@ -100,7 +100,7 @@ const languageData = {
     navAbout: "Acerca de",
     aboutTitle: "Quiénes somos:",
     aboutP1: "Las comunidades más afectadas por el VIH, la tuberculosis y la malaria son el núcleo del modelo del Fondo Mundial. Sin embargo, a menudo son ellas las que se enfrentan a los mayores obstáculos para una participación significativa.",
-    aboutP2: "El <span>Hub Global de Datos para la Defensa</span> (GADH) es una ventanilla única para comunidades, defensores, representantes de MCP y otras partes interesadas del sistema sanitario.  Aquí podrá encontrar información, datos, guías y otros recursos de acceso público diseñados para ayudar a las comunidades a participar plenamente en la toma de decisiones sobre sus vidas, comunidades y países.",
+    aboutP2: "El <span>Hub Global de Datos para la Abogacía</span> (GADH) es una ventanilla única para comunidades, defensores, representantes de MCP y otras partes interesadas del sistema sanitario.  Aquí podrá encontrar información, datos, guías y otros recursos de acceso público diseñados para ayudar a las comunidades a participar plenamente en la toma de decisiones sobre sus vidas, comunidades y países.",
     aboutP3: "Esta plataforma web ha sido creada por abogados y para abogados.",
     aboutButton: "Explorar recursos",
     resourcesTitle: "Recursos",
@@ -123,7 +123,7 @@ const languageData = {
     feedbackP2: "Todo lo que informe es anónimo y nunca compartiremos nada sin su acuerdo y consentimiento. Si decide plantear un problema desde su país, podemos ayudarle a ponerse en contacto con las personas adecuadas en el Fondo Mundial, ponerle en contacto con otras personas que tengan el mismo problema y/o abogar en su nombre. Nuestro objetivo es apoyarle.",
     calendarTitle: "Calendario",
     resourcesSearchInput: "Buscar",
-    calendarDescription: "Encontrar eventos relacionados con la defensa sobre el Fondo Mundial.",
+    calendarDescription: "Encontrar eventos relacionados con la abogacía hacia al Fondo Mundial.",
     daysShort: ["DOM", "LUN", "MAR", "MIE", "JUE", "VIE", "SAB"],
     daysLong: ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"],
     monthsLong: [
