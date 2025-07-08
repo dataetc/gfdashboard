@@ -15,6 +15,28 @@
   <title>The GADH: Resources</title>
 </head>
 
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const languageFilter = document.getElementById('languageFilter');
+    const imageItems = document.querySelectorAll('.image-item');
+
+    languageFilter.addEventListener('change', function() {
+        const selectedLanguage = this.value;
+
+        imageItems.forEach(item => {
+            const itemLanguages = item.getAttribute('data-language').split('&')
+                .map(lang => lang.trim().toLowerCase());
+
+            if (selectedLanguage === 'all' || itemLanguages.includes(selectedLanguage)) {
+                item.style.display = 'block'; // Show the image item
+            } else {
+                item.style.display = 'none'; // Hide the image item
+            }
+        });
+    });
+});
+</script>
+
 <body>
   <div class="hero">
     <header>
@@ -39,6 +61,17 @@
       <input type="text" id="searchInput" placeholder="Test" />
     <div id="searchResults"></div>
     </div>
+    <div class="dropdown-container">
+    <label for="languageFilter"></label>
+    <select id="languageFilter">
+        <option value="all" id="drop-all-langs">All Languages</option>
+        <option value="english">English</option>
+        <option value="french">Français</option>
+        <option value="spanish">Español</option>
+        <option value="portuguese">Português</option> 
+        <option value="russian">Русский</option>
+    </select>
+</div>
     </div>
     <section id="dashboards">
       <h2 id="resources-title-dashboards">Dashboards</h2>
@@ -185,15 +218,15 @@
       <section id="advocacy">
         <h2 id="resources-title-advocacy">Advocacy statements</h2>
         <div class="image-grid">  
-          <div class="image-item" data-language="english">
+          <div class="image-item" data-language="english & french">
               <a href="resources/28th Strategy Committee Civil Society Statement.pdf"><img src="images/CS-28SC-letter.png" alt="28th Strategy Committee Civil Society Statement"></a>
               <a href="resources/28th Strategy Committee Civil Society Statement.pdf"><h5>28th Strategy Committee Civil Society Statement (7 July 2025)</h5></a>
           </div>
-          <div class="image-item" data-language="english">
+          <div class="image-item" data-language="english & french">
               <a href="resources/CHANGE Statement - 53rd Board Meeting.pdf.pdf"><img src="images/CHANGE-letter-53BM.png" alt="CHANGE Statement - 53rd Board Meeting"></a>
               <a href="resources/CHANGE Statement - 53rd Board Meeting.pdf.pdf"><h5>CHANGE Statement - 53rd Board Meeting (7 May 2025)</h5></a>
           </div>
-          <div class="image-item" data-language="english">
+          <div class="image-item" data-language="english & french">
               <a href="resources/CHANGE Statement - 27th Strategy Committee Meeting.pdf"><img src="images/CHANGE-letter.png" alt="CHANGE Statement - 27th Strategy Committee Meeting"></a>
               <a href="resources/CHANGE Statement - 27th Strategy Committee Meeting.pdf"><h5>CHANGE Statement - 27th Strategy Committee Meeting (13 March 2025)</h5></a>
           </div>

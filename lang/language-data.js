@@ -15,6 +15,7 @@ const languageData = {
     aboutP2: "The <span>Global Advocacy Data Hub</span> (GADH) is a one-stop shop for communities, advocates, CCM representatives, and other health system stakeholders.  Here you may find publicly-available information, data, guides, and other resources designed to help communities fully participate in decision-making about their lives, communities, and countries.",
     aboutP3: "This web platform is built for advocates, by advocates.",
     aboutButton: "Explore Resources",
+    resourcesDropAllLang: "All Languages",
     resourcesTitle: "Resources",
     resourcesLooking: "I'm looking for: ",
     resourcesDropDashboards: "Dashboards",
@@ -61,6 +62,7 @@ const languageData = {
     aboutP2: "Le <span>Hub Mondial de Données pour le Plaidoyer</span> (GADH) est un guichet unique pour les communautés, les défenseurs, les représentants des ICN et les autres acteurs du système de santé.  Vous y trouverez des informations, des données, des guides et d'autres ressources accessibles au public, conçus pour aider les communautés à participer pleinement à la prise de décisions concernant leur vie, leur communauté et leur pays.",
     aboutP3: "Cette plateforme web est conçue pour les militants, par les militants.",
     aboutButton: "Explorer les ressources",
+    resourcesDropAllLang: "Toutes langues",
     resourcesTitle: "Ressources",
     resourcesLooking: "Je cherche : ",
     resourcesDropDashboards: "Tableaux de bord",
@@ -107,6 +109,7 @@ const languageData = {
     aboutP2: "El <span>Hub Global de Datos para la Abogacía</span> (GADH) es una ventanilla única para comunidades, defensores, representantes de MCP y otras partes interesadas del sistema sanitario.  Aquí podrá encontrar información, datos, guías y otros recursos de acceso público diseñados para ayudar a las comunidades a participar plenamente en la toma de decisiones sobre sus vidas, comunidades y países.",
     aboutP3: "Esta plataforma web ha sido creada por abogados y para abogados.",
     aboutButton: "Explorar recursos",
+    resourcesDropAllLang: "Todos idiomas",
     resourcesTitle: "Recursos",
     resourcesLooking: "Estoy buscando:",
     resourcesDropDashboards: "Cuadros de mando",
@@ -153,6 +156,7 @@ const languageData = {
     aboutP2: "O <span>Centro Global de Dados de Advocacia</span> (GADH) é um balcão único para comunidades, defensores, representantes do MCP e outras partes interessadas do sistema de saúde. Aqui você pode encontrar informações, dados, guias e outros recursos públicos projetados para ajudar as comunidades a participar plenamente da tomada de decisões sobre suas vidas, comunidades e países.",
     aboutP3: "Esta plataforma web é construída por defensores, para defensores.",
     aboutButton: "Explorar Recursos",
+    resourcesDropAllLang: "Todas línguas",
     resourcesTitle: "Recursos",
     resourcesLooking: "Estou procurando por: ",
     resourcesDropDashboards: "Painéis",
@@ -199,6 +203,7 @@ const languageData = {
     aboutP2: "Глобальный центр данных для адвокации (GADH) - это единое окно для сообществ, адвокатов, представителей страновых координационных комитетов и других заинтересованных сторон системы здравоохранения. Здесь вы можете найти общедоступную информацию, данные, руководства и другие ресурсы, призванные помочь сообществам в полной мере участвовать в принятии решений, касающихся их жизни, сообществ и стран.",
     aboutP3: "Эта веб-платформа создана для адвокатов, силами адвокатов.",
     aboutButton: "Изучить ресурсы",
+    resourcesDropAllLang: "Все языки",
     resourcesTitle: "Ресурсы",
     resourcesLooking: "Я ищу: ",
     resourcesDropDashboards: "Панели мониторинга",
@@ -244,6 +249,7 @@ const languageData = {
     aboutP2: "<span>Kituo Kikuu Cha Data Cha Utetezi Wa Kimataifa</span> (GADH) ni kituo kimoja cha jamii, mawakili, wawakilishi wa CCM, na washikadau wengine wa mfumo wa afya. Hapa unaweza kupata taarifa, data, miongozo na nyenzo nyingine zinazopatikana kwa umma zilizoundwa ili kusaidia jamii kushiriki kikamilifu katika kufanya maamuzi kuhusu maisha, jamii na nchi zao.",
     aboutP3: "Jukwaa hili la wavuti limeundwa kwa ajili ya mawakili, na watetezi.",
     aboutButton: "Chunguza Rasilimali",
+    resourcesDropAllLang: "Lugha zote",
     resourcesTitle: "Rasilimali",
     resourcesLooking: "Ninatafuta: ",
     resourcesDropDashboards: "Vidashbodi",
@@ -332,6 +338,7 @@ function changeLanguage(lang) {
   updateElement('about-button', languageData[lang].aboutButton, true);
 
   // Resources section
+  updateElement('drop-all-langs', languageData[lang].resourcesDropAllLang);
   updateElement('resources-title', languageData[lang].resourcesTitle);
   updateElement('resources-looking', languageData[lang].resourcesLooking);
   updateElement('resources-drop-dashboards', languageData[lang].resourcesDropDashboards);
