@@ -21,11 +21,13 @@ const languageData = {
     resourcesDropGuides: "Guides",
     resourcesDropReports: "Reports",
     resourcesDropGF: "Global Fund materials",
+    resourcesDropAdvo: "Advocacy statements",
     resourcesSelect: "Select an option",
     resourcesTitleDashboards: "Dashboards",
     resourcesTitleGuides: "Guides",
     resourcesTitleReports: "Reports",
     resourcesTitleGF: "Global Fund materials",
+    resourcesTitleAdvo: "Advocacy statements",
     resourcesCCMDash: "CCM Dashboard",
     resourcesPEPFARDash: "PEPFAR + Global Fund Dashboard",
     resourcesUQDDash: "UQD Dashboard",
@@ -65,11 +67,13 @@ const languageData = {
     resourcesDropGuides: "Guides",
     resourcesDropReports: "Rapports",
     resourcesDropGF: "Matériel du Fonds mondial",
+    resourcesDropAdvo: "Déclarations de plaidoyer",
     resourcesSelect: "Sélectionner une option",
     resourcesTitleDashboards: "Tableaux de bord",
     resourcesTitleGuides: "Guides",
     resourcesTitleReports: "Rapports",
     resourcesTitleGF: "Matériel du Fonds mondial",
+    resourcesTitleAdvo: "Déclarations de plaidoyer",
     resourcesCCMDash: "Tableau de bord ICN",
     resourcesPEPFARDash: "Tableau de bord PEPFAR + Fonds mondial",
     resourcesUQDDash: "Tableau de bord UQD",
@@ -109,11 +113,13 @@ const languageData = {
     resourcesDropGuides: "Guías",
     resourcesDropReports: "Informes",
     resourcesDropGF: "Materiales del Fondo Mundial",
+    resourcesDropAdvo: "Declaraciones de abogacía",
     resourcesSelect: "Seleccione una opción",
     resourcesTitleDashboards: "Cuadros de mando",
     resourcesTitleGuides: "Guías",
     resourcesTitleReports: "Informes",
     resourcesTitleGF: "Materiales del Fondo Mundial",
+    resourcesTitleAdvo: "Declaraciones de abogacía",
     resourcesCCMDash: "Cuadro de mando MCP",
     resourcesPEPFARDash: "Cuadro de mando PEPFAR + Fondo Mundial",
     resourcesUQDDash: "Cuadro de mandos de UQD",
@@ -153,11 +159,13 @@ const languageData = {
     resourcesDropGuides: "Guias",
     resourcesDropReports: "Relatórios",
     resourcesDropGF: "Materiais do Fundo Global",
+    resourcesDropAdvo: "Declarações de advocacia",
     resourcesSelect: "Selecione uma opção",
     resourcesTitleDashboards: "Painéis",
     resourcesTitleGuides: "Guias",
     resourcesTitleReports: "Relatórios",
     resourcesTitleGF: "Materiais do Fundo Global",
+    resourcesTitleAdvo: "Declarações de advocacia",
     resourcesCCMDash: "Painel MCP",
     resourcesPEPFARDash: "Painel PEPFAR + Fundo Global",
     resourcesUQDDash: "Painel UQD",
@@ -197,11 +205,13 @@ const languageData = {
     resourcesDropGuides: "Руководства",
     resourcesDropReports: "Отчеты",
     resourcesDropGF: "Материалы Глобального фонда",
+    resourcesDropAdvo: "Заявления в поддержку",
     resourcesSelect: "Выберите вариант",
     resourcesTitleDashboards: "Панели мониторинга",
     resourcesTitleGuides: "Руководства",
     resourcesTitleReports: "Отчеты",
     resourcesTitleGF: "Материалы Глобального фонда",
+    resourcesTitleAdvo: "Заявления в поддержку",
     resourcesCCMDash: "Панель мониторинга CKK",
     resourcesUQDDash: "Панель мониторинга UQD",
     resourcesR8Dash: "Сценарии 8-го пополнения Глобального фонда",
@@ -240,11 +250,13 @@ const languageData = {
     resourcesDropGuides: "Miongozo",
     resourcesDropReports: "Taarifa",
     resourcesDropGF: "Vifaa vya Global Fund",
+    resourcesDropAdvo: "Kauli za utetezi",
     resourcesSelect: "Chagua chaguo",
     resourcesTitleDashboards: "Vidashbodi",
     resourcesTitleGuides: "Miongozo",
     resourcesTitleReports: "Taarifa",
     resourcesTitleGF: "Vifaa vya Global Fund",
+    resourcesTitleAdvo: "Kauli za utetezi",
     resourcesCCMDash: "Dashbodi ya CCM",
     resourcesPEPFARDash: "Dashbodi ya PEPFAR + Global Fund",
     resourcesUQDDash: "Dashbodi ya UQD",
@@ -326,11 +338,13 @@ function changeLanguage(lang) {
   updateElement('resources-drop-guides', languageData[lang].resourcesDropGuides);
   updateElement('resources-drop-reports', languageData[lang].resourcesDropReports);
   updateElement('resources-drop-gf', languageData[lang].resourcesDropGF);
+  updateElement('resources-drop-advocacy', languageData[lang].resourcesDropAdvo);
   updateElement('resources-select', languageData[lang].resourcesSelect);
   updateElement('resources-title-dashboards', languageData[lang].resourcesTitleDashboards);
   updateElement('resources-title-guides', languageData[lang].resourcesTitleGuides);
   updateElement('resources-title-reports', languageData[lang].resourcesTitleReports);
   updateElement('resources-title-gf', languageData[lang].resourcesTitleGF);
+  updateElement('resources-title-advocacy', languageData[lang].resourcesTitleAdvo);
   updateElement('resources-ccmdash', languageData[lang].resourcesCCMDash);
   updateElement('resources-pepfardash', languageData[lang].resourcesPEPFARDash);
   updateElement('resources-uqddash', languageData[lang].resourcesUQDDash);
