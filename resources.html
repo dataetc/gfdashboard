@@ -27,7 +27,12 @@ document.addEventListener('DOMContentLoaded', () => {
             const itemLanguages = item.getAttribute('data-language').split('&')
                 .map(lang => lang.trim().toLowerCase());
 
-            if (selectedLanguage === 'all' || itemLanguages.includes(selectedLanguage)) {
+            // Check if the item is tagged with 'all' or matches the selected language
+            const isAllLanguage = itemLanguages.includes('all');
+            const isMatchingLanguage = selectedLanguage === 'all' || 
+                                       itemLanguages.includes(selectedLanguage);
+
+            if (isAllLanguage || isMatchingLanguage) {
                 item.style.display = 'block'; // Show the image item
             } else {
                 item.style.display = 'none'; // Hide the image item
@@ -70,6 +75,9 @@ document.addEventListener('DOMContentLoaded', () => {
         <option value="spanish">Español</option>
         <option value="portuguese">Português</option> 
         <option value="russian">Русский</option>
+        <option value="arabic">العربية</option>
+        <option value="nepali">नेपाली</option>
+        <option value="indonesian">Bahasa Indonesia</option>
     </select>
 </div>
     </div>
@@ -141,7 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <a href="resources/Interpreting Global Fund Guidance - FAQ - NE.pdf"><img src="images/interpreting-guidance-ne.png" alt="Interpreting Guidance NE"></a>
               <a href="resources/Interpreting Global Fund Guidance - FAQ - NE.pdf"><h5>Interpreting Global Fund Guidance - FAQ - Nepali</h5></a>
           </div>
-          <div class="image-item" data-language="Indonesia Bahasa">
+          <div class="image-item" data-language="indonesian">
               <a href="resources/Interpreting Global Fund Guidance - FAQ - Bahasa Indonesia.pdf"><img src="images/interpreting-guidance-ba.png" alt="Interpreting Guidance Bah"></a>
               <a href="resources/Interpreting Global Fund Guidance - FAQ - Bahasa Indonesia.pdf"><h5>Interpreting Global Fund Guidance - FAQ - Bahasa Indonesia</h5></a>
           </div>
@@ -161,6 +169,10 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="image-item" data-language="english">
               <a href="resources/SCOPE Report.pdf"><img src="images/SCOPE-report.png" alt="SCOPE"></a>
               <a href="resources/SCOPE Report.pdf"><h5>SCOPE Report</h5></a>
+          </div>
+          <div class="image-item" data-language="all">
+              <a href="https://docs.google.com/spreadsheets/d/1OWv9Q4zyLESuzdvuesSHBp9GhLyycgiz9IMbXmlRWzA/edit?usp=sharing" target="_blank"><img src="images/gc7-cut-data.png" alt="GC7 Reprioritization Revised Funding Envelopes"></a>
+              <a href="https://docs.google.com/spreadsheets/d/1OWv9Q4zyLESuzdvuesSHBp9GhLyycgiz9IMbXmlRWzA/edit?usp=sharing" target="_blank"><h5>GC7 Reprioritization Revised Funding Envelopes</h5></a>
           </div>
           <div class="image-item" data-language="english">
               <a href="resources/A Roadmap for Strengthening Community Engagement with Global Fund.pdf"><img src="images/roadmap.png" alt="Roadmap Eng"></a>
