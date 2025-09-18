@@ -179,6 +179,28 @@ header::after {
     cursor: pointer;
 }
 
+.calendar-description-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.submit-event-button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.submit-event-button:hover {
+    background-color: #45a049;
+    text-decoration: none;
+}
+
 .event-list {
   list-style: disc;
   padding-left: 5px;
