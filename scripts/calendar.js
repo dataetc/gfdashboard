@@ -136,6 +136,7 @@ function showModal(dateStr, eventList) {
         <div><strong>Host:</strong> ${event.host || '—'}</div>
         <div><strong>Link:</strong> ${event.link ? `<a href="${event.link}" target="_blank">${event.link}</a>` : '—'}</div>
         <div><strong>Description:</strong> ${event.description || '—'}</div>
+        <div><strong>Language:</strong> ${event.language || '—'}</div>
       `;
       modalEvents.appendChild(eventDiv);
     });
