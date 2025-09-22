@@ -134,8 +134,8 @@ function showModal(dateStr, eventList) {
         <strong>${event.title}</strong><br>
         ${event.time ? `<em>${event.time}</em><br>` : ''}
         <div><strong>Host:</strong> ${event.host || '—'}</div>
-        <div><strong>Link:</strong> ${event.link ? `<a href="${event.link}" target="_blank">${event.link}</a>` : '—'}</div>
         <div><strong>Description:</strong> ${event.description || '—'}</div>
+        <div><strong>Link:</strong> ${event.link ? `<a href="${event.link}" target="_blank">${event.link}</a>` : '—'}</div>
         <div><strong>Language:</strong> ${event.language || '—'}</div>
       `;
       modalEvents.appendChild(eventDiv);
