@@ -130,12 +130,20 @@ function showModal(dateStr, eventList) {
     eventList.forEach(event => {
       const eventDiv = document.createElement('div');
       eventDiv.classList.add('event-item');
+      
+      // Check if link exists and does NOT include "In-person only"
+      const linkDisplay = event.link 
+        ? (event.link.includes("In-person only") 
+           ? event.link 
+           : `<a href="${event.link}" target="_blank">${event.link}</a>`)
+        : '—';
+
       eventDiv.innerHTML = `
         <strong>${event.title}</strong><br>
         ${event.time ? `<em>${event.time}</em><br>` : ''}
         <div><strong>Host:</strong> ${event.host || '—'}</div>
         <div><strong>Description:</strong> ${event.description || '—'}</div>
-        <div><strong>Link:</strong> ${event.link ? `<a href="${event.link}" target="_blank">${event.link}</a>` : '—'}</div>
+        <div><strong>Link:</strong> ${linkDisplay}</div>
         <div><strong>Language:</strong> ${event.language || '—'}</div>
       `;
       modalEvents.appendChild(eventDiv);
