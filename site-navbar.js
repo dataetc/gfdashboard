@@ -42,7 +42,7 @@ class SiteNavbar extends HTMLElement {
   
           @media (max-width: 767px) {
             header {
-              padding: 15px;
+              padding: 2px;
             }
           }
   
