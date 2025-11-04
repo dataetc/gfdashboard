@@ -39,6 +39,7 @@ const languageData = {
     calendarTitle: "Calendar",
     resourcesSearchInput: "Search",
     calendarDescription: "Find events related to Global Fund advocacy.",
+    submitEvent: "Submit Your Event",
     daysShort: ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"],
     daysLong: ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
     monthsLong: [
@@ -86,6 +87,7 @@ const languageData = {
     calendarTitle: "Calendrier",
     resourcesSearchInput: "Rechercher",
     calendarDescription: "Trouver des événements liés au plaidoyer auprès du Fonds mondial.",
+    submitEvent: "Soumettre votre événement",
     daysShort: ["DIM", "LUN", "MAR", "MER", "JEU", "VEN", "SAM"],
     daysLong: ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"],
     monthsLong: [
@@ -133,6 +135,7 @@ const languageData = {
     calendarTitle: "Calendario",
     resourcesSearchInput: "Buscar",
     calendarDescription: "Encontrar eventos relacionados con la abogacía hacia al Fondo Mundial.",
+    submitEvent: "Enviar su evento",
     daysShort: ["DOM", "LUN", "MAR", "MIE", "JUE", "VIE", "SAB"],
     daysLong: ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"],
     monthsLong: [
@@ -180,6 +183,7 @@ const languageData = {
     calendarTitle: "Calendário",
     resourcesSearchInput: "Pesquisar",
     calendarDescription: "Encontre eventos relacionados à defesa do Fundo Global",
+    submitEvent: "Envie o seu evento",
     daysShort: ["DOM", "SEG", "TER", "QUA", "QUI", "SEX", "SÁB"],
     daysLong: ["Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado"],
     monthsLong: [
@@ -226,6 +230,7 @@ const languageData = {
     calendarTitle: "Календарь",
     resourcesSearchInput: "Поиск",
     calendarDescription: "Найдите мероприятия, связанные с адвокацией Глобального фонда.",
+    submitEvent: "Отправить свое мероприятие",
     daysShort: ["Вс", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб"],
     daysLong: ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"],
     monthsLong: [
@@ -273,6 +278,7 @@ const languageData = {
     calendarTitle: "Kalenda",
     resourcesSearchInput: "Tafuta",
     calendarDescription: "Pata matukio yanayohusiana na utetezi wa Global Fund.",
+    submitEvent: "Wasilisha Tukio Lako",
     daysShort: ["Jumapili", "Jumatatu", "Jumanne", "Jumatano", "Alhamisi", "Ijumaa", "Jumamosi"],
     daysLong: ["Jumapili", "Jumatatu", "Jumanne", "Jumatano", "Alhamisi", "Ijumaa", "Jumamosi"],
     monthsLong: [
@@ -372,6 +378,7 @@ function changeLanguage(lang) {
   // Calendar
   updateElement('calendar-title', languageData[lang].calendarTitle);
   updateElement('calendar-description', languageData[lang].calendarDescription);
+  updateElement('submit-event', languageData[lang].submitEvent);
   
   renderWeekdays();
   renderCalendar();
