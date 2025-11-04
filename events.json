@@ -594,12 +594,93 @@
 	"language": "English (translation available in French)"
 },
 {
+	"date": "2025-11-07",
+	"time": "01:00 PM - 03:00 PM UTC -5 (Eastern Time)",
+	"title": "Malaria Day in the Americas 2025",
+	"host": "PAHO",
+	"description": "The Malaria Day in the Americas 2025, calls for action to make malaria treatment readily accessible to communities as a public good—free from geographic, financial, and other barriers. Engaging communities and all relevant stakeholders in a coordinated, ministry-led national alliance is essential. This effort should begin with ensuring that diagnosis and treatment services are available in all health facilities across endemic areas.",
+	"link": "https://paho-org.zoom.us/webinar/register/WN_D0Y-swzYT7W6MBoAtYNwjw#/registration",
+	"language": "English"
+},
+{
 	"date": "2025-11-10",
 	"time": "02:00 PM UTC +2 (CAT)",
 	"title": "TB Hub Call",
 	"host": "TB Hub",
 	"description": "Agenda: - read out from Stop TB Board Meeting in Manila (including side meetings with donors) - Updates from U.S. colleagues re compact negotiations - Union alignment - Global Fund GC8 RM Conference - AOB",
 	"link": "https://zoom.us/meeting/register/6-njyJ20SZKBdAy9Uxn8gw",
+	"language": "English"
+},
+{
+	"date": "2025-12-08",
+	"time": "12:00 AM UTC +2 (CAT)",
+	"title": "29th Ethics and Governance Committee meetings, Part B",
+	"host": "<a href='https://www.theglobalfund.org/en/' target=_blank>The Global Fund</a>",
+	"description": "29th Ethics and Governance Committee meetings, Part B",
+	"link": "In-person only: Global Health Campus",
+	"language": "English"
+},
+{
+	"date": "2025-12-10",
+	"time": "12:00 AM UTC +2 (CAT)",
+	"title": "29th Strategy Committee meetings, Part B",
+	"host": "<a href='https://www.theglobalfund.org/en/' target=_blank>The Global Fund</a>",
+	"description": "29th Strategy Committee meetings, Part B, Day 1/2",
+	"link": "In-person only: Global Health Campus",
+	"language": "English"
+},
+{
+	"date": "2025-12-11",
+	"time": "12:00 AM UTC +2 (CAT)",
+	"title": "29th Strategy Committee meetings, Part B",
+	"host": "<a href='https://www.theglobalfund.org/en/' target=_blank>The Global Fund</a>",
+	"description": "29th Strategy Committee meetings, Part B, Day 2/2",
+	"link": "In-person only: Global Health Campus",
+	"language": "English"
+},
+{
+	"date": "2025-12-15",
+	"time": "12:00 AM UTC +2 (CAT)",
+	"title": "29th Audit and Finance Committee meetings, Part B",
+	"host": "<a href='https://www.theglobalfund.org/en/' target=_blank>The Global Fund</a>",
+	"description": "29th Audit and Finance Committee meetings, Part B, Day 1/2",
+	"link": "In-person only: Global Health Campus",
+	"language": "English"
+},
+{
+	"date": "2025-12-16",
+	"time": "12:00 PM UTC +2 (CAT)",
+	"title": "29th Audit and Finance Committee meetings, Part B",
+	"host": "<a href='https://www.theglobalfund.org/en/' target=_blank>The Global Fund</a>",
+	"description": "29th Audit and Finance Committee meetings, Part B, Day 2/2",
+	"link": "In-person only: Global Health Campus",
+	"language": "English"
+},
+{
+	"date": "2026-02-10",
+	"time": "12:00 PM UTC +2 (CAT)",
+	"title": "54th Global Fund Board Meeting",
+	"host": "<a href='https://www.theglobalfund.org/en/' target=_blank>The Global Fund</a>",
+	"description": "54th Global Fund Board Meeting, Day 1/3",
+	"link": "In-person only: Global Health Campus",
+	"language": "English"
+},
+{
+	"date": "2026-02-11",
+	"time": "12:00 PM UTC +2 (CAT)",
+	"title": "54th Global Fund Board Meeting",
+	"host": "<a href='https://www.theglobalfund.org/en/' target=_blank>The Global Fund</a>",
+	"description": "54th Global Fund Board Meeting, Day 2/3",
+	"link": "In-person only: Global Health Campus",
+	"language": "English"
+},
+{
+	"date": "2026-02-12",
+	"time": "12:00 PM UTC +2 (CAT)",
+	"title": "54th Global Fund Board Meeting",
+	"host": "<a href='https://www.theglobalfund.org/en/' target=_blank>The Global Fund</a>",
+	"description": "54th Global Fund Board Meeting, Day 3/3",
+	"link": "In-person only: Global Health Campus",
 	"language": "English"
 }
 ]
