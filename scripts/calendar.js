@@ -32,9 +32,13 @@ function renderCalendar() {
   const daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
   const firstDay = new Date(currentYear, currentMonth, 1).getDay();
 
+  const prevMonth   = (currentMonth === 0) ? 11 : currentMonth - 1;
+  const prevYear    = (currentMonth === 0) ? currentYear - 1 : currentYear;
+  const daysInPrevMonth = new Date(prevYear, prevMonth + 1, 0).getDate(); 
+  
   for (let i = 0; i < firstDay; i++) {
     const day = document.createElement('div');
-    day.classList.add('day', 'prev-month');
+    day.classList.add('day', 'last-month');
     calendarDays.appendChild(day);
   }
 
@@ -85,6 +89,25 @@ if (eventCount > 0) {
   }
 
   calendarDays.appendChild(day);
+  }
+
+  // How many cells are already in the grid?
+  const totalCellsSoFar = firstDay + daysInMonth;
+  // Calendar rows are groups of 7 cells. Find the next multiple of 7.
+  const cellsNeeded = Math.ceil(totalCellsSoFar / 7) * 7;
+  const extraDays   = cellsNeeded - totalCellsSoFar;   // number of “future‑month” cells
+
+  for (let i = 1; i <= extraDays; i++) {
+    const day = document.createElement('div');
+    day.classList.add('day', 'future-month');  
+
+    // Create the span that holds the day number (mirrors the normal cells)
+    const dayNumber = document.createElement('span');
+    dayNumber.classList.add('day-number');   // reuse the same styling class
+    dayNumber.textContent = i;               // i starts at 1 → first day of next month
+    day.appendChild(dayNumber);
+
+    calendarDays.appendChild(day);
   }
 
   const lang = localStorage.getItem('preferredLanguage') || 'EN'; // get current language or default

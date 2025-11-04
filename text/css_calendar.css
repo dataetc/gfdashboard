@@ -13,7 +13,7 @@ header::after {
 .hero {
   position: relative;
   width: 100%;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .hero-content {
@@ -118,7 +118,7 @@ header::after {
 
 .days {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(7, minmax(0, 1fr));
   grid-gap: 0px;
   border: 0.5px solid #ccc;
   font-family: "Roboto Condensed", sans-serif;
@@ -151,7 +151,7 @@ header::after {
 }
 
 .day.event {
-  background-color: #f0f0f0;
+  background-color: #ebebeb;
   font-family: "Roboto Condensed", sans-serif;
   position: relative;
   cursor: pointer; 
@@ -174,15 +174,16 @@ header::after {
   box-shadow: 0 0 4px rgba(0,0,0,0.2); 
 }
 
-.prev-month, 
-.next-month {
-    cursor: pointer;
+.last-month,
+.future-month {
+    background-color: #f9f9f9;
 }
 
 .calendar-description-container {
     display: flex;
     align-items: center;
     gap: 15px;
+    padding-bottom: 10px;
 }
 
 .submit-event-button {
@@ -225,9 +226,23 @@ header::after {
   color: white;
 }
 
-.day.prev-month,
-.day.next-month {
-  color: #ccc;
+.header .prev-month, 
+.header .next-month {
+    border: 1px solid #e0e0e0; /* Light grey border */
+    background-color: #f9f9f9; /* Very light grey fill */
+    border-radius: 8px; /* Rounded corners */
+    padding: 5px 10px; /* Some padding to make it look like a button */
+    cursor: pointer;
+    user-select: none; /* Prevent text selection */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.header .prev-month:hover, 
+.header .next-month:hover {
+    background-color: #f0f0f0; /* Slightly darker on hover */
 }
 
 .event-circle {
