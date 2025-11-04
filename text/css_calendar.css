@@ -228,6 +228,20 @@ header::after {
   font-size: 1em;
 }
 
+@media (max-width: 767px) {
+  .event-list li {
+    list-style: none;   
+    list-style-position: outside; 
+    white-space: normal;  
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; 
+    line-clamp: 2; 
+    margin-bottom: 0.4rem;
+  }
+}
+
 .day.today {
   background-color: #4CAF50;
   color: white;
