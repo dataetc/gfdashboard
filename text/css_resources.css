@@ -16,6 +16,10 @@ header::after {
       color: #000 !important;
 }
 
+#resources-select {
+  text-align: left;
+}
+
 .hero {
   position: relative;
   width: 100%;
@@ -179,7 +183,6 @@ section h3 {
 .dropdown-container {
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 10px;
 }  
 
 .dropdown-container select {
@@ -311,11 +314,6 @@ background-color: #ddd;
 display: block;
 }
 
-.search-container {
-margin-left: auto;
-
-}
-
 .search-container input {
 padding: 8px 12px;
 font-size: 1.2em;
@@ -323,10 +321,6 @@ font-family: "Roboto Condensed", sans-serif;
 border: 1px solid orange;
 background-color: #f1f1f1;
 border-radius: 4px;
-}
-
-.search-container #searchResults {
-margin-top: 10px;
 }
 
 @media (max-width: 767px) {
