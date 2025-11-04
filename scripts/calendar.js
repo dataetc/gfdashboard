@@ -32,15 +32,32 @@ function renderCalendar() {
   const daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
   const firstDay = new Date(currentYear, currentMonth, 1).getDay();
 
-  const prevMonth   = (currentMonth === 0) ? 11 : currentMonth - 1;
-  const prevYear    = (currentMonth === 0) ? currentYear - 1 : currentYear;
-  const daysInPrevMonth = new Date(prevYear, prevMonth + 1, 0).getDate(); 
-  
-  for (let i = 0; i < firstDay; i++) {
+  // Figure out which month/year comes before the current one
+  const prevMonth = currentMonth === 0 ? 11 : currentMonth - 1;
+  const prevYear  = currentMonth === 0 ? currentYear - 1 : currentYear;
+
+  // Number of days in that previous month
+  const daysInPrevMonth = new Date(prevYear, prevMonth + 1, 0).getDate();
+
+  // `firstDay` tells us how many leading cells belong to the previous month.
+  // We count backwards from the last day of the previous month.
+  for (let i = firstDay - 1; i >= 0; i--) {
+    const day = document.createElement('div');
+    day.classList.add('day', 'last-month');           // keep your styling
+
+    const dayNumber = document.createElement('span');
+    dayNumber.classList.add('day-number');
+    dayNumber.textContent = daysInPrevMonth - i;      // e.g. 30,31,1…
+    day.appendChild(dayNumber);
+
+    calendarDays.appendChild(day);
+  }
+
+  /* for (let i = 0; i < firstDay; i++) {
     const day = document.createElement('div');
     day.classList.add('day', 'last-month');
     calendarDays.appendChild(day);
-  }
+  } */
 
   for (let i = 1; i <= daysInMonth; i++) {
   const day = document.createElement('div');

@@ -179,6 +179,13 @@ header::after {
     background-color: #f9f9f9;
 }
 
+.last-month .day-number,
+.future-month .day-number {
+    color: rgba(0, 0, 0, 0.368);
+    font-weight: 300;
+    font-style: italic;
+}
+
 .calendar-description-container {
     display: flex;
     align-items: center;
