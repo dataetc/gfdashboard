@@ -207,7 +207,8 @@ class SiteNavbar extends HTMLElement {
               transition: 0.3s;
               box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
               flex-direction: column;
-              padding-top: 60px;
+              padding-top: 20px;
+              z-index: 910; 
             }
             
             .nav-menu.active {
@@ -219,7 +220,7 @@ class SiteNavbar extends HTMLElement {
             }
             
             nav li {
-              margin: 1.5rem 0;
+              margin: 1rem 0;
             }
             
             .hamburger.active .bar:nth-child(1) {
