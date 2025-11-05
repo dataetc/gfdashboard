@@ -164,18 +164,23 @@ function showModal(dateStr, eventList) {
 
   modalEvents.innerHTML = '';
 
-  if (eventList.length === 0) {
+if (eventList.length === 0) {
     modalEvents.innerHTML = '<p>No events for this day.</p>';
   } else {
     eventList.forEach(event => {
       const eventDiv = document.createElement('div');
       eventDiv.classList.add('event-item');
       
-      // Check if link exists and does NOT include "In-person only"
+      // Specific handling for hybrid events
       const linkDisplay = event.link 
         ? (event.link.includes("In-person only") 
            ? event.link 
-           : `<a href="${event.link}" target="_blank">${event.link}</a>`)
+           : event.link.includes("Online at:") && event.link.includes("and in-person:")
+             ? event.link.replace(
+                 /Online at: (.*?) and in-person:/,
+                 (match, url) => `Online at: <a href="${url.trim()}" target="_blank">${url.trim()}</a> and in-person:`
+               )
+             : `<a href="${event.link}" target="_blank">${event.link}</a>`)
         : '—';
 
       eventDiv.innerHTML = `
