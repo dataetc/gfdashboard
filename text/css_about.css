@@ -37,7 +37,7 @@ header::after {
   z-index: 1;
   color: #fff;
   max-width: 75vw;
-  padding: 5vh 3vw 3vw;
+  padding: 5vh 3vw 0vw;
   text-align: left;
 }
 
@@ -54,6 +54,10 @@ header::after {
   color: #2a1c0d;
   font-family: 'Barrio', Arial, sans-serif;
   text-align: left;
+}
+
+#who-title {
+  margin-top: 0px;
 }
 
 @media (max-width: 767px) {
@@ -137,4 +141,34 @@ header::after {
   background-color: #cb764e;
   transform: scale(1.05);
   transition: all 0.3s ease-in-out;
+}
+
+.logo-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+.logo-cloud img {
+    max-width: 120px;
+    max-height: 80px;
+    object-fit: contain;
+    transition: all 0.3s ease;
+}
+.logo-cloud img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+    .logo-cloud {
+        gap: 10px;
+    }
+    .logo-cloud img {
+        max-width: 80px;
+        max-height: 60px;
+    }
 }
