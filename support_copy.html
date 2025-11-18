@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="text/css_sitewide.css">
+  <link rel="stylesheet" type="text/css" href="text/css_gf_feedback.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="lang/language-data.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Barrio&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <script src="scripts/js.js"></script>
+  <title>The GADH: Global Fund Feedback</title>
+</head>
+
+<body>
+  <div class="hero">
+    <div class="hero-image"></div>
+      <header>
+        <script src="site-navbar.js"></script>
+        <site-navbar id="main-navbar"></site-navbar>
+      </header>
+    <div class="hero-content">
+        <h1 id="feedback-title"></h1>
+        <div class="action-section">
+          <div class="hero-content-inner">
+            <div class="action-section">
+                <p>
+                  We're here to help you navigate your Global Fund feedback and support needs. Choose the option that best describes your situation.
+                </p>
+                <div class="action-buttons">
+                  <button class="action-btn" data-target="request-support">Request Support</button>
+                  <button class="action-btn" data-target="contact-lh">Contact Learning Hub</button>
+                  <button class="action-btn" data-target="ccm-contact">Contact my CCM</button>
+                  <button class="action-btn" data-target="report-fraud">Report Fraud and Abuse</button>
+                  <button class="action-btn" data-target="request-support">I'm Not Sure</button>
+                </div>
+              </div>
+            <div class="info-sections">
+               <section id="request-support" class="info-section">
+                <h2>Request support from GADH partners</h2>
+                <p id="feedback-p1">
+                </p>
+                <p id="feedback-p2"></p>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfz6tW9_x9PvNrMnHMCRyhYkoc7V7ARWLxJF4ictvZthrSHUQ/viewform?embedded=true" width="800" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </div>
+              </section>
+
+              <section id="contact-lh" class="info-section">
+                <h2>Contact the Global Fund Learning Hubs</h2>
+                <!-- Region Selector Dropdown -->
+                <select id="region-selector" onchange="updateRegionalContactInfo()">
+                  <option value="">Select a Region</option>
+                  <option value="asia-pacific">Asia and the Pacific</option>
+                  <option value="anglophone-africa">Anglophone Africa</option>
+                  <option value="eeca">Eastern Europe and Central Asia</option>
+                  <option value="francophone-africa">Francophone Africa</option>
+                  <option value="lac">Latin America and the Caribbean</option>
+                  <option value="mena">Middle East and North Africa</option>
+                </select>
+
+                <!-- Regional Contact Information Container -->
+                <div id="regional-contact-info">
+                  <h2 id="region-name"></h2>
+                  <div class="contact-detail">
+                    <strong>Host:</strong> <span id="contact-host"></span>
+                  </div>
+                  <div class="contact-detail">
+                    <strong>Focal Point:</strong> <span id="contact-focal-point"></span>
+                  </div>
+                  <div class="contact-detail">
+                    <strong>Email:</strong> <span id="contact-email"></span>
+                  </div>
+                  <div class="contact-detail">
+                    <strong>Address:</strong> <span id="contact-address"></span>
+                  </div>
+                  <div class="contact-detail">
+                    <strong>Phone:</strong> <span id="contact-phone"></span>
+                  </div>
+                  <div class="contact-detail">
+                    <strong>Website:</strong> <a id="contact-website" href="#" target="_blank"></a>
+                  </div>
+                  <div class="contact-detail">
+                    <strong>Newsletter:</strong> <a id="contact-newsletter" href="#" target="_blank"></a>
+                  </div>
+                  <div class="contact-detail">
+                    <strong>Social Media:</strong>
+                    <a id="contact-facebook" href="#" target="_blank">Facebook</a> | 
+                    <a id="contact-x" href="#" target="_blank">X (Twitter)</a> | 
+                    <a id="contact-youtube" href="#" target="_blank">YouTube</a> |
+                    <a id="contact-instagram" href="#" target="_blank">Instagram</a>
+                  </div>
+                </div>
+              </section>
+              <section id="ccm-contact" class="info-section">
+                <h2>Contact your CCM representative</h2>
+                <p>Look up your CCM representative in the <a href="https://dataetc.org/projects/ccm" target=_blank>CCM dashboard</a>.</p>
+                </section>
+              <section id="report-fraud" class="info-section">
+                <h2>Report fraud and abuse</h2>
+                 <p>More info about GF's i speak out now</p>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</body>
+
+  <script>
+      // Style the navbar and set up event listeners for changing languages
+      document.addEventListener('DOMContentLoaded', function() {
+
+
+      const theme_color = "light" // Options: "dark", "light"
+      const color_main = theme_color === "dark" ? "#000" : "#fff"
+      const color_secondary = theme_color === "dark" ? "#fff" : "#000"
+
+      // Get reference to the navbar component
+      const navbar = document.getElementById('main-navbar');
+
+      // Set text color for main navigation items
+      navbar.setTextColor(color_main);
+
+      // Set text color specifically for language dropdown items
+      navbar.setLanguageSelectorTextColor(color_secondary);
+
+      // Set bottom border color
+      navbar.setBottomBorderColor(color_main);
+
+      // Listen for language change events from the navbar
+      navbar.addEventListener('languagechange', function(event) {
+        const selectedLang = event.detail.language;
+        
+        // Call your existing language change function
+        changeLanguage(selectedLang);
+      });
+
+      // Initialize the language from your page's system
+      initializeLanguage();
+      });
+  </script>
+
+  <script>
+    // Regional Contact Information Database
+    const regionalContacts = {
+        'asia-pacific': {
+        regionName: 'Asia and the Pacific',
+        host: 'Seven Alliance',
+        focalPoint: 'Chinmy Kumar',
+        email: 'chinmykumar@sevenallianceap.com',
+        address: '51, Soi Sukhumvit 26, Klong Tan, Klong Toei, 10110 Bangkok, Thailand',
+        phone: '+66 2 108 8855',
+        website: 'https://sevenallianceap.com/learning-hub/',
+        newsletter: 'https://sevenallianceap.com/learning-hub/',
+        facebook: 'https://www.facebook.com/sevenallianceap',
+        x: 'https://x.com/sevenallianceap',
+        youtube: 'https://www.youtube.com/@APLearningHub',
+        instagram: ''
+      },
+      'anglophone-africa': {
+        regionName: 'Anglophone Africa',
+        host: 'EANNASO',
+        focalPoint: 'Lisa MaryAnne',
+        email: 'anglophone.lhub@eannaso.org',
+        address: 'Plot # 595, Themi Nanenane, Njiro Road P.O. Box 6187 -23109 Arusha, Tanzania',
+        phone: '+255 718 137 152',
+        website: 'https://eannaso.org/community-engagement/',
+        newsletter: 'https://eannaso.us12.list-manage.com/subscribe?u=62c71f94b450ee073028ae26a&id=08eae4c0c8',
+        facebook: 'https://www.facebook.com/eannaso.org/',
+        x: 'https://x.com/eannaso',
+        youtube: 'https://www.youtube.com/channel/UCXrJiYqIh_jorjJpd622Qzw',
+        instagram: ''
+      },
+      'eeca': {
+        regionName: 'Eastern Europe and Central Asia',
+        host: 'EHRA',
+        focalPoint: 'Ivan Varentsov',
+        email: 'ivan@harmreductioneurasia.org',
+        address: 'Verkių g. 34B, office 701 LT – 08221 Vilnius, Lithuania',
+        phone: '+7 916 642-56-82',
+        website: 'https://eecaplatform.org/en/',
+        newsletter: 'mailto:eecaplatform@harmreductioneurasia.org',
+        facebook: 'https://www.facebook.com/eeca.platform/',
+        x: '',
+        youtube: 'https://www.youtube.com/channel/UCgxjeQFj8tvVVPqq2CN310Q',
+        instagram: ''
+      },
+      'francophone-africa': {
+        regionName: 'Francophone Africa',
+        host: 'RAME',
+        focalPoint: 'Ida Savadogo',
+        email: 'cat@rame-int.org',
+        address: 'Sector 04 - Rue Soeur Delphine 04 BP 8038 Ouagadougou 04 - Burkina Faso',
+        phone: '+ 226-25000000',
+        website: 'https://prf-fondsmondial.org/',
+        newsletter: 'https://rame-int.us12.list-manage.com/subscribe?u=be2cc23fb198ff39af4d4d4a5&id=4ed903c8ba',
+        facebook: 'https://www.facebook.com/plateformeprf',
+        x: 'https://x.com/Ong_Rame',
+        youtube: 'https://www.youtube.com/@rame-reseaudaccesauxmedica4771',
+        instagram: 'https://www.instagram.com/hrf_crg/'
+      },
+      'lac': {
+        regionName: 'Latin America and the Caribbean',
+        host: 'Via Libre',
+        focalPoint: 'Anuar Luna',
+        email: 'ct.plataformalac@vialibre.org.pe',
+        address: 'Jr. Paraguay 478-490 lima 1 Referencia: Plaza Bolognesi Lima, Peru',
+        phone: '+52 55 1849 5910',
+        website: 'https://plataformalac.org/',
+        newsletter: 'https://plataformalac.us12.list-manage.com/subscribe?u=b24e20a94ba95136ac5ec0047&id=2223d27224',
+        facebook: 'https://www.facebook.com/PlataformaLAC/',
+        x: 'https://x.com/plataformalac',
+        youtube: 'https://www.youtube.com/channel/UCVMe1yFTdrULO88g_2riMNQ',
+        instagram: ''
+      },
+      'mena': {
+        regionName: 'Middle East and North Africa',
+        host: 'MENAHRA & MENA Rosa',
+        focalPoint: 'Amjad Malaeb/Taline Torikian',
+        email: 'mena.academy@learning-hub.me',
+        address: 'Fleur Art Building, Third Floor, Hayek Roundabout Beirut, Lebanon',
+        phone: '+961 1 493 211',
+        website: 'https://learning-hub.me/',
+        newsletter: 'https://learning-hub.me/newsletters/',
+        facebook: 'https://www.facebook.com/people/The-MENA-Learning-Hub/',
+        x: '',
+        youtube: 'https://www.youtube.com/@TheMENAHRA',
+        instagram: ''
+      }
+    };
+
+    function updateRegionalContactInfo() {
+      const regionSelector = document.getElementById('region-selector');
+      const regionalContactInfo = document.getElementById('regional-contact-info');
+      const selectedRegion = regionSelector.value;
+
+      // Hide contact info if no region is selected
+      if (!selectedRegion) {
+        regionalContactInfo.style.display = 'none';
+        return;
+      }
+
+      // Get contact information for selected region
+      const regionData = regionalContacts[selectedRegion];
+
+      // Update contact information elements
+      document.getElementById('region-name').textContent = regionData.regionName;
+      document.getElementById('contact-host').textContent = regionData.host;
+      document.getElementById('contact-focal-point').textContent = regionData.focalPoint;
+      document.getElementById('contact-email').textContent = regionData.email;
+      document.getElementById('contact-address').textContent = regionData.address;
+      document.getElementById('contact-phone').textContent = regionData.phone;
+
+      // Update links
+      const websiteLink = document.getElementById('contact-website');
+      websiteLink.href = regionData.website;
+      websiteLink.textContent = regionData.website;
+
+      const newsletterLink = document.getElementById('contact-newsletter');
+      newsletterLink.href = regionData.newsletter;
+      newsletterLink.textContent = 'Subscribe to Newsletter';
+
+      const facebookLink = document.getElementById('contact-facebook');
+      facebookLink.href = regionData.facebook;
+
+      const xLink = document.getElementById('contact-x');
+      xLink.href = regionData.x;
+
+      const youtubeLink = document.getElementById('contact-youtube');
+      youtubeLink.href = regionData.youtube;
+
+      const instagramLink = document.getElementById('contact-instagram');
+      instagramLink.href = regionData.instagram;
+
+      // Show the contact information
+      regionalContactInfo.style.display = 'block';
+    }
+
+    // Existing language initialization script
+    document.addEventListener('DOMContentLoaded', function() {
+      const theme_color = "light" // Options: "dark", "light"
+      const color_main = theme_color === "dark" ? "#000" : "#fff"
+      const color_secondary = theme_color === "dark" ? "#fff" : "#000"
+
+      // Get reference to the navbar component
+      const navbar = document.getElementById('main-navbar');
+
+      // Set text color for main navigation items
+      navbar.setTextColor(color_main);
+
+      // Set text color specifically for language dropdown items
+      navbar.setLanguageSelectorTextColor(color_secondary);
+
+      // Set bottom border color
+      navbar.setBottomBorderColor(color_main);
+
+      // Listen for language change events from the navbar
+      navbar.addEventListener('languagechange', function(event) {
+        const selectedLang = event.detail.language;
+        
+        // Call your existing language change function
+        changeLanguage(selectedLang);
+      });
+
+      // Initialize the language from your page's system
+      initializeLanguage();
+    });
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+  // Smooth scrolling for action buttons
+  const actionButtons = document.querySelectorAll('.action-btn');
+  
+  actionButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      // Get the target section ID from the data-target attribute
+      const targetId = this.getAttribute('data-target');
+      const targetSection = document.getElementById(targetId);
+      
+      if (targetSection) {
+        // Smooth scroll to the section
+        targetSection.scrollIntoView({ 
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    });
+  });
+});
+  </script>
+
+</html>
