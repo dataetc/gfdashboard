@@ -132,8 +132,7 @@ header::after {
 
 ul {
   margin: 0px;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 1.5rem;
+ 
 }
 
 .action-buttons {
@@ -322,6 +321,13 @@ ul {
     @media (max-width: 768px) {
       .action-btn {
         min-width: 100%;
+      }
+
+      .info-section{
+        padding:1.2vh;
+      }
+      .teQAzf{
+        max-width:100vh; 
       }
       
       .iframe-container {
