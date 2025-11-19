@@ -13,61 +13,550 @@
   <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Barrio&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <script src="scripts/js.js"></script>
   <title>The GADH: Global Fund Feedback</title>
+  <style>
+    /* Button styling */
+    .action-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin: 1rem 0;
+      padding: 0 0.5rem;
+    }
+    
+    .action-btn {
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      font-weight: 600;
+      color: rgb(243, 233, 233);
+     
+      border: none;
+      cursor: pointer;
+      transition: all 0.1s ease;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      min-width: 200px;
+    }
+    
+    .action-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+     
+    }
+    
+    .action-btn:active {
+      transform: translateY(0);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Section styling */
+    .info-sections {
+      margin-top: 3rem;
+    }
+    
+    .info-section {
+      padding: 2rem;
+      margin-bottom: 2rem;
+      background: rgba(255, 255, 255, 0.085);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      scroll-margin-top: 100px;
+    }
+    
+    .info-section h2 {
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+     
+    }
+
+    /* Link styling - ensure all links have underlines */
+    .info-section a {
+      text-decoration: underline;
+      color: #9db4ff;
+      transition: color 0.2s ease;
+    }
+
+    .info-section a:hover {
+      color: #c5d4ff;
+    }
+
+    /* Embedded iframe container with light background */
+    .iframe-container {
+      background: white;
+      padding: 2rem;
+     
+      margin-top: 1rem;
+    }
+
+    /* Regional contact info styling */
+    #regional-contact-info {
+      display: none;
+      margin-top: 2rem;
+      padding: 0;
+      background: rgba(255, 255, 255, 0.95);
+      color: #1a1a1a;
+     
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    #regional-contact-info.active {
+      display: block;
+    }
+
+    #regional-contact-info h3 {
+      color: #1a1a1a;
+      background:  #764ba2;
+      color: white;
+      padding: 1.5rem;
+      margin: 0;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    .contact-detail {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      gap: 1rem;
+      padding: 1rem 1.5rem;
+      border-bottom: 1px solid #e5e7eb;
+      line-height: 1.6;
+      align-items: start;
+    }
+
+    .contact-detail:last-child {
+      border-bottom: none;
+    }
+
+    .contact-detail strong {
+      color: #1a1a1a;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+    }
+
+    .contact-detail span {
+      color: #1a1a1a;
+    }
+
+    .contact-detail a {
+      color: #667eea;
+      text-decoration: underline;
+      transition: color 0.2s ease;
+    }
+
+    .contact-detail a:hover {
+      color: #764ba2;
+    }
+
+    #social-links {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    #social-links a {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.5rem 1rem;
+      background: #f3f4f6;
+      border: 0.3px solid #5e5e5e99;
+      color: #1a1a1a;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      transition: all 0.2s ease;
+      text-decoration: none;
+    }
+
+    #social-links a:hover {
+      background: #475aaf;
+      color: white;
+      transform: translateY(-2px);
+      text-decoration: none;
+    }
+
+    @media (max-width: 768px) {
+      .contact-detail {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+      }
+      
+      .contact-detail strong {
+        font-weight: 700;
+      }
+    }
+    
+    #region-selector {
+      width: 100%;
+      max-width: 400px;
+      padding: 0.75rem;
+      font-size: 1rem;
+      border: 2px solid #ddd;
+      border-radius: 4px;
+      margin-bottom: 1rem;
+      background: white;
+      color: #1a1a1a;
+    }
+    
+    /* Responsive design */
+    @media (max-width: 768px) {
+      .action-btn {
+        min-width: 100%;
+      }
+      
+      .iframe-container {
+        padding: 1rem;
+      }
+    }
+  </style>
 </head>
 
 <body>
   <div class="hero">
     <div class="hero-image"></div>
-    <<header>
+    <header>
       <script src="site-navbar.js"></script>
       <site-navbar id="main-navbar"></site-navbar>
     </header>
     <div class="hero-content">
-      <h1 id="feedback-title"></h1>
-      <div class="hero-content-inner">
-      <p id="feedback-p1">
-      </p>
-      <p id="feedback-p2"></p>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfz6tW9_x9PvNrMnHMCRyhYkoc7V7ARWLxJF4ictvZthrSHUQ/viewform?embedded=true" width="800" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <h1 id="feedback-title">Global Fund Feedback</h1>
+      <div class="action-section">
+        <div class="hero-content-inner">
+          <div class="action-section">
+            <p>
+              We're here to help you navigate your Global Fund feedback and support needs. Choose the option that best describes your situation.
+            </p>
+            <div class="action-buttons">
+              <button class="action-btn" data-target="request-support">Request Support</button>
+              <button class="action-btn" data-target="contact-lh">Contact Learning Hub</button>
+              <button class="action-btn" data-target="ccm-contact">Contact my CCM</button>
+              <button class="action-btn" data-target="report-fraud">Report Fraud and Abuse</button>
+              <button class="action-btn" data-target="not-sure">I'm Not Sure</button>
+            </div>
+          </div>
+          
+          <div class="info-sections">
+            <!-- Request Support Section -->
+            <section id="request-support" class="info-section">
+              <h2>Request Support from GADH Partners</h2>
+              <p id="feedback-p1">
+                Need assistance with a Global Fund-related issue? Our GADH partners are here to help. Fill out the form below to submit your support request, and our team will get back to you as soon as possible.
+              </p>
+              <p id="feedback-p2">
+                Please provide as much detail as possible about your request to help us direct you to the right resources.
+              </p>
+              <div class="iframe-container">
+                <iframe 
+                  src="https://docs.google.com/forms/d/e/1FAIpQLSfz6tW9_x9PvNrMnHMCRyhYkoc7V7ARWLxJF4ictvZthrSHUQ/viewform?embedded=true" 
+                  width="100%" 
+                  height="800" 
+                  frameborder="0" 
+                  marginheight="0" 
+                  marginwidth="0"
+                  style="max-width: 800px;">
+                  Loading…
+                </iframe>
+              </div>
+            </section>
+
+            <!-- Contact Learning Hub Section -->
+            <section id="contact-lh" class="info-section">
+              <h2>Contact the Global Fund Learning Hubs</h2>
+              <p>Select your region to view contact information for your Regional Learning Hub:</p>
+              
+              <select id="region-selector" onchange="updateRegionalContactInfo()">
+                <option value="">Select a Region</option>
+                <option value="asia-pacific">Asia and the Pacific</option>
+                <option value="anglophone-africa">Anglophone Africa</option>
+                <option value="eeca">Eastern Europe and Central Asia</option>
+                <option value="francophone-africa">Francophone Africa</option>
+                <option value="lac">Latin America and the Caribbean</option>
+                <option value="mena">Middle East and North Africa</option>
+              </select>
+              
+              <div id="regional-contact-info">
+                <h3 id="region-name"></h3>
+                <div class="contact-detail">
+                  <strong>Host Organization</strong>
+                  <span id="contact-host"></span>
+                </div>
+                <div class="contact-detail">
+                  <strong>Focal Point</strong>
+                  <span id="contact-focal-point"></span>
+                </div>
+                <div class="contact-detail">
+                  <strong>Email</strong>
+                  <span><a id="contact-email" href=""></a></span>
+                </div>
+                <div class="contact-detail">
+                  <strong>Phone</strong>
+                  <span id="contact-phone"></span>
+                </div>
+                <div class="contact-detail">
+                  <strong>Address</strong>
+                  <span id="contact-address"></span>
+                </div>
+                <div class="contact-detail">
+                  <strong>Website</strong>
+                  <span><a id="contact-website" href="#" target="_blank"></a></span>
+                </div>
+                <div class="contact-detail">
+                  <strong>Newsletter</strong>
+                  <span><a id="contact-newsletter" href="#" target="_blank">Subscribe to Newsletter</a></span>
+                </div>
+                <div class="contact-detail">
+                  <strong>Social Media</strong>
+                  <span id="social-links">
+                    <a id="contact-facebook" href="#" target="_blank" style="display:none">Facebook</a>
+                    <a id="contact-x" href="#" target="_blank" style="display:none">X (Twitter)</a>
+                    <a id="contact-youtube" href="#" target="_blank" style="display:none">YouTube</a>
+                    <a id="contact-instagram" href="#" target="_blank" style="display:none">Instagram</a>
+                  </span>
+                </div>
+              </div>
+            </section>
+
+            <!-- Contact CCM Section -->
+            <section id="ccm-contact" class="info-section">
+              <h2>Contact Your CCM Representative</h2>
+              <p>
+                Country Coordinating Mechanisms (CCMs) serve as the coordination platform for Global Fund grants in each country. 
+                They bring together representatives from government, civil society, the private sector, and affected communities.
+              </p>
+              <p>
+                To find contact information for your CCM representative, please visit the 
+                <a href="https://dataetc.org/projects/ccm" target="_blank">CCM Dashboard</a>.
+              </p>
+              <p>
+                The dashboard provides comprehensive information about CCM membership, structure, and contact details for each country.
+              </p>
+            </section>
+
+            <!-- Report Fraud Section -->
+            <section id="report-fraud" class="info-section">
+              <h2>Report Fraud and Abuse</h2>
+              <p>
+                The Global Fund takes all allegations of fraud, corruption, and abuse very seriously. If you suspect or have witnessed 
+                any fraudulent activities related to Global Fund programs, we encourage you to report it.
+              </p>
+              <h3>How to Report</h3>
+              <p>
+                You can report concerns through the Global Fund's <strong>I Speak Out Now</strong> platform, which allows for 
+                confidential and anonymous reporting.
+              </p>
+              <ul>
+                <li><strong>Online:</strong> Visit the <a href="https://www.theglobalfund.org/en/office-of-the-inspector-general/" target="_blank">Office of Inspector General</a> website</li>
+                <li><strong>Email:</strong> <a href="mailto:ispeakoutnow@theglobalfund.org">ispeakoutnow@theglobalfund.org</a></li>
+                <li><strong>Hotline:</strong> Available in multiple languages - check the OIG website for numbers</li>
+              </ul>
+              <p>
+                All reports are treated confidentially, and whistleblowers are protected from retaliation under Global Fund policies.
+              </p>
+            </section>
+
+            <!-- Not Sure Section -->
+            <section id="not-sure" class="info-section">
+              <h2>Not Sure Where to Start?</h2>
+              <p>
+                If you're unsure which option is right for you, here's a quick guide:
+              </p>
+              <ul>
+                <li><strong>Request Support:</strong> Use this if you need technical assistance, have questions about implementation, or need guidance on Global Fund processes.</li>
+                <li><strong>Contact Learning Hub:</strong> Best for regional resources, training opportunities, and connecting with other implementers in your region.</li>
+                <li><strong>Contact CCM:</strong> Reach out to your CCM for country-specific coordination, funding request processes, or to raise concerns about grant implementation.</li>
+                <li><strong>Report Fraud:</strong> Use this if you suspect corruption, misuse of funds, or other fraudulent activities.</li>
+              </ul>
+              <p>
+                Still not sure? Submit a request through our support form, and we'll help direct you to the right resources.
+              </p>
+            </section>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
   <script>
+    // Regional Contact Information Database
+    const regionalContacts = {
+      'asia-pacific': {
+        regionName: 'Asia and the Pacific',
+        host: 'Seven Alliance',
+        focalPoint: 'Chinmy Kumar',
+        email: 'chinmykumar@sevenallianceap.com',
+        address: '51, Soi Sukhumvit 26, Klong Tan, Klong Toei, 10110 Bangkok, Thailand',
+        phone: '+66 2 108 8855',
+        website: 'https://sevenallianceap.com/learning-hub/',
+        newsletter: 'https://sevenallianceap.com/learning-hub/',
+        facebook: 'https://www.facebook.com/sevenallianceap',
+        x: 'https://x.com/sevenallianceap',
+        youtube: 'https://www.youtube.com/@APLearningHub',
+        instagram: ''
+      },
+      'anglophone-africa': {
+        regionName: 'Anglophone Africa',
+        host: 'EANNASO',
+        focalPoint: 'Lisa MaryAnne',
+        email: 'anglophone.lhub@eannaso.org',
+        address: 'Plot # 595, Themi Nanenane, Njiro Road P.O. Box 6187 -23109 Arusha, Tanzania',
+        phone: '+255 718 137 152',
+        website: 'https://eannaso.org/community-engagement/',
+        newsletter: 'https://eannaso.us12.list-manage.com/subscribe?u=62c71f94b450ee073028ae26a&id=08eae4c0c8',
+        facebook: 'https://www.facebook.com/eannaso.org/',
+        x: 'https://x.com/eannaso',
+        youtube: 'https://www.youtube.com/channel/UCXrJiYqIh_jorjJpd622Qzw',
+        instagram: ''
+      },
+      'eeca': {
+        regionName: 'Eastern Europe and Central Asia',
+        host: 'EHRA',
+        focalPoint: 'Ivan Varentsov',
+        email: 'ivan@harmreductioneurasia.org',
+        address: 'Verkių g. 34B, office 701 LT – 08221 Vilnius, Lithuania',
+        phone: '+7 916 642-56-82',
+        website: 'https://eecaplatform.org/en/',
+        newsletter: 'mailto:eecaplatform@harmreductioneurasia.org',
+        facebook: 'https://www.facebook.com/eeca.platform/',
+        x: '',
+        youtube: 'https://www.youtube.com/channel/UCgxjeQFj8tvVVPqq2CN310Q',
+        instagram: ''
+      },
+      'francophone-africa': {
+        regionName: 'Francophone Africa',
+        host: 'RAME',
+        focalPoint: 'Ida Savadogo',
+        email: 'cat@rame-int.org',
+        address: 'Sector 04 - Rue Soeur Delphine 04 BP 8038 Ouagadougou 04 - Burkina Faso',
+        phone: '+ 226-25000000',
+        website: 'https://prf-fondsmondial.org/',
+        newsletter: 'https://rame-int.us12.list-manage.com/subscribe?u=be2cc23fb198ff39af4d4d4a5&id=4ed903c8ba',
+        facebook: 'https://www.facebook.com/plateformeprf',
+        x: 'https://x.com/Ong_Rame',
+        youtube: 'https://www.youtube.com/@rame-reseaudaccesauxmedica4771',
+        instagram: 'https://www.instagram.com/hrf_crg/'
+      },
+      'lac': {
+        regionName: 'Latin America and the Caribbean',
+        host: 'Via Libre',
+        focalPoint: 'Anuar Luna',
+        email: 'ct.plataformalac@vialibre.org.pe',
+        address: 'Jr. Paraguay 478-490 lima 1 Referencia: Plaza Bolognesi Lima, Peru',
+        phone: '+52 55 1849 5910',
+        website: 'https://plataformalac.org/',
+        newsletter: 'https://plataformalac.us12.list-manage.com/subscribe?u=b24e20a94ba95136ac5ec0047&id=2223d27224',
+        facebook: 'https://www.facebook.com/PlataformaLAC/',
+        x: 'https://x.com/plataformalac',
+        youtube: 'https://www.youtube.com/channel/UCVMe1yFTdrULO88g_2riMNQ',
+        instagram: ''
+      },
+      'mena': {
+        regionName: 'Middle East and North Africa',
+        host: 'MENAHRA & MENA Rosa',
+        focalPoint: 'Amjad Malaeb/Taline Torikian',
+        email: 'mena.academy@learning-hub.me',
+        address: 'Fleur Art Building, Third Floor, Hayek Roundabout Beirut, Lebanon',
+        phone: '+961 1 493 211',
+        website: 'https://learning-hub.me/',
+        newsletter: 'https://learning-hub.me/newsletters/',
+        facebook: 'https://www.facebook.com/people/The-MENA-Learning-Hub/',
+        x: '',
+        youtube: 'https://www.youtube.com/@TheMENAHRA',
+        instagram: ''
+      }
+    };
 
-      // Style the navbar and set up event listeners for changing languages
-document.addEventListener('DOMContentLoaded', function() {
+    function updateRegionalContactInfo() {
+      const regionSelector = document.getElementById('region-selector');
+      const regionalContactInfo = document.getElementById('regional-contact-info');
+      const selectedRegion = regionSelector.value;
 
+      if (!selectedRegion) {
+        regionalContactInfo.classList.remove('active');
+        return;
+      }
 
-const theme_color = "light" // Options: "dark", "light"
-const color_main = theme_color === "dark" ? "#000" : "#fff"
-const color_secondary = theme_color === "dark" ? "#fff" : "#000"
+      const regionData = regionalContacts[selectedRegion];
 
-// Get reference to the navbar component
-const navbar = document.getElementById('main-navbar');
+      // Update text content
+      document.getElementById('region-name').textContent = regionData.regionName;
+      document.getElementById('contact-host').textContent = regionData.host;
+      document.getElementById('contact-focal-point').textContent = regionData.focalPoint;
+      document.getElementById('contact-address').textContent = regionData.address;
+      document.getElementById('contact-phone').textContent = regionData.phone;
 
-// Set text color for main navigation items
-navbar.setTextColor(color_main);
+      // Update email
+      const emailLink = document.getElementById('contact-email');
+      emailLink.href = 'mailto:' + regionData.email;
+      emailLink.textContent = regionData.email;
 
-// Set text color specifically for language dropdown items
-navbar.setLanguageSelectorTextColor(color_secondary);
+      // Update website
+      const websiteLink = document.getElementById('contact-website');
+      websiteLink.href = regionData.website;
+      websiteLink.textContent = regionData.website;
 
-// Set bottom border color
-navbar.setBottomBorderColor(color_main);
+      // Update newsletter
+      const newsletterLink = document.getElementById('contact-newsletter');
+      newsletterLink.href = regionData.newsletter;
 
-// Listen for language change events from the navbar
-navbar.addEventListener('languagechange', function(event) {
-  const selectedLang = event.detail.language;
-  
-  // Call your existing language change function
-  changeLanguage(selectedLang);
-});
+      // Update social media links with visibility
+      const socialLinks = ['facebook', 'x', 'youtube', 'instagram'];
 
-// Initialize the language from your page's system
-initializeLanguage();
-});
-    
+      socialLinks.forEach(platform => {
+        const link = document.getElementById('contact-' + platform);
+        if (regionData[platform]) {
+          link.href = regionData[platform];
+          link.style.display = 'inline-flex';
+        } else {
+          link.style.display = 'none';
+        }
+      });
+
+      regionalContactInfo.classList.add('active');
+    }
+
+    // Action button navigation
+    document.addEventListener('DOMContentLoaded', function() {
+      const actionButtons = document.querySelectorAll('.action-btn');
+      const infoSections = document.querySelectorAll('.info-section');
+      
+      actionButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          const targetId = this.getAttribute('data-target');
+          const targetSection = document.getElementById(targetId);
+          
+          // Remove active class from all buttons and sections
+          actionButtons.forEach(btn => btn.classList.remove('active'));
+          infoSections.forEach(section => section.classList.remove('active'));
+          
+          // Add active class to clicked button and target section
+          this.classList.add('active');
+          if (targetSection) {
+            targetSection.classList.add('active');
+            targetSection.scrollIntoView({ 
+              behavior: 'smooth',
+              block: 'start'
+            });
+          }
+        });
+      });
+
+      // Navbar setup
+      const theme_color = "light";
+      const color_main = theme_color === "dark" ? "#000" : "#fff";
+      const color_secondary = theme_color === "dark" ? "#fff" : "#000";
+
+      const navbar = document.getElementById('main-navbar');
+      if (navbar) {
+        navbar.setTextColor(color_main);
+        navbar.setLanguageSelectorTextColor(color_secondary);
+        navbar.setBottomBorderColor(color_main);
+
+        navbar.addEventListener('languagechange', function(event) {
+          const selectedLang = event.detail.language;
+          changeLanguage(selectedLang);
+        });
+      }
+
+      initializeLanguage();
+    });
   </script>
-
 </body>
 </html>
