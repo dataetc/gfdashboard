@@ -28,21 +28,21 @@
       <div class="action-section">
         <div class="hero-content-inner">
           <div class="action-section">
-            <p>
+            <p id="support-intro">
               We're here to help you navigate your Global Fund feedback and support needs. Choose the option that best describes your situation.
             </p>
             <div class="action-buttons">
-              <button class="action-btn" data-target="request-support">Request Support</button>
-              <button class="action-btn" data-target="contact-lh">Contact Learning Hub</button>
-              <button class="action-btn" data-target="ccm-contact">Contact my CCM</button>
-              <button class="action-btn" data-target="report-fraud">Report Fraud and Abuse</button>
+              <button class="action-btn" data-target="request-support" id="btn-support">Request Support</button>
+              <button class="action-btn" data-target="contact-lh" id="btn-contact-hub">Contact Learning Hub</button>
+              <button class="action-btn" data-target="ccm-contact" id="btn-contact-ccm">Contact my CCM</button>
+              <button class="action-btn" data-target="report-fraud" id="btn-report-fraud">Report Fraud and Abuse</button>
             </div>
           </div>
           
           <div class="info-sections">
             <!-- Request Support Section -->
             <section id="request-support" class="info-section">
-              <h2>Request Support from GADH Partners</h2>
+              <h2 id="support-header">Request Support from GADH Partners</h2>
               <p id="feedback-p1">
               </p>
               <p id="feedback-p2">
@@ -63,11 +63,11 @@
 
             <!-- Contact Learning Hub Section -->
             <section id="contact-lh" class="info-section">
-              <h2>Contact the Global Fund Learning Hubs</h2>
-              <p>Six regional civil society and community organizations act as hosts for the <a href="https://resources.theglobalfund.org/en/more-topics/technical-cooperation/community-engagement/" target=_blank>Community Engagement</a> Strategic Initiative’s Regional Learning Hubs.  <br><br> Select your region to view contact information for your Regional Learning Hub:</p>
+              <h2 id="learningHub-header">Contact the Global Fund Learning Hubs</h2>
+              <p id="learningHub-text">Six regional civil society and community organizations act as hosts for the <a href="https://resources.theglobalfund.org/en/more-topics/technical-cooperation/community-engagement/" target=_blank>Community Engagement</a> Strategic Initiative’s Regional Learning Hubs.  <br><br> Select your region to view contact information for your Regional Learning Hub:</p>
               
               <select id="region-selector" onchange="updateRegionalContactInfo()">
-                <option value="">Select a Region</option>
+                <option value="" id="region-selection">Select a Region</option>
                 <option value="asia-pacific">Asia and the Pacific</option>
                 <option value="anglophone-africa">Anglophone Africa</option>
                 <option value="eeca">Eastern Europe and Central Asia</option>
@@ -120,30 +120,30 @@
 
             <!-- Contact CCM Section -->
             <section id="ccm-contact" class="info-section">
-              <h2>Contact Your CCM Representative</h2>
-              <p>
+              <h2 id="contact-ccm-header">Contact Your CCM Representative</h2>
+              <p id="contact-ccm-text-1">
                 Country Coordinating Mechanisms (CCMs) serve as the coordination platform for Global Fund grants in each country. 
                 They bring together representatives from government, civil society, the private sector, and affected communities.
               </p>
-              <p>
+              <p id="contact-ccm-text-2">
                 To find contact information for your CCM representative, please visit the 
                 <a href="https://dataetc.org/projects/ccm" target="_blank">CCM Dashboard</a>.
               </p>
-              <p>
+              <p id="contact-ccm-text-3">
                 The dashboard provides comprehensive information about CCM membership, structure, and contact details for each country.
               </p>
             </section>
 
             <!-- Report Fraud Section -->
             <section id="report-fraud" class="info-section">
-              <h2>Report Fraud and Abuse</h2>
-              <p>
+              <h2 id="report-fraud-header">Report Fraud and Abuse</h2>
+              <p id="report-fraud-text-1">
                 If you know of fraud or abuse taking place in your country, you can report these issues directly to the Global Fund's Office of the Inspector General (OIG).  
               </p>
-              <p>
+              <p id="report-fraud-text-2">
                 What should you report to the OIG?
               </p>
-                <ul>
+                <ul id="report-fraud-list">
                   <li>Stealing money or medicine</li>
                   <li>Personal use of money or other assets</li>
                   <li>Fake invoicing</li>
@@ -156,11 +156,11 @@
                   <li>Human rights violations by Global Fund grant recipients</li>
                   <li>Sexual exploitation and abuse (SEA)</li>
                 </ul>
-              <p>
                 <br>
+              <p id="report-fraud-text-3">
                 OIG does not investigate allegations that do not constitute misconduct or wrongdoing, but rather indicate managerial and programmatic issues, work-related conflicts, disagreements, or interpersonal issues. However, where appropriate, OIG may refer all such matters to the Global Fund Secretariat for action.
               </p>
-              <p>
+              <p id="report-fraud-text-4">
                 To report fraud or abuse, visit the <a href="https://www.ispeakoutnow.org/" target="_blank">I Speak Out Now</a> page.  If you would like help with escalating or reporting issues, please <a href="#request-support">reach out to us</a>.
               </p>
             </section>

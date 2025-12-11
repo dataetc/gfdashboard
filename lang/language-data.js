@@ -36,6 +36,27 @@ const languageData = {
     resourcesUQDDash: "UQD Dashboard",
     resourcesR8Dash: "Global Fund Replenishment 8 Scenarios",
     feedbackTitle: "Contact Us",
+
+    requestSupport: "Request Support",
+    regionalSelection: "Select a Region",
+    requestSupportHeader: "Request Support from GADH Partners",
+    contactLearningHub: "Contact Learning Hub",
+    contactLearningHubHeader: "Contact the Global Fund Learning Hub",
+    contactLearningHubText: "Six regional civil society and community organizations act as hosts for the <a href='https://resources.theglobalfund.org/en/more-topics/technical-cooperation/community-engagement/' target=_blank>Community Engagement</a> Strategic Initiative’s Regional Learning Hubs.  <br><br> Select your region to view contact information for your Regional Learning Hub:",
+    contactCCM: "Contact my CCM",
+    contactCCMHeader: "Contact Your CCM Representative",
+    contactCCMText1: "Country Coordinating Mechanisms (CCMs) serve as the coordination platform for Global Fund grants in each country. They bring together representatives from government, civil society, the private sector, and affected communities.",
+    contactCCMText2: "To find contact information for your CCM representative, please visit the <a href='https://dataetc.org/projects/ccm' target='_blank'>CCM Dashboard</a>.",
+    contactCCMText3: "The dashboard provides comprehensive information about CCM membership, structure, and contact details for each country.",
+    reportFraudAndAbuse: "Report Fraud and Abuse",
+reportFraudAndAbuseList:'<li>Stealing money or medicine</li><li>Personal use of money or other assets</li><li>Fake invoicing</li><li>Staging of fake training events</li><li>Counterfeiting drugs</li><li>Irregularities in tender processes (for example, fraudulent bids, bid collusion, bid manipulation, coercive practice…)</li><li>Bribery and kickbacks</li><li>Abuse of power or authority for personal gain</li><li>Conflict of interest</li> <li>Human rights violations by Global Fund grant recipients</li><li>Sexual exploitation and abuse (SEA)</li>',
+reportFraudAndAbuseText1: "If you know of fraud or abuse taking place in your country, you can report these issues directly to the Global Fund's Office of the Inspector General (OIG).",
+reportFraudAndAbuseText2: "What should you report to the OIG?",
+reportFraudAndAbuseText3: "OIG does not investigate allegations that do not constitute misconduct or wrongdoing, but rather indicate managerial and programmatic issues, work-related conflicts, disagreements, or interpersonal issues. However, where appropriate, OIG may refer all such matters to the Global Fund Secretariat for action.",
+reportFraudAndAbuseText4: "To report fraud or abuse, visit the <a href='https://www.ispeakoutnow.org/' target='_blank'>I Speak Out Now</a> page.  If you would like help with escalating or reporting issues, please <a href='#request-support'>reach out to us</a>.", 
+
+    supportIntro: "We're here to help you navigate your Global Fund feedback and support needs. Choose the option that best describes your situation.",
+    
     feedbackP1: "This form is for requesting support and for registering questions, challenges, or issues with the Global Fund processes. This is an independent community-run initiative meant to support communities to do evidence-informed advocacy on Global Fund-supported programs.", 
     feedbackP2: "We will never share anything that you share without your agreement and consent. Our only goal is to support you.",
     calendarTitle: "Calendar",
@@ -86,7 +107,32 @@ const languageData = {
     resourcesUQDDash: "Tableau de bord UQD",
     resourcesR8Dash: "Scénarios pour la 8e reconstitution du Fonds mondial",
     feedbackTitle: "Contactez-nous",
-    feedbackP1: "Ce formulaire sert à demander du soutien et à signaler des questions, des défis ou des problèmes liés aux processus du Fonds mondial. Il s'agit d'une initiative communautaire indépendante visant à aider les communautés à mener des actions de plaidoyer fondées sur des données probantes concernant les programmes soutenus par le Fonds mondial.",
+
+    requestSupport: "Demander du soutien",
+    regionalSelection: "Sélectionnez votre région",
+    requestSupportHeader: "Demander l'aide du GADH",
+    contactLearningHub: "Contacter le hub d'apprentissage",
+    contactLearningHubHeader: "Contacter le hub d'apprentissage du Fonds mondial",
+    contactLearningHubText: "Six organisations régionales de la société civile et communautaires accueillent les centres d'apprentissage régionaux de l'initiative stratégique <a href='https://resources.theglobalfund.org/en/more-topics/technical-cooperation/community-engagement/' target=_blank>Engagement communautaire</a>.  <br><br> Sélectionnez votre région pour afficher les coordonnées de votre centre d'apprentissage régional :",
+    contactCCM: "Contacter mon ICN",
+    contactCCMHeader: "Contactez votre représentant ICN",
+    contactCCMText1: "Les instances de coordination nationales (ICN) servent de plateformes de coordination pour les subventions du Fonds mondial dans chaque pays. Elles réunissent des représentants du gouvernement, de la société civile, du secteur privé et des communautés touchées.",
+    contactCCMText2: "Pour trouver les coordonnées de votre représentant ICN, veuillez consulter le site <a href='https://dataetc.org/projects/ccm' target='_blank'>CCM Dashboard</a>.",
+    contactCCMText3: "Le tableau de bord fournit des informations complètes sur la composition, la structure et les coordonnées des membres du ICN pour chaque pays.",
+    reportFraudAndAbuse: "Signaler une fraude/un abus",
+    
+    reportFraudAndAbuseList:"<li>Vol d'argent ou de médicaments</li><li>Utilisation à des fins personnelles d'argent ou d'autres actifs</li><li>Fausses factures</li><li>Organisation de fausses formations</li><li>Contrefaçon de médicaments</li><li>Irrégularités dans les processus d'appel d'offres (par exemple, offres frauduleuses, collusion, manipulation des offres, pratiques coercitives...) </li><li>Pots-de-vin et commissions occultes</li><li>Abus de pouvoir ou d'autorité à des fins personnelles</li><li>Conflit d'intérêts</li> <li>Violations des droits humains par les bénéficiaires de subventions du Fonds mondial</li><li>Exploitation et abus sexuels (EAS)</li>",
+
+reportFraudAndAbuseText1: "Si vous avez connaissance d'actes de fraude ou d'abus dans votre pays, vous pouvez les signaler directement au Bureau de l'Inspecteur général (OIG) du Fonds mondial.",
+reportFraudAndAbuseText2: "Que devez-vous signaler à l'OIG ?",
+reportFraudAndAbuseText3: "L'OIG n'enquête pas sur les allégations qui ne constituent pas des fautes professionnelles ou des actes répréhensibles, mais qui font plutôt état de problèmes de gestion et de programmation, de conflits liés au travail, de désaccords ou de problèmes interpersonnels. Toutefois, le cas échéant, l'OIG peut renvoyer toutes ces questions au Secrétariat du Fonds mondial pour qu'il prenne les mesures qui s'imposent.",
+reportFraudAndAbuseText4: "Pour signaler une fraude ou un abus, rendez-vous sur la page <a href='https://www.ispeakoutnow.org/' target='_blank'>I Speak Out Now</a>.  Si vous avez besoin d'aide pour signaler un problème ou le faire remonter à vos supérieurs, veuillez <a href='#request-support'>nous contacter</a>.", 
+
+    requestSupportGADHPartners: "Demander l'aide des partenaires du GADH",
+
+    supportIntro: "Nous sommes là pour vous aider à répondre à vos besoins en matière de commentaires et d'assistance concernant le Fonds mondial. Choisissez l'option qui correspond le mieux à votre situation.",
+    
+   backP1: "Ce formulaire sert à demander du soutien et à signaler des questions, des défis ou des problèmes liés aux processus du Fonds mondial. Il s'agit d'une initiative communautaire indépendante visant à aider les communautés à mener des actions de plaidoyer fondées sur des données probantes concernant les programmes soutenus par le Fonds mondial.",
     feedbackP2: "Nous ne partagerons jamais les informations que vous nous communiquez sans votre accord et votre consentement. Notre seul objectif est de vous soutenir et vous accompagner.",
     calendarTitle: "Calendrier",
     resourcesSearchInput: "Rechercher",
@@ -136,6 +182,31 @@ const languageData = {
     resourcesUQDDash: "Cuadro de mandos de UQD",
     resourcesR8Dash: "Escenarios para la 8ª reposición del Fondo Mundial",
     feedbackTitle: "Contáctenos",
+     requestSupport: "Solicitar asistencia",
+     
+    requestSupportHeader: "Solicitar asistencia a GADH",
+    regionalSelection: "Seleccione su región",
+    contactLearningHub: "Contactar con el centro de aprendizaje",
+    contactLearningHubHeader: "Contactar con el centro de aprendizaje del Fondo Mundial",
+    contactLearningHubText: 'Seis organizaciones regionales de la sociedad civil y comunitarias actúan como anfitrionas de los Centros Regionales de Aprendizaje de la Iniciativa Estratégica de <a href="https://resources.theglobalfund.org/en/more-topics/technical-cooperation/community-engagement/" target=_blank>Participación Comunitaria</a>.  <br><br> Seleccione su región para ver la información de contacto de su Centro Regional de Aprendizaje:',
+    contactCCM: "Ponte en contacto con mi NCP",
+    contactCCMHeader: "Póngase en contacto con su representante de NCP",
+    contactCCMText1: "Los NCP sirven como plataforma de coordinación para las subvenciones del Fondo Mundial en cada país. Reúnen a representantes del gobierno, la sociedad civil, el sector privado y las comunidades afectadas.",
+    contactCCMText2: "Para encontrar la información de contacto de su representante de NCP, visite el <a href='https://dataetc.org/projects/ccm' target='_blank'>CCM Dashboard</a>.",
+    contactCCMText3: "El panel de control proporciona información completa sobre la composición, la estructura y los datos de contacto de los miembros del NCP de cada país.",
+    
+    reportFraudAndAbuse: "Denunciar fraude y abuso",
+    reportFraudAndAbuseList:"<li>Robo de dinero o medicamentos</li><li>Uso personal de dinero u otros activos</li><li>Facturación falsa</li><li>Organización de eventos de formación falsos</li><li>Falsificación de medicamentos</li><li>Irregularidades en los procesos de licitación (por ejemplo, ofertas fraudulentas, colusión en las licitaciones, manipulación de las licitaciones, prácticas coercitivas...) </li><li>Soborno y comisiones ilegales</li><li>Abuso de poder o autoridad para obtener beneficios personales</li><li>Conflicto de intereses</li> <li>Violaciones de los derechos humanos por parte de los beneficiarios de subvenciones del Fondo Mundial</li><li>Explotación y abuso sexuales (EAS)</li>",
+
+reportFraudAndAbuseText1: "Si tiene conocimiento de algún caso de fraude o abuso en su país, puede denunciarlo directamente a la Oficina del Inspector General (OIG) del Fondo Mundial.",
+reportFraudAndAbuseText2: "¿Qué debe informar a la OIG?",
+reportFraudAndAbuseText3: "La OIG no investiga denuncias que no constituyan conductas indebidas o irregularidades, sino que más bien indiquen problemas de gestión y programáticos, conflictos laborales, desacuerdos o problemas interpersonales. No obstante, cuando proceda, la OIG podrá remitir todos estos asuntos a la Secretaría del Fondo Mundial para que adopte las medidas oportunas.",
+reportFraudAndAbuseText4: "Para denunciar un fraude o abuso, visite la página <a href='https://www.ispeakoutnow.org/' target='_blank'>I Speak Out Now</a>.  Si necesita ayuda para escalar o denunciar problemas, póngase en contacto con nosotros <a href='#request-support'>aquí</a>.", 
+
+
+    requestSupportGADHPartners: "Solicitar asistencia a los socios de GADH",
+    supportIntro: "Estamos aquí para ayudarle a gestionar sus comentarios y necesidades de apoyo al Fondo Mundial. Elija la opción que mejor describa su situación.",
+    
     feedbackP1: "Este formulario sirve para solicitar apoyo y comunicar preguntas, retos o problemas relacionados con los procesos del Fondo Mundial. Se trata de una iniciativa comunitaria independiente cuyo objetivo es ayudar a las comunidades a llevar a cabo acciones de promoción basadas en datos contrastados sobre los programas respaldados por el Fondo Mundial.",
     feedbackP2: "Nunca compartiremos la información que nos facilite sin su consentimiento y autorización. Nuestro único objetivo es apoyarle y acompañarle.",
     calendarTitle: "Calendario",
@@ -301,12 +372,13 @@ const languageData = {
 };
 
 /* Language functionality */
+/* Language functionality with English fallback */
 function changeLanguage(lang) {
   
   // Save language preference to localStorage
   localStorage.setItem('preferredLanguage', lang);
   
-  // Helper function to safely update an element if it exists
+  // Helper function to safely update an element with fallback to English
   function updateElement(id, content, useInnerHTML = false) {
     const element = document.getElementById(id);
     if (element) {
@@ -318,6 +390,22 @@ function changeLanguage(lang) {
     }
   }
   
+  // Helper function to get translation with English fallback
+  function getTranslation(key) {
+    // Try to get the translation in the selected language
+    if (window.languageData[lang] && window.languageData[lang][key]) {
+      return window.languageData[lang][key];
+    }
+    // Fall back to English if not found
+    if (window.languageData['EN'] && window.languageData['EN'][key]) {
+      console.warn(`Translation missing for '${key}' in ${lang}, using English`);
+      return window.languageData['EN'][key];
+    }
+    // If even English doesn't have it, return the key itself
+    console.error(`Translation missing for '${key}' in both ${lang} and EN`);
+    return key;
+  }
+  
   // Update the active language display
   updateElement('active-language', lang);
   
@@ -327,78 +415,96 @@ function changeLanguage(lang) {
   window.history.pushState({}, '', url);
   
   // Make sure languageData is available
-  if (!window.languageData || !window.languageData[lang]) {
-    console.error('Language data not available for', lang);
+  if (!window.languageData) {
+    console.error('Language data not available');
     return;
   }
   
-  // Update all UI elements by category
+  // Update all UI elements by category using the fallback helper
   
   // Landing page and nav bar
-  updateElement('title', languageData[lang].Title, true);
-  updateElement('hero-title', languageData[lang].heroTitle, true);
-  updateElement('hero-subtitle', languageData[lang].heroSubtitle, true);
-  updateElement('hero-description', languageData[lang].heroDescription);
-  updateElement('hero-button', languageData[lang].heroButtonText);
+  updateElement('title', getTranslation('Title'), true);
+  updateElement('hero-title', getTranslation('heroTitle'), true);
+  updateElement('hero-subtitle', getTranslation('heroSubtitle'), true);
+  updateElement('hero-description', getTranslation('heroDescription'));
+  updateElement('hero-button', getTranslation('heroButtonText'));
 
-// Navbar
-  updateElement('nav-home', languageData[lang].navHome);
-  updateElement('nav-resources', languageData[lang].navResources);
-  updateElement('nav-calendar', languageData[lang].navCalendar);
-  updateElement('nav-about', languageData[lang].navAbout);
-  updateElement('nav-support', languageData[lang].navSupport);
+  // Navbar
+  updateElement('nav-home', getTranslation('navHome'));
+  updateElement('nav-resources', getTranslation('navResources'));
+  updateElement('nav-calendar', getTranslation('navCalendar'));
+  updateElement('nav-about', getTranslation('navAbout'));
+  updateElement('nav-support', getTranslation('navSupport'));
 
   // About section
-  updateElement('about-title', languageData[lang].aboutTitle);
-  updateElement('about-p1', languageData[lang].aboutP1, true);
-  updateElement('about-p2', languageData[lang].aboutP2, true);
-  updateElement('about-p3', languageData[lang].aboutP3, true);
-  updateElement('about-button', languageData[lang].aboutButton, true);
-  updateElement('who-title', languageData[lang].whoTitle, true);
-  updateElement('who-p1', languageData[lang].whoP1, true);
+  updateElement('about-title', getTranslation('aboutTitle'));
+  updateElement('about-p1', getTranslation('aboutP1'), true);
+  updateElement('about-p2', getTranslation('aboutP2'), true);
+  updateElement('about-p3', getTranslation('aboutP3'), true);
+  updateElement('about-button', getTranslation('aboutButton'), true);
+  updateElement('who-title', getTranslation('whoTitle'), true);
+  updateElement('who-p1', getTranslation('whoP1'), true);
 
   // Resources section
-  updateElement('drop-all-langs', languageData[lang].resourcesDropAllLang);
-  updateElement('resources-title', languageData[lang].resourcesTitle);
-  updateElement('resources-looking', languageData[lang].resourcesLooking);
-  updateElement('resources-drop-dashboards', languageData[lang].resourcesDropDashboards);
-  updateElement('resources-drop-guides', languageData[lang].resourcesDropGuides);
-  updateElement('resources-drop-reports', languageData[lang].resourcesDropReports);
-  updateElement('resources-drop-gf', languageData[lang].resourcesDropGF);
-  updateElement('resources-drop-advocacy', languageData[lang].resourcesDropAdvo);
-  updateElement('resources-select', languageData[lang].resourcesSelect);
-  updateElement('resources-title-dashboards', languageData[lang].resourcesTitleDashboards);
-  updateElement('resources-title-guides', languageData[lang].resourcesTitleGuides);
-  updateElement('resources-title-reports', languageData[lang].resourcesTitleReports);
-  updateElement('resources-title-gf', languageData[lang].resourcesTitleGF);
-  updateElement('resources-title-advocacy', languageData[lang].resourcesTitleAdvo);
-  updateElement('resources-ccmdash', languageData[lang].resourcesCCMDash);
-  updateElement('resources-pepfardash', languageData[lang].resourcesPEPFARDash);
-  updateElement('resources-uqddash', languageData[lang].resourcesUQDDash);
-  updateElement('resources-r8dash', languageData[lang].resourcesR8Dash);
-  updateElement('resources-searchinput', languageData[lang].resourcesSearchInput);
+  updateElement('drop-all-langs', getTranslation('resourcesDropAllLang'));
+  updateElement('resources-title', getTranslation('resourcesTitle'));
+  updateElement('resources-looking', getTranslation('resourcesLooking'));
+  updateElement('resources-drop-dashboards', getTranslation('resourcesDropDashboards'));
+  updateElement('resources-drop-guides', getTranslation('resourcesDropGuides'));
+  updateElement('resources-drop-reports', getTranslation('resourcesDropReports'));
+  updateElement('resources-drop-gf', getTranslation('resourcesDropGF'));
+  updateElement('resources-drop-advocacy', getTranslation('resourcesDropAdvo'));
+  updateElement('resources-select', getTranslation('resourcesSelect'));
+  updateElement('resources-title-dashboards', getTranslation('resourcesTitleDashboards'));
+  updateElement('resources-title-guides', getTranslation('resourcesTitleGuides'));
+  updateElement('resources-title-reports', getTranslation('resourcesTitleReports'));
+  updateElement('resources-title-gf', getTranslation('resourcesTitleGF'));
+  updateElement('resources-title-advocacy', getTranslation('resourcesTitleAdvo'));
+  updateElement('resources-ccmdash', getTranslation('resourcesCCMDash'));
+  updateElement('resources-pepfardash', getTranslation('resourcesPEPFARDash'));
+  updateElement('resources-uqddash', getTranslation('resourcesUQDDash'));
+  updateElement('resources-r8dash', getTranslation('resourcesR8Dash'));
+  updateElement('resources-searchinput', getTranslation('resourcesSearchInput'));
 
   // Update the placeholder of the search input field
   const searchInput = document.getElementById('searchInput');
   if (searchInput) {
-    searchInput.setAttribute('placeholder', languageData[lang].resourcesSearchInput);
+    searchInput.setAttribute('placeholder', getTranslation('resourcesSearchInput'));
   }
 
   // GF Feedback
-  updateElement('feedback-title', languageData[lang].feedbackTitle);
-  updateElement('feedback-p1', languageData[lang].feedbackP1);
-  updateElement('feedback-p2', languageData[lang].feedbackP2);
-
-  // Calendar
-  updateElement('calendar-title', languageData[lang].calendarTitle);
-  updateElement('calendar-description', languageData[lang].calendarDescription);
-  updateElement('submit-event', languageData[lang].submitEvent);
+  updateElement('feedback-title', getTranslation('feedbackTitle'));
+  updateElement('feedback-p1', getTranslation('feedbackP1'));
+  updateElement('feedback-p2', getTranslation('feedbackP2'));
+  updateElement('btn-support', getTranslation('requestSupport'));
+  updateElement('region-selection', getTranslation('regionalSelection'));
+  updateElement('btn-contact-hub', getTranslation('contactLearningHub'));
+  updateElement('learningHub-header', getTranslation('contactLearningHubHeader'));
+  updateElement('learningHub-text', getTranslation('contactLearningHubText'), true);
+  updateElement('btn-contact-ccm', getTranslation('contactCCM'));
+  updateElement('contact-ccm-header', getTranslation('contactCCMHeader'));
+  updateElement('contact-ccm-text-1', getTranslation('contactCCMText1'));
+  updateElement('contact-ccm-text-2', getTranslation('contactCCMText2'), true);
+  updateElement('contact-ccm-text-3', getTranslation('contactCCMText3'));
+  updateElement('btn-report-fraud', getTranslation('reportFraudAndAbuse'));
+  updateElement('report-fraud-header', getTranslation('reportFraudAndAbuse'));
+  updateElement('report-fraud-list', getTranslation('reportFraudAndAbuseList'), true);
+  updateElement('report-fraud-text-1', getTranslation('reportFraudAndAbuseText1'));
+  updateElement('report-fraud-text-2', getTranslation('reportFraudAndAbuseText2'));
+  updateElement('report-fraud-text-3', getTranslation('reportFraudAndAbuseText3'));
+  updateElement('report-fraud-text-4', getTranslation('reportFraudAndAbuseText4'), true);
+  updateElement('support-header', getTranslation('requestSupportHeader'));
+  updateElement('support-intro', getTranslation('supportIntro'));
   
-  renderWeekdays();
-  renderCalendar();
-
+  // Calendar
+  updateElement('calendar-title', getTranslation('calendarTitle'));
+  updateElement('calendar-description', getTranslation('calendarDescription'));
+  updateElement('submit-event', getTranslation('submitEvent'));
+  
+  // Call these if they exist in your code
+  if (typeof renderWeekdays === 'function') renderWeekdays();
+  if (typeof renderCalendar === 'function') renderCalendar();
 }
-    
 
 // Function to initialize language on page load
 function initializeLanguage() {
@@ -410,7 +516,7 @@ function initializeLanguage() {
   const storedLang = localStorage.getItem('preferredLanguage');
   
   // Choose language with priority: URL > localStorage > default ('EN')
-  const lang = storedLang || urlLang  || 'EN';
+  const lang = storedLang || urlLang || 'EN';
   
   // Apply the selected language
   changeLanguage(lang);
