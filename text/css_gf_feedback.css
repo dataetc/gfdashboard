@@ -132,7 +132,8 @@ header::after {
 
 ul {
   margin: 0px;
- 
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.3rem;
 }
 
 .action-buttons {
