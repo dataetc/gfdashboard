@@ -32,11 +32,11 @@ const languageData = {
     resourcesTitleGF: "Global Fund materials",
     resourcesTitleAdvo: "Advocacy statements",
     resourcesCCMDash: "CCM Dashboard",
+    resourcesReprioritization: "Mind the Gap: Emerging gaps in Global Fund programs",
     resourcesPEPFARDash: "PEPFAR + Global Fund Dashboard",
     resourcesUQDDash: "UQD Dashboard",
     resourcesR8Dash: "Global Fund Replenishment 8 Scenarios",
     feedbackTitle: "Contact Us",
-
     requestSupport: "Request Support",
     regionalSelection: "Select a Region",
     requestSupportHeader: "Request Support from GADH Partners",
@@ -49,14 +49,12 @@ const languageData = {
     contactCCMText2: "To find contact information for your CCM representative, please visit the <a href='https://dataetc.org/projects/ccm' target='_blank'>CCM Dashboard</a>.",
     contactCCMText3: "The dashboard provides comprehensive information about CCM membership, structure, and contact details for each country.",
     reportFraudAndAbuse: "Report Fraud and Abuse",
-reportFraudAndAbuseList:'<li>Stealing money or medicine</li><li>Personal use of money or other assets</li><li>Fake invoicing</li><li>Staging of fake training events</li><li>Counterfeiting drugs</li><li>Irregularities in tender processes (for example, fraudulent bids, bid collusion, bid manipulation, coercive practice…)</li><li>Bribery and kickbacks</li><li>Abuse of power or authority for personal gain</li><li>Conflict of interest</li> <li>Human rights violations by Global Fund grant recipients</li><li>Sexual exploitation and abuse (SEA)</li>',
-reportFraudAndAbuseText1: "If you know of fraud or abuse taking place in your country, you can report these issues directly to the Global Fund's Office of the Inspector General (OIG).",
-reportFraudAndAbuseText2: "What should you report to the OIG?",
-reportFraudAndAbuseText3: "OIG does not investigate allegations that do not constitute misconduct or wrongdoing, but rather indicate managerial and programmatic issues, work-related conflicts, disagreements, or interpersonal issues. However, where appropriate, OIG may refer all such matters to the Global Fund Secretariat for action.",
-reportFraudAndAbuseText4: "To report fraud or abuse, visit the <a href='https://www.ispeakoutnow.org/' target='_blank'>I Speak Out Now</a> page.  If you would like help with escalating or reporting issues, please <a href='#request-support'>reach out to us</a>.", 
-
+    reportFraudAndAbuseList:'<li>Stealing money or medicine</li><li>Personal use of money or other assets</li><li>Fake invoicing</li><li>Staging of fake training events</li><li>Counterfeiting drugs</li><li>Irregularities in tender processes (for example, fraudulent bids, bid collusion, bid manipulation, coercive practice…)</li><li>Bribery and kickbacks</li><li>Abuse of power or authority for personal gain</li><li>Conflict of interest</li> <li>Human rights violations by Global Fund grant recipients</li><li>Sexual exploitation and abuse (SEA)</li>',
+    reportFraudAndAbuseText1: "If you know of fraud or abuse taking place in your country, you can report these issues directly to the Global Fund's Office of the Inspector General (OIG).",
+    reportFraudAndAbuseText2: "What should you report to the OIG?",
+    reportFraudAndAbuseText3: "OIG does not investigate allegations that do not constitute misconduct or wrongdoing, but rather indicate managerial and programmatic issues, work-related conflicts, disagreements, or interpersonal issues. However, where appropriate, OIG may refer all such matters to the Global Fund Secretariat for action.",
+    reportFraudAndAbuseText4: "To report fraud or abuse, visit the <a href='https://www.ispeakoutnow.org/' target='_blank'>I Speak Out Now</a> page.  If you would like help with escalating or reporting issues, please <a href='#request-support'>reach out to us</a>.", 
     supportIntro: "We're here to help you navigate your Global Fund feedback and support needs. Choose the option that best describes your situation.",
-    
     feedbackP1: "This form is for requesting support and for registering questions, challenges, or issues with the Global Fund processes. This is an independent community-run initiative meant to support communities to do evidence-informed advocacy on Global Fund-supported programs.", 
     feedbackP2: "We will never share anything that you share without your agreement and consent. Our only goal is to support you.",
     calendarTitle: "Calendar",
@@ -103,11 +101,11 @@ reportFraudAndAbuseText4: "To report fraud or abuse, visit the <a href='https://
     resourcesTitleGF: "Matériel du Fonds mondial",
     resourcesTitleAdvo: "Déclarations de plaidoyer",
     resourcesCCMDash: "Tableau de bord ICN",
+    resourcesReprioritization: "Attention à l'écart : lacunes émergentes dans les programmes Fonds mondial",
     resourcesPEPFARDash: "Tableau de bord PEPFAR + Fonds mondial",
     resourcesUQDDash: "Tableau de bord UQD",
     resourcesR8Dash: "Scénarios pour la 8e reconstitution du Fonds mondial",
     feedbackTitle: "Contactez-nous",
-
     requestSupport: "Demander du soutien",
     regionalSelection: "Sélectionnez votre région",
     requestSupportHeader: "Demander l'aide du GADH",
@@ -120,19 +118,14 @@ reportFraudAndAbuseText4: "To report fraud or abuse, visit the <a href='https://
     contactCCMText2: "Pour trouver les coordonnées de votre représentant ICN, veuillez consulter le site <a href='https://dataetc.org/projects/ccm' target='_blank'>CCM Dashboard</a>.",
     contactCCMText3: "Le tableau de bord fournit des informations complètes sur la composition, la structure et les coordonnées des membres du ICN pour chaque pays.",
     reportFraudAndAbuse: "Signaler une fraude/un abus",
-    
     reportFraudAndAbuseList:"<li>Vol d'argent ou de médicaments</li><li>Utilisation à des fins personnelles d'argent ou d'autres actifs</li><li>Fausses factures</li><li>Organisation de fausses formations</li><li>Contrefaçon de médicaments</li><li>Irrégularités dans les processus d'appel d'offres (par exemple, offres frauduleuses, collusion, manipulation des offres, pratiques coercitives...) </li><li>Pots-de-vin et commissions occultes</li><li>Abus de pouvoir ou d'autorité à des fins personnelles</li><li>Conflit d'intérêts</li> <li>Violations des droits humains par les bénéficiaires de subventions du Fonds mondial</li><li>Exploitation et abus sexuels (EAS)</li>",
-
-reportFraudAndAbuseText1: "Si vous avez connaissance d'actes de fraude ou d'abus dans votre pays, vous pouvez les signaler directement au Bureau de l'Inspecteur général (OIG) du Fonds mondial.",
-reportFraudAndAbuseText2: "Que devez-vous signaler à l'OIG ?",
-reportFraudAndAbuseText3: "L'OIG n'enquête pas sur les allégations qui ne constituent pas des fautes professionnelles ou des actes répréhensibles, mais qui font plutôt état de problèmes de gestion et de programmation, de conflits liés au travail, de désaccords ou de problèmes interpersonnels. Toutefois, le cas échéant, l'OIG peut renvoyer toutes ces questions au Secrétariat du Fonds mondial pour qu'il prenne les mesures qui s'imposent.",
-reportFraudAndAbuseText4: "Pour signaler une fraude ou un abus, rendez-vous sur la page <a href='https://www.ispeakoutnow.org/' target='_blank'>I Speak Out Now</a>.  Si vous avez besoin d'aide pour signaler un problème ou le faire remonter à vos supérieurs, veuillez <a href='#request-support'>nous contacter</a>.", 
-
+    reportFraudAndAbuseText1: "Si vous avez connaissance d'actes de fraude ou d'abus dans votre pays, vous pouvez les signaler directement au Bureau de l'Inspecteur général (OIG) du Fonds mondial.",
+    reportFraudAndAbuseText2: "Que devez-vous signaler à l'OIG ?",
+    reportFraudAndAbuseText3: "L'OIG n'enquête pas sur les allégations qui ne constituent pas des fautes professionnelles ou des actes répréhensibles, mais qui font plutôt état de problèmes de gestion et de programmation, de conflits liés au travail, de désaccords ou de problèmes interpersonnels. Toutefois, le cas échéant, l'OIG peut renvoyer toutes ces questions au Secrétariat du Fonds mondial pour qu'il prenne les mesures qui s'imposent.",
+    reportFraudAndAbuseText4: "Pour signaler une fraude ou un abus, rendez-vous sur la page <a href='https://www.ispeakoutnow.org/' target='_blank'>I Speak Out Now</a>.  Si vous avez besoin d'aide pour signaler un problème ou le faire remonter à vos supérieurs, veuillez <a href='#request-support'>nous contacter</a>.", 
     requestSupportGADHPartners: "Demander l'aide des partenaires du GADH",
-
     supportIntro: "Nous sommes là pour vous aider à répondre à vos besoins en matière de commentaires et d'assistance concernant le Fonds mondial. Choisissez l'option qui correspond le mieux à votre situation.",
-    
-   backP1: "Ce formulaire sert à demander du soutien et à signaler des questions, des défis ou des problèmes liés aux processus du Fonds mondial. Il s'agit d'une initiative communautaire indépendante visant à aider les communautés à mener des actions de plaidoyer fondées sur des données probantes concernant les programmes soutenus par le Fonds mondial.",
+    backP1: "Ce formulaire sert à demander du soutien et à signaler des questions, des défis ou des problèmes liés aux processus du Fonds mondial. Il s'agit d'une initiative communautaire indépendante visant à aider les communautés à mener des actions de plaidoyer fondées sur des données probantes concernant les programmes soutenus par le Fonds mondial.",
     feedbackP2: "Nous ne partagerons jamais les informations que vous nous communiquez sans votre accord et votre consentement. Notre seul objectif est de vous soutenir et vous accompagner.",
     calendarTitle: "Calendrier",
     resourcesSearchInput: "Rechercher",
@@ -178,12 +171,12 @@ reportFraudAndAbuseText4: "Pour signaler une fraude ou un abus, rendez-vous sur 
     resourcesTitleGF: "Materiales del Fondo Mundial",
     resourcesTitleAdvo: "Declaraciones de abogacía",
     resourcesCCMDash: "Cuadro de mando MCP",
+    resourcesReprioritization: "Cuidado con la brecha: lagunas emergentes en los programas del Fondo Mundial",
     resourcesPEPFARDash: "Cuadro de mando PEPFAR + Fondo Mundial",
     resourcesUQDDash: "Cuadro de mandos de UQD",
     resourcesR8Dash: "Escenarios para la 8ª reposición del Fondo Mundial",
     feedbackTitle: "Contáctenos",
-     requestSupport: "Solicitar asistencia",
-     
+    requestSupport: "Solicitar asistencia", 
     requestSupportHeader: "Solicitar asistencia a GADH",
     regionalSelection: "Seleccione su región",
     contactLearningHub: "Contactar con el centro de aprendizaje",
@@ -194,19 +187,14 @@ reportFraudAndAbuseText4: "Pour signaler une fraude ou un abus, rendez-vous sur 
     contactCCMText1: "Los NCP sirven como plataforma de coordinación para las subvenciones del Fondo Mundial en cada país. Reúnen a representantes del gobierno, la sociedad civil, el sector privado y las comunidades afectadas.",
     contactCCMText2: "Para encontrar la información de contacto de su representante de NCP, visite el <a href='https://dataetc.org/projects/ccm' target='_blank'>CCM Dashboard</a>.",
     contactCCMText3: "El panel de control proporciona información completa sobre la composición, la estructura y los datos de contacto de los miembros del NCP de cada país.",
-    
     reportFraudAndAbuse: "Denunciar fraude y abuso",
     reportFraudAndAbuseList:"<li>Robo de dinero o medicamentos</li><li>Uso personal de dinero u otros activos</li><li>Facturación falsa</li><li>Organización de eventos de formación falsos</li><li>Falsificación de medicamentos</li><li>Irregularidades en los procesos de licitación (por ejemplo, ofertas fraudulentas, colusión en las licitaciones, manipulación de las licitaciones, prácticas coercitivas...) </li><li>Soborno y comisiones ilegales</li><li>Abuso de poder o autoridad para obtener beneficios personales</li><li>Conflicto de intereses</li> <li>Violaciones de los derechos humanos por parte de los beneficiarios de subvenciones del Fondo Mundial</li><li>Explotación y abuso sexuales (EAS)</li>",
-
-reportFraudAndAbuseText1: "Si tiene conocimiento de algún caso de fraude o abuso en su país, puede denunciarlo directamente a la Oficina del Inspector General (OIG) del Fondo Mundial.",
-reportFraudAndAbuseText2: "¿Qué debe informar a la OIG?",
-reportFraudAndAbuseText3: "La OIG no investiga denuncias que no constituyan conductas indebidas o irregularidades, sino que más bien indiquen problemas de gestión y programáticos, conflictos laborales, desacuerdos o problemas interpersonales. No obstante, cuando proceda, la OIG podrá remitir todos estos asuntos a la Secretaría del Fondo Mundial para que adopte las medidas oportunas.",
-reportFraudAndAbuseText4: "Para denunciar un fraude o abuso, visite la página <a href='https://www.ispeakoutnow.org/' target='_blank'>I Speak Out Now</a>.  Si necesita ayuda para escalar o denunciar problemas, póngase en contacto con nosotros <a href='#request-support'>aquí</a>.", 
-
-
+    reportFraudAndAbuseText1: "Si tiene conocimiento de algún caso de fraude o abuso en su país, puede denunciarlo directamente a la Oficina del Inspector General (OIG) del Fondo Mundial.",
+    reportFraudAndAbuseText2: "¿Qué debe informar a la OIG?",
+    reportFraudAndAbuseText3: "La OIG no investiga denuncias que no constituyan conductas indebidas o irregularidades, sino que más bien indiquen problemas de gestión y programáticos, conflictos laborales, desacuerdos o problemas interpersonales. No obstante, cuando proceda, la OIG podrá remitir todos estos asuntos a la Secretaría del Fondo Mundial para que adopte las medidas oportunas.",
+    reportFraudAndAbuseText4: "Para denunciar un fraude o abuso, visite la página <a href='https://www.ispeakoutnow.org/' target='_blank'>I Speak Out Now</a>.  Si necesita ayuda para escalar o denunciar problemas, póngase en contacto con nosotros <a href='#request-support'>aquí</a>.", 
     requestSupportGADHPartners: "Solicitar asistencia a los socios de GADH",
     supportIntro: "Estamos aquí para ayudarle a gestionar sus comentarios y necesidades de apoyo al Fondo Mundial. Elija la opción que mejor describa su situación.",
-    
     feedbackP1: "Este formulario sirve para solicitar apoyo y comunicar preguntas, retos o problemas relacionados con los procesos del Fondo Mundial. Se trata de una iniciativa comunitaria independiente cuyo objetivo es ayudar a las comunidades a llevar a cabo acciones de promoción basadas en datos contrastados sobre los programas respaldados por el Fondo Mundial.",
     feedbackP2: "Nunca compartiremos la información que nos facilite sin su consentimiento y autorización. Nuestro único objetivo es apoyarle y acompañarle.",
     calendarTitle: "Calendario",
@@ -253,6 +241,7 @@ reportFraudAndAbuseText4: "Para denunciar un fraude o abuso, visite la página <
     resourcesTitleGF: "Materiais do Fundo Global",
     resourcesTitleAdvo: "Declarações de advocacia",
     resourcesCCMDash: "Painel MCP",
+    resourcesReprioritization: "Cuidado com a lacuna: lacunas emergentes nos programas do Fundo Global",
     resourcesPEPFARDash: "Painel PEPFAR + Fundo Global",
     resourcesUQDDash: "Painel UQD",
     resourcesR8Dash: "Cenários de Reabastecimento 8 do Fundo Global",
@@ -303,6 +292,7 @@ reportFraudAndAbuseText4: "Para denunciar un fraude o abuso, visite la página <
     resourcesTitleGF: "Материалы Глобального фонда",
     resourcesTitleAdvo: "Заявления в поддержку",
     resourcesCCMDash: "Панель мониторинга CKK",
+    resourcesReprioritization: "Внимание к разрыву: появляющиеся разрывы в программах Глобального фонда",
     resourcesUQDDash: "Панель мониторинга UQD",
     resourcesR8Dash: "Сценарии 8-го пополнения Глобального фонда",
     feedbackTitle: "Свяжитесь с нами",
@@ -352,6 +342,7 @@ reportFraudAndAbuseText4: "Para denunciar un fraude o abuso, visite la página <
     resourcesTitleGF: "Vifaa vya Global Fund",
     resourcesTitleAdvo: "Kauli za utetezi",
     resourcesCCMDash: "Dashbodi ya CCM",
+    resourcesReprioritization: "Angalia Pengo: Mapengo yanayoibuka katika programu za Mfuko wa Ulimwengu",
     resourcesPEPFARDash: "Dashbodi ya PEPFAR + Global Fund",
     resourcesUQDDash: "Dashbodi ya UQD",
     resourcesR8Dash: "Mitazamo 8 ya Kuongeza Fedha za Global Fund",
@@ -461,6 +452,7 @@ function changeLanguage(lang) {
   updateElement('resources-title-gf', getTranslation('resourcesTitleGF'));
   updateElement('resources-title-advocacy', getTranslation('resourcesTitleAdvo'));
   updateElement('resources-ccmdash', getTranslation('resourcesCCMDash'));
+  updateElement('resources-reprioritization', getTranslation('resourcesReprioritization'));
   updateElement('resources-pepfardash', getTranslation('resourcesPEPFARDash'));
   updateElement('resources-uqddash', getTranslation('resourcesUQDDash'));
   updateElement('resources-r8dash', getTranslation('resourcesR8Dash'));
