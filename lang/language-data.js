@@ -38,23 +38,32 @@ const languageData = {
     resourcesR8Dash: "Global Fund Replenishment 8 Scenarios",
     feedbackTitle: "Contact Us",
     requestSupport: "Request Support",
+    
     regionalSelection: "Select a Region",
     requestSupportHeader: "Request Support from GADH Partners",
+    
     contactLearningHub: "Contact Learning Hub",
     contactLearningHubHeader: "Contact the Global Fund Learning Hub",
     contactLearningHubText: "Six regional civil society and community organizations act as hosts for the <a href='https://resources.theglobalfund.org/en/more-topics/technical-cooperation/community-engagement/' target=_blank>Community Engagement</a> Strategic Initiative’s Regional Learning Hubs.  <br><br> Select your region to view contact information for your Regional Learning Hub:",
+    
+    
     contactCCM: "Contact my CCM",
     contactCCMHeader: "Contact Your CCM Representative",
     contactCCMText1: "Country Coordinating Mechanisms (CCMs) serve as the coordination platform for Global Fund grants in each country. They bring together representatives from government, civil society, the private sector, and affected communities.",
     contactCCMText2: "To find contact information for your CCM representative, please visit the <a href='https://dataetc.org/projects/ccm' target='_blank'>CCM Dashboard</a>.",
     contactCCMText3: "The dashboard provides comprehensive information about CCM membership, structure, and contact details for each country.",
+    
     reportFraudAndAbuse: "Report Fraud and Abuse",
     reportFraudAndAbuseList:'<li>Stealing money or medicine</li><li>Personal use of money or other assets</li><li>Fake invoicing</li><li>Staging of fake training events</li><li>Counterfeiting drugs</li><li>Irregularities in tender processes (for example, fraudulent bids, bid collusion, bid manipulation, coercive practice…)</li><li>Bribery and kickbacks</li><li>Abuse of power or authority for personal gain</li><li>Conflict of interest</li> <li>Human rights violations by Global Fund grant recipients</li><li>Sexual exploitation and abuse (SEA)</li>',
     reportFraudAndAbuseText1: "If you know of fraud or abuse taking place in your country, you can report these issues directly to the Global Fund's Office of the Inspector General (OIG).",
     reportFraudAndAbuseText2: "What should you report to the OIG?",
     reportFraudAndAbuseText3: "OIG does not investigate allegations that do not constitute misconduct or wrongdoing, but rather indicate managerial and programmatic issues, work-related conflicts, disagreements, or interpersonal issues. However, where appropriate, OIG may refer all such matters to the Global Fund Secretariat for action.",
     reportFraudAndAbuseText4: "To report fraud or abuse, visit the <a href='https://www.ispeakoutnow.org/' target='_blank'>I Speak Out Now</a> page.  If you would like help with escalating or reporting issues, please <a href='#request-support'>reach out to us</a>.", 
+    
     supportIntro: "We're here to help you navigate your Global Fund feedback and support needs. Choose the option that best describes your situation.",
+    
+    
+    
     feedbackP1: "This form is for requesting support and for registering questions, challenges, or issues with the Global Fund processes. This is an independent community-run initiative meant to support communities to do evidence-informed advocacy on Global Fund-supported programs.", 
     feedbackP2: "We will never share anything that you share without your agreement and consent. Our only goal is to support you.",
     calendarTitle: "Calendar",
@@ -125,7 +134,8 @@ const languageData = {
     reportFraudAndAbuseText4: "Pour signaler une fraude ou un abus, rendez-vous sur la page <a href='https://www.ispeakoutnow.org/' target='_blank'>I Speak Out Now</a>.  Si vous avez besoin d'aide pour signaler un problème ou le faire remonter à vos supérieurs, veuillez <a href='#request-support'>nous contacter</a>.", 
     requestSupportGADHPartners: "Demander l'aide des partenaires du GADH",
     supportIntro: "Nous sommes là pour vous aider à répondre à vos besoins en matière de commentaires et d'assistance concernant le Fonds mondial. Choisissez l'option qui correspond le mieux à votre situation.",
-    backP1: "Ce formulaire sert à demander du soutien et à signaler des questions, des défis ou des problèmes liés aux processus du Fonds mondial. Il s'agit d'une initiative communautaire indépendante visant à aider les communautés à mener des actions de plaidoyer fondées sur des données probantes concernant les programmes soutenus par le Fonds mondial.",
+    
+    feedbackP1: "Ce formulaire sert à demander du soutien et à signaler des questions, des défis ou des problèmes liés aux processus du Fonds mondial. Il s'agit d'une initiative communautaire indépendante visant à aider les communautés à mener des actions de plaidoyer fondées sur des données probantes concernant les programmes soutenus par le Fonds mondial.",
     feedbackP2: "Nous ne partagerons jamais les informations que vous nous communiquez sans votre accord et votre consentement. Notre seul objectif est de vous soutenir et vous accompagner.",
     calendarTitle: "Calendrier",
     resourcesSearchInput: "Rechercher",
@@ -246,6 +256,33 @@ const languageData = {
     resourcesUQDDash: "Painel UQD",
     resourcesR8Dash: "Cenários de Reabastecimento 8 do Fundo Global",
     feedbackTitle: "Contacte-nos",
+    // Regquest support section
+    requestSupport: "Solicitar asistencia",
+    requestSupportHeader: "Solicitar assistência ao GADH",
+    regionalSelection: "Selecione uma região",
+    contactLearningHub: "Contacte o Centro de Aprendizagem",
+    contactLearningHubHeader: "Contacte o Centro de Aprendizagem do Fundo Global",
+    contactLearningHubText: "Seis organizações regionais da sociedade civil e comunitárias atuam como anfitriãs dos Centros Regionais de Aprendizagem da Iniciativa Estratégica <a href=‘https://resources.theglobalfund.org/en/more-topics/technical-cooperation/community-engagement/’ target=_blank>Envolvimento Comunitário</a>.  <br><br> Selecione a sua região para ver as informações de contacto do seu Centro Regional de Aprendizagem:",
+    // Contact CCM section
+    contactCCM: "Contactar o meu MCP",
+    contactCCMHeader: "Contacte o seu representante do MCP",
+    contactCCMText1: "Os Mecanismos de Coordenação Nacional (CCMs) funcionam como plataforma de coordenação para as subvenções do Fundo Global em cada país. Reúnem representantes do governo, da sociedade civil, do setor privado e das comunidades afetadas.",
+    contactCCMText2: "Para encontrar as informações de contacto do seu representante CCM, visite o <a href=‘https://dataetc.org/projects/ccm’ target=‘_blank’>Painel CCM</a>.",
+    contactCCMText3: "O painel fornece informações abrangentes sobre a adesão ao CCM, a estrutura e os detalhes de contacto de cada país.The dashboard provides comprehensive information about CCM membership, structure, and contact details for each country.",
+     // Report fraud and abuse section
+    reportFraudAndAbuse: "Denunciar fraude e abuso",
+    reportFraudAndAbuseList:'<li>Roubo de dinheiro ou medicamentos</li><li>Utilização pessoal de dinheiro ou outros bens</li><li>Faturação falsa</li><li>Organização de eventos de formação falsos</li><li>Contrafação de medicamentos</li><li>Irregularidades em processos de concurso (por exemplo, propostas fraudulentas, conluio, manipulação de propostas, práticas coercivas...) </li><li>Suborno e propinas</li><li>Abuso de poder ou autoridade para ganho pessoal</li><li>Conflito de interesses</li> <li>Violações dos direitos humanos por parte dos beneficiários de subvenções do Fundo Global</li><li>Exploração e abuso sexual (EAS)</li>',
+    reportFraudAndAbuseText1: "Se tiver conhecimento de fraudes ou abusos ocorridos no seu país, pode denunciar esses problemas diretamente ao Gabinete do Inspetor-Geral (OIG) do Fundo Global.",
+    reportFraudAndAbuseText2: "O que deve ser comunicado ao OIG?",
+    reportFraudAndAbuseText3: "O OIG não investiga alegações que não constituem má conduta ou irregularidade, mas sim questões administrativas e programáticas, conflitos relacionados com o trabalho, desacordos ou questões interpessoais. No entanto, quando apropriado, o OIG pode encaminhar todas essas questões ao Secretariado do Fundo Global para que sejam tomadas medidas.",
+    reportFraudAndAbuseText4: "Para denunciar fraudes ou abusos, aceda à página <a href=‘https://www.ispeakoutnow.org/’ target=‘_blank’>I Speak Out Now</a>. Se precisar de ajuda para escalar ou denunciar problemas, <a href=‘#request-support’>entre em contacto connosco</a>.", 
+    
+    
+    
+   
+   
+
+    supportIntro: "Estamos aqui para ajudá-lo a navegar pelas suas necessidades de feedback e apoio do Fundo Global. Escolha a opção que melhor descreve a sua situação.",
     feedbackP1: "Este formulário serve para solicitar apoio e comunicar questões, desafios ou problemas relacionados com os processos do Fundo Global. Trata-se de uma iniciativa comunitária independente que visa ajudar as comunidades a realizar ações de defesa baseadas em dados comprovados sobre os programas apoiados pelo Fundo Global.", 
     feedbackP2: "Nunca partilharemos as informações que nos fornecer sem o seu consentimento e autorização. O nosso único objetivo é apoiar e acompanhar você.",
     calendarTitle: "Calendário",
@@ -296,6 +333,32 @@ const languageData = {
     resourcesUQDDash: "Панель мониторинга UQD",
     resourcesR8Dash: "Сценарии 8-го пополнения Глобального фонда",
     feedbackTitle: "Свяжитесь с нами",
+
+
+ // Russian
+    requestSupport: "Запросить поддержку",
+    requestSupportHeader: "Запросить помощь у GADH",
+    regionalSelection: "Выберите ваш регион",
+    contactLearningHub: "Связаться с учебным центром",
+    contactLearningHubHeader: "Связаться с учебным центром",
+    contactLearningHubText: "Если у вас есть вопросы о том, как использовать учебный центр, вы можете связаться с нами.",
+// Contact CCM section
+    contactCCM: "Связаться с моим ККК",
+    contactCCMHeader: "Связаться с вашим представителем ККК",
+    contactCCMText1: "Страновые координационные механизмы (СКМ) служат платформой для координации грантов Глобального фонда в каждой стране. Они объединяют представителей правительства, гражданского общества, частного сектора и затронутых сообществ.",
+    contactCCMText2: "Чтобы найти контактную информацию вашего представителя CCM, посетите <a href=„https://dataetc.org/projects/ccm“ target=„_blank“>панель управления CCM</a>.",
+    contactCCMText3: "На панели управления представлена исчерпывающая информация о членстве в ККМ, структуре и контактных данных каждой страны.",
+   
+    // Fruad and abuse section
+    reportFraudAndAbuse: "Сообщить о мошенничестве и злоупотреблении",
+    reportFraudAndAbuseList:'<li>Кража денег или лекарств</li><li>Использование денег или других активов в личных целях</li><li>Подделка счетов-фактур</li><li>Инсценировка фальшивых учебных мероприятий</li><li>Подделка лекарств</li><li>Нарушения в процессе проведения тендеров (например, мошеннические заявки, сговор между участниками тендера, манипулирование заявками, принуждение…) </li><li>Взяточничество и откаты</li><li>Злоупотребление властью или полномочиями в личных целях</li><li>Конфликт интересов</li> <li>Нарушения прав человека со стороны получателей грантов Глобального фонда</li><li>Сексуальная эксплуатация и насилие (СЭН)</li>',
+    reportFraudAndAbuseText1: "Если вам известно о случаях мошенничества или злоупотреблений в вашей стране, вы можете сообщить об этом непосредственно в Управление генерального инспектора (УГИ) Глобального фонда.",
+    reportFraudAndAbuseText2: "О чем следует сообщать в OIG?",
+    reportFraudAndAbuseText3: "OIG не расследует заявления, которые не являются проявлениями неправомерного поведения или правонарушений, а скорее указывают на проблемы в области управления и реализации программ, конфликты, связанные с работой, разногласия или межличностные проблемы. Однако в соответствующих случаях OIG может передавать все такие вопросы на рассмотрение Секретариату Глобального фонда для принятия мер.",
+    reportFraudAndAbuseText4: 'Чтобы сообщить о мошенничестве или злоупотреблении, посетите страницу <a href="https://www.ispeakoutnow.org/" target="_blank">I Speak Out Now</a>.  Если вам нужна помощь в эскалации или сообщении о проблемах, пожалуйста, <a href="#request-support">свяжитесь с нами</a>.', 
+    supportIntro: "Мы готовы помочь вам сориентироваться в отзывах и потребностях в поддержке Глобального фонда. Выберите вариант, который наилучшим образом описывает вашу ситуацию.",
+    
+
     feedbackP1: "Эта форма предназначена для запроса поддержки и регистрации вопросов, проблем или сложностей, связанных с процессами Глобального фонда. Это независимая инициатива, осуществляемая сообществом, цель которой — помочь сообществам проводить основанную на фактах информационно-пропагандистскую работу в отношении программ, поддерживаемых Глобальным фондом.",
     feedbackP2: "Мы никогда не будем распространять информацию, которую вы нам предоставите, без вашего согласия и разрешения. Наша единственная цель — оказать вам поддержку.",
     calendarTitle: "Календарь",
@@ -346,7 +409,33 @@ const languageData = {
     resourcesPEPFARDash: "Dashbodi ya PEPFAR + Global Fund",
     resourcesUQDDash: "Dashbodi ya UQD",
     resourcesR8Dash: "Mitazamo 8 ya Kuongeza Fedha za Global Fund",
+    //
     feedbackTitle: "Wasiliana Nasi",
+    requestSupport: "Omba Usaidizi",
+    
+    regionalSelection: "Chagua Eneo",
+    requestSupportHeader: "Omba Usaidizi kutoka kwa Washirika wa GADH",
+    
+    contactLearningHub: "Wasiliana na Kituo cha Kujifunza",
+    contactLearningHubHeader: "Wasiliana na Kituo cha Kujifunza cha Mfuko wa Dunia",
+    contactLearningHubText: "Asasi sita za kiraia za kikanda na mashirika ya kijamii hufanya kazi kama wenyeji wa <a href='https://resources.theglobalfund.org/en/more-topics/technical-cooperation/community-engagement/' target=_blank>Ushirikishwaji wa Jamii</a> Vituo vya Kujifunza vya Kikanda vya Mpango Mkakati. <br><br> Chagua eneo lako ili kuona maelezo ya mawasiliano ya Kituo chako cha Kujifunza cha Kikanda:",
+    
+    
+    contactCCM: "Wasiliana na CCM yangu",
+    contactCCMHeader: "Wasiliana na Mwakilishi wako wa CCM",
+    contactCCMText1: "Mifumo ya Uratibu wa Nchi (CCM) hutumika kama jukwaa la uratibu wa ruzuku za Mfuko wa Dunia katika kila nchi. Huwaleta pamoja wawakilishi kutoka serikalini, asasi za kiraia, sekta binafsi, na jamii zilizoathiriwa.",
+    contactCCMText2: "Ili kupata taarifa za mawasiliano za mwakilishi wako wa CCM, tafadhali tembelea <a href='https://dataetc.org/projects/ccm' target='_blank'>Dashibodi ya CCM</a>.",
+    contactCCMText3: "Dashibodi hutoa taarifa kamili kuhusu uanachama wa CCM, muundo, na maelezo ya mawasiliano kwa kila nchi.",
+    
+    reportFraudAndAbuse: "Ripoti Ulaghai na Unyanyasaji",
+    reportFraudAndAbuseList:'<li>Kuiba pesa au dawa</li><li>Matumizi binafsi ya pesa au mali nyingine</li><li>Uwasilishaji wa ankara bandia</li><li>Kuandaa matukio ya mafunzo bandia</li><li>Dawa bandia</li><li>Makosa katika michakato ya zabuni (kwa mfano, zabuni za ulaghai, njama za zabuni, udanganyifu wa zabuni, vitendo vya kulazimisha…)</li><li>Hongo na rushwa</li><li>Matumizi mabaya ya madaraka au mamlaka kwa faida binafsi</li><li>Mgogoro wa maslahi</li> <li>Ukiukaji wa haki za binadamu na wapokeaji wa ruzuku ya Mfuko wa Dunia</li><li>Unyonyaji na unyanyasaji wa kingono</li>',
+    reportFraudAndAbuseText1: "Ukijua kuhusu ulaghai au matumizi mabaya yanayofanyika nchini mwako, unaweza kuripoti masuala haya moja kwa moja kwa Ofisi ya Mkaguzi Mkuu wa Fedha wa Mfuko wa Dunia (OIG).",
+    reportFraudAndAbuseText2: "Unapaswa kuripoti nini kwa OIG?",
+    reportFraudAndAbuseText3: "OIG haichunguzi madai ambayo hayana utovu wa nidhamu au makosa, bali yanaonyesha masuala ya usimamizi na programu, migogoro inayohusiana na kazi, kutokubaliana, au masuala ya mahusiano ya kibinafsi. Hata hivyo, inapobidi, OIG inaweza kupeleka masuala yote hayo kwa Sekretarieti ya Mfuko wa Dunia kwa ajili ya hatua.",
+    reportFraudAndAbuseText4: "Ili kuripoti ulaghai au matumizi mabaya, tembelea ukurasa wa <a href='https://www.ispeakoutnow.org/' target='_blank'>I Speak Out Now</a>. Ikiwa ungependa usaidizi kuhusu masuala yanayozidi au kuripoti, tafadhali <a href='#request-support'>tuwasiliane</a>.", 
+    
+    supportIntro: "Tuko hapa kukusaidia kushughulikia maoni na mahitaji yako ya usaidizi ya Mfuko wa Dunia. Chagua chaguo linaloelezea vyema hali yako.",
+    //
     feedbackP1: "Fomu hii ni kwa ajili ya kuomba usaidizi na kurekodi maswali, changamoto, au matatizo kuhusu michakato ya Global Fund. Huu ni mpango huru unaoendeshwa na jamii wenye lengo la kusaidia jamii kufanya utetezi unaotegemea ushahidi kuhusu programu zinazofadhiliwa na Global Fund.", 
     feedbackP2: "Hatutawahi kushiriki chochote unachotuma bila idhini na ridhaa yako. Lengo letu pekee ni kukusaidia.",
     calendarTitle: "Kalenda",
