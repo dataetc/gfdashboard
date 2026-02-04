@@ -32,6 +32,7 @@ const languageData = {
     resourcesTitleGF: "Global Fund materials",
     resourcesTitleAdvo: "Advocacy statements",
     resourcesCCMDash: "CCM Dashboard",
+    resourcesGC8Documents: "Global Fund Document Hub",
     resourcesReprioritization: "Mind the Gap: Emerging gaps in Global Fund programs",
     resourcesPEPFARDash: "PEPFAR + Global Fund Dashboard",
     resourcesUQDDash: "UQD Dashboard",
@@ -110,6 +111,7 @@ const languageData = {
     resourcesTitleGF: "Matériel du Fonds mondial",
     resourcesTitleAdvo: "Déclarations de plaidoyer",
     resourcesCCMDash: "Tableau de bord ICN",
+    resourcesGC8Documents: "Hub des documents du Fonds mondial",
     resourcesReprioritization: "Attention à l'écart : lacunes émergentes dans les programmes Fonds mondial",
     resourcesPEPFARDash: "Tableau de bord PEPFAR + Fonds mondial",
     resourcesUQDDash: "Tableau de bord UQD",
@@ -181,6 +183,7 @@ const languageData = {
     resourcesTitleGF: "Materiales del Fondo Mundial",
     resourcesTitleAdvo: "Declaraciones de abogacía",
     resourcesCCMDash: "Cuadro de mando MCP",
+    resourcesGC8Documents: "Centro de documentos del Fondo Mundial",
     resourcesReprioritization: "Cuidado con la brecha: lagunas emergentes en los programas del Fondo Mundial",
     resourcesPEPFARDash: "Cuadro de mando PEPFAR + Fondo Mundial",
     resourcesUQDDash: "Cuadro de mandos de UQD",
@@ -251,6 +254,7 @@ const languageData = {
     resourcesTitleGF: "Materiais do Fundo Global",
     resourcesTitleAdvo: "Declarações de advocacia",
     resourcesCCMDash: "Painel MCP",
+    resourcesGC8Documents: "Centro de Documentos do Fundo Global",
     resourcesReprioritization: "Cuidado com a lacuna: lacunas emergentes nos programas do Fundo Global",
     resourcesPEPFARDash: "Painel PEPFAR + Fundo Global",
     resourcesUQDDash: "Painel UQD",
@@ -329,6 +333,7 @@ const languageData = {
     resourcesTitleGF: "Материалы Глобального фонда",
     resourcesTitleAdvo: "Заявления в поддержку",
     resourcesCCMDash: "Панель мониторинга CKK",
+    resourcesGC8Documents: "Центр документов Глобального фонда",
     resourcesReprioritization: "Внимание к разрыву: появляющиеся разрывы в программах Глобального фонда",
     resourcesUQDDash: "Панель мониторинга UQD",
     resourcesR8Dash: "Сценарии 8-го пополнения Глобального фонда",
@@ -405,6 +410,7 @@ const languageData = {
     resourcesTitleGF: "Vifaa vya Global Fund",
     resourcesTitleAdvo: "Kauli za utetezi",
     resourcesCCMDash: "Dashbodi ya CCM",
+    resourcesGC8Documents: "Hifadhi ya nyaraka kutoka kwa Global Fund",
     resourcesReprioritization: "Angalia Pengo: Mapengo yanayoibuka katika programu za Mfuko wa Ulimwengu",
     resourcesPEPFARDash: "Dashbodi ya PEPFAR + Global Fund",
     resourcesUQDDash: "Dashbodi ya UQD",
@@ -541,6 +547,7 @@ function changeLanguage(lang) {
   updateElement('resources-title-gf', getTranslation('resourcesTitleGF'));
   updateElement('resources-title-advocacy', getTranslation('resourcesTitleAdvo'));
   updateElement('resources-ccmdash', getTranslation('resourcesCCMDash'));
+  updateElement('resources-gc8-documents', getTranslation('resourcesGC8Documents'));
   updateElement('resources-reprioritization', getTranslation('resourcesReprioritization'));
   updateElement('resources-pepfardash', getTranslation('resourcesPEPFARDash'));
   updateElement('resources-uqddash', getTranslation('resourcesUQDDash'));
