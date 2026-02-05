@@ -422,16 +422,15 @@ section h3 {
 }
 
 .image-item {
-  flex: 0 0 20vw; 
+  flex: 0 0 18vw; 
   margin: 0.8vw;
   padding-top: 5px;
   border-radius: 5px;
   text-align: center;
   overflow: hidden;
   justify-content: center;
-  border: 1px solid #dddddd;
   position: relative;
-  padding-bottom: 40px; /* Space for source and date attribution */
+  padding-bottom: 10px; 
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -492,11 +491,6 @@ section h3 {
 /* ==========================================================================
    7. GADH RESOURCE BADGE
    ========================================================================== */
-
-.gadh-resource {
-  border: 1px solid #cb764e;
-  background-color: #fff9f5;
-}
 
 .gadh-resource::before {
   content: "GADH Resource";
