@@ -12,16 +12,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Barrio&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <script src="scripts/js.js"></script>
+  
+  <!-- Resource renderer for Google Sheets -->
+  <script src="resources-renderer.js"></script>
+  
   <title>The GADH: Resources</title>
 </head>
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
     const languageFilter = document.getElementById('languageFilter');
-    const imageItems = document.querySelectorAll('.image-item');
 
     languageFilter.addEventListener('change', function() {
         const selectedLanguage = this.value;
+        const imageItems = document.querySelectorAll('.image-item');
 
         imageItems.forEach(item => {
             const itemLanguages = item.getAttribute('data-language').split('&')
@@ -38,17 +42,42 @@ document.addEventListener('DOMContentLoaded', () => {
                 item.style.display = 'none'; // Hide the image item
             }
         });
+        
+        // Update counts after filtering
+        updateResourceCounts();
     });
 });
 </script>
 
 <body>
-  <div class="hero">
-    <header>
+   <header class="sticky-header">
       <script src="site-navbar.js"></script>
       <site-navbar id="main-navbar"></site-navbar>
+        <!-- Sticky Section Navigation -->
+    <nav class="section-nav" id="sectionNav">
+      <a href="#dashboards" data-section="dashboards">
+        <span id="nav-dashboards">Dashboards</span>
+      </a>
+      <a href="#guides" data-section="guides">
+        <span id="nav-guides">Guides</span>
+      </a>
+      <a href="#reports" data-section="reports">
+        <span id="nav-reports">Reports</span>
+      </a>
+      <a href="#gf" data-section="gf">
+        <span id="nav-gf">Global Fund</span>
+      </a>
+      <a href="#advocacy" data-section="advocacy">
+        <span id="nav-advocacy">Advocacy</span>
+      </a>
+    </nav>
     </header>
-  <div class="hero-content">
+    
+  
+
+
+  <div class="hero">
+   <div class="hero-content">
     <h1 id="resources-title">Resources</h1>
     <div class="search-and-dropdown">
       <h2 style="display: inline;" id="resources-looking">I'm looking for: </h2>
@@ -63,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
       </div>
     <div class="search-container">
-      <input type="text" id="searchInput" placeholder="Test" />
+      <input type="text" id="searchInput" placeholder="Search resources..." />
     <div id="searchResults"></div>
     </div>
     <div class="dropdown-container">
@@ -80,203 +109,69 @@ document.addEventListener('DOMContentLoaded', () => {
     </select>
 </div>
     </div>
+    </div>
+    <div class="content">
+    
     <section id="dashboards">
-      <h2 id="resources-title-dashboards">Dashboards</h2>
+      <h2>
+        <span id="resources-title-dashboards" class="section-name">Dashboards</span>
+        <span class="section-count" id="section-count-dashboards">(0 resources)</span>
+      </h2>
       <div class="image-grid">
-        <div class="image-item" data-language="all">
-            <a href="https://dataetc.org/projects/ccm" target=_blank>
-              <img src="images/ccm_dashboard.png" alt="CCM Dashboard" class="image-placeholder" loading="lazy">
-              <img src="images/ccm_dashboard.gif" alt="CCM Dashboard" class="image-gif" style="display: none;">
-            </a>
-            <a href="https://dataetc.org/projects/ccm" target=_blank><h5 id="resources-ccmdash"></h5></a>
-        </div>
-        <div class="image-item" data-language="all">
-            <a href="https://dataetc.org/projects/gc8-documents" target=_blank>
-              <img src="images/gc8-documents.png" alt="GC8 Documents" class="image-placeholder" loading="lazy">
-              <img src="images/gc8-documents.gif" alt="GC8 Documents" class="image-gif" style="display: none;">
-            </a>
-            <a href="https://dataetc.org/projects/gc8-documents" target=_blank><h5 id="resources-gc8-documents"></h5></a>
-        </div> 
-        <div class="image-item" data-language="all">
-            <a href="https://dataetc.org/projects/reprioritization" target=_blank>
-              <img src="images/reprioritization.png" alt="Mind the Gap: Emerging gaps in Global Fund programs" class="image-placeholder" loading="lazy">
-              <img src="images/reprioritization.gif" alt="Mind the Gap: Emerging gaps in Global Fund programs" class="image-gif" style="display: none;">
-            </a>
-            <a href="https://dataetc.org/projects/reprioritization" target=_blank><h5 id="resources-reprioritization"></h5></a>
-        </div> 
-        <div class="image-item" data-language="english">
-            <a href="https://dataetc.org/projects/pepfar" target=_blank>
-              <img src="images/pepfar_dashboard.png" alt="PEPFAR Dashboard" class="image-placeholder" loading="lazy">
-              <img src="images/pepfar_dashboard.gif" alt="PEPFAR Dashboard" class="image-gif" style="display: none;">
-            </a>
-            <a href="https://dataetc.org/projects/uqd" target=_blank><h5 id="resources-pepfardash"></h5></a>
-        </div>        
-        <div class="image-item" data-language="english">
-            <a href="https://dataetc.org/projects/uqd" target=_blank>
-              <img src="images/uqd_dashboard.png" alt="UQD Dashboard" class="image-placeholder" loading="lazy">
-              <img src="images/uqd_dashboard.gif" alt="UQD Dashboard" class="image-gif" style="display: none;">
-            </a>
-            <a href="https://dataetc.org/projects/uqd" target=_blank><h5 id="resources-uqddash"></h5></a>
-        </div>
-         <div class="image-item" data-language="english">
-            <a href="https://dataetc.org/projects/r8-tracker" target=_blank>
-              <img src="images/replenishment_dashboard.png" alt="Replenishment" class="image-placeholder" loading="lazy">
-              <img src="images/replenishment_dashboard.gif" alt="Replenishment" class="image-gif" style="display: none;">
-            </a>
-            <a href="https://dataetc.org/projects/r8-tracker" target=_blank><h5 id="resources-r8dash">Global Fund Replenishment 8 Scenarios</h5></a>
-        </div> 
- 
+        <!-- Populated by resources-renderer-googlesheets.js -->
+      </div>
     </section>
 
-      <section id="guides">
-        <h2 id="resources-title-guides">Guides</h2>
-        <div class="image-grid">
-<!--           <div class="image-item" data-language="english">
-              <a href="resources/Know Your Rights.pdf"><img src="images/know-your-rights.png" alt="Know Your Rights"></a>
-              <a href="resources/Know Your Rights.pdf"><h5>Know Your Rights</h5></a>
-          </div>
- -->      <div class="image-item" data-language="english">
-              <a href="resources/Interpreting Global Fund Guidance - FAQ - EN.pdf"><img src="images/interpreting-guidance-en.png" alt="Interpreting Guidance Eng" loading="lazy"></a>
-              <a href="resources/Interpreting Global Fund Guidance - FAQ - EN.pdf"><h5>Interpreting Global Fund Guidance - FAQ</h5></a>
-          </div>
-          <div class="image-item" data-language="french">
-              <a href="resources/Interprétation des orientations du Fonds mondial - FAQ - FR.pdf"><img src="images/interpreting-guidance-fr.png" alt="Interpreting Guidance Fra" loading="lazy"></a>
-              <a href="resources/Interprétation des orientations du Fonds mondial - FAQ - FR.pdf"><h5>Interprétation des orientations du Fonds mondial - FAQ</h5></a>
-          </div>
-          <div class="image-item" data-language="spanish">
-              <a href="resources/Interpretación de las orientaciones del Fondo Mundial - FAQ - ES.pdf"><img src="images/interpreting-guidance-es.png" alt="Interpreting Guidance Span" loading="lazy"></a>
-              <a href="resources/Interpretación de las orientaciones del Fondo Mundial - FAQ - ES.pdf"><h5>Interpretación de las orientaciones del Fondo Mundial - FAQ</h5></a>
-          </div>
-          <div class="image-item" data-language="portuguese">
-              <a href="resources/Interpretação do Guia do Fundo Global - FAQ - PT.pdf"><img src="images/interpreting-guidance-pt.png" alt="Interpreting Guidance Port" loading="lazy"></a>
-              <a href="resources/Interpretação do Guia do Fundo Global - FAQ - PT.pdf"><h5>Interpretação do Guia do Fundo Global - FAQ</h5></a>
-          </div>
-          <div class="image-item" data-language="russian">
-              <a href="resources/Интерпретация руководства Глобального фонда - Вопросы и ответы - RU.pdf"><img src="images/interpreting-guidance-ru.png" alt="Interpreting Guidance Rus" loading="lazy"></a>
-              <a href="resources/Интерпретация руководства Глобального фонда - Вопросы и ответы - RU.pdf"><h5>Интерпретация руководства Глобального фонда - Вопросы и ответы</h5></a>
-          </div>
-          <div class="image-item" data-language="arabic">
-              <a href="resources/نسخة من تفسير إرشادات الصندوق العالمي - الأسئلة الشائعة - AR.pdf"><img src="images/interpreting-guidance-ar.png" alt="Interpreting Guidance Ara" loading="lazy"></a>
-              <a href="resources/نسخة من تفسير إرشادات الصندوق العالمي - الأسئلة الشائعة - AR.pdf"><h5>نسخة من تفسير إرشادات الصندوق العالمي - الأسئلة الشائعة</h5></a>
-          </div>
-          <div class="image-item" data-language="indonesian">
-              <a href="resources/Interpreting Global Fund Guidance - FAQ - Bahasa Indonesia.pdf"><img src="images/interpreting-guidance-ba.png" alt="Interpreting Guidance Bah" loading="lazy"></a>
-              <a href="resources/Interpreting Global Fund Guidance - FAQ - Bahasa Indonesia.pdf"><h5>Interpreting Global Fund Guidance - FAQ - Bahasa Indonesia</h5></a>
-          </div>
-          <div class="image-item" data-language="english">
-              <a href="resources/Community Guide to Reprogramming Global Fund Grants.pdf"><img src="images/reprogramming-en.png" alt="Reprogramming Eng" loading="lazy"></a>
-              <a href="resources/Community Guide to Reprogramming Global Fund Grants.pdf"><h5>Community Guide to Reprogramming Global Fund Grants</h5></a>
-          </div>
-          <div class="image-item" data-language="french">
-              <a href="resources/Guide communautaire à la reprogrammation des subventions du Fonds mondial.pdf"><img src="images/reprogramming-fr.png" alt="Reprogramming fr" loading="lazy"></a>
-              <a href="resources/Guide communautaire à la reprogrammation des subventions du Fonds mondial.pdf"><h5>Guide communautaire à la reprogrammation des subventions du Fonds mondial</h5></a>
-          </div>
-      </section>
+    <section id="guides">
+      <h2>
+        <span id="resources-title-guides" class="section-name">Guides</span>
+        <span class="section-count" id="section-count-guides">(0 resources)</span>
+      </h2>
+      <div class="image-grid">
+        <!-- Populated by resources-renderer-googlesheets.js -->
+      </div>
+    </section>
 
-      <section id="reports">
-        <h2 id="resources-title-reports">Reports</h2>
-        <div class="image-grid">
-           <div class="image-item" data-language="english">
-              <a href="resources/Community Engagement in Global Fund Reprioritization 2025.pdf"><img src="images/reprioritization-report.png" alt="Community Engagement in Global Fund Reprioritization 2025" loading="lazy"></a>
-              <a href="resources/Community Engagement in Global Fund Reprioritization 2025.pdf"><h5>Community Engagement in Global Fund Reprioritization</h5></a>
-          </div>
-           <div class="image-item" data-language="french">
-              <a href="resources/Engagement communautaire dans la redéfinition des priorités du Fonds mondial.pdf"><img src="images/reprioritization-report-fr.png" alt="Engagement communautaire dans la redéfinition des priorités du Fonds mondial" loading="lazy"></a>
-              <a href="resources/Engagement communautaire dans la redéfinition des priorités du Fonds mondial.pdf"><h5>Engagement communautaire dans la redéfinition des priorités du Fonds mondial</h5></a>
-          </div>
-          <div class="image-item" data-language="english">
-              <a href="resources/SCOPE Report.pdf"><img src="images/SCOPE-report.png" alt="SCOPE"></a>
-              <a href="resources/SCOPE Report.pdf"><h5>SCOPE Report</h5></a>
-          </div>
-          <div class="image-item" data-language="all">
-              <a href="https://docs.google.com/spreadsheets/d/1OWv9Q4zyLESuzdvuesSHBp9GhLyycgiz9IMbXmlRWzA/edit?usp=sharing" target="_blank"><img src="images/gc7-cut-data.png" alt="GC7 Reprioritization Revised Funding Envelopes" loading="lazy"></a>
-              <a href="https://docs.google.com/spreadsheets/d/1OWv9Q4zyLESuzdvuesSHBp9GhLyycgiz9IMbXmlRWzA/edit?usp=sharing" target="_blank"><h5>GC7 Reprioritization Revised Funding Envelopes</h5></a>
-          </div>
-          <div class="image-item" data-language="english">
-              <a href="resources/A Roadmap for Strengthening Community Engagement with Global Fund.pdf"><img src="images/roadmap.png" alt="Roadmap Eng" loading="lazy"></a>
-              <a href="resources/A Roadmap for Strengthening Community Engagement with Global Fund.pdf"><h5>A Roadmap for Strengthening Community Engagement with Global Fund</h5></a>
-          </div>
-          <div class="image-item" data-language="french">
-              <a href="resources/Feuille de route pour le renforcement de l'engagement des communautés auprès du Fonds mondial.pdf"><img src="images/roadmap-fra.png" alt="Roadmap fr" loading="lazy"></a>
-              <a href="resources/Feuille de route pour le renforcement de l'engagement des communautés auprès du Fonds mondial.pdf"><h5>Feuille de route pour le renforcement de l'engagement des communautés auprès du Fonds mondial</h5></a>
-          </div>
-          <div class="image-item" data-language="english">
-              <a href="resources/RISE Report 2024.pdf"><img src="images/rise.png" alt="RISE en" loading="lazy"></a>
-              <a href="resources/RISE Report 2024.pdf"><h5>Community engagement in Global Fund Country Coordinating Mechanisms: Findings from the RISE Study</h5></a>
-          </div>
-          <div class="image-item" data-language="french">
-              <a href="resources/Rapport RISE 2024.pdf"><img src="images/rise-fra.png" alt="Roadmap fr" loading="lazy"></a>
-              <a href="resources/Rapport RISE 2024.pdf"><h5>Engagement communautaire dans les instances de coordination nationale du Fonds mondial: Conclusions de l'étude RISE</h5></a>
-          </div>
-          <div class="image-item" data-language="spanish">
-              <a href="resources/Informe RISE 2024.pdf"><img src="images/rise-esp.png" alt="Roadmap fr" loading="lazy"></a>
-              <a href="resources/Informe RISE 2024.pdf"><h5>Participación comunitaria en los Mecanismos de Coordinación de País del Fondo Mundial: Resultados del estudio RISE</h5></a>
-          </div>
-              <div class="image-item" data-language="portuguese">
-              <a href="resources/Relatório RISE 2024.pdf"><img src="images/rise-por.png" alt="Roadmap fr" loading="lazy"></a>
-              <a href="resources/Relatório RISE 2024.pdf"><h5>Envolvimento da Comunidade nos Mecanismos de Coordenação do Pais do Fundo Global: Conclusões do Estudo RISE</h5></a>
-          </div>
-          <div class="image-item" data-language="russian">
-              <a href="resources/Отчет RISE 2024.pdf"><img src="images/rise-rus.png" alt="Roadmap fr" loading="lazy"></a>
-              <a href="resources/Отчет RISE 2024.pdf"><h5>Участие сообществ в Страновых Координационных Комитетах Глобального Фонда: Результаты исследования RISE</h5></a>
-          </div>
-      </section>
+    <section id="reports">
+      <h2>
+        <span id="resources-title-reports" class="section-name">Reports</span>
+        <span class="section-count" id="section-count-reports">(0 resources)</span>
+      </h2>
+      <div class="image-grid">
+        <!-- Populated by resources-renderer-googlesheets.js -->
+      </div>
+    </section>
 
-      <section id="gf">
-        <h2 id="resources-title-gf">Global Fund materials</h2>
-        <div class="image-grid">
-          <div class="image-item" data-language="english">
-              <a href="https://resources.theglobalfund.org/en/technical-guidance/core-guidance/"><img src="images/gf-core-guidance-en.png" alt="core guidance - en" loading="lazy"></a>
-              <a href="https://resources.theglobalfund.org/en/technical-guidance/core-guidance/"><h5>Core Guidance</h5></a>
-          </div>
-          <div class="image-item" data-language="french">
-              <a href="https://resources.theglobalfund.org/en/technical-guidance/core-guidance/"><img src="images/gf-core-guidance-fr.png" alt="core guidance - fr" loading="lazy"></a>
-              <a href="https://resources.theglobalfund.org/en/technical-guidance/core-guidance/"><h5>Orientations de base</h5></a>
-          </div>
-          <div class="image-item" data-language="spanish">
-              <a href="https://resources.theglobalfund.org/es/technical-guidance/core-guidance/"><img src="images/gf-core-guidance-es.png" alt="core guidance - es" loading="lazy"></a>
-              <a href="https://resources.theglobalfund.org/es/technical-guidance/core-guidance/"><h5>Directrices básicas</h5></a>
-          </div>
-          <div class="image-item" data-language="english">
-              <a href="https://archive.theglobalfund.org/media/tlvapcz2/archive_operational-2025-12-15_update_en.pdf"><img src="images/operational-update-en.png" alt="operational update - en" loading="lazy"></a>
-              <a href="https://archive.theglobalfund.org/media/tlvapcz2/archive_operational-2025-12-15_update_en.pdf"><h5>Operational Update: Launching Grant Cycle 8</h5></a>
-          </div>
-          <div class="image-item" data-language="french">
-              <a href="https://archive.theglobalfund.org/media/t4alu3z4/archive_operational-2025-12-15_update_fr.pdf"><img src="images/operational-update-fr.png" alt="operational update - fr" loading="lazy"></a>
-              <a href="https://archive.theglobalfund.org/media/t4alu3z4/archive_operational-2025-12-15_update_fr.pdf"><h5>Mise à jour opérationnelle: Lancement du cycle de subvention 8</h5></a>
-          </div>
-          <div class="image-item" data-language="spanish">
-              <a href="https://archive.theglobalfund.org/media/ck1nbzvh/archive_operational-2025-12-15_update_es.pdf"><img src="images/operational-update-es.png" alt="operational update - es" loading="lazy"></a>
-              <a href="https://archive.theglobalfund.org/media/ck1nbzvh/archive_operational-2025-12-15_update_es.pdf"><h5>Actualización operativa: Lanzamiento del Octavo Ciclo de Subvenciones</h5></a>
-          </div>
-          <div class="image-item" data-language="portuguese">
-              <a href="https://archive.theglobalfund.org/media/udahuvop/archive_operational-2025-12-15_update_pt.pdf"><img src="images/operational-update-pt.png" alt="operational update - pt" loading="lazy"></a>
-              <a href="https://archive.theglobalfund.org/media/udahuvop/archive_operational-2025-12-15_update_pt.pdf"><h5>Atualização operacional: Lançamento do oitavo ciclo de subvenções</h5></a>
-          </div>
-          <div class="image-item" data-language="portuguese">
-              <a href="https://www.theglobalfund.org/media/10734/ccm_communityengagement_toolbox_en.pdf"><img src="images/crg-toolbox.png" alt="community engagement toolbox" loading="lazy"></a>
-              <a href="https://www.theglobalfund.org/media/10734/ccm_communityengagement_toolbox_en.pdf"><h5>Community Engagement Toolbox: Resources from Partners of the Global Fund's Community Engagement Strategic Initiative</h5></a>
-          </div>
-      </section>
+    <section id="gf">
+      <h2>
+        <span id="resources-title-gf" class="section-name">Global Fund materials</span>
+        <span class="section-count" id="section-count-gf">(0 resources)</span>
+      </h2>
+      <div class="image-grid">
+        <!-- Populated by resources-renderer-googlesheets.js -->
+      </div>
+    </section>
 
-      <section id="advocacy">
-        <h2 id="resources-title-advocacy">Advocacy statements</h2>
-        <div class="image-grid">  
-          <div class="image-item" data-language="english & french">
-              <a href="resources/28th Strategy Committee Civil Society Statement.pdf"><img src="images/CS-28SC-letter.png" alt="28th Strategy Committee Civil Society Statement" loading="lazy"></a>
-              <a href="resources/28th Strategy Committee Civil Society Statement.pdf"><h5>28th Strategy Committee Civil Society Statement (7 July 2025)</h5></a>
-          </div>
-          <div class="image-item" data-language="english & french">
-              <a href="resources/CHANGE Statement - 53rd Board Meeting.pdf"><img src="images/CHANGE-letter-53BM.png" alt="CHANGE Statement - 53rd Board Meeting" loading="lazy"></a>
-              <a href="resources/CHANGE Statement - 53rd Board Meeting.pdf"><h5>CHANGE Statement - 53rd Board Meeting (7 May 2025)</h5></a>
-          </div>
-          <div class="image-item" data-language="english & french">
-              <a href="resources/CHANGE Statement - 27th Strategy Committee Meeting.pdf"><img src="images/CHANGE-letter.png" alt="CHANGE Statement - 27th Strategy Committee Meeting" loading="lazy"></a>
-              <a href="resources/CHANGE Statement - 27th Strategy Committee Meeting.pdf"><h5>CHANGE Statement - 27th Strategy Committee Meeting (13 March 2025)</h5></a>
-          </div>
-      </section>
+    <section id="advocacy">
+      <h2>
+        <span id="resources-title-advocacy" class="section-name">Advocacy statements</span>
+        <span class="section-count" id="section-count-advocacy">(0 resources)</span>
+      </h2>
+      <div class="image-grid">
+        <!-- Populated by resources-renderer-googlesheets.js -->
+      </div>
+    </section>
 
+  </div>
+    
     </div>
+  
+  <!-- Page Footer -->
+  <footer class="page-footer">
+    <p>&copy; The Global Advocacy Data Hub (GADH)</p>
+    <p>For more information, visit <a href="https://globaladvocacydatahub.org">www.thegadh.org</a></p>
+  </footer>
+  
   </div>
 
   <script>
@@ -316,47 +211,52 @@ document.addEventListener('DOMContentLoaded', function() {
     
   </script>
 
-  <script >
-    document.addEventListener('DOMContentLoaded', function() {
-  var imagePlaceholders = document.querySelectorAll('.image-placeholder');
-  var imageGifs = document.querySelectorAll('.image-gif');
-
-  imagePlaceholders.forEach(function(placeholder, index) {
-    var gif = imageGifs[index];
-    gif.onload = function() {
-      placeholder.style.display = 'none';
-      gif.style.display = 'inline';
-    };
-  });
-});
-
-  </script>
-
   <script>
     document.addEventListener('DOMContentLoaded', function() {
   // Get all the resource sections, titles, and items
   const resourceSections = document.querySelectorAll('section');
-  const resourceTitles = document.querySelectorAll('.image-item h5');
-  const resourceItems = document.querySelectorAll('.image-item');
-
   const searchInput = document.getElementById('searchInput');
 
   // Add event listener to the search input
   searchInput.addEventListener('input', function() {
     const searchTerm = this.value.toLowerCase();
 
-    // Loop through the resource items
-    resourceItems.forEach(function(item, index) {
-      const title = resourceTitles[index];
-      if (title.textContent.toLowerCase().includes(searchTerm)) {
-        item.style.display = 'block';
-      } else {
-        item.style.display = 'none';
-      }
-    });
-
     // Loop through the resource sections
     resourceSections.forEach(function(section) {
+      const resourceItems = section.querySelectorAll('.image-item');
+      let hasArchivedMatches = false;
+      
+      // Loop through the resource items in this section
+      resourceItems.forEach(function(item) {
+        const title = item.querySelector('h5');
+        const isArchived = item.closest('.archived-content');
+        
+        if (title && title.textContent.toLowerCase().includes(searchTerm)) {
+          item.style.display = 'block';
+          
+          // Check if this match is in archived resources
+          if (isArchived) {
+            hasArchivedMatches = true;
+          }
+        } else {
+          item.style.display = 'none';
+        }
+      });
+
+      // Auto-open archived section if there are matches in it
+      if (hasArchivedMatches && searchTerm) {
+        const sectionId = section.getAttribute('id');
+        const archivedContent = document.getElementById(`archived-${sectionId}`);
+        const toggleButton = archivedContent?.previousElementSibling;
+        
+        if (archivedContent && !archivedContent.classList.contains('show')) {
+          archivedContent.classList.add('show');
+          if (toggleButton) {
+            toggleButton.classList.add('open');
+          }
+        }
+      }
+
       // Check if any items in the section are visible
       const visibleItems = section.querySelectorAll('.image-item:not([style*="display: none"])');
       if (visibleItems.length > 0) {
@@ -365,9 +265,90 @@ document.addEventListener('DOMContentLoaded', function() {
         section.style.display = 'none';
       }
     });
+    
+    // Update counts after search
+    updateResourceCounts();
   });
 });
-
+  </script>
+  
+  <script>
+    // Section navigation scroll tracking
+    document.addEventListener('DOMContentLoaded', function() {
+      const sections = document.querySelectorAll('section[id]');
+      const navLinks = document.querySelectorAll('.section-nav a');
+      
+      // Intersection Observer for tracking active section
+      const observerOptions = {
+        rootMargin: '-20% 0px -70% 0px',
+        threshold: 0
+      };
+      
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const sectionId = entry.target.getAttribute('id');
+            
+            // Remove active class from all links
+            navLinks.forEach(link => link.classList.remove('active'));
+            
+            // Add active class to current section link
+            const activeLink = document.querySelector(`.section-nav a[data-section="${sectionId}"]`);
+            if (activeLink) {
+              activeLink.classList.add('active');
+            }
+          }
+        });
+      }, observerOptions);
+      
+      // Observe all sections
+      sections.forEach(section => observer.observe(section));
+      
+      // Smooth scroll for nav links
+      navLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+          e.preventDefault();
+          const targetId = link.getAttribute('href').substring(1);
+          const targetSection = document.getElementById(targetId);
+          
+          if (targetSection) {
+            const navHeight = document.querySelector('.section-nav').offsetHeight;
+            const headerHeight = document.querySelector('header').offsetHeight;
+            const targetPosition = targetSection.offsetTop - navHeight - headerHeight - 20;
+            
+            window.scrollTo({
+              top: targetPosition,
+              behavior: 'smooth'
+            });
+          }
+        });
+      });
+    });
+    
+    // Function to update resource counts
+    function updateResourceCounts() {
+      const sections = ['dashboards', 'guides', 'reports', 'gf', 'advocacy'];
+      
+      sections.forEach(sectionId => {
+        const section = document.getElementById(sectionId);
+        if (!section) return;
+        
+        const visibleItems = section.querySelectorAll('.image-item:not([style*="display: none"]):not(.archived-content .image-item)');
+        const count = visibleItems.length;
+        
+        // Update section title count
+        const sectionCount = document.getElementById(`section-count-${sectionId}`);
+        if (sectionCount) {
+          sectionCount.textContent = `(${count} resource${count !== 1 ? 's' : ''})`;
+        }
+      });
+    }
+    
+    // Initialize counts on load
+    document.addEventListener('DOMContentLoaded', function() {
+      // Wait a bit for resources to load
+      setTimeout(updateResourceCounts, 500);
+    });
   </script>
 
 </body>

@@ -1,3 +1,35 @@
+/* ==========================================================================
+   COMPLETE CSS FOR GADH RESOURCES PAGE
+   ========================================================================== */
+
+/* ==========================================================================
+   1. RESET & BASE STYLES
+   ========================================================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto Condensed', Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+}
+.content{
+  padding: 5vh 3vw 3vw;
+}
+
+/* ==========================================================================
+   2. NAVIGATION & HEADER
+   ========================================================================== */
+
 nav a {
   color: #000;
 }
@@ -13,12 +45,79 @@ header::after {
 }
 
 .language-dropdown {
-      color: #000 !important;
+  color: #000 !important;
 }
 
-#resources-select {
-  text-align: left;
+/* Sticky Header */
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+
+/* Sticky Section Navigation */
+.section-nav {
+  position: sticky;
+  top: 0; /* Sits right under the sticky header */
+  z-index: 500;
+  background-color: #f9f9f9;
+  border-bottom: 2px solid #cb764e;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.section-nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 2px; /* More square buttons */
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1em;
+  transition: all 0.3s ease;
+  position: relative;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.section-nav a:hover {
+  background-color: #fff;
+  color: #cb764e;
+  border-color: #cb764e;
+}
+
+.section-nav a.active {
+  background-color: #cb764e;
+  color: #fff;
+  font-weight: bold;
+  border-color: #cb764e;
+}
+
+.section-nav a .count {
+  display: none; /* Hide the count numbers */
+}
+
+@media (max-width: 767px) {
+  .section-nav {
+    top: 0;
+    padding: 8px 10px;
+    gap: 8px;
+  }
+  
+  .section-nav a {
+    padding: 8px 14px;
+    font-size: 0.9em;
+  }
+}
+
+/* ==========================================================================
+   3. HERO SECTION
+   ========================================================================== */
 
 .hero {
   position: relative;
@@ -47,6 +146,7 @@ header::after {
   margin-bottom: 10px;
   font-family: 'Barrio', Arial, sans-serif;
   text-align: left;
+  color: #000;
 }
 
 @media (max-width: 767px) {
@@ -55,10 +155,11 @@ header::after {
   }
 }
 
-.hero h2 {
-  font-size: 2em;
+.h2 {
+  font-size: 1.5em;
   font-family: 'Barriecito', Arial, sans-serif;
   text-align: left;
+  color: #000;
 }
 
 @media (max-width: 767px) {
@@ -78,7 +179,10 @@ header::after {
   left: 0;
   width: 100%;
   height: 5px;
-  background-color: #cb764e;
+ 
+}
+.section-name::after{
+ background-color: #cb764e;
 }
 
 .hero p {
@@ -86,6 +190,7 @@ header::after {
   font-family: "Roboto Condensed", sans-serif;
   margin-top: 0;
   text-align: left;
+  color: #000;
 }
 
 @media (max-width: 767px) {
@@ -94,16 +199,39 @@ header::after {
   }
 }
 
-.hero-content h1,
-.hero-content h2,
-.hero-content p {
+/* ==========================================================================
+   4. SEARCH & FILTERS
+   ========================================================================== */
+
+.search-and-dropdown {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.search-and-dropdown h2 {
+  margin-right: 10px;
+  white-space: nowrap;
   color: #000;
 }
 
+/* Dropdown Styles */
 .dropdown {
   position: relative;
   display: inline-block;
+  margin-right: 10px;
+}
 
+.dropdown .dropbtn {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #fff;
+  color: #000;
+  padding: 8px 12px;
+  border: 1px solid orange !important;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
 }
 
 .dropdown-content {
@@ -118,7 +246,6 @@ header::after {
   font-size: 1.2em; 
   border: 1px solid orange; 
   padding: 8px 12px;
-  background-color: #f9f9f9;
   border-radius: 3px;
 }
 
@@ -136,50 +263,29 @@ header::after {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-  .dropbtn {
-    font-family: "Roboto Condensed", sans-serif;
-    background-color: #fff;
-    color: #000;
-    padding: 8px 8px;
-    border: 1px solid orange !important;
-    border-radius: 5px;
-    cursor: pointer;
-  }
 
-  /* General Styles */
-section {
-    background-color: white;
-    padding: 20px;
-  }
-  
-  section h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    position: relative;
-  }
-
-section h2::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -10px;
-  width: 93vw;
-  height: 0.5px;
-  background-color: #000;
+#resources-select {
+  text-align: left;
 }
 
-section h3 {
-  color: black;
+/* Search Input */
+.search-container input {
+  padding: 8px 12px;
+  font-size: 1.2em;
+  font-family: "Roboto Condensed", sans-serif;
+  border: 1px solid orange;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  min-width: 250px;
 }
 
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+.search-container input:focus {
+  outline: none;
+  border-color: #cb764e;
+  background-color: #fff;
 }
 
+/* Language Filter Dropdown */
 .dropdown-container {
   display: flex;
   justify-content: flex-end;
@@ -193,14 +299,14 @@ section h3 {
   background-color: #f1f1f1;
   border-radius: 4px;
   cursor: pointer;
-  appearance: none; /* Removes default browser styling */
+  appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   background-image: url('data:image/svg+xml;utf8,<svg fill="%23000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
   background-repeat: no-repeat;
   background-position-x: 95%;
   background-position-y: center;
-  padding-right: 30px; /* Space for custom dropdown arrow */
+  padding-right: 30px;
 }
 
 .dropdown-container select:focus {
@@ -213,6 +319,94 @@ section h3 {
   padding: 8px 12px;
 }
 
+/* Mobile Responsive Search & Filters */
+@media (max-width: 767px) {
+  .search-and-dropdown {
+    flex-direction: column;    
+    align-items: stretch;  
+    gap: 1rem;  
+    margin-top: 1rem;   
+  }
+
+  .search-and-dropdown h2,
+  .search-and-dropdown .dropdown,
+  .search-and-dropdown .search-container,
+  .search-and-dropdown .dropdown-container {
+    display: block !important;   
+    width: 100%; 
+    margin: 0;  
+  }
+
+  .search-and-dropdown .dropbtn {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .search-and-dropdown .search-container input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.6rem;
+    min-width: unset;
+  }
+
+  .search-and-dropdown .dropdown-container select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.5rem;
+  }
+
+  .search-and-dropdown h2 {
+    margin-bottom: 0.3rem;
+    font-size: 1.1rem;
+  }
+}
+
+/* ==========================================================================
+   5. SECTIONS & CONTENT
+   ========================================================================== */
+
+section {
+  background-color: white;
+  padding: 40px 20px;
+  border-top: 1px solid #ddd; /* Line between sections */
+}
+
+section:last-of-type {
+  border-bottom: none; /* Remove border from last section */
+}
+
+section h2 {
+  text-align: left;
+  margin-bottom: 30px;
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  gap: 15px;
+  color: #000;
+  font-size: 3.5em; 
+  font-family: 'Barriecito', Arial, sans-serif;
+}
+
+section h2::after {
+  display: none;
+}
+
+.section-count {
+  font-size: 0.5em;
+  color: #666;
+  font-weight: normal;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+section h3 {
+  color: black;
+}
+
+/* ==========================================================================
+   6. IMAGE GRID & RESOURCE ITEMS
+   ========================================================================== */
+
 .image-grid {
   display: flex;
   flex-wrap: wrap;
@@ -222,18 +416,26 @@ section h3 {
 }
 
 @media (max-width: 500px) {
-.image-grid {
-  display: block;
-}
+  .image-grid {
+    display: block;
+  }
 }
 
 .image-item {
-  flex: 0 0 20vw; 
-  margin: 1vw;
+  flex: 0 0 15vw; /* Reduced from 20vw to make smaller */
+  margin: 0.8vw;
   border-radius: 5px;
   text-align: center;
   overflow: hidden;
-  justify-content: center; 
+  justify-content: center;
+  position: relative;
+  padding-bottom: 40px; /* Space for source and date attribution */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.image-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 @media (max-width: 500px) {
@@ -248,117 +450,281 @@ section h3 {
 
 .image-item img {
   width: auto;
-  max-height: 40vh;
+  max-height: 30vh; /* Reduced from 40vh to make images smaller */
   border: 0.5px solid #ccc;
+  transition: opacity 0.3s ease;
+}
+
+.image-item:hover img {
+  opacity: 0.9;
 }
 
 .image-item h3 {
-  padding: 10px;
-  font-size: 1.2em;
+  padding: 8px;
+  font-size: 1em; /* Reduced from 1.2em */
   color: #333;
 }
 
 .image-item h5 {
-padding: 10px;
-font-size: 1.2em;
-font-family: "Roboto Condensed", sans-serif;
-color: #333;
+  padding: 8px;
+  font-size: 1em; /* Reduced from 1.2em */
+  font-family: "Roboto Condensed", sans-serif;
+  color: #333;
 }
 
-.search-and-dropdown {
-display: flex;
-align-items: center;
-margin-bottom: 20px;
-gap: 20px;
+.image-item a {
+  text-decoration: none;
+  color: inherit;
 }
 
-.search-and-dropdown h2 {
-margin-right: 10px;
-white-space: nowrap;
+.image-item a:hover h5 {
+  color: #cb764e;
 }
 
-.dropdown {
-margin-right: 10px;
+/* ==========================================================================
+   7. GADH RESOURCE BADGE
+   ========================================================================== */
+
+.gadh-resource {
+  border: 2px solid #cb764e;
+  background-color: #fff9f5;
 }
 
-.dropdown .dropbtn {
-padding: 8px 12px;
-font-size: 1.2em;
-border: 1px solid #ccc;
-border-radius: 4px;
-background-color: #f1f1f1;
-cursor: pointer;
+.gadh-resource::before {
+  content: "GADH Resource";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #cb764e;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 3px;
+  font-size: 0.85em;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  z-index: 10;
 }
 
-.dropdown-content {
-display: none;
-position: absolute;
-background-color: #f1f1f1;
-min-width: 160px;
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-z-index: 1;
+/* ==========================================================================
+   8. RESOURCE METADATA (Source & Date)
+   ========================================================================== */
+
+.resource-metadata {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 0.85em;
+  color: #666;
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 1.4;
 }
 
-.dropdown-content a {
-color: black;
-padding: 12px 16px;
-text-decoration: none;
-display: block;
+.resource-source,
+.resource-date {
+  font-style: italic;
 }
 
-.dropdown-content a:hover {
-background-color: #ddd;
+/* ==========================================================================
+   9. ARCHIVED RESOURCES
+   ========================================================================== */
+
+.archived-resource {
+  opacity: 0.9;
+  filter: grayscale(10%);
 }
 
-.dropdown:hover .dropdown-content {
-display: block;
+.archived-badge {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  background-color: #999;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 3px;
+  font-size: 0.85em;
+  font-family: "Roboto Condensed", sans-serif;
+  z-index: 10;
 }
 
-.search-container input {
-padding: 8px 12px;
-font-size: 1.2em;
-font-family: "Roboto Condensed", sans-serif;
-border: 1px solid orange;
-background-color: #f1f1f1;
-border-radius: 4px;
+.archived-section-divider {
+  width: 100%;
+  margin: 30px 0 10px 0;
+  padding-top: 20px;
 }
 
-@media (max-width: 767px) {
-  .search-and-dropdown {
-    flex-direction:column;    
-    align-items:stretch;  
-    gap:1rem;  
-    margin-top:1rem;   
+.archived-toggle {
+  width: 100%;
+  text-align: center;
+  padding: 12px 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1em;
+  color: #666;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.archived-toggle:hover {
+  background-color: #eee;
+  color: #333;
+}
+
+.archived-toggle .arrow {
+  font-size: 0.8em;
+  transition: transform 0.3s ease;
+}
+
+.archived-toggle.open .arrow {
+  transform: rotate(180deg);
+}
+
+.archived-content {
+  display: none;
+  margin-top: 15px;
+}
+
+.archived-content.show {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* ==========================================================================
+   10. PAGE FOOTER
+   ========================================================================== */
+
+.page-footer {
+  background-color: #2c2c2c;
+  color: #fff;
+  padding: 40px 20px 20px;
+  margin-top: 60px;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.page-footer p {
+  margin: 10px 0;
+  font-size: 0.95em;
+}
+
+.page-footer a {
+  color: #cb764e;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.page-footer a:hover {
+  color: #e08a66;
+  text-decoration: underline;
+}
+
+/* ==========================================================================
+   11. LOADING & ERROR STATES
+   ========================================================================== */
+
+.loading-message {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.error-message {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  color: #d9534f;
+  background-color: #f9f2f2;
+  border: 1px solid #d9534f;
+  border-radius: 5px;
+  margin: 20px 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* ==========================================================================
+   12. UTILITY CLASSES
+   ========================================================================== */
+
+.hidden {
+  display: none !important;
+}
+
+.visible {
+  display: block !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+/* ==========================================================================
+   13. PRINT STYLES
+   ========================================================================== */
+
+@media print {
+  .sticky-header,
+  .section-nav,
+  .search-and-dropdown,
+  .page-footer {
+    display: none;
   }
-
-  .search-and-dropdown h2,
-  .search-and-dropdown .dropdown,
-  .search-and-dropdown .search-container,
-  .search-and-dropdown .dropdown-container {
-    display:block !important;   
-    width:100%; 
-    margin:0;  
-  }
-
-  .search-and-dropdown .dropbtn {
-    width:100%;
-    box-sizing:border-box;
-  }
-
-  .search-and-dropdown .search-container input[type="text"] {
-    width:100%;
-    box-sizing:border-box;
-    padding:0.6rem;    
-  }
-
-  .search-and-dropdown .dropdown-container select {
-    width:100%;
-    box-sizing:border-box;
-    padding:0.5rem;
-  }
-
-  .search-and-dropdown h2 {
-    margin-bottom:0.3rem;
-    font-size:1.1rem;
+  
+  .image-item {
+    page-break-inside: avoid;
   }
 }
+
+/* ==========================================================================
+   14. ACCESSIBILITY IMPROVEMENTS
+   ========================================================================== */
+
+/* Focus styles for keyboard navigation */
+a:focus,
+button:focus,
+input:focus,
+select:focus {
+  outline: 2px solid #cb764e;
+  outline-offset: 2px;
+}
+
+/* Skip to content link for screen readers */
+.skip-to-content {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #cb764e;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.skip-to-content:focus {
+  top: 0;
+}
+
+/* Reduced motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
