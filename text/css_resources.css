@@ -532,7 +532,7 @@ section h3 {
    9. ARCHIVED RESOURCES
    ========================================================================== */
 
-.archived-resource {
+/* .archived-resource {
   opacity: 0.9;
   filter: grayscale(10%);
 }
@@ -548,7 +548,7 @@ section h3 {
   font-size: 0.85em;
   font-family: "Roboto Condensed", sans-serif;
   z-index: 10;
-}
+} */
 
 .archived-section-divider {
   width: 100%;
