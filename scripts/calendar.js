@@ -6,7 +6,6 @@ const currentMonthEl = document.querySelector('.current-month');
 let currentDate = new Date();
 let currentMonth = currentDate.getMonth();
 let currentYear = currentDate.getFullYear();
-
 let events = [];
 
 fetch('events.json')
@@ -21,10 +20,18 @@ fetch('events.json')
 
 function hasEvent(year, month, day) {
 //  const eventDate = new Date(year, month, day).toISOString().slice(0, 10);
-  const eventDate = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+  //const eventDate = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
   //const eventCount = events.filter(event => event.date === eventDate).length;
   //return eventCount;
-  return events.filter(event => event.date === eventDate).length;
+  //return events.filter(event => event.date === eventDate).length;
+  // Create a date in the local time zone
+  const eventDate = new Date(year, month, day);
+  
+  // Convert to ISO string and slice to get 'YYYY-MM-DD' format
+  const formattedDate = eventDate.toISOString().split('T')[0];
+  
+  // Compare against events dates
+  return events.filter(event => event.date === formattedDate).length;
 }
 
 function renderCalendar() {
