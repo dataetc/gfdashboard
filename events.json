@@ -1189,20 +1189,11 @@
 	"language": "French"
 },
 {
-	"date": "2026-02-10",
+	"date": "2026-02-12",
 	"time": "12:00 PM UTC +2 (CAT)",
 	"title": "54th Global Fund Board Meeting",
 	"host": "<a href='https://www.theglobalfund.org/en/' target=_blank>The Global Fund</a>",
-	"description": "54th Global Fund Board Meeting, Day 1/3",
-	"link": "In-person only: Global Health Campus",
-	"language": "English"
-},
-{
-	"date": "2026-02-11",
-	"time": "12:00 PM UTC +2 (CAT)",
-	"title": "54th Global Fund Board Meeting",
-	"host": "<a href='https://www.theglobalfund.org/en/' target=_blank>The Global Fund</a>",
-	"description": "54th Global Fund Board Meeting, Day 2/3",
+	"description": "54th Global Fund Board Meeting, Day 1/2",
 	"link": "In-person only: Global Health Campus",
 	"language": "English"
 },
@@ -1225,11 +1216,11 @@
 	"language": "English"
 },
 {
-	"date": "2026-02-12",
+	"date": "2026-02-13",
 	"time": "12:00 PM UTC +2 (CAT)",
 	"title": "54th Global Fund Board Meeting",
 	"host": "<a href='https://www.theglobalfund.org/en/' target=_blank>The Global Fund</a>",
-	"description": "54th Global Fund Board Meeting, Day 3/3",
+	"description": "54th Global Fund Board Meeting, Day 2/2",
 	"link": "In-person only: Global Health Campus",
 	"language": "English"
 },

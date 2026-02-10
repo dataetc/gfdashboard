@@ -24,6 +24,7 @@ function hasEvent(year, month, day) {
   const eventDate = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
   //const eventCount = events.filter(event => event.date === eventDate).length;
   //return eventCount;
+  
   return events.filter(event => event.date === eventDate).length;
 }
 
@@ -61,19 +62,27 @@ function renderCalendar() {
 
   for (let i = 1; i <= daysInMonth; i++) {
   const day = document.createElement('div');
-day.classList.add('day');
+  day.classList.add('day');
 
-const dayNumber = document.createElement('span');
-dayNumber.classList.add('day-number');
-dayNumber.textContent = i;
-day.appendChild(dayNumber);
+  const dayNumber = document.createElement('span');
+  dayNumber.classList.add('day-number');
+  dayNumber.textContent = i;
+  day.appendChild(dayNumber);
 
-const eventCount = hasEvent(currentYear, currentMonth, i);
+  const eventCount = hasEvent(currentYear, currentMonth, i);
+
 if (eventCount > 0) {
   day.classList.add('event');
 
-  const eventDate = new Date(currentYear, currentMonth, i).toISOString().slice(0, 10);
-  const dayEvents = events.filter(event => event.date === eventDate);
+  const eventDate = `${currentYear}-${String(currentMonth + 1).padStart(2, '0')}-${String(i).padStart(2, '0')}`;
+      
+      // Log the event date being used
+      console.log(`Attempting to find events for date: ${eventDate}`);
+      
+      const dayEvents = events.filter(event => event.date === eventDate);
+      
+      // Log the events found
+      console.log('Events for this date:', dayEvents);
 
   const ul = document.createElement('ul');
   ul.classList.add('event-list');
