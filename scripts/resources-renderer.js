@@ -177,7 +177,7 @@ function createResourceItem(resource) {
   }
   
   if (resource.archived) {
-    html += `<div class="archived-badge">Archived</div>`;
+    html += ``// `<div class="archived-badge">Archived</div>`;
   }
   
   html += `
