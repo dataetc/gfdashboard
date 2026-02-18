@@ -13,8 +13,17 @@ let resourcesData = {
 
 // Function to parse CSV text into array of objects
 function parseCSV(csvText) {
-  const lines = csvText.split('\n');
-  const headers = lines[0].split(',');
+  // Strip BOM (byte-order mark) that Google Sheets sometimes prepends
+  const cleaned = csvText.replace(/^\uFEFF/, '');
+  const lines = cleaned.split('\n');
+
+  // Clean every header: strip BOM, quotes, and surrounding whitespace
+  const headers = parseCSVLine(lines[0]).map(h =>
+    h.replace(/^\uFEFF/, '').replace(/"/g, '').trim()
+  );
+
+  console.log('CSV headers detected:', headers); // handy for debugging
+
   const data = [];
   
   for (let i = 1; i < lines.length; i++) {
@@ -24,7 +33,7 @@ function parseCSV(csvText) {
     const obj = {};
     
     headers.forEach((header, index) => {
-      obj[header.trim()] = values[index] ? values[index].trim() : '';
+      obj[header] = values[index] ? values[index].trim() : '';
     });
     
     data.push(obj);
@@ -67,12 +76,42 @@ function csvRowToResource(row) {
     imageGif: row.imageGif || undefined,
     languages: row.languages.split('&').map(lang => lang.trim().toLowerCase()),
     source: row.source || '',
+    author: row.author || '',   // NEW: partner/author field
     date: row.date || '', 
     archived: row.archived.toUpperCase() === 'TRUE',
     external: row.external.toUpperCase() === 'TRUE',
-    gadhResource: row.gadhResource ? row.gadhResource.toUpperCase() === 'TRUE' : false // New gadhResource field
+    gadhResource: row.gadhResource ? row.gadhResource.toUpperCase() === 'TRUE' : false
   };
 }
+
+// ============================================================
+//  SKELETON LOADERS
+// ============================================================
+
+/**
+ * Injects skeleton placeholder cards into every .image-grid
+ * so users see a loading animation immediately.
+ */
+function showSkeletonLoaders() {
+  const grids = document.querySelectorAll('section .image-grid');
+  const skeletonCount = 6; // Cards per section while loading
+
+  const skeletonCard = `
+    <div class="image-item skeleton-item" aria-hidden="true">
+      <div class="skeleton skeleton-img"></div>
+      <div class="skeleton skeleton-title"></div>
+      <div class="skeleton skeleton-meta"></div>
+      <div class="skeleton skeleton-meta skeleton-meta--short"></div>
+    </div>`;
+
+  grids.forEach(grid => {
+    grid.innerHTML = Array(skeletonCount).fill(skeletonCard).join('');
+  });
+}
+
+// ============================================================
+//  RESOURCE LOADING
+// ============================================================
 
 // Function to load resources from Google Sheets
 async function loadResourcesFromSheet() {
@@ -129,29 +168,64 @@ function showErrorMessage(message) {
   });
 }
 
+// ============================================================
+//  RESOURCE CARD RENDERING
+// ============================================================
+
 // Function to create resource item HTML
 function createResourceItem(resource) {
   const languageAttr = resource.languages.join(' & ');
   const targetAttr = resource.external ? 'target="_blank"' : '';
-  const gadhClass = resource.gadhResource ? 'gadh-resource' : ''; // Use gadhResource field
+  const gadhClass = resource.gadhResource ? 'gadh-resource' : '';
   const archivedClass = resource.archived ? 'archived-resource' : '';
   
   // For dashboards with GIF versions
   const hasGif = resource.imageGif ? true : false;
   
-  // Build metadata section (source and date)
-  let metadataHtml = '<div class="resource-metadata">';
-  
-  if (resource.source) {
-    metadataHtml += `<div class="resource-source">Source: ${resource.source}</div>`;
+  // ----------------------------------------------------------
+  // Build author + date metadata (handles all four combos)
+  // ----------------------------------------------------------
+  const hasAuthor = resource.author && resource.author.trim() !== '';
+  const hasDate   = resource.date   && resource.date.trim()   !== '';
+
+  // Format date: handles M/D/YYYY and MM/DD/YYYY (e.g. "1/1/2026" or "01/01/2026")
+  let formattedDate = '';
+  if (hasDate) {
+    const raw = resource.date.trim();
+    console.log('Raw date value:', JSON.stringify(raw)); // debug
+    const parts = raw.split('/');
+    if (parts.length === 3) {
+      const m = parseInt(parts[0], 10);
+      const d = parseInt(parts[1], 10);
+      const y = parseInt(parts[2], 10);
+      const parsed = new Date(Date.UTC(y, m - 1, d));
+      if (!isNaN(parsed.getTime()) && y > 1000) {
+        formattedDate = parsed.toLocaleDateString('en-US', {
+          year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC'
+        });
+      } else {
+        formattedDate = raw; // fallback: show raw string
+      }
+    } else {
+      formattedDate = raw; // fallback: show raw string
+    }
   }
-  
-  if (resource.date) {
-    metadataHtml += `<div class="resource-date">${resource.date}</div>`;
+
+  let metadataHtml = '';
+  if (hasAuthor || hasDate) {
+    metadataHtml = '<div class="resource-metadata">';
+    if (hasAuthor) {
+      metadataHtml += `<div class="resource-author">${resource.author}</div>`;
+    }
+    if (hasDate) {
+      metadataHtml += `<div class="resource-date">${formattedDate}</div>`;
+    }
+    metadataHtml += '</div>';
   }
-  
-  metadataHtml += '</div>';
-  
+
+  // ----------------------------------------------------------
+  // Compose card HTML
+  // ----------------------------------------------------------
   let html = `
     <div class="image-item ${gadhClass} ${archivedClass}" data-language="${languageAttr}" data-source="${resource.source}" data-archived="${resource.archived}">
       <a href="${resource.url}" ${targetAttr}>`;
@@ -171,13 +245,9 @@ function createResourceItem(resource) {
         <h5${resource.titleKey ? ` id="${resource.titleKey}"` : ''}>${resource.title}</h5>
       </a>`;
   
-  // Only add metadata if there's source or date
-  if (resource.source || resource.date) {
+  // Metadata section (author + date)
+  if (metadataHtml) {
     html += metadataHtml;
-  }
-  
-  if (resource.archived) {
-    html += ``// `<div class="archived-badge">Archived</div>`;
   }
   
   html += `
@@ -195,7 +265,7 @@ function renderSection(sectionId, resources) {
   const activeResources = resources.filter(r => !r.archived);
   const archivedResources = resources.filter(r => r.archived);
   
-  // Sort to prioritize GADH resources (using gadhResource field)
+  // Sort to prioritize GADH resources
   activeResources.sort((a, b) => {
     if (a.gadhResource && !b.gadhResource) return -1;
     if (!a.gadhResource && b.gadhResource) return 1;
@@ -264,11 +334,8 @@ function updateResourceCounts() {
 
 // Function to initialize all resources
 async function initializeResources() {
-  // Show loading message
-  const sections = document.querySelectorAll('section .image-grid');
-  sections.forEach(section => {
-    section.innerHTML = '<div style="text-align: center; padding: 40px; color: #666;">Loading resources...</div>';
-  });
+  // Show skeleton loaders instead of plain text
+  showSkeletonLoaders();
   
   // Load data from Google Sheets
   const loaded = await loadResourcesFromSheet();
