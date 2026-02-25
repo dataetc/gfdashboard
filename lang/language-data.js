@@ -2,9 +2,14 @@ const languageData = {
   EN: {
     Title: "THE GLOBAL ADVOCACY DATA HUB",
     heroTitle: "The Global Advocacy Data Hub",
-    heroSubtitle: "The <span>transparent</span> and <span>independent</span> source of Global Fund data",
+    heroSubtitle: "The <span>transparent</span> and <span>independent</span> source of Global Health data",
     heroDescription: "Communities most impacted by HIV, tuberculosis, and malaria are at the heart of the Global Fund model. This platform provides the information, resources, and data that communities need to advocate for an accountable Global Fund.",
     heroButtonText: "Learn More",
+    
+    heroEyebrowText:        "This is your space too — join us",
+  heroJoinLabel:          "Join the Community",
+
+  
     scroll: "Scroll",
     navHome: "Home",
     navResources: "Resources",
@@ -94,10 +99,10 @@ const languageData = {
 
     // ── Signup section ───────────────────────────────────────
     signupSectionLabel:        "Stay Connected",
-    signupTitle:               "Get Involved",
+    signupTitle:               "Join the community",
     signupDesc:                "Join advocates, researchers, and community leaders receiving our latest data briefings, funding alerts, and advocacy opportunities — directly to your inbox.",
     signupWhoLabel:            "Who are you?",
-    signupOptional:            "optional",
+    optional:            "optional",
     signupRequired:            "*",
     signupPill1:               "Community / Civil Society",
     signupPill2:               "Government",
@@ -107,6 +112,7 @@ const languageData = {
     signupCountryLabel:        "Country",
     signupCountryPlaceholder:  "Your country",
     signupEmailLabel:          "Email",
+    signupEmailRequired:      "required",
     signupEmailPlaceholder:    "your@email.com",
     signupLanguageLabel:       "Preferred Language",
     signupLanguagePlaceholder: "Select language",
@@ -114,7 +120,20 @@ const languageData = {
     signupSendingBtn:          "Sending…",
     signupSuccessMsg:          "✓ Your info has been received. Welcome to the GADH community.",
     signupPrivacy:             "All fields except email are optional. No spam. Unsubscribe any time.",
+   
 
+  signupCityLabel:        "City",
+  optional:     "optional",
+  signupCityPlaceholder:  "Your city",
+
+  signupTopicsLabel:      "What are you interested in?",
+  signupTopicsOptional:   "optional — pick as many as you like",
+  signupTopic1:           "Help understanding data",
+  signupTopic2:           "Support for my advocacy work",
+  signupTopic3:           "Connecting with other advocates",
+  signupTopic4:           "Following the money",
+  signupTopic5:           "Holding the Global Fund accountable",
+  signupTopic6:           "Having a voice in decisions",
     // ── Footer ───────────────────────────────────────────────
     footerCopyright: "© 2025 The Global Advocacy Data Hub",
   },
@@ -122,9 +141,14 @@ const languageData = {
   FR: {
     Title: "LE HUB MONDIAL DE DONNEES POUR LE PLAIDOYER",
     heroTitle: "Le Hub Mondial de Données pour le Plaidoyer",
-    heroSubtitle: "La source <span>transparente</span> et <span>indépendante</span> des données du Fonds mondial",
+    heroSubtitle: "La source <span>transparente</span> et <span>indépendante</span> des données de santé mondiale",
     heroDescription: "Les communautés les plus touchées par le VIH, la tuberculose et le paludisme sont au cœur du modèle du Fonds mondial. Cette plateforme fournit les informations, les ressources et les données dont les communautés ont besoin pour plaider en faveur d'un Fonds mondial responsable.",
     heroButtonText: "En savoir plus",
+
+heroEyebrowText:        "C'est votre espace aussi — rejoignez-nous",
+
+  
+
     scroll: "Faire défiler",
     navHome: "Accueil",
     navResources: "Ressources",
@@ -215,10 +239,10 @@ const languageData = {
 
     // ── Signup section ───────────────────────────────────────
     signupSectionLabel:        "Restez connecté",
-    signupTitle:               "Rejoignez-nous",
+    signupTitle:               "Rejoignez la communauté",
     signupDesc:                "Rejoignez les défenseurs, les chercheurs et les leaders communautaires qui reçoivent nos dernières notes d'information sur les données, les alertes de financement et les opportunités de plaidoyer — directement dans votre boîte mail.",
     signupWhoLabel:            "Qui êtes-vous ?",
-    signupOptional:            "facultatif",
+    optional:            "facultatif",
     signupRequired:            "*",
     signupPill1:               "Communauté / Société civile",
     signupPill2:               "Gouvernement",
@@ -228,6 +252,7 @@ const languageData = {
     signupCountryLabel:        "Pays",
     signupCountryPlaceholder:  "Votre pays",
     signupEmailLabel:          "E-mail",
+    signupEmailRequired:      "obligatoire",
     signupEmailPlaceholder:    "votre@email.com",
     signupLanguageLabel:       "Langue préférée",
     signupLanguagePlaceholder: "Sélectionner une langue",
@@ -236,6 +261,19 @@ const languageData = {
     signupSuccessMsg:          "✓ Vos informations ont été reçues. Bienvenue dans la communauté GADH.",
     signupPrivacy:             "Tous les champs sauf l'e-mail sont facultatifs. Pas de spam. Désabonnement à tout moment.",
 
+signupCityLabel:        "Ville",
+  signupCityOptional:     "facultatif",
+  signupCityPlaceholder:  "Votre ville",
+
+  signupTopicsLabel:      "Qu'est-ce qui vous intéresse ?",
+  signupTopicsOptional:   "facultatif — choisissez autant que vous voulez",
+  signupTopic1:           "Mieux comprendre les données",
+  signupTopic2:           "Soutien pour mon travail de plaidoyer",
+  signupTopic3:           "Échanger avec d'autres défenseurs",
+  signupTopic4:           "Suivre l'argent",
+  signupTopic5:           "Tenir le Fonds mondial responsable",
+  signupTopic6:           "Avoir voix au chapitre",
+
     // ── Footer ───────────────────────────────────────────────
     footerCopyright: "© 2025 Le Hub Mondial de Données pour le Plaidoyer",
   },
@@ -243,9 +281,10 @@ const languageData = {
   ES: {
     Title: "EL HUB GLOBAL DE DATOS PARA LA ABOGACÍA",
     heroTitle: "El Hub Global de Datos para la Abogacía",
-    heroSubtitle: "La fuente <span>transparente</span> e <span>independiente</span> de datos del Fondo Mundial",
+    heroSubtitle: "La fuente <span>transparente</span> e <span>independiente</span> de datos de salud mundial",
     heroDescription: "Las comunidades más afectadas por el VIH, la tuberculosis y la malaria están en el corazón del modelo del Fondo Mundial. Esta plataforma proporciona la información, los recursos y los datos que las comunidades necesitan para abogar por un Fondo Mundial responsable.",
     heroButtonText: "Más información",
+    heroEyebrowText:        "Este espacio también es tuyo — únete",
     scroll: "Desplazarse",
     navHome: "Inicio",
     navResources: "Recursos",
@@ -336,10 +375,10 @@ const languageData = {
 
     // ── Signup section ───────────────────────────────────────
     signupSectionLabel:        "Mantente conectado",
-    signupTitle:               "Participa",
+    signupTitle:               "Únete a la comunidad",
     signupDesc:                "Únete a defensores, investigadores y líderes comunitarios que reciben nuestras últimas publicaciones sobre datos, alertas de financiación y oportunidades de incidencia — directamente en tu bandeja de entrada.",
     signupWhoLabel:            "¿Quién eres?",
-    signupOptional:            "opcional",
+    optional:            "opcional",
     signupRequired:            "*",
     signupPill1:               "Comunidad / Sociedad civil",
     signupPill2:               "Gobierno",
@@ -349,6 +388,7 @@ const languageData = {
     signupCountryLabel:        "País",
     signupCountryPlaceholder:  "Tu país",
     signupEmailLabel:          "Correo electrónico",
+    signupEmailRequired:      "requerido",
     signupEmailPlaceholder:    "tu@correo.com",
     signupLanguageLabel:       "Idioma preferido",
     signupLanguagePlaceholder: "Seleccionar idioma",
@@ -357,6 +397,19 @@ const languageData = {
     signupSuccessMsg:          "✓ Tu información ha sido recibida. Bienvenido/a a la comunidad GADH.",
     signupPrivacy:             "Todos los campos excepto el correo electrónico son opcionales. Sin spam. Cancela la suscripción en cualquier momento.",
 
+signupCityLabel:        "Ciudad",
+  signupCityOptional:     "opcional",
+  signupCityPlaceholder:  "Tu ciudad",
+
+  signupTopicsLabel:      "¿Qué te interesa?",
+  signupTopicsOptional:   "opcional — elige todo lo que quieras",
+  signupTopic1:           "Entender mejor los datos",
+  signupTopic2:           "Apoyo para mi trabajo de incidencia",
+  signupTopic3:           "Conectar con otros defensores",
+  signupTopic4:           "Rastrear el dinero",
+  signupTopic5:           "Exigir cuentas al Fondo Mundial",
+  signupTopic6:           "Tener voz en las decisiones",
+
     // ── Footer ───────────────────────────────────────────────
     footerCopyright: "© 2025 El Hub Global de Datos para la Abogacía",
   },
@@ -364,9 +417,10 @@ const languageData = {
   PT: {
     Title: "O CENTRO GLOBAL DE DADOS DE ADVOCACIA",
     heroTitle: "O Centro Global de Dados de Advocacia",
-    heroSubtitle: "A fonte <span>transparente</span> e <span>independente</span> de dados do Fundo Global",
+    heroSubtitle: "A fonte <span>transparente</span> e <span>independente</span> de dados de saúde mundial",
     heroDescription: "As comunidades mais afectadas pelo VIH, tuberculose e malária estão no centro do modelo do Fundo Global. Esta plataforma fornece as informações, os recursos e os dados de que as comunidades necessitam para defenderem um Fundo Global responsável.",
     heroButtonText: "Saiba mais",
+    heroEyebrowText:        "Este espaço também é seu — junte-se a nós",
     scroll: "Rolar",
     navHome: "Início",
     navResources: "Recursos",
@@ -456,10 +510,10 @@ const languageData = {
 
     // ── Signup section ───────────────────────────────────────
     signupSectionLabel:        "Mantenha-se ligado",
-    signupTitle:               "Junte-se a nós",
+    signupTitle:               "Junte-se à comunidade",
     signupDesc:                "Junte-se a defensores, investigadores e líderes comunitários que recebem os nossos últimos briefings de dados, alertas de financiamento e oportunidades de advocacia — diretamente na sua caixa de entrada.",
     signupWhoLabel:            "Quem é você?",
-    signupOptional:            "opcional",
+    optional:            "opcional",
     signupRequired:            "*",
     signupPill1:               "Comunidade / Sociedade civil",
     signupPill2:               "Governo",
@@ -469,6 +523,7 @@ const languageData = {
     signupCountryLabel:        "País",
     signupCountryPlaceholder:  "O seu país",
     signupEmailLabel:          "E-mail",
+    signupEmailRequired:      "obrigatório",
     signupEmailPlaceholder:    "o.seu@email.com",
     signupLanguageLabel:       "Idioma preferido",
     signupLanguagePlaceholder: "Selecionar idioma",
@@ -476,7 +531,18 @@ const languageData = {
     signupSendingBtn:          "A enviar…",
     signupSuccessMsg:          "✓ As suas informações foram recebidas. Bem-vindo/a à comunidade GADH.",
     signupPrivacy:             "Todos os campos exceto o e-mail são opcionais. Sem spam. Cancele a subscrição a qualquer momento.",
+signupCityLabel:        "Cidade",
+  signupCityOptional:     "opcional",
+  signupCityPlaceholder:  "A sua cidade",
 
+  signupTopicsLabel:      "O que lhe interessa?",
+  signupTopicsOptional:   "opcional — escolha o que quiser",
+  signupTopic1:           "Compreender melhor os dados",
+  signupTopic2:           "Apoio para o meu trabalho de advocacia",
+  signupTopic3:           "Ligar-me a outros defensores",
+  signupTopic4:           "Seguir o dinheiro",
+  signupTopic5:           "Responsabilizar o Fundo Global",
+  signupTopic6:           "Ter voz nas decisões",
     // ── Footer ───────────────────────────────────────────────
     footerCopyright: "© 2025 O Centro Global de Dados de Advocacia",
   },
@@ -484,9 +550,10 @@ const languageData = {
   RU: {
     Title: "ГЛОБАЛЬНЫЙ ЦЕНТР ДАННЫХ ДЛЯ АДВОКАЦИИ",
     heroTitle: "Глобальный центр данных для адвокации",
-    heroSubtitle: "Прозрачный и независимый источник данных Глобального фонда",
+    heroSubtitle: "Прозрачный и независимый источник данных о глобальном здравоохранении",
     heroDescription: "Сообщества, наиболее пострадавшие от ВИЧ, туберкулеза и малярии, находятся в центре модели Глобального фонда. Эта платформа предоставляет информацию, ресурсы и данные, необходимые сообществам для адвокации подотчётности Глобального фонда.",
     heroButtonText: "Узнать больше",
+    heroEyebrowText:        "Это ваше пространство тоже — присоединяйтесь",
     scroll: "Прокрутить",
     navHome: "Главная",
     navResources: "Ресурсы",
@@ -575,10 +642,10 @@ const languageData = {
 
     // ── Signup section ───────────────────────────────────────
     signupSectionLabel:        "Оставайтесь на связи",
-    signupTitle:               "Присоединяйтесь",
+    signupTitle:               "Присоединяйтесь к сообществу",
     signupDesc:                "Присоединяйтесь к адвокатам, исследователям и лидерам сообществ, получающим наши последние аналитические материалы, оповещения о финансировании и возможности для адвокации — прямо на вашу электронную почту.",
     signupWhoLabel:            "Кто вы?",
-    signupOptional:            "необязательно",
+    optional:            "необязательно",
     signupRequired:            "*",
     signupPill1:               "Сообщество / Гражданское общество",
     signupPill2:               "Правительство",
@@ -588,6 +655,7 @@ const languageData = {
     signupCountryLabel:        "Страна",
     signupCountryPlaceholder:  "Ваша страна",
     signupEmailLabel:          "Электронная почта",
+    signupEmailRequired:      "обязательно",
     signupEmailPlaceholder:    "ваш@email.com",
     signupLanguageLabel:       "Предпочтительный язык",
     signupLanguagePlaceholder: "Выберите язык",
@@ -595,7 +663,18 @@ const languageData = {
     signupSendingBtn:          "Отправка…",
     signupSuccessMsg:          "✓ Ваши данные получены. Добро пожаловать в сообщество GADH.",
     signupPrivacy:             "Все поля, кроме электронной почты, необязательны. Без спама. Отписаться можно в любое время.",
+ signupCityLabel:        "Город",
+  signupCityOptional:     "необязательно",
+  signupCityPlaceholder:  "Ваш город",
 
+  signupTopicsLabel:      "Что вас интересует?",
+  signupTopicsOptional:   "необязательно — выберите сколько угодно",
+  signupTopic1:           "Понять данные",
+  signupTopic2:           "Поддержка моей правозащитной работы",
+  signupTopic3:           "Общение с другими адвокатами",
+  signupTopic4:           "Отслеживать финансирование",
+  signupTopic5:           "Добиться подотчётности Глобального фонда",
+  signupTopic6:           "Иметь голос в принятии решений",
     // ── Footer ───────────────────────────────────────────────
     footerCopyright: "© 2025 Глобальный центр данных для адвокации",
   },
@@ -603,9 +682,10 @@ const languageData = {
   SW: {
     Title: "KITUO KIKUU CHA DATA CHA UTETEZI WA KIMATAIFA",
     heroTitle: "Kituo Kikuu Cha Data Cha Utetezi Wa Kimataifa",
-    heroSubtitle: "Chanzo cha <span>uwazi</span> na <span>inayojitegemea</span> cha data ya Global Fund",
+    heroSubtitle: "Chanzo cha <span>uwazi</span> na <span>inayojitegemea</span> cha data ya Salama ya Kimataifa",
     heroDescription: "Jamii zilizoathiriwa zaidi na VVU, kifua kikuu, na malaria ndizo msingi wa modeli ya Global Fund. Jukwaa hili linatoa taarifa, rasilimali na data ambayo jamii zinahitaji ili kutetea Global Fund unaowajibika.",
     heroButtonText: "Jifunze Zaidi",
+    heroEyebrowText:        "Hii ni nafasi yako pia — jiunge nasi",
     scroll: "Skrolli",
     navHome: "Nyumbani",
     navResources: "Rasilimali",
@@ -695,10 +775,10 @@ const languageData = {
 
     // ── Signup section ───────────────────────────────────────
     signupSectionLabel:        "Kaa Unaounganishwa",
-    signupTitle:               "Jiunge Nasi",
+    signupTitle:               "Jiunge na Jamii",
     signupDesc:                "Jiunge na watetezi, watafiti, na viongozi wa jamii wanaopokea taarifa zetu za hivi karibuni za data, arifa za ufadhili, na fursa za utetezi — moja kwa moja kwenye kikasha chako cha barua pepe.",
     signupWhoLabel:            "Wewe ni nani?",
-    signupOptional:            "hiari",
+    optional:            "hiari",
     signupRequired:            "*",
     signupPill1:               "Jamii / Asasi za Kiraia",
     signupPill2:               "Serikali",
@@ -708,6 +788,7 @@ const languageData = {
     signupCountryLabel:        "Nchi",
     signupCountryPlaceholder:  "Nchi yako",
     signupEmailLabel:          "Barua pepe",
+    signupEmailRequired:      "lazima",
     signupEmailPlaceholder:    "barua@pepe.com",
     signupLanguageLabel:       "Lugha Unayopendelea",
     signupLanguagePlaceholder: "Chagua lugha",
@@ -715,6 +796,19 @@ const languageData = {
     signupSendingBtn:          "Inatumwa…",
     signupSuccessMsg:          "✓ Taarifa zako zimepokelewa. Karibu katika jamii ya GADH.",
     signupPrivacy:             "Sehemu zote isipokuwa barua pepe ni za hiari. Hakuna barua taka. Jiondoe wakati wowote.",
+
+signupCityLabel:        "Mji",
+  signupCityOptional:     "hiari",
+  signupCityPlaceholder:  "Mji wako",
+
+  signupTopicsLabel:      "Unapenda nini?",
+  signupTopicsOptional:   "hiari — chagua kadri unavyotaka",
+  signupTopic1:           "Kuelewa data vizuri",
+  signupTopic2:           "Msaada kwa kazi yangu ya utetezi",
+  signupTopic3:           "Kuungana na watetezi wengine",
+  signupTopic4:           "Kufuatilia fedha",
+  signupTopic5:           "Kuhoji uwajibikaji wa Global Fund",
+  signupTopic6:           "Kuwa na sauti katika maamuzi",
 
     // ── Footer ───────────────────────────────────────────────
     footerCopyright: "© 2025 Kituo Kikuu Cha Data Cha Utetezi Wa Kimataifa",
@@ -779,8 +873,33 @@ function changeLanguage(lang) {
   updateElement('hero-description', getTranslation('heroDescription'));
   updateElement('hero-button', getTranslation('heroButtonText'));
   updateElement('scroll-indicator', getTranslation('scroll'));
+updateElement('hero-eyebrow-text', getTranslation('heroEyebrowText'));
 
-  // Navbar
+updateElement('signup-topics-label',    getTranslation('signupTopicsLabel'));
+  updateElement('signup-topics-optional', getTranslation('signupTopicsOptional'));
+  updateElement('signup-topic1',          getTranslation('signupTopic1'));
+  updateElement('signup-topic2',          getTranslation('signupTopic2'));
+  updateElement('signup-topic3',          getTranslation('signupTopic3'));
+  updateElement('signup-topic4',          getTranslation('signupTopic4'));
+  updateElement('signup-topic5',          getTranslation('signupTopic5'));
+  updateElement('signup-topic6',          getTranslation('signupTopic6'));
+
+
+
+updateElement('signup-who-label',        getTranslation('signupWhoLabel'));
+  updateElement('signup-optional-1',       getTranslation('optional'));
+  updateElement('signup-name-label',       getTranslation('signupNameLabel'));
+  updateElement('signup-name-optional',    getTranslation('optional'));
+  updateElement('signup-country-label',    getTranslation('signupCountryLabel'));
+  updateElement('signup-country-optional', getTranslation('optional'));
+  updateElement('signup-city-label',       getTranslation('signupCityLabel'));
+  updateElement('signup-city-optional',    getTranslation('optional'));
+  updateElement('signup-email-label',      getTranslation('signupEmailLabel'));
+  updateElement('signup-email-required',   getTranslation('signupEmailRequired'));
+  updateElement('signup-language-label',   getTranslation('signupLanguageLabel'));
+  updateElement('signup-language-optional',getTranslation('optional'));
+
+// Navbar
   updateElement('nav-home', getTranslation('navHome'));
   updateElement('nav-resources', getTranslation('navResources'));
   updateElement('nav-calendar', getTranslation('navCalendar'));

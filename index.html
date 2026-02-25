@@ -29,6 +29,14 @@
     </header>
 
     <div class="hero-content">
+
+      <!-- ── Eyebrow callout ── -->
+      <a href="#signup-section" class="hero-eyebrow" id="hero-eyebrow-link">
+        <span class="hero-eyebrow-text" id="hero-eyebrow-text">This is your space too — join us</span>
+        <svg class="hero-eyebrow-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="13 6 19 12 13 18"/></svg>
+        <span class="hero-eyebrow-underline" aria-hidden="true"></span>
+      </a>
+
       <h1 id="hero-title">The Global Advocacy Data Hub</h1>
       <h2 id="hero-subtitle">The <span>transparent</span> and <span>independent</span> source of Global Fund data</h2>
       <p id="hero-description">Communities most impacted by HIV, tuberculosis, and malaria are at the heart of the Global Fund model. This platform provides the information, resources, and data that communities need to advocate for an accountable Global Fund.</p>
@@ -47,175 +55,149 @@
 
 
   <!-- ═══════════════════════════════════════════
-       STATS STRIP (to be developed)
+       EMAIL SIGNUP
   ═══════════════════════════════════════════ -->
-  <!--
-    <div class="stats-strip">
-      <div class="stat-item">
-      <span class="stat-number">$5B+</span>
-      <span class="stat-label">Tracked Funding</span>
-    </div>
-    <div class="stat-item">
-      <span class="stat-number">100+</span>
-      <span class="stat-label">Countries Covered</span>
-    </div>
-    <div class="stat-item">
-      <span class="stat-number">3</span>
-      <span class="stat-label">Disease Portfolios</span>
-    </div>
-    <div class="stat-item">
-      <span class="stat-number">6</span>
-      <span class="stat-label">Languages</span>
-    </div>
-  </div>
-  -->
+  <section class="signup-section" id="signup-section">
+    <div class="signup-inner">
+      <p class="section-label" id="signup-section-label">Stay Connected</p>
+      <h2 id="signup-title">Get Involved</h2>
+      <p id="signup-desc">Join advocates, researchers, and community leaders receiving our latest data briefings, funding alerts, and advocacy opportunities — directly to your inbox.</p>
 
+      <div class="signup-card">
+        <form class="signup-form" id="signup-form" novalidate>
 
-  <!-- ═══════════════════════════════════════════
-       PILLARS / WHAT WE OFFER
-  ═══════════════════════════════════════════ -->
-  <!--
-  
-    <section class="pillars-section">
-    <p class="section-label">What We Offer</p>
-    <h2>Tools for community advocates</h2>
+          <!-- Category — radio pills -->
+          <div class="signup-field signup-field--full">
+            <label class="signup-label">
+              <span id="signup-who-label">Who are you?</span>
+              <span class="optional" id="signup-optional-1">optional</span>
+            </label>
+            <div class="category-pills">
+              <label class="pill">
+                <input type="radio" name="category" value="Community / Civil Society">
+                <span id="signup-pill1">Community / Civil Society</span>
+              </label>
+              <label class="pill">
+                <input type="radio" name="category" value="Government">
+                <span id="signup-pill2">Government</span>
+              </label>
+              <label class="pill">
+                <input type="radio" name="category" value="Global">
+                <span id="signup-pill3">Global</span>
+              </label>
+            </div>
+          </div>
 
-    <div class="pillars-grid">
+          <!-- Name + Country + City -->
+          <div class="signup-field">
+            <label class="signup-label" for="signup-name">
+              <span id="signup-name-label">Name</span>
+              <span class="optional" id="signup-name-optional">optional</span>
+            </label>
+            <input type="text" id="signup-name" placeholder="Your name">
+          </div>
+          <div class="signup-field">
+            <label class="signup-label" for="signup-country">
+              <span id="signup-country-label">Country</span>
+              <span class="optional" id="signup-country-optional">optional</span>
+            </label>
+            <input type="text" id="signup-country" placeholder="Your country">
+          </div>
+          <div class="signup-field">
+            <label class="signup-label" for="signup-city">
+              <span id="signup-city-label">City</span>
+              <span class="optional" id="signup-city-optional">optional</span>
+            </label>
+            <input type="text" id="signup-city" placeholder="Your city">
+          </div>
 
-      <div class="pillar-card">
-        <span class="card-number">01</span>
-        <span class="card-tag">Analysis</span>
-        <h3>Data &amp; Analytics</h3>
-        <p>Accessible breakdowns of Global Fund allocations, performance reports, and grant data — presented clearly for advocates and communities.</p>
-      </div>
+          <!-- Email (required) + Language -->
+          <div class="signup-field">
+            <label class="signup-label" for="signup-email">
+              <span id="signup-email-label">Email</span>
+              <span class="required" id="signup-email-required">required</span>
+            </label>
+            <input type="email" id="signup-email" placeholder="your@email.com" required>
+          </div>
+          <div class="signup-field">
+            <label class="signup-label" for="signup-language">
+              <span id="signup-language-label">Preferred Language</span>
+              <span class="optional" id="signup-language-optional">optional</span>
+            </label>
+            <select id="signup-language">
+              <option value="" disabled selected>Select language</option>
+              <option value="EN">English</option>
+              <option value="FR">Français</option>
+              <option value="ES">Español</option>
+              <option value="PT">Português</option>
+              <option value="RU">Русский</option>
+              <option value="SW">Kiswahili</option>
+            </select>
+          </div>
 
-      <div class="pillar-card">
-        <span class="card-number">02</span>
-        <span class="card-tag">Knowledge</span>
-        <h3>Resources Library</h3>
-        <p>Curated documents, toolkits, and guides to help civil society engage meaningfully with Global Fund processes.</p>
-      </div>
+          <!-- What are you interested in — multi-select pills -->
+          <div class="signup-field signup-field--full">
+            <label class="signup-label" for="signup-topics-pills">
+              <span id="signup-topics-label">What are you interested in?</span>
+              <span class="optional" id="signup-topics-optional">optional — pick as many as you like</span>
+            </label>
+            <div class="category-pills category-pills--multi" id="signup-topics-pills">
+              <label class="pill pill--multi">
+                <input type="checkbox" name="topics" value="Help understanding data">
+                <span id="signup-topic1">Help understanding data</span>
+              </label>
+              <label class="pill pill--multi">
+                <input type="checkbox" name="topics" value="Support for my advocacy work">
+                <span id="signup-topic2">Support for my advocacy work</span>
+              </label>
+              <label class="pill pill--multi">
+                <input type="checkbox" name="topics" value="Connecting with other advocates">
+                <span id="signup-topic3">Connecting with other advocates</span>
+              </label>
+              <label class="pill pill--multi">
+                <input type="checkbox" name="topics" value="Following the money">
+                <span id="signup-topic4">Following the money</span>
+              </label>
+              <label class="pill pill--multi">
+                <input type="checkbox" name="topics" value="Holding the Global Fund accountable">
+                <span id="signup-topic5">Holding the Global Fund accountable</span>
+              </label>
+              <label class="pill pill--multi">
+                <input type="checkbox" name="topics" value="Having a voice in decisions">
+                <span id="signup-topic6">Having a voice in decisions</span>
+              </label>
+            </div>
+          </div>
 
-      <div class="pillar-card">
-        <span class="card-number">03</span>
-        <span class="card-tag">Planning</span>
-        <h3>Events Calendar</h3>
-        <p>Stay up to date on board meetings, consultations, and advocacy windows where community voices are needed most.</p>
-      </div>
+          <!-- Submit -->
+          <div class="signup-field signup-field--full">
+            <button type="submit" id="signup-btn">Submit</button>
+          </div>
 
-      <div class="pillar-card">
-        <span class="card-number">04</span>
-        <span class="card-tag">Access</span>
-        <h3>Multilingual Access</h3>
-        <p>Content available in English, French, Spanish, Portuguese, Russian, and Kiswahili so no community is left behind.</p>
-      </div>
+        </form>
 
-      <div class="pillar-card">
-        <span class="card-number">05</span>
-        <span class="card-tag">Accountability</span>
-        <h3>Transparency Tracking</h3>
-        <p>Independent monitoring of Global Fund accountability commitments and follow-through on community-centered pledges.</p>
-      </div>
+        <div class="signup-success" id="signup-success" role="alert">
+          ✓ Your info has been received. Welcome to the GADH community.
+        </div>
 
-      <div class="pillar-card">
-        <span class="card-number">06</span>
-        <span class="card-tag">Support</span>
-        <h3>Advocacy Support</h3>
-        <p>Practical guidance and direct support for communities preparing submissions, delegations, and funding requests.</p>
-      </div>
-
+        <p class="signup-privacy" id="signup-privacy">All fields except email are optional. No spam. Unsubscribe any time.</p>
+      </div><!-- /.signup-card -->
     </div>
   </section>
 
--->
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+  <footer class="site-footer">
+    <span class="footer-brand" id="footer-copyright">© 2025 The Global Advocacy Data Hub</span>
+    <nav class="footer-links">
+      <a href="/about.html">About</a>
+      <a href="/resources.html">Resources</a>
+      <a href="/calendar.html">Calendar</a>
+      <a href="/support.html">Contact</a>
+    </nav>
+  </footer>
 
- <!-- ═══════════════════════════════════════════
-     EMAIL SIGNUP
-═══════════════════════════════════════════ -->
-<section class="signup-section">
-  <div class="signup-inner">
-    <p class="section-label" id="signup-section-label">Stay Connected</p>
-    <h2 id="signup-title">Get Involved</h2>
-    <p id="signup-desc">Join advocates, researchers, and community leaders receiving our latest data briefings, funding alerts, and advocacy opportunities — directly to your inbox.</p>
-
-    <div class="signup-card">
-      <form class="signup-form" id="signup-form" novalidate>
-
-        <!-- Category — radio pills -->
-        <div class="signup-field signup-field--full">
-          <label class="signup-label" id="signup-who-label">Who are you? <span class="optional" id="signup-optional-1">optional</span></label>
-          <div class="category-pills">
-            <label class="pill">
-              <input type="radio" name="category" value="Community / Civil Society">
-              <span id="signup-pill1">Community / Civil Society</span>
-            </label>
-            <label class="pill">
-              <input type="radio" name="category" value="Government">
-              <span id="signup-pill2">Government</span>
-            </label>
-            <label class="pill">
-              <input type="radio" name="category" value="Global">
-              <span id="signup-pill3">Global</span>
-            </label>
-          </div>
-        </div>
-
-        <!-- Name + Country -->
-        <div class="signup-field">
-          <label class="signup-label" for="signup-name" id="signup-name-label">Name <span class="optional">optional</span></label>
-          <input type="text" id="signup-name" placeholder="Your name">
-        </div>
-        <div class="signup-field">
-          <label class="signup-label" for="signup-country" id="signup-country-label">Country <span class="optional">optional</span></label>
-          <input type="text" id="signup-country" placeholder="Your country">
-        </div>
-
-        <!-- Email + Language -->
-        <div class="signup-field">
-          <label class="signup-label" for="signup-email" id="signup-email-label">Email <span class="required">*</span></label>
-          <input type="email" id="signup-email" placeholder="your@email.com" required>
-        </div>
-        <div class="signup-field">
-          <label class="signup-label" for="signup-language" id="signup-language-label">Preferred Language <span class="optional">optional</span></label>
-          <select id="signup-language">
-            <option value="" disabled selected>Select language</option>
-            <option value="EN">English</option>
-            <option value="FR">Français</option>
-            <option value="ES">Español</option>
-            <option value="PT">Português</option>
-            <option value="RU">Русский</option>
-            <option value="SW">Kiswahili</option>
-          </select>
-        </div>
-
-        <!-- Submit -->
-        <div class="signup-field signup-field--full">
-          <button type="submit" id="signup-btn">Submit</button>
-        </div>
-
-      </form>
-
-      <div class="signup-success" id="signup-success" role="alert">
-        ✓ Your info has been received. Welcome to the GADH community.
-      </div>
-
-      <p class="signup-privacy" id="signup-privacy">All fields except email are optional. No spam. Unsubscribe any time.</p>
-    </div><!-- /.signup-card -->
-  </div>
-</section>
-
-<!-- ═══════════════════════════════════════════
-     FOOTER
-═══════════════════════════════════════════ -->
-<footer class="site-footer">
-  <span class="footer-brand" id="footer-copyright">© 2025 The Global Advocacy Data Hub</span>
-  <nav class="footer-links">
-    <a href="/about.html">About</a>
-    <a href="/resources.html">Resources</a>
-    <a href="/calendar.html">Calendar</a>
-    <a href="/support.html">Contact</a>
-  </nav>
-</footer>
   <script>
     /* ── Navbar initialization ── */
     document.addEventListener('DOMContentLoaded', function () {
@@ -240,38 +222,12 @@
       if (savedLanguage && navbar.setLanguage) navbar.setLanguage(savedLanguage);
       if (typeof initializeLanguage === 'function') initializeLanguage();
     });
-
-    
   </script>
-<!-- ═══════════════════════════════════════════
-       email collection script (using Google Apps Script as backend)
+
+  <!-- ═══════════════════════════════════════════
+       EMAIL COLLECTION SCRIPT
   ═══════════════════════════════════════════ -->
   <script>
-   /* ── Navbar initialization ── */
-    document.addEventListener('DOMContentLoaded', function () {
-      const theme_color = "light";
-      const color_main = theme_color === "dark" ? "#000" : "#fff";
-      const color_secondary = theme_color === "dark" ? "#fff" : "#000";
-
-      const navbar = document.getElementById('main-navbar');
-      if (!navbar) return;
-
-      navbar.setTextColor(color_main);
-      navbar.setSecondaryTextColor(color_main);
-      navbar.setLanguageSelectorTextColor(color_secondary);
-      navbar.setBottomBorderColor(color_main);
-
-      navbar.addEventListener('languagechange', function (event) {
-        const selectedLang = event.detail.language;
-        if (typeof changeLanguage === 'function') changeLanguage(selectedLang);
-      });
-
-      const savedLanguage = localStorage.getItem('preferredLanguage');
-      if (savedLanguage && navbar.setLanguage) navbar.setLanguage(savedLanguage);
-      if (typeof initializeLanguage === 'function') initializeLanguage();
-    });
-
-    /* ── Email signup ── */
     document.getElementById('signup-form').addEventListener('submit', async function (e) {
       e.preventDefault();
 
@@ -281,8 +237,13 @@
       const email    = document.getElementById('signup-email').value.trim();
       const name     = document.getElementById('signup-name').value.trim();
       const country  = document.getElementById('signup-country').value.trim();
+      const city     = document.getElementById('signup-city').value.trim();
       const language = document.getElementById('signup-language').value;
       const category = (document.querySelector('input[name="category"]:checked') || {}).value || '';
+
+      // Collect all checked topics
+      const topicCheckboxes = document.querySelectorAll('input[name="topics"]:checked');
+      const topics = Array.from(topicCheckboxes).map(cb => cb.value).join(', ');
 
       // Email is required
       if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
@@ -296,12 +257,11 @@
       btn.disabled = true;
 
       try {
-        await fetch('https://script.google.com/macros/s/AKfycbzQjkyKwoHlLSeNA68FT-mvH1Ngij9bSzV9dQ2l4dZK2ewPbQ9YjRrLLuXJVdgeD7E3/exec', {
+        await fetch('https://script.google.com/macros/s/AKfycbx5g9YC3LvWY8sAxjEVhUgnzUwGs38vUd4HJtILzxLjT0GV7qAdolVtczIWJCiG0kww/exec', {
           method: 'POST',
           mode: 'no-cors',
-          body: JSON.stringify({ email, name, country, language, category }),
+          body: JSON.stringify({ email, name, country, city, language, category, topics }),
         });
-        // ─────────────────────────────────────────────────────────────────────
       } catch (err) {
         console.error('Signup error:', err);
       }

@@ -680,3 +680,127 @@ header::after {
 .site-footer .footer-links a:hover {
   color: #cb764e;
 }
+
+
+/* ============================================================
+   HERO EYEBROW CALLOUT  —  warm community invitation
+   Sits above the h1, feels hand-annotated
+   ============================================================ */
+
+.hero-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  margin-bottom: 20px;
+  position: relative;
+  width: fit-content;
+}
+
+.hero-eyebrow-text {
+  font-family: 'Barriecito', cursive;
+  font-size: 1.55rem;
+  color: #f5c9a0;
+  letter-spacing: 0.01em;
+  line-height: 1;
+  /* Gentle text shadow for warmth against the hero image */
+  text-shadow: 1px 2px 6px rgba(0,0,0,0.45);
+  transition: color 0.2s ease;
+}
+
+.hero-eyebrow:hover .hero-eyebrow-text {
+  color: #fff;
+}
+
+/* Small inline arrow — nudges right on hover */
+.hero-eyebrow-arrow {
+  width: 16px;
+  height: 16px;
+  color: #cb764e;
+  flex-shrink: 0;
+  transition: transform 0.22s ease, color 0.2s ease;
+  position: relative;
+  top: 1px;
+}
+
+.hero-eyebrow:hover .hero-eyebrow-arrow {
+  transform: translateX(4px);
+  color: #f5c9a0;
+}
+
+/* The hand-drawn underline — an SVG-style wobbly line via clip-path + border */
+.hero-eyebrow-underline {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: calc(100% - 26px); /* stops before the arrow */
+  height: 2px;
+  background: #cb764e;
+  /* Irregular hand-drawn feel via border-radius asymmetry */
+  border-radius: 0 3px 2px 1px / 1px 2px 3px 0;
+  opacity: 0.85;
+  /* Slight tilt via clip-path to mimic unsteady ink */
+  clip-path: polygon(0 40%, 30% 0%, 60% 60%, 100% 20%, 100% 100%, 0 100%);
+  transition: opacity 0.2s ease, background 0.2s ease;
+}
+
+.hero-eyebrow:hover .hero-eyebrow-underline {
+  opacity: 1;
+  background: #f5c9a0;
+}
+
+@media (max-width: 767px) {
+  .hero-eyebrow-text {
+    font-size: 1.2rem;
+  }
+}
+
+
+/* ============================================================
+   SIGNUP FORM — "required" label refinement
+   ============================================================ */
+
+/* Make "required" a word, not just *, and visually distinct */
+.signup-label .required {
+  font-size: 0.78em;
+  color: #ff8c6b;
+  text-transform: none;
+  letter-spacing: 0;
+  font-style: italic;
+  margin-left: 4px;
+  font-weight: 400;
+}
+
+
+/* ============================================================
+   SIGNUP FORM — city field & multi-select topic pills
+   ============================================================ */
+
+/* City field spans full width, sits between country and email rows */
+/* (Already handled by .signup-field--full in existing CSS) */
+
+/* Multi-select pills: allow more than 3 across and wrap nicely */
+.category-pills--multi {
+  gap: 10px;
+}
+
+/* Checkbox pills reuse .pill but swap radio for checkbox */
+.pill--multi input[type="checkbox"] {
+  display: none;
+}
+
+.pill--multi span {
+  /* Inherit base .pill span styles; just override checked state */
+}
+
+.pill--multi input[type="checkbox"]:checked + span {
+  background: #fff;
+  border-color: #fff;
+  color: #a85a3e;
+}
+
+/* Optional label helper text is already styled via .optional,
+   but the "select all that apply" addendum needs to wrap gracefully */
+.signup-label .optional {
+  white-space: normal;
+}
