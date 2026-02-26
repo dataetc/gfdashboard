@@ -72,7 +72,7 @@ header::after {
   position: relative;
   z-index: 1;
   max-width: 75vw;
-  padding: 5vh 3vw 0;
+  padding: 0vh 3vw 3vw;
   text-align: left;
 }
 
@@ -132,16 +132,16 @@ header::after {
 /* Inner card — semi-opaque so text is always readable */
 .hero-content-inner {
   background-color: rgba(248, 245, 241, 0.94);
-  padding: 24px 28px;
+  padding: 20px;
   border-left: 4px solid #a85a3e;
   display: inline-block;
-  max-width: 680px;
   box-shadow: 0 4px 24px rgba(0,0,0,0.08);
 }
 
 .hero p {
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 1.2em;
+  font-size: 1.5em;
+  display: inline-block;
   color: #2a1c0d;
   margin-top: 0;
   text-align: left;

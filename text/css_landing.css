@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /* ============================================
    HERO SECTION
    ============================================ */
@@ -453,10 +457,10 @@ header::after {
 
 .signup-section > .signup-inner > p {
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 1.1em;
+  font-size: 1.25em;
   color: rgba(255,255,255,0.85);
   margin-bottom: 36px;
-  line-height: 1.6;
+  line-height: 1.55;
   max-width: 560px;
 }
 
@@ -680,81 +684,6 @@ header::after {
 .site-footer .footer-links a:hover {
   color: #cb764e;
 }
-
-
-/* ============================================================
-   HERO EYEBROW CALLOUT  —  warm community invitation
-   Sits above the h1, feels hand-annotated
-   ============================================================ */
-
-.hero-eyebrow {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  text-decoration: none;
-  margin-bottom: 20px;
-  position: relative;
-  width: fit-content;
-}
-
-.hero-eyebrow-text {
-  font-family: 'Barriecito', cursive;
-  font-size: 1.55rem;
-  color: #f5c9a0;
-  letter-spacing: 0.01em;
-  line-height: 1;
-  /* Gentle text shadow for warmth against the hero image */
-  text-shadow: 1px 2px 6px rgba(0,0,0,0.45);
-  transition: color 0.2s ease;
-}
-
-.hero-eyebrow:hover .hero-eyebrow-text {
-  color: #fff;
-}
-
-/* Small inline arrow — nudges right on hover */
-.hero-eyebrow-arrow {
-  width: 16px;
-  height: 16px;
-  color: #cb764e;
-  flex-shrink: 0;
-  transition: transform 0.22s ease, color 0.2s ease;
-  position: relative;
-  top: 1px;
-}
-
-.hero-eyebrow:hover .hero-eyebrow-arrow {
-  transform: translateX(4px);
-  color: #f5c9a0;
-}
-
-/* The hand-drawn underline — an SVG-style wobbly line via clip-path + border */
-.hero-eyebrow-underline {
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  width: calc(100% - 26px); /* stops before the arrow */
-  height: 2px;
-  background: #cb764e;
-  /* Irregular hand-drawn feel via border-radius asymmetry */
-  border-radius: 0 3px 2px 1px / 1px 2px 3px 0;
-  opacity: 0.85;
-  /* Slight tilt via clip-path to mimic unsteady ink */
-  clip-path: polygon(0 40%, 30% 0%, 60% 60%, 100% 20%, 100% 100%, 0 100%);
-  transition: opacity 0.2s ease, background 0.2s ease;
-}
-
-.hero-eyebrow:hover .hero-eyebrow-underline {
-  opacity: 1;
-  background: #f5c9a0;
-}
-
-@media (max-width: 767px) {
-  .hero-eyebrow-text {
-    font-size: 1.2rem;
-  }
-}
-
 
 /* ============================================================
    SIGNUP FORM — "required" label refinement
