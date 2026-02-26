@@ -135,7 +135,7 @@ const languageData = {
   signupTopic5:           "Holding the Global Fund accountable",
   signupTopic6:           "Having a voice in decisions",
     // ── Footer ───────────────────────────────────────────────
-    footerCopyright: "© 2025 The Global Advocacy Data Hub",
+    footerCopyright: "© The Global Advocacy Data Hub",
   },
 
   FR: {
@@ -275,7 +275,7 @@ signupCityLabel:        "Ville",
   signupTopic6:           "Avoir voix au chapitre",
 
     // ── Footer ───────────────────────────────────────────────
-    footerCopyright: "© 2025 Le Hub Mondial de Données pour le Plaidoyer",
+    footerCopyright: "© Le Hub Mondial de Données pour le Plaidoyer",
   },
 
   ES: {
@@ -411,7 +411,7 @@ signupCityLabel:        "Ciudad",
   signupTopic6:           "Tener voz en las decisiones",
 
     // ── Footer ───────────────────────────────────────────────
-    footerCopyright: "© 2025 El Hub Global de Datos para la Abogacía",
+    footerCopyright: "© El Hub Global de Datos para la Abogacía",
   },
 
   PT: {
@@ -544,7 +544,7 @@ signupCityLabel:        "Cidade",
   signupTopic5:           "Responsabilizar o Fundo Global",
   signupTopic6:           "Ter voz nas decisões",
     // ── Footer ───────────────────────────────────────────────
-    footerCopyright: "© 2025 O Centro Global de Dados de Advocacia",
+    footerCopyright: "© O Centro Global de Dados de Advocacia",
   },
 
   RU: {
@@ -676,7 +676,7 @@ signupCityLabel:        "Cidade",
   signupTopic5:           "Добиться подотчётности Глобального фонда",
   signupTopic6:           "Иметь голос в принятии решений",
     // ── Footer ───────────────────────────────────────────────
-    footerCopyright: "© 2025 Глобальный центр данных для адвокации",
+    footerCopyright: "© Глобальный центр данных для адвокации",
   },
 
   SW: {
@@ -811,7 +811,7 @@ signupCityLabel:        "Mji",
   signupTopic6:           "Kuwa na sauti katika maamuzi",
 
     // ── Footer ───────────────────────────────────────────────
-    footerCopyright: "© 2025 Kituo Kikuu Cha Data Cha Utetezi Wa Kimataifa",
+    footerCopyright: "© Kituo Kikuu Cha Data Cha Utetezi Wa Kimataifa",
   }
 };
 
