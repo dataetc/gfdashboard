@@ -5,11 +5,8 @@ const languageData = {
     heroSubtitle: "The <span>transparent</span> and <span>independent</span> source of Global Health data",
     heroDescription: "Communities most impacted by HIV, tuberculosis, and malaria are at the heart of the Global Fund model. This platform provides the information, resources, and data that communities need to advocate for an accountable Global Fund.",
     heroButtonText: "Join Us",
-    
-    heroEyebrowText:        "This is your space too — join us",
-  heroJoinLabel:          "Join the Community",
-
-  
+    heroEyebrowText: "This is your space too — join us",
+    heroJoinLabel: "Join the Community",
     scroll: "Scroll",
     navHome: "Home",
     navResources: "Resources",
@@ -102,17 +99,17 @@ const languageData = {
     signupTitle:               "Join the community",
     signupDesc:                "Join the advocates and community leaders receiving our latest resources, tools, and opportunities to engage.  Become a part of the GADH community.",
     signupWhoLabel:            "Who are you?",
-    optional:            "optional",
+    optional:                  "optional",
     signupRequired:            "*",
-    signupPill1:               "Community / Civil Society",
-    signupPill2:               "Government",
-    signupPill3:               "Global",
+    signupPill1:               "Communities",
+    signupPill2:               "Global Partners",
+    signupPill3:               "Government",
     signupNameLabel:           "Name",
     signupNamePlaceholder:     "Your name",
     signupCountryLabel:        "Country",
     signupCountryPlaceholder:  "Your country",
     signupEmailLabel:          "Email",
-    signupEmailRequired:      "required",
+    signupEmailRequired:       "required",
     signupEmailPlaceholder:    "your@email.com",
     signupLanguageLabel:       "Preferred Language",
     signupLanguagePlaceholder: "Select language",
@@ -120,20 +117,15 @@ const languageData = {
     signupSendingBtn:          "Sending…",
     signupSuccessMsg:          "✓ Your info has been received. Welcome to the GADH community.",
     signupPrivacy:             "All fields except email are optional. No spam. Unsubscribe any time.",
-   
+    signupOptionalDivider:     "— Optional details —",
 
-  signupCityLabel:        "City",
-  optional:     "optional",
-  signupCityPlaceholder:  "Your city",
+    signupTopicsLabel:         "What are you interested in?",
+    signupTopicsOptional:      "optional — pick as many as you like",
+    signupTopic1:              "Receive updates from the GADH",
+    signupTopic2:              "Participate in co-design of tools and resources",
+    signupTopic3:              "Join as a partner",
+    signupTopic4:              "Help co-design tools through workshops or interviews",
 
-  signupTopicsLabel:      "What are you interested in?",
-  signupTopicsOptional:   "optional — pick as many as you like",
-  signupTopic1:           "Help understanding data",
-  signupTopic2:           "Support for my advocacy work",
-  signupTopic3:           "Connecting with other advocates",
-  signupTopic4:           "Following the money",
-  signupTopic5:           "Holding the Global Fund accountable",
-  signupTopic6:           "Having a voice in decisions",
     // ── Footer ───────────────────────────────────────────────
     footerCopyright: "© The Global Advocacy Data Hub",
   },
@@ -144,11 +136,7 @@ const languageData = {
     heroSubtitle: "La source <span>transparente</span> et <span>indépendante</span> des données de santé mondiale",
     heroDescription: "Les communautés les plus touchées par le VIH, la tuberculose et le paludisme sont au cœur du modèle du Fonds mondial. Cette plateforme fournit les informations, les ressources et les données dont les communautés ont besoin pour plaider en faveur d'un Fonds mondial responsable.",
     heroButtonText: "Rejoignez-nous",
-
-heroEyebrowText:        "C'est votre espace aussi — rejoignez-nous",
-
-  
-
+    heroEyebrowText: "C'est votre espace aussi — rejoignez-nous",
     scroll: "Faire défiler",
     navHome: "Accueil",
     navResources: "Ressources",
@@ -242,17 +230,17 @@ heroEyebrowText:        "C'est votre espace aussi — rejoignez-nous",
     signupTitle:               "Rejoignez la communauté",
     signupDesc:                "Rejoignez les militants et les leaders communautaires qui reçoivent nos dernières ressources, outils et opportunités d'engagement.  Devenez membre de la communauté GADH.",
     signupWhoLabel:            "Qui êtes-vous ?",
-    optional:            "facultatif",
+    optional:                  "facultatif",
     signupRequired:            "*",
-    signupPill1:               "Communauté / Société civile",
-    signupPill2:               "Gouvernement",
-    signupPill3:               "Mondial",
+    signupPill1:               "Communautés",
+    signupPill2:               "Partenaires mondiaux",
+    signupPill3:               "Gouvernement",
     signupNameLabel:           "Nom",
     signupNamePlaceholder:     "Votre nom",
     signupCountryLabel:        "Pays",
     signupCountryPlaceholder:  "Votre pays",
     signupEmailLabel:          "E-mail",
-    signupEmailRequired:      "obligatoire",
+    signupEmailRequired:       "obligatoire",
     signupEmailPlaceholder:    "votre@email.com",
     signupLanguageLabel:       "Langue préférée",
     signupLanguagePlaceholder: "Sélectionner une langue",
@@ -260,19 +248,14 @@ heroEyebrowText:        "C'est votre espace aussi — rejoignez-nous",
     signupSendingBtn:          "Envoi en cours…",
     signupSuccessMsg:          "✓ Vos informations ont été reçues. Bienvenue dans la communauté GADH.",
     signupPrivacy:             "Tous les champs sauf l'e-mail sont facultatifs. Pas de spam. Désabonnement à tout moment.",
+    signupOptionalDivider:     "— Informations facultatives —",
 
-signupCityLabel:        "Ville",
-  signupCityOptional:     "facultatif",
-  signupCityPlaceholder:  "Votre ville",
-
-  signupTopicsLabel:      "Qu'est-ce qui vous intéresse ?",
-  signupTopicsOptional:   "facultatif — choisissez autant que vous voulez",
-  signupTopic1:           "Mieux comprendre les données",
-  signupTopic2:           "Soutien pour mon travail de plaidoyer",
-  signupTopic3:           "Échanger avec d'autres défenseurs",
-  signupTopic4:           "Suivre l'argent",
-  signupTopic5:           "Tenir le Fonds mondial responsable",
-  signupTopic6:           "Avoir voix au chapitre",
+    signupTopicsLabel:         "Qu'est-ce qui vous intéresse ?",
+    signupTopicsOptional:      "facultatif — choisissez autant que vous voulez",
+    signupTopic1:              "Recevoir les mises à jour du GADH",
+    signupTopic2:              "Participer à la co-conception d'outils et de ressources",
+    signupTopic3:              "Rejoindre en tant que partenaire",
+    signupTopic4:              "Aider à co-concevoir des outils via des ateliers ou des entretiens",
 
     // ── Footer ───────────────────────────────────────────────
     footerCopyright: "© Le Hub Mondial de Données pour le Plaidoyer",
@@ -284,7 +267,7 @@ signupCityLabel:        "Ville",
     heroSubtitle: "La fuente <span>transparente</span> e <span>independiente</span> de datos de salud mundial",
     heroDescription: "Las comunidades más afectadas por el VIH, la tuberculosis y la malaria están en el corazón del modelo del Fondo Mundial. Esta plataforma proporciona la información, los recursos y los datos que las comunidades necesitan para abogar por un Fondo Mundial responsable.",
     heroButtonText: "Únase a nosotros",
-    heroEyebrowText:        "Este espacio también es tuyo — únete",
+    heroEyebrowText: "Este espacio también es tuyo — únete",
     scroll: "Desplazarse",
     navHome: "Inicio",
     navResources: "Recursos",
@@ -378,17 +361,17 @@ signupCityLabel:        "Ville",
     signupTitle:               "Únete a la comunidad",
     signupDesc:                "Únase a los defensores y líderes comunitarios que reciben nuestros últimos recursos, herramientas y oportunidades para participar.  Forme parte de la comunidad GADH.",
     signupWhoLabel:            "¿Quién eres?",
-    optional:            "opcional",
+    optional:                  "opcional",
     signupRequired:            "*",
-    signupPill1:               "Comunidad / Sociedad civil",
-    signupPill2:               "Gobierno",
-    signupPill3:               "Global",
+    signupPill1:               "Comunidades",
+    signupPill2:               "Socios globales",
+    signupPill3:               "Gobierno",
     signupNameLabel:           "Nombre",
     signupNamePlaceholder:     "Tu nombre",
     signupCountryLabel:        "País",
     signupCountryPlaceholder:  "Tu país",
     signupEmailLabel:          "Correo electrónico",
-    signupEmailRequired:      "requerido",
+    signupEmailRequired:       "requerido",
     signupEmailPlaceholder:    "tu@correo.com",
     signupLanguageLabel:       "Idioma preferido",
     signupLanguagePlaceholder: "Seleccionar idioma",
@@ -396,19 +379,14 @@ signupCityLabel:        "Ville",
     signupSendingBtn:          "Enviando…",
     signupSuccessMsg:          "✓ Tu información ha sido recibida. Bienvenido/a a la comunidad GADH.",
     signupPrivacy:             "Todos los campos excepto el correo electrónico son opcionales. Sin spam. Cancela la suscripción en cualquier momento.",
+    signupOptionalDivider:     "— Información opcional —",
 
-signupCityLabel:        "Ciudad",
-  signupCityOptional:     "opcional",
-  signupCityPlaceholder:  "Tu ciudad",
-
-  signupTopicsLabel:      "¿Qué te interesa?",
-  signupTopicsOptional:   "opcional — elige todo lo que quieras",
-  signupTopic1:           "Entender mejor los datos",
-  signupTopic2:           "Apoyo para mi trabajo de incidencia",
-  signupTopic3:           "Conectar con otros defensores",
-  signupTopic4:           "Rastrear el dinero",
-  signupTopic5:           "Exigir cuentas al Fondo Mundial",
-  signupTopic6:           "Tener voz en las decisiones",
+    signupTopicsLabel:         "¿Qué te interesa?",
+    signupTopicsOptional:      "opcional — elige todo lo que quieras",
+    signupTopic1:              "Recibir actualizaciones del GADH",
+    signupTopic2:              "Participar en el co-diseño de herramientas y recursos",
+    signupTopic3:              "Unirse como socio",
+    signupTopic4:              "Ayudar a co-diseñar herramientas a través de talleres o entrevistas",
 
     // ── Footer ───────────────────────────────────────────────
     footerCopyright: "© El Hub Global de Datos para la Abogacía",
@@ -420,7 +398,7 @@ signupCityLabel:        "Ciudad",
     heroSubtitle: "A fonte <span>transparente</span> e <span>independente</span> de dados de saúde mundial",
     heroDescription: "As comunidades mais afectadas pelo VIH, tuberculose e malária estão no centro do modelo do Fundo Global. Esta plataforma fornece as informações, os recursos e os dados de que as comunidades necessitam para defenderem um Fundo Global responsável.",
     heroButtonText: "Junte-se a nós",
-    heroEyebrowText:        "Este espaço também é seu — junte-se a nós",
+    heroEyebrowText: "Este espaço também é seu — junte-se a nós",
     scroll: "Rolar",
     navHome: "Início",
     navResources: "Recursos",
@@ -513,17 +491,17 @@ signupCityLabel:        "Ciudad",
     signupTitle:               "Junte-se à comunidade",
     signupDesc:                "Junte-se aos defensores e líderes comunitários que recebem os nossos recursos, ferramentas e oportunidades mais recentes para se envolver. Torne-se parte da comunidade GADH.",
     signupWhoLabel:            "Quem é você?",
-    optional:            "opcional",
+    optional:                  "opcional",
     signupRequired:            "*",
-    signupPill1:               "Comunidade / Sociedade civil",
-    signupPill2:               "Governo",
-    signupPill3:               "Global",
+    signupPill1:               "Comunidades",
+    signupPill2:               "Parceiros globais",
+    signupPill3:               "Governo",
     signupNameLabel:           "Nome",
     signupNamePlaceholder:     "O seu nome",
     signupCountryLabel:        "País",
     signupCountryPlaceholder:  "O seu país",
     signupEmailLabel:          "E-mail",
-    signupEmailRequired:      "obrigatório",
+    signupEmailRequired:       "obrigatório",
     signupEmailPlaceholder:    "o.seu@email.com",
     signupLanguageLabel:       "Idioma preferido",
     signupLanguagePlaceholder: "Selecionar idioma",
@@ -531,18 +509,15 @@ signupCityLabel:        "Ciudad",
     signupSendingBtn:          "A enviar…",
     signupSuccessMsg:          "✓ As suas informações foram recebidas. Bem-vindo/a à comunidade GADH.",
     signupPrivacy:             "Todos os campos exceto o e-mail são opcionais. Sem spam. Cancele a subscrição a qualquer momento.",
-signupCityLabel:        "Cidade",
-  signupCityOptional:     "opcional",
-  signupCityPlaceholder:  "A sua cidade",
+    signupOptionalDivider:     "— Informações opcionais —",
 
-  signupTopicsLabel:      "O que lhe interessa?",
-  signupTopicsOptional:   "opcional — escolha o que quiser",
-  signupTopic1:           "Compreender melhor os dados",
-  signupTopic2:           "Apoio para o meu trabalho de advocacia",
-  signupTopic3:           "Ligar-me a outros defensores",
-  signupTopic4:           "Seguir o dinheiro",
-  signupTopic5:           "Responsabilizar o Fundo Global",
-  signupTopic6:           "Ter voz nas decisões",
+    signupTopicsLabel:         "O que lhe interessa?",
+    signupTopicsOptional:      "opcional — escolha o que quiser",
+    signupTopic1:              "Receber atualizações do GADH",
+    signupTopic2:              "Participar no co-design de ferramentas e recursos",
+    signupTopic3:              "Aderir como parceiro",
+    signupTopic4:              "Ajudar a co-conceber ferramentas através de workshops ou entrevistas",
+
     // ── Footer ───────────────────────────────────────────────
     footerCopyright: "© O Centro Global de Dados de Advocacia",
   },
@@ -553,7 +528,7 @@ signupCityLabel:        "Cidade",
     heroSubtitle: "Прозрачный и независимый источник данных о глобальном здравоохранении",
     heroDescription: "Сообщества, наиболее пострадавшие от ВИЧ, туберкулеза и малярии, находятся в центре модели Глобального фонда. Эта платформа предоставляет информацию, ресурсы и данные, необходимые сообществам для адвокации подотчётности Глобального фонда.",
     heroButtonText: "Присоединяйтесь к нам",
-    heroEyebrowText:        "Это ваше пространство тоже — присоединяйтесь",
+    heroEyebrowText: "Это ваше пространство тоже — присоединяйтесь",
     scroll: "Прокрутить",
     navHome: "Главная",
     navResources: "Ресурсы",
@@ -645,17 +620,17 @@ signupCityLabel:        "Cidade",
     signupTitle:               "Присоединяйтесь к сообществу",
     signupDesc:                "Присоединяйтесь к активистам и лидерам сообщества, получающим наши последние ресурсы, инструменты и возможности для участия. Станьте частью сообщества GADH.",
     signupWhoLabel:            "Кто вы?",
-    optional:            "необязательно",
+    optional:                  "необязательно",
     signupRequired:            "*",
-    signupPill1:               "Сообщество / Гражданское общество",
-    signupPill2:               "Правительство",
-    signupPill3:               "Глобальный уровень",
+    signupPill1:               "Сообщества",
+    signupPill2:               "Глобальные партнёры",
+    signupPill3:               "Правительство",
     signupNameLabel:           "Имя",
     signupNamePlaceholder:     "Ваше имя",
     signupCountryLabel:        "Страна",
     signupCountryPlaceholder:  "Ваша страна",
     signupEmailLabel:          "Электронная почта",
-    signupEmailRequired:      "обязательно",
+    signupEmailRequired:       "обязательно",
     signupEmailPlaceholder:    "ваш@email.com",
     signupLanguageLabel:       "Предпочтительный язык",
     signupLanguagePlaceholder: "Выберите язык",
@@ -663,18 +638,15 @@ signupCityLabel:        "Cidade",
     signupSendingBtn:          "Отправка…",
     signupSuccessMsg:          "✓ Ваши данные получены. Добро пожаловать в сообщество GADH.",
     signupPrivacy:             "Все поля, кроме электронной почты, необязательны. Без спама. Отписаться можно в любое время.",
- signupCityLabel:        "Город",
-  signupCityOptional:     "необязательно",
-  signupCityPlaceholder:  "Ваш город",
+    signupOptionalDivider:     "— Необязательные сведения —",
 
-  signupTopicsLabel:      "Что вас интересует?",
-  signupTopicsOptional:   "необязательно — выберите сколько угодно",
-  signupTopic1:           "Понять данные",
-  signupTopic2:           "Поддержка моей правозащитной работы",
-  signupTopic3:           "Общение с другими адвокатами",
-  signupTopic4:           "Отслеживать финансирование",
-  signupTopic5:           "Добиться подотчётности Глобального фонда",
-  signupTopic6:           "Иметь голос в принятии решений",
+    signupTopicsLabel:         "Что вас интересует?",
+    signupTopicsOptional:      "необязательно — выберите сколько угодно",
+    signupTopic1:              "Получать обновления от GADH",
+    signupTopic2:              "Участвовать в совместном проектировании инструментов и ресурсов",
+    signupTopic3:              "Присоединиться в качестве партнёра",
+    signupTopic4:              "Помогать совместно разрабатывать инструменты через семинары или интервью",
+
     // ── Footer ───────────────────────────────────────────────
     footerCopyright: "© Глобальный центр данных для адвокации",
   },
@@ -685,7 +657,7 @@ signupCityLabel:        "Cidade",
     heroSubtitle: "Chanzo cha <span>uwazi</span> na <span>inayojitegemea</span> cha data ya Salama ya Kimataifa",
     heroDescription: "Jamii zilizoathiriwa zaidi na VVU, kifua kikuu, na malaria ndizo msingi wa modeli ya Global Fund. Jukwaa hili linatoa taarifa, rasilimali na data ambayo jamii zinahitaji ili kutetea Global Fund unaowajibika.",
     heroButtonText: "Jiunge nasi",
-    heroEyebrowText:        "Hii ni nafasi yako pia — jiunge nasi",
+    heroEyebrowText: "Hii ni nafasi yako pia — jiunge nasi",
     scroll: "Skrolli",
     navHome: "Nyumbani",
     navResources: "Rasilimali",
@@ -778,17 +750,17 @@ signupCityLabel:        "Cidade",
     signupTitle:               "Jiunge na Jamii",
     signupDesc:                "Jiunge na watetezi na viongozi wa jamii wanaopokea rasilimali zetu mpya, zana, na fursa za kushiriki. Kuwa sehemu ya jamii ya GADH.",
     signupWhoLabel:            "Wewe ni nani?",
-    optional:            "hiari",
+    optional:                  "hiari",
     signupRequired:            "*",
-    signupPill1:               "Jamii / Asasi za Kiraia",
-    signupPill2:               "Serikali",
-    signupPill3:               "Kimataifa",
+    signupPill1:               "Jamii",
+    signupPill2:               "Washirika wa Kimataifa",
+    signupPill3:               "Serikali",
     signupNameLabel:           "Jina",
     signupNamePlaceholder:     "Jina lako",
     signupCountryLabel:        "Nchi",
     signupCountryPlaceholder:  "Nchi yako",
     signupEmailLabel:          "Barua pepe",
-    signupEmailRequired:      "lazima",
+    signupEmailRequired:       "lazima",
     signupEmailPlaceholder:    "barua@pepe.com",
     signupLanguageLabel:       "Lugha Unayopendelea",
     signupLanguagePlaceholder: "Chagua lugha",
@@ -796,19 +768,14 @@ signupCityLabel:        "Cidade",
     signupSendingBtn:          "Inatumwa…",
     signupSuccessMsg:          "✓ Taarifa zako zimepokelewa. Karibu katika jamii ya GADH.",
     signupPrivacy:             "Sehemu zote isipokuwa barua pepe ni za hiari. Hakuna barua taka. Jiondoe wakati wowote.",
+    signupOptionalDivider:     "— Maelezo ya hiari —",
 
-signupCityLabel:        "Mji",
-  signupCityOptional:     "hiari",
-  signupCityPlaceholder:  "Mji wako",
-
-  signupTopicsLabel:      "Unapenda nini?",
-  signupTopicsOptional:   "hiari — chagua kadri unavyotaka",
-  signupTopic1:           "Kuelewa data vizuri",
-  signupTopic2:           "Msaada kwa kazi yangu ya utetezi",
-  signupTopic3:           "Kuungana na watetezi wengine",
-  signupTopic4:           "Kufuatilia fedha",
-  signupTopic5:           "Kuhoji uwajibikaji wa Global Fund",
-  signupTopic6:           "Kuwa na sauti katika maamuzi",
+    signupTopicsLabel:         "Unapenda nini?",
+    signupTopicsOptional:      "hiari — chagua kadri unavyotaka",
+    signupTopic1:              "Kupokea masasisho kutoka GADH",
+    signupTopic2:              "Kushiriki katika kubuni pamoja zana na rasilimali",
+    signupTopic3:              "Kujiunga kama mshirika",
+    signupTopic4:              "Kusaidia kubuni zana pamoja kupitia warsha au mahojiano",
 
     // ── Footer ───────────────────────────────────────────────
     footerCopyright: "© Kituo Kikuu Cha Data Cha Utetezi Wa Kimataifa",
@@ -836,16 +803,13 @@ function changeLanguage(lang) {
   
   // Helper function to get translation with English fallback
   function getTranslation(key) {
-    // Try to get the translation in the selected language
     if (window.languageData[lang] && window.languageData[lang][key]) {
       return window.languageData[lang][key];
     }
-    // Fall back to English if not found
     if (window.languageData['EN'] && window.languageData['EN'][key]) {
       console.warn(`Translation missing for '${key}' in ${lang}, using English`);
       return window.languageData['EN'][key];
     }
-    // If even English doesn't have it, return the key itself
     console.error(`Translation missing for '${key}' in both ${lang} and EN`);
     return key;
   }
@@ -858,13 +822,10 @@ function changeLanguage(lang) {
   url.searchParams.set('lang', lang);
   window.history.pushState({}, '', url);
   
-  // Make sure languageData is available
   if (!window.languageData) {
     console.error('Language data not available');
     return;
   }
-  
-  // Update all UI elements by category using the fallback helper
   
   // Landing page and nav bar
   updateElement('title', getTranslation('Title'), true);
@@ -873,33 +834,30 @@ function changeLanguage(lang) {
   updateElement('hero-description', getTranslation('heroDescription'));
   updateElement('hero-button', getTranslation('heroButtonText'));
   updateElement('scroll-indicator', getTranslation('scroll'));
-updateElement('hero-eyebrow-text', getTranslation('heroEyebrowText'));
+  updateElement('hero-eyebrow-text', getTranslation('heroEyebrowText'));
 
-updateElement('signup-topics-label',    getTranslation('signupTopicsLabel'));
+  // Signup topics
+  updateElement('signup-topics-label',    getTranslation('signupTopicsLabel'));
   updateElement('signup-topics-optional', getTranslation('signupTopicsOptional'));
   updateElement('signup-topic1',          getTranslation('signupTopic1'));
   updateElement('signup-topic2',          getTranslation('signupTopic2'));
   updateElement('signup-topic3',          getTranslation('signupTopic3'));
   updateElement('signup-topic4',          getTranslation('signupTopic4'));
-  updateElement('signup-topic5',          getTranslation('signupTopic5'));
-  updateElement('signup-topic6',          getTranslation('signupTopic6'));
 
-
-
-updateElement('signup-who-label',        getTranslation('signupWhoLabel'));
+  // Signup fields
+  updateElement('signup-optional-divider-label', getTranslation('signupOptionalDivider'));
+  updateElement('signup-who-label',        getTranslation('signupWhoLabel'));
   updateElement('signup-optional-1',       getTranslation('optional'));
   updateElement('signup-name-label',       getTranslation('signupNameLabel'));
   updateElement('signup-name-optional',    getTranslation('optional'));
   updateElement('signup-country-label',    getTranslation('signupCountryLabel'));
   updateElement('signup-country-optional', getTranslation('optional'));
-  updateElement('signup-city-label',       getTranslation('signupCityLabel'));
-  updateElement('signup-city-optional',    getTranslation('optional'));
   updateElement('signup-email-label',      getTranslation('signupEmailLabel'));
   updateElement('signup-email-required',   getTranslation('signupEmailRequired'));
   updateElement('signup-language-label',   getTranslation('signupLanguageLabel'));
   updateElement('signup-language-optional',getTranslation('optional'));
 
-// Navbar
+  // Navbar
   updateElement('nav-home', getTranslation('navHome'));
   updateElement('nav-resources', getTranslation('navResources'));
   updateElement('nav-calendar', getTranslation('navCalendar'));
@@ -938,7 +896,6 @@ updateElement('signup-who-label',        getTranslation('signupWhoLabel'));
   updateElement('resources-r8dash', getTranslation('resourcesR8Dash'));
   updateElement('resources-searchinput', getTranslation('resourcesSearchInput'));
 
-  // Update the placeholder of the search input field
   const searchInput = document.getElementById('searchInput');
   if (searchInput) {
     searchInput.setAttribute('placeholder', getTranslation('resourcesSearchInput'));
@@ -1027,27 +984,18 @@ updateElement('signup-who-label',        getTranslation('signupWhoLabel'));
   // ── Footer ─────────────────────────────────────────────────
   updateElement('footer-copyright', getTranslation('footerCopyright'));
   
-  // Call these if they exist in your code
   if (typeof renderWeekdays === 'function') renderWeekdays();
   if (typeof renderCalendar === 'function') renderCalendar();
 }
 
 // Function to initialize language on page load
 function initializeLanguage() {
-  // First check URL parameter
   const params = new URLSearchParams(window.location.search);
   const urlLang = params.get('lang');
-  
-  // Then check localStorage
   const storedLang = localStorage.getItem('preferredLanguage');
-  
-  // Choose language with priority: URL > localStorage > default ('EN')
   const lang = storedLang || urlLang || 'EN';
-  
-  // Apply the selected language
   changeLanguage(lang);
 }
 
-  /* Language (end) */
 // Make sure languageData is accessible globally
 window.languageData = languageData;

@@ -58,6 +58,20 @@
       <div class="signup-card">
         <form class="signup-form" id="signup-form" novalidate>
 
+          <!-- Email (required) — FIRST -->
+          <div class="signup-field signup-field--full">
+            <label class="signup-label" for="signup-email">
+              <span id="signup-email-label">Email</span>
+              <span class="required" id="signup-email-required">required</span>
+            </label>
+            <input type="email" id="signup-email" placeholder="your@email.com" required>
+          </div>
+
+          <!-- Divider -->
+          <div class="signup-field signup-field--full signup-optional-divider">
+            <span id="signup-optional-divider-label">— Optional details —</span>
+          </div>
+
           <!-- Category — radio pills -->
           <div class="signup-field signup-field--full">
             <label class="signup-label">
@@ -66,21 +80,21 @@
             </label>
             <div class="category-pills">
               <label class="pill">
-                <input type="radio" name="category" value="Community / Civil Society">
-                <span id="signup-pill1">Community / Civil Society</span>
+                <input type="radio" name="category" value="Communities">
+                <span id="signup-pill1">Communities</span>
+              </label>
+              <label class="pill">
+                <input type="radio" name="category" value="Global Partners">
+                <span id="signup-pill2">Global Partners</span>
               </label>
               <label class="pill">
                 <input type="radio" name="category" value="Government">
-                <span id="signup-pill2">Government</span>
-              </label>
-              <label class="pill">
-                <input type="radio" name="category" value="Global">
-                <span id="signup-pill3">Global</span>
+                <span id="signup-pill3">Government</span>
               </label>
             </div>
           </div>
 
-          <!-- Name + Country + City -->
+          <!-- Name + Country -->
           <div class="signup-field">
             <label class="signup-label" for="signup-name">
               <span id="signup-name-label">Name</span>
@@ -95,23 +109,9 @@
             </label>
             <input type="text" id="signup-country" placeholder="Your country">
           </div>
-          <div class="signup-field">
-            <label class="signup-label" for="signup-city">
-              <span id="signup-city-label">City</span>
-              <span class="optional" id="signup-city-optional">optional</span>
-            </label>
-            <input type="text" id="signup-city" placeholder="Your city">
-          </div>
 
-          <!-- Email (required) + Language -->
-          <div class="signup-field">
-            <label class="signup-label" for="signup-email">
-              <span id="signup-email-label">Email</span>
-              <span class="required" id="signup-email-required">required</span>
-            </label>
-            <input type="email" id="signup-email" placeholder="your@email.com" required>
-          </div>
-          <div class="signup-field">
+          <!-- Language -->
+          <div class="signup-field signup-field--full">
             <label class="signup-label" for="signup-language">
               <span id="signup-language-label">Preferred Language</span>
               <span class="optional" id="signup-language-optional">optional</span>
@@ -135,28 +135,16 @@
             </label>
             <div class="category-pills category-pills--multi" id="signup-topics-pills">
               <label class="pill pill--multi">
-                <input type="checkbox" name="topics" value="Help understanding data">
-                <span id="signup-topic1">Help understanding data</span>
+                <input type="checkbox" name="topics" value="Receive updates from the GADH">
+                <span id="signup-topic1">Receive updates from the GADH</span>
               </label>
               <label class="pill pill--multi">
-                <input type="checkbox" name="topics" value="Support for my advocacy work">
-                <span id="signup-topic2">Support for my advocacy work</span>
+                <input type="checkbox" name="topics" value="Join as a partner">
+                <span id="signup-topic3">Join as a partner</span>
               </label>
               <label class="pill pill--multi">
-                <input type="checkbox" name="topics" value="Connecting with other advocates">
-                <span id="signup-topic3">Connecting with other advocates</span>
-              </label>
-              <label class="pill pill--multi">
-                <input type="checkbox" name="topics" value="Following the money">
-                <span id="signup-topic4">Following the money</span>
-              </label>
-              <label class="pill pill--multi">
-                <input type="checkbox" name="topics" value="Holding the Global Fund accountable">
-                <span id="signup-topic5">Holding the Global Fund accountable</span>
-              </label>
-              <label class="pill pill--multi">
-                <input type="checkbox" name="topics" value="Having a voice in decisions">
-                <span id="signup-topic6">Having a voice in decisions</span>
+                <input type="checkbox" name="topics" value="Help co-design tools through workshops or interviews">
+                <span id="signup-topic4">Help co-design tools through workshops or interviews</span>
               </label>
             </div>
           </div>
@@ -229,7 +217,6 @@
       const email    = document.getElementById('signup-email').value.trim();
       const name     = document.getElementById('signup-name').value.trim();
       const country  = document.getElementById('signup-country').value.trim();
-      const city     = document.getElementById('signup-city').value.trim();
       const language = document.getElementById('signup-language').value;
       const category = (document.querySelector('input[name="category"]:checked') || {}).value || '';
 
@@ -252,7 +239,7 @@
         await fetch('https://script.google.com/macros/s/AKfycbx5g9YC3LvWY8sAxjEVhUgnzUwGs38vUd4HJtILzxLjT0GV7qAdolVtczIWJCiG0kww/exec', {
           method: 'POST',
           mode: 'no-cors',
-          body: JSON.stringify({ email, name, country, city, language, category, topics }),
+          body: JSON.stringify({ email, name, country, language, category, topics }),
         });
       } catch (err) {
         console.error('Signup error:', err);
