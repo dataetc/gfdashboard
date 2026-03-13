@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "title": "New Global Fund Replenishment Data Now Available",
+    "author": "GADH Team",
+    "date": "2025-06-10",
+    "image": "images/blog/post-1.jpg",
+    "tags": ["Data Release", "Funding"],
+    "excerpt": "We have updated our replenishment tracker with the latest figures from the Geneva negotiations, including breakdowns by donor country and disease allocation.",
+    "content": "We have updated our replenishment tracker with the latest figures from the Geneva negotiations, including breakdowns by donor country and disease allocation.\n\n## What's New\n\nThe updated dataset covers pledges from 42 contributing countries, with particular detail on how allocations are split between HIV, tuberculosis, and malaria programmes.\n\n> This data is critical for communities who need to hold donors accountable to their commitments.\n\n## How to Access the Data\n\nVisit our Resources page to download the full dataset as a CSV or explore it interactively through our dashboard."
+  },
+  {
+    "id": "2",
+    "title": "Community Voices from the Board Meeting",
+    "author": "Advocacy Team",
+    "date": "2025-05-28",
+    "image": "images/blog/post-2.jpg",
+    "tags": ["Advocacy", "Community"],
+    "excerpt": "Representatives from 12 community delegations shared their priorities at the May board meeting. Here is a summary of the key themes that emerged.",
+    "content": "Representatives from 12 community delegations shared their priorities at the May board meeting. Here is a summary of the key themes that emerged.\n\n## Key Themes\n\nDelegations consistently raised concerns around grant implementation delays, community systems strengthening funding, and the need for more transparent reporting from Principal Recipients.\n\n## Next Steps\n\nThe GADH team will be publishing a full briefing note with recommendations for the next board cycle. Sign up to our mailing list to receive it directly."
+  },
+  {
+    "id": "3",
+    "title": "Understanding the Country Coordinating Mechanism",
+    "author": "Research Team",
+    "date": "2025-05-10",
+    "image": "images/blog/post-3.jpg",
+    "tags": ["Explainer", "Governance"],
+    "excerpt": "A plain-language guide to how CCMs work, who sits on them, and how communities can engage with the process to influence funding decisions.",
+    "content": "The Country Coordinating Mechanism, or CCM, is the national body responsible for overseeing Global Fund grants. Understanding how it works is essential for community advocates.\n\n## Who Sits on a CCM?\n\nCCMs include representatives from government ministries, civil society organisations, the private sector, and communities living with or affected by the three diseases.\n\n## How Decisions Are Made\n\nGrant applications, implementation plans, and oversight reports all pass through the CCM. Communities with a seat at the table can directly influence these documents.\n\n> The most impactful advocacy often happens before a grant is submitted, not after it is approved."
+  }
+]
