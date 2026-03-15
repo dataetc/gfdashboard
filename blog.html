@@ -4,307 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="text/css_sitewide.css">
+  <link rel="stylesheet" type="text/css" href="text/css_blog.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Barrio&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <script src="scripts/js.js"></script>
   <title>The GADH: Blog</title>
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    body {
-      background-color: #f5f1eb;
-      color: #1a1a1a;
-      font-family: "Roboto Condensed", sans-serif;
-    }
-
-    /* ── PAGE HEADER ── */
-    .blog-header {
-      background-color: #1a1a1a;
-      padding: 120px 6vw 64px;
-      position: relative;
-      overflow: hidden;
-      border-bottom: 3px solid #a85a3e;
-    }
-
-    .blog-header::before {
-      content: "BLOG";
-      position: absolute;
-      right: -10px;
-      top: 50%;
-      transform: translateY(-50%) rotate(90deg);
-      font-family: 'Barrio', Arial, sans-serif;
-      font-size: 8em;
-      color: rgba(255,255,255,0.04);
-      white-space: nowrap;
-      pointer-events: none;
-      user-select: none;
-    }
-
-    .blog-header .section-label {
-      font-size: 0.75rem;
-      font-weight: 500;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: #cb764e;
-      margin-bottom: 14px;
-      display: block;
-    }
-
-    .blog-header h1 {
-      font-family: 'Barrio', Arial, sans-serif;
-      font-size: clamp(3rem, 6vw, 5rem);
-      color: #fff;
-      line-height: 1.05;
-      margin-bottom: 16px;
-    }
-
-    .blog-header p {
-      font-size: 1.15rem;
-      color: rgba(255,255,255,0.65);
-      max-width: 560px;
-      line-height: 1.6;
-    }
-
-    /* ── FILTER BAR ── */
-    .filter-bar {
-      background: #1a1a1a;
-      padding: 0 6vw 28px;
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-    }
-
-    .filter-btn {
-      font-family: "Roboto Condensed", sans-serif;
-      font-size: 0.78rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      padding: 7px 18px;
-      border: 2px solid rgba(255,255,255,0.25);
-      background: transparent;
-      color: rgba(255,255,255,0.55);
-      cursor: pointer;
-      transition: all 0.2s;
-    }
-
-    .filter-btn:hover,
-    .filter-btn.active {
-      border-color: #a85a3e;
-      color: #fff;
-      background: #a85a3e;
-    }
-
-    /* ── GRID ── */
-    .blog-main {
-      max-width: 1280px;
-      margin: 0 auto;
-      padding: 64px 6vw 100px;
-    }
-
-    .posts-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 28px;
-    }
-
-    @media (max-width: 960px) { .posts-grid { grid-template-columns: repeat(2, 1fr); } }
-    @media (max-width: 600px) { .posts-grid { grid-template-columns: 1fr; } }
-
-    /* Featured first post spans full width */
-    .post-card:first-child {
-      grid-column: 1 / -1;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 0;
-    }
-
-    @media (max-width: 767px) {
-      .post-card:first-child {
-        grid-column: auto;
-        display: flex;
-        flex-direction: column;
-      }
-    }
-
-    /* ── CARD ── */
-    .post-card {
-      background: #fff;
-      border: 1px solid #e2ddd6;
-      overflow: hidden;
-      transition: transform 0.25s ease, box-shadow 0.25s ease;
-      cursor: pointer;
-      text-decoration: none;
-      color: inherit;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .post-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 16px 48px rgba(0,0,0,0.12);
-    }
-
-    .post-card:first-child:hover {
-      transform: translateY(-4px);
-    }
-
-    .card-image {
-      width: 100%;
-      aspect-ratio: 16/9;
-      object-fit: cover;
-      display: block;
-      background: #e2ddd6;
-    }
-
-    .post-card:first-child .card-image {
-      aspect-ratio: auto;
-      height: 100%;
-      min-height: 320px;
-    }
-
-    .card-body {
-      padding: 28px 28px 32px;
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .post-card:first-child .card-body {
-      padding: 44px 48px;
-      justify-content: center;
-    }
-
-    @media (max-width: 767px) {
-      .post-card:first-child .card-body { padding: 28px; }
-    }
-
-    .card-tag {
-      display: inline-block;
-      font-size: 0.72rem;
-      font-weight: 700;
-      letter-spacing: 0.15em;
-      text-transform: uppercase;
-      color: #a85a3e;
-      margin-bottom: 12px;
-    }
-
-    .card-title {
-      font-family: 'Barrio', Arial, sans-serif;
-      font-size: 1.45rem;
-      line-height: 1.2;
-      color: #1a1a1a;
-      margin-bottom: 12px;
-      font-weight: 400;
-    }
-
-    .post-card:first-child .card-title {
-      font-size: clamp(1.8rem, 2.5vw, 2.4rem);
-    }
-
-    .card-excerpt {
-      font-size: 0.97rem;
-      line-height: 1.65;
-      color: #5a5047;
-      font-weight: 300;
-      flex: 1;
-      margin-bottom: 20px;
-    }
-
-    .card-meta {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      font-size: 0.75rem;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: #9e9088;
-    }
-
-    .card-meta .dot { color: #a85a3e; }
-
-    .card-read-more {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 0.78rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: #a85a3e;
-      margin-top: 20px;
-      transition: gap 0.2s;
-    }
-
-    .post-card:hover .card-read-more { gap: 14px; }
-
-    /* ── EMPTY STATE ── */
-    .empty-state {
-      text-align: center;
-      padding: 80px 20px;
-      color: #9e9088;
-      grid-column: 1 / -1;
-    }
-    .empty-state h2 {
-      font-family: 'Barrio', Arial, sans-serif;
-      font-size: 2rem;
-      margin-bottom: 12px;
-      color: #c9c0b4;
-    }
-
-    /* ── LOADING ── */
-    .loading {
-      text-align: center;
-      padding: 80px;
-      color: #9e9088;
-      font-size: 0.85rem;
-      letter-spacing: 0.15em;
-      text-transform: uppercase;
-      grid-column: 1 / -1;
-    }
-
-    /* ── FOOTER ── */
-    .site-footer {
-      background-color: #111;
-      padding: 36px 6vw;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 16px;
-      border-top: 3px solid #a85a3e;
-    }
-
-    .site-footer .footer-brand {
-      font-family: "Roboto Condensed", sans-serif;
-      font-size: 0.85em;
-      color: rgba(255,255,255,0.45);
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-    }
-
-    .site-footer .footer-links {
-      display: flex;
-      gap: 20px;
-      flex-wrap: wrap;
-    }
-
-    .site-footer .footer-links a {
-      font-family: "Roboto Condensed", sans-serif;
-      font-size: 0.85em;
-      color: rgba(255,255,255,0.45);
-      text-decoration: none;
-      transition: color 0.2s;
-      letter-spacing: 0.05em;
-    }
-
-    .site-footer .footer-links a:hover { color: #cb764e; }
-  </style>
 </head>
-<body>
 
-  <!-- NAVBAR (same pattern as your other pages) -->
+<body>
+  <!-- NAVBAR -->
   <header>
     <script src="site-navbar.js"></script>
     <site-navbar id="main-navbar"></site-navbar>
@@ -317,22 +26,64 @@
     <p>Perspectives, data briefings, and advocacy updates from across the Global Fund community.</p>
   </div>
 
-  <!-- FILTER BAR -->
-  <div class="filter-bar" id="filter-bar">
-    <button class="filter-btn active" data-tag="all">All Posts</button>
-    <!-- Tags are injected here dynamically -->
-  </div>
+  <!-- MAIN CONTAINER WITH SIDEBAR -->
+  <div class="blog-container">
+    
+    <!-- SIDEBAR WITH FILTERS -->
+    <aside class="filter-sidebar" id="filter-sidebar">
+      <div class="search-box">
+        <input type="text" id="search-input" class="search-input" placeholder="Search posts...">
+      </div>
+      <button class="sidebar-toggle" id="sidebar-toggle">
+        <h2 class="sidebar-title">Topics</h2>
+        <span class="toggle-arrow">▼</span>
+      </button>
+      <div class="filter-bar" id="filter-bar" style="display: none;">
+        <!-- Checkboxes are injected here dynamically -->
+      </div>
 
-  <!-- POSTS GRID -->
-  <main class="blog-main">
-    <div class="posts-grid" id="posts-grid">
-      <div class="loading">Loading posts…</div>
-    </div>
-  </main>
+        <button class="sidebar-toggle" id="year-sidebar-toggle">
+          <h2 class="sidebar-title">Year</h2>
+          <span class="toggle-arrow">▼</span>
+        </button>
+        <div class="filter-bar" id="year-filter-bar" style="display: none;">
+          <!-- Year checkboxes injected here -->
+        </div>
+
+        <button class="sidebar-toggle" id="author-sidebar-toggle">
+          <h2 class="sidebar-title">Author</h2>
+          <span class="toggle-arrow">▼</span>
+        </button>
+        <div class="filter-bar" id="author-filter-bar" style="display: none;">
+          <!-- Author checkboxes injected here -->
+        </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+
+    <main class="blog-main">
+      <div id="posts-count" class="posts-count">
+        Displaying <span id="count-displayed">0</span> of <span id="count-total">0</span>
+      </div>
+
+      <div id="active-filters-display" class="active-filters-display">
+        <!-- Active filter tags injected here -->
+      </div>
+
+      <div class="posts-grid" id="posts-grid">
+        <!-- Posts injected here -->
+      </div>
+
+      <div class="posts-grid" id="posts-grid">
+        <!-- Posts injected here -->
+      </div>
+    </main>
+
+  </div>
 
   <!-- FOOTER -->
   <footer class="site-footer">
-    <span class="footer-brand">© 2025 The Global Advocacy Data Hub</span>
+    <span class="footer-brand">© The Global Advocacy Data Hub</span>
     <nav class="footer-links">
       <a href="/about.html">About</a>
       <a href="/resources.html">Resources</a>
@@ -341,100 +92,7 @@
     </nav>
   </footer>
 
-  <script>
-    // ── Navbar init ──
-    document.addEventListener('DOMContentLoaded', function () {
-      const navbar = document.getElementById('main-navbar');
-      if (!navbar) return;
-      navbar.setTextColor('#fff');
-      navbar.setSecondaryTextColor('#fff');
-      navbar.setLanguageSelectorTextColor('#fff');
-      navbar.setBottomBorderColor('#fff');
-    });
+<script src="scripts/blog.js"></script>
 
-    // ── Load & render posts ──
-    let allPosts = [];
-    let activeTag = 'all';
-
-    async function loadPosts() {
-      try {
-        const res = await fetch('posts/posts.json');
-        if (!res.ok) throw new Error('Not found');
-        allPosts = await res.json();
-        // Sort newest first
-        allPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
-        buildTagFilters();
-        renderPosts(allPosts);
-      } catch (e) {
-        document.getElementById('posts-grid').innerHTML = `
-          <div class="empty-state">
-            <h2>No Posts Yet</h2>
-            <p>Check back soon for updates.</p>
-          </div>`;
-      }
-    }
-
-    function buildTagFilters() {
-      const tags = [...new Set(allPosts.flatMap(p => p.tags || []))];
-      const bar = document.getElementById('filter-bar');
-      tags.forEach(tag => {
-        const btn = document.createElement('button');
-        btn.className = 'filter-btn';
-        btn.dataset.tag = tag;
-        btn.textContent = tag;
-        btn.addEventListener('click', () => setFilter(tag, btn));
-        bar.appendChild(btn);
-      });
-      document.querySelector('[data-tag="all"]').addEventListener('click', function() {
-        setFilter('all', this);
-      });
-    }
-
-    function setFilter(tag, btn) {
-      activeTag = tag;
-      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      const filtered = tag === 'all' ? allPosts : allPosts.filter(p => (p.tags || []).includes(tag));
-      renderPosts(filtered);
-    }
-
-    function renderPosts(posts) {
-      const grid = document.getElementById('posts-grid');
-      if (posts.length === 0) {
-        grid.innerHTML = `<div class="empty-state"><h2>No Posts Found</h2><p>Try a different filter.</p></div>`;
-        return;
-      }
-      grid.innerHTML = posts.map((post, i) => cardHTML(post, i)).join('');
-    }
-
-    function formatDate(dateStr) {
-      const d = new Date(dateStr);
-      return d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
-    }
-
-    function cardHTML(post, index) {
-      const isFeatured = index === 0;
-      const imgSrc = post.image ? post.image : 'images/blog-placeholder.jpg';
-      const tag = (post.tags && post.tags[0]) ? post.tags[0] : 'Update';
-      const excerpt = post.excerpt || post.content.substring(0, 160) + '…';
-      return `
-        <a class="post-card" href="blog-post.html?id=${post.id}">
-          <img class="card-image" src="${imgSrc}" alt="${post.title}" loading="${isFeatured ? 'eager' : 'lazy'}">
-          <div class="card-body">
-            <span class="card-tag">${tag}</span>
-            <h2 class="card-title">${post.title}</h2>
-            <p class="card-excerpt">${excerpt}</p>
-            <div class="card-meta">
-              <span>${post.author || 'GADH Team'}</span>
-              <span class="dot">·</span>
-              <span>${formatDate(post.date)}</span>
-            </div>
-            <span class="card-read-more">Read More →</span>
-          </div>
-        </a>`;
-    }
-
-    loadPosts();
-  </script>
 </body>
 </html>
