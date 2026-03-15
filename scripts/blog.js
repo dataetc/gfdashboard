@@ -47,7 +47,7 @@ let searchQuery = '';
 
 async function loadPosts() {
   try {
-    const res = await fetch('posts/posts.json');
+    const res = await fetch('json/posts.json');
     if (!res.ok) throw new Error('Not found');
     allPosts = await res.json();
     

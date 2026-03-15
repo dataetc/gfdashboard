@@ -9,7 +9,7 @@ let currentYear = currentDate.getFullYear();
 
 let events = [];
 
-fetch('events.json')
+fetch('json/events.json')
   .then(response => response.json())
   .then(data => {
     events = data;
