@@ -1,0 +1,67 @@
+## What is the Eligibility List?
+
+The Eligibility List is a Global Fund report that explains which country programs are eligible to receive Global Fund funding.  Country eligibility is specific to each disease and is calculated using a formula mostly based on country income category and disease burden.  While the list is published every year, this <a href='https://archive.theglobalfund.org/media/axqf0p1r/archive_eligible-countries-2026_list_en.pdf' target=_blank>2026 version</a> is important since it determines who is eligible for all of Grant Cycle 8 (GC8).
+
+## If my country is Eligible, what does that mean for funding levels in GC8? 
+
+The amount of funding available to countries has not yet been calculated. These amounts are likely to be published in March.  While eligibility is required to receive funding, being eligible does not guarantee that the country will receive an Allocation. This means that it is possible to be eligible and yet receive no funding in GC8.  
+
+Unlike in past years, the Global Fund has published a new policy that blocks countries from receiving future funding after they have received Transition Funding and that allows the Secretariat to define accelerated transition timelines for country allocations in specific lower disease burden ‘middle’ income countries (MIC). 
+
+## What does it mean if my country is eligible to receive Transition Funding?
+
+After countries become ineligible in the Eligibility List, they are generally still eligible to receive one more three-year round of allocation funding.  The exception to this is if they are transitioning because they have been reclassified as High Income countries.    
+
+## What's new in the 2026 list?
+
+Countries that have <b>transitioned or become ineligible</b> for funding in GC8:
+
+<ul>
+    <li>Algeria - HIV: eligible for a final allocation of Transition Funding in GC8</li>
+    <li>Armenia - HIV: received Transition Funding in GC7 and ineligible for GC8 allocation</li>
+    <li>Bhutan - Malaria: eligible for a final allocation of Transition Funding in GC8</li>
+    <li>Cabo Verde - TB: eligible for a final allocation of Transition Funding in GC8</li>
+    <li>Cabo Verde - Malaria: received Transition Funding in GC7 and ineligible for GC8 allocation</li>
+    <li>Costa Rica: voluntarily elected not to access its GC7 HIV allocation and is no longer eligible for an allocation in future grant cycles</li>
+    <li>Guatemala - HIV: eligible for a final allocation of Transition Funding in GC8</li>
+    <li>Guatemala - TB, Malaria: received Transition Funding in GC7 and ineligible for GC8 allocation</li>
+    <li>Indonesia - Malaria: eligible for a final allocation of Transition Funding in GC8</li>
+    <li>Kosovo - HIV, TB: received Transition Funding in GC7 and ineligible for GC8 allocation</li>
+    <li>Malaysia - HIV: has voluntarily transitioned from Global Fund funding and is not eligible to receive an allocation in future grant cycles</li>
+    <li>Russian Federation - HIV: not eligible for Transition Funding in GC8</li>
+    <li>Suriname - Malaria: eligible for a final allocation of Transition Funding in GC8</li>
+    <li>Timor-Leste - Malaria: eligible for a final allocation of Transition Funding in GC8</li>
+</ul>
+
+Countries that are <b>newly eligible</b> for funding in GC8:
+
+<ul>
+    <li>Colombia - TB</li>
+    <li>Ecuador - TB</li>
+</ul>
+
+The Global Fund reports that “for a number of lower burden, higher income country components, GC8 will be the final country allocation.”  The country allocations have not yet been released.  However, the following countries have either higher income categories, or lower disease burdens, than they did in the last cycle (GC7).
+
+Countries that have <b>higher income</b> categories than they did in GC7:
+
+<ul>
+    <li>Bangladesh (lower-LMI to upper-LMI)</li>
+    <li>Honduras (lower-LMI to upper-LMI)</li>
+    <li>Mongolia (upper-LMI to UMI)</li>
+    <li>Ukraine (upper-LMI to UMI)</li>
+</ul>
+
+Countries that have <b>lower disease burden</b> categories than they did in GC7:
+
+<ul>
+    <li>Benin - TB (High -> Not High)</li>
+    <li>Guatemala - HIV (High -> Not High)</li>
+    <li>Honduras - HIV (High -> Not High)</li>
+    <li>Sudan - TB (High -> Not High)</li>
+    <li>Suriname - Malaria (High -> Not High)</li>
+    <li>Timor-Leste - Malaria (High -> Not High)</li>
+</ul>
+
+## What does this mean for my country? How can I learn more?
+
+You may request support from the Global Advocacy Data Hub (GADH) and its partners <a href='https://globaladvocacydatahub.org/support.html' target=_blank>using this link</a>.  You can also find lots of <a href='https://dataetc.org/projects/ccm' target=_blank>country-specific data here</a>.

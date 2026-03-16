@@ -10,6 +10,17 @@
       "tags": ["Announcement"],
       "excerpt": "The GC8 Allocation Letters have just been sent out to countries. Find out what this means for your country and learn how you can share your letter with advocates!",
       "file": "gc8-allocation-letters-have-been-sent-out.txt"
+    },
+    {
+      "id": "the-2026-eligibility-list-was-just-published",
+      "slug": "the-2026-eligibility-list-was-just-published",
+      "title": "The 2026 Eligibility List was just published",
+      "author": "GADH Team",
+      "date": "2026-01-09",
+      "image": "https://globaladvocacydatahub.org/images/blog/the-2026-eligibility-list-was-just-published.png",
+      "tags": ["Announcement", "Data Release"],
+      "excerpt": "The 2026 Eligibility List has just been published.  What does this mean for your country's funding levels in Grant Cycle 8?  Find out more.",
+      "file": "the-2026-eligibility-list-was-just-published.txt"
     }
   ]
 }
