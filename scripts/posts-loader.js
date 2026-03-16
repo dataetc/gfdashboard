@@ -11,8 +11,8 @@
  * Content here...
  */
 function parseFrontmatter(markdown) {
-  const lines = markdown.split('\n');
-  
+  const lines = markdown.replace(/\r\n/g, '\n').split('\n');  
+    
   // Find the frontmatter delimiters
   let firstDelimiter = -1;
   let secondDelimiter = -1;
