@@ -1,5 +1,15 @@
 {
-  "files": [
-    "gc8-allocation-letters-have-been-sent-out.txt"
+  "posts": [
+    {
+      "id": "gc8-allocation-letters-have-been-sent-out",
+      "slug": "gc8-allocation-letters-have-been-sent-out",
+      "title": "GC8 Allocation Letters have been sent out!",
+      "author": "GADH Team",
+      "date": "2026-03-16",
+      "image": "https://globaladvocacydatahub.org/images/blog/gc8-allocation-letters-have-been-sent-out.png",
+      "tags": ["Announcement"],
+      "excerpt": "The GC8 Allocation Letters have just been sent out to countries. Find out what this means for your country and learn how you can share your letter with advocates!",
+      "file": "gc8-allocation-letters-have-been-sent-out.txt"
+    }
   ]
 }

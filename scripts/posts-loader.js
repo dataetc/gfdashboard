@@ -74,48 +74,34 @@ function parseFrontmatter(markdown) {
  */
 async function loadAllPosts() {
   try {
-    // Fetch the manifest of post files
     const response = await fetch('posts-manifest.json');
-    if (!response.ok) {
-      throw new Error('Could not load posts-manifest.json');
-    }
+    if (!response.ok) throw new Error('Could not load posts-manifest.json');
     const manifest = await response.json();
-    
-    // Load each markdown file
+
     const posts = await Promise.all(
-      manifest.files.map(async (filename) => {
+      manifest.posts.map(async (meta) => {
         try {
-          const res = await fetch(`posts/${filename}`);
+          const res = await fetch(`posts/${meta.file}`);
           if (!res.ok) {
-            console.error(`Failed to load ${filename}`);
+            console.error(`Failed to load ${meta.file}`);
             return null;
           }
-          
           const markdown = await res.text();
-          console.log('RAW:', JSON.stringify(markdown.substring(0, 200)));
-          const { data, content } = parseFrontmatter(markdown);
-          
-          // Validate required fields
-          if (!data.id || !data.title || !data.date) {
-            console.warn(`Post ${filename} missing required fields:`, data);
-          }
-          
           return {
-            ...data,
-            slug: filename.replace(/\.(md|txt)$/, ''),
-            content: markdownToHtml(content)
+            ...meta,
+            content: markdownToHtml(markdown)
           };
         } catch (e) {
-          console.error(`Error loading post ${filename}:`, e);
+          console.error(`Error loading post ${meta.file}:`, e);
           return null;
         }
       })
     );
-    
-    // Filter out failed posts and sort newest first
+
     return posts
       .filter(post => post !== null)
       .sort((a, b) => new Date(b.date) - new Date(a.date));
+
   } catch (e) {
     console.error('Error loading posts:', e);
     return [];

@@ -1,13 +1,3 @@
----
-id: "gc8-allocation-letters-have-been-sent-out"
-title: "GC8 Allocation Letters have been sent out!"
-author: "GADH Team"
-date: "2026-03-16"
-image: "images/blog/gc8-allocation-letters-have-been-sent-out.png"
-tags: ["Announcement"]
-excerpt: "The GC8 Allocation Letters have just been sent out to countries.  Find out what this means for your country and learn how you can share your letter with advocates!"
----
-
 ## What are the Allocation Letters?
 
 The Global Fund operates on a three year cycle.  At the start of the cycle, the Global Fund's Secretariat in Geneva calculates which countries and components (HIV, tuberculosis, or malaria) are <a href='https://resources.theglobalfund.org/en/grant-life-cycle/eligibility/' target=_blank>eligible to receive funding</a>.  Once this calculation is finished, the Secretariat then runs a calculation to determine how much funding each country and component is able to receive for the full three year cycle.
