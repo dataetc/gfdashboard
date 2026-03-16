@@ -27,7 +27,7 @@
       position: relative;
       overflow: hidden;
       background: #1a1a1a;
-      margin-top: 0; /* navbar sits above */
+      margin-top: 0;
     }
 
     .post-hero img {
@@ -344,105 +344,8 @@
     </nav>
   </footer>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const navbar = document.getElementById('main-navbar');
-      if (!navbar) return;
-      navbar.setTextColor('#fff');
-      navbar.setSecondaryTextColor('#fff');
-      navbar.setLanguageSelectorTextColor('#fff');
-      navbar.setBottomBorderColor('rgba(255,255,255,0.4)');
-    });
+  <script src="scripts/posts-loader.js"></script>
+  <script src="scripts/post-detail.js"></script>
 
-    function getQueryParam(name) {
-      return new URLSearchParams(window.location.search).get(name);
-    }
-
-    function formatDate(dateStr) {
-      return new Date(dateStr).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
-    }
-
-    // Convert plain-text post content to HTML paragraphs
-    // Supports: ## Heading, ### Heading, > Blockquote, plain paragraphs
-    function renderContent(text) {
-      const lines = text.split('\n');
-      let html = '';
-      let i = 0;
-      while (i < lines.length) {
-        const line = lines[i].trim();
-        if (!line) { i++; continue; }
-        if (line.startsWith('## '))      html += `<h2>${line.slice(3)}</h2>`;
-        else if (line.startsWith('### ')) html += `<h3>${line.slice(4)}</h3>`;
-        else if (line.startsWith('> '))  html += `<blockquote>${line.slice(2)}</blockquote>`;
-        else                             html += `<p>${line}</p>`;
-        i++;
-      }
-      return html;
-    }
-
-    async function loadPost() {
-      const postId = getQueryParam('id');
-      if (!postId) { showError('No post specified.'); return; }
-
-      try {
-        const res = await fetch('posts/posts.json');
-        if (!res.ok) throw new Error();
-        const posts = await res.json();
-        const post = posts.find(p => String(p.id) === String(postId));
-        if (!post) { showError('Post not found.'); return; }
-
-        // Set page title
-        document.title = `The GADH: ${post.title}`;
-
-        // Hero
-        const heroImg = document.getElementById('hero-img');
-        if (post.image) {
-          heroImg.src = post.image;
-          heroImg.alt = post.title;
-        } else {
-          document.getElementById('post-hero').style.display = 'none';
-        }
-
-        // Meta
-        document.getElementById('post-title').textContent = post.title;
-        document.getElementById('post-author').textContent = post.author || 'GADH Team';
-        document.getElementById('post-date').textContent = formatDate(post.date);
-        const tag = (post.tags && post.tags[0]) ? post.tags[0] : 'Update';
-        document.getElementById('post-tag').textContent = tag;
-
-        // Content
-        document.getElementById('post-content').innerHTML = renderContent(post.content);
-
-        // Tags
-        if (post.tags && post.tags.length) {
-          document.getElementById('post-tags').innerHTML =
-            post.tags.map(t => `<span>${t}</span>`).join('');
-        }
-
-        // More posts (up to 3, excluding current)
-        const others = posts.filter(p => String(p.id) !== String(postId))
-                            .sort((a, b) => new Date(b.date) - new Date(a.date))
-                            .slice(0, 3);
-        if (others.length) {
-          document.getElementById('more-posts-section').style.display = 'block';
-          document.getElementById('more-posts-grid').innerHTML = others.map(p => `
-            <a class="mini-card" href="blog-post.html?id=${p.id}">
-              <span class="mini-tag">${(p.tags && p.tags[0]) || 'Update'}</span>
-              <h3>${p.title}</h3>
-              <span class="mini-date">${formatDate(p.date)}</span>
-            </a>`).join('');
-        }
-
-      } catch(e) {
-        showError('Could not load post.');
-      }
-    }
-
-    function showError(msg) {
-      document.body.innerHTML = `<div class="post-error">${msg}</div>`;
-    }
-
-    loadPost();
-  </script>
 </body>
 </html>

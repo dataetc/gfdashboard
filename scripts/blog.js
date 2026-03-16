@@ -47,16 +47,20 @@ let searchQuery = '';
 
 async function loadPosts() {
   try {
-    const res = await fetch('json/posts.json');
-    if (!res.ok) throw new Error('Not found');
-    allPosts = await res.json();
+    // Load posts from markdown files
+    allPosts = await loadAllPosts();
     
-    // Sort newest first
+    if (allPosts.length === 0) {
+      throw new Error('No posts loaded');
+    }
+    
+    // Sort newest first (already done in loadAllPosts, but just in case)
     allPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
+    
     buildTagFilters();
     buildYearFilters();
     buildAuthorFilters();
-    setupSearchInput(); // Add this
+    setupSearchInput();
     renderPosts(allPosts);
   } catch (e) {
     console.error('Error loading posts:', e);
@@ -67,6 +71,8 @@ async function loadPosts() {
       </div>`;
   }
 }
+
+loadPosts();
 
 function setupSearchInput() {
   const searchInput = document.getElementById('search-input');
