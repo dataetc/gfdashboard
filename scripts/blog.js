@@ -47,14 +47,12 @@ let searchQuery = '';
 
 async function loadPosts() {
   try {
-    // Load posts from markdown files
     allPosts = await loadAllPosts();
     
     if (allPosts.length === 0) {
       throw new Error('No posts loaded');
     }
     
-    // Sort newest first (already done in loadAllPosts, but just in case)
     allPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
     
     buildTagFilters();
@@ -85,14 +83,11 @@ function setupSearchInput() {
 
 function buildAuthorFilters() {
   const authors = [...new Set(allPosts.map(p => p.author || 'GADH Team'))];
-  authors.sort(); // Sort alphabetically
+  authors.sort();
   
   const bar = document.getElementById('author-filter-bar');
-  
-  // Clear existing checkboxes
   bar.innerHTML = '';
   
-  // Add author checkboxes
   authors.forEach(author => {
     const label = document.createElement('label');
     label.className = 'filter-checkbox';
@@ -114,19 +109,14 @@ function buildAuthorFilters() {
       handleAuthorFilterChange();
     });
   });
-  
 }
 
 function handleAuthorFilterChange() {
-  
   const authorCheckboxes = document.querySelectorAll('#author-filter-bar .checkbox-input');
-  
   activeAuthorFilters.clear();
   
   authorCheckboxes.forEach(cb => {
-    if (cb.checked) {
-      activeAuthorFilters.add(cb.value);
-    }
+    if (cb.checked) activeAuthorFilters.add(cb.value);
   });
   
   filterAndRenderPosts();
@@ -134,14 +124,11 @@ function handleAuthorFilterChange() {
 
 function buildYearFilters() {
   const years = [...new Set(allPosts.map(p => new Date(p.date).getFullYear()))];
-  years.sort((a, b) => b - a); // Sort newest first
+  years.sort((a, b) => b - a);
   
   const bar = document.getElementById('year-filter-bar');
-  
-  // Clear existing checkboxes
   bar.innerHTML = '';
   
-  // Add year checkboxes
   years.forEach(year => {
     const label = document.createElement('label');
     label.className = 'filter-checkbox';
@@ -163,212 +150,176 @@ function buildYearFilters() {
       handleYearFilterChange();
     });
   });
-  
 }
 
 function handleYearFilterChange() {
-  
   const yearCheckboxes = document.querySelectorAll('#year-filter-bar .checkbox-input');
-  
   activeYearFilters.clear();
   
   yearCheckboxes.forEach(cb => {
-    if (cb.checked) {
-      activeYearFilters.add(parseInt(cb.value));
-    }
+    if (cb.checked) activeYearFilters.add(parseInt(cb.value));
   });
   
   filterAndRenderPosts();
 }
 
 function buildTagFilters() {
-const tags = [...new Set(allPosts.flatMap(p => p.tags || []))];
-
-const bar = document.getElementById('filter-bar');
-
-// Clear existing checkboxes
-bar.innerHTML = '';
-
-// Add tag checkboxes (no "All Posts" checkbox)
-tags.forEach(tag => {
-  const label = document.createElement('label');
-  label.className = 'filter-checkbox';
+  const tags = [...new Set(allPosts.flatMap(p => p.tags || []))];
+  const bar = document.getElementById('filter-bar');
+  bar.innerHTML = '';
   
-  const checkbox = document.createElement('input');
-  checkbox.type = 'checkbox';
-  checkbox.value = tag;
-  checkbox.className = 'checkbox-input';
-  
-  const span = document.createElement('span');
-  span.className = 'checkbox-label';
-  span.textContent = tag;
-  
-  label.appendChild(checkbox);
-  label.appendChild(span);
-  bar.appendChild(label);
-  
-  checkbox.addEventListener('change', () => {
-    handleFilterChange();
+  tags.forEach(tag => {
+    const label = document.createElement('label');
+    label.className = 'filter-checkbox';
+    
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.value = tag;
+    checkbox.className = 'checkbox-input';
+    
+    const span = document.createElement('span');
+    span.className = 'checkbox-label';
+    span.textContent = tag;
+    
+    label.appendChild(checkbox);
+    label.appendChild(span);
+    bar.appendChild(label);
+    
+    checkbox.addEventListener('change', () => {
+      handleFilterChange();
+    });
   });
-});
-
 }
 
-  function handleFilterChange() {
-    
-    const otherCheckboxes = document.querySelectorAll('.checkbox-input');
-    
-    activeFilters.clear();
-    
-    const anyOtherChecked = Array.from(otherCheckboxes).some(cb => cb.checked);
-    
-    if (!anyOtherChecked) {
-      activeFilters.add('all');
-    } else {
-      otherCheckboxes.forEach(cb => {
-        if (cb.checked) {
-          activeFilters.add(cb.value);
-        }
-      });
-    }
-    
-    filterAndRenderPosts();
+function handleFilterChange() {
+  const otherCheckboxes = document.querySelectorAll('.checkbox-input');
+  activeFilters.clear();
+  
+  const anyOtherChecked = Array.from(otherCheckboxes).some(cb => cb.checked);
+  
+  if (!anyOtherChecked) {
+    activeFilters.add('all');
+  } else {
+    otherCheckboxes.forEach(cb => {
+      if (cb.checked) activeFilters.add(cb.value);
+    });
   }
+  
+  filterAndRenderPosts();
+}
 
 function removeActiveFilter(type, value) {
-if (type === 'search') {
-  searchQuery = '';
-  // Clear the search input
-  const searchInput = document.getElementById('search-input');
-  if (searchInput) {
-    searchInput.value = '';
-    // Trigger the input event to update filters
-    searchInput.dispatchEvent(new Event('input'));
+  if (type === 'search') {
+    searchQuery = '';
+    const searchInput = document.getElementById('search-input');
+    if (searchInput) {
+      searchInput.value = '';
+      searchInput.dispatchEvent(new Event('input'));
+    }
+  } else if (type === 'topic') {
+    activeFilters.delete(value);
+    if (activeFilters.size === 0) activeFilters.add('all');
+    const checkbox = document.querySelector(`#filter-bar input[value="${value}"]`);
+    if (checkbox) checkbox.checked = false;
+  } else if (type === 'year') {
+    activeYearFilters.delete(value);
+    const checkbox = document.querySelector(`#year-filter-bar input[value="${value}"]`);
+    if (checkbox) checkbox.checked = false;
+  } else if (type === 'author') {
+    activeAuthorFilters.delete(value);
+    const checkbox = document.querySelector(`#author-filter-bar input[value="${value}"]`);
+    if (checkbox) checkbox.checked = false;
   }
-} else if (type === 'topic') {
-  activeFilters.delete(value);
-  if (activeFilters.size === 0) {
-    activeFilters.add('all');
-  }
-  // Uncheck the corresponding checkbox
-  const checkbox = document.querySelector(`#filter-bar input[value="${value}"]`);
-  if (checkbox) checkbox.checked = false;
-} else if (type === 'year') {
-  activeYearFilters.delete(value);
-  // Uncheck the corresponding checkbox
-  const checkbox = document.querySelector(`#year-filter-bar input[value="${value}"]`);
-  if (checkbox) checkbox.checked = false;
-} else if (type === 'author') {
-  activeAuthorFilters.delete(value);
-  // Uncheck the corresponding checkbox
-  const checkbox = document.querySelector(`#author-filter-bar input[value="${value}"]`);
-  if (checkbox) checkbox.checked = false;
-}
-
-filterAndRenderPosts();
+  
+  filterAndRenderPosts();
 }
 
 function displayActiveFilters() {  
-const container = document.getElementById('active-filters-display');
-container.innerHTML = '';
-
-const allActiveFilters = [];
-
-// Add search query as a filter if it exists
-if (searchQuery.trim() !== '') {
-  allActiveFilters.push({ type: 'search', value: searchQuery });
-}
-
-// Collect topic filters
-activeFilters.forEach(filter => {
-  if (filter !== 'all') {
-    allActiveFilters.push({ type: 'topic', value: filter });
+  const container = document.getElementById('active-filters-display');
+  container.innerHTML = '';
+  
+  const allActiveFilters = [];
+  
+  if (searchQuery.trim() !== '') {
+    allActiveFilters.push({ type: 'search', value: searchQuery });
   }
-});
-
-// Collect year filters
-activeYearFilters.forEach(year => {
-  allActiveFilters.push({ type: 'year', value: year });
-});
-
-// Collect author filters
-activeAuthorFilters.forEach(author => {
-  allActiveFilters.push({ type: 'author', value: author });
-});
-
-// Create tag elements
-allActiveFilters.forEach(filter => {
-  const tag = document.createElement('div');
-  tag.className = 'filter-tag';
   
-  const label = document.createElement('span');
-  label.textContent = filter.value;
-  
-  const removeBtn = document.createElement('button');
-  removeBtn.className = 'filter-tag-remove';
-  removeBtn.textContent = '×';
-  removeBtn.addEventListener('click', () => {
-    removeActiveFilter(filter.type, filter.value);
+  activeFilters.forEach(filter => {
+    if (filter !== 'all') allActiveFilters.push({ type: 'topic', value: filter });
   });
   
-  tag.appendChild(label);
-  tag.appendChild(removeBtn);
-  container.appendChild(tag);
-});
+  activeYearFilters.forEach(year => {
+    allActiveFilters.push({ type: 'year', value: year });
+  });
+  
+  activeAuthorFilters.forEach(author => {
+    allActiveFilters.push({ type: 'author', value: author });
+  });
+  
+  allActiveFilters.forEach(filter => {
+    const tag = document.createElement('div');
+    tag.className = 'filter-tag';
+    
+    const label = document.createElement('span');
+    label.textContent = filter.value;
+    
+    const removeBtn = document.createElement('button');
+    removeBtn.className = 'filter-tag-remove';
+    removeBtn.textContent = '×';
+    removeBtn.addEventListener('click', () => {
+      removeActiveFilter(filter.type, filter.value);
+    });
+    
+    tag.appendChild(label);
+    tag.appendChild(removeBtn);
+    container.appendChild(tag);
+  });
 }
 
 function filterAndRenderPosts() {
-
-let filtered;
-
-// Filter by tags
-if (activeFilters.has('all')) {
-  filtered = allPosts;
-} else {
-  filtered = allPosts.filter(p => {
-    const postTags = p.tags || [];
-    return postTags.some(tag => activeFilters.has(tag));
-  });
-}
-
-// Filter by year (if any years are selected)
-if (activeYearFilters.size > 0) {
-  filtered = filtered.filter(p => {
-    const postYear = new Date(p.date).getFullYear();
-    return activeYearFilters.has(postYear);
-  });
-}
-
-// Filter by author (if any authors are selected)
-if (activeAuthorFilters.size > 0) {
-  filtered = filtered.filter(p => {
-    const postAuthor = p.author || 'GADH Team';
-    return activeAuthorFilters.has(postAuthor);
-  });
-}
-
-// Filter by search query (if any text is entered)
-if (searchQuery.trim() !== '') {
-  filtered = filtered.filter(p => {
-    const title = (p.title || '').toLowerCase();
-    const author = (p.author || 'GADH Team').toLowerCase();
-    const excerpt = (p.excerpt || p.content || '').toLowerCase();
-    
-    return title.includes(searchQuery) || author.includes(searchQuery) || excerpt.includes(searchQuery);
-  });
-}
-
-displayActiveFilters(); // ← MAKE SURE THIS LINE IS HERE
-renderPosts(filtered);
+  let filtered;
+  
+  if (activeFilters.has('all')) {
+    filtered = allPosts;
+  } else {
+    filtered = allPosts.filter(p => {
+      const postTags = p.tags || [];
+      return postTags.some(tag => activeFilters.has(tag));
+    });
+  }
+  
+  if (activeYearFilters.size > 0) {
+    filtered = filtered.filter(p => {
+      const postYear = new Date(p.date).getFullYear();
+      return activeYearFilters.has(postYear);
+    });
+  }
+  
+  if (activeAuthorFilters.size > 0) {
+    filtered = filtered.filter(p => {
+      const postAuthor = p.author || 'GADH Team';
+      return activeAuthorFilters.has(postAuthor);
+    });
+  }
+  
+  if (searchQuery.trim() !== '') {
+    filtered = filtered.filter(p => {
+      const title = (p.title || '').toLowerCase();
+      const author = (p.author || 'GADH Team').toLowerCase();
+      const excerpt = (p.excerpt || p.content || '').toLowerCase();
+      return title.includes(searchQuery) || author.includes(searchQuery) || excerpt.includes(searchQuery);
+    });
+  }
+  
+  displayActiveFilters();
+  renderPosts(filtered);
 } 
 
 function renderPosts(posts) {
-  
   const grid = document.getElementById('posts-grid');
   const countDisplayed = document.getElementById('count-displayed');
   const countTotal = document.getElementById('count-total');
   
-  // Update counts
   countDisplayed.textContent = posts.length;
   countTotal.textContent = allPosts.length;
   
@@ -390,7 +341,7 @@ function cardHTML(post, index) {
   const tag = (post.tags && post.tags[0]) ? post.tags[0] : 'Update';
   const excerpt = post.excerpt || post.content.substring(0, 160) + '…';
   return `
-    <a class="post-card" href="blog-post.html?id=${post.id}">
+    <a class="post-card" href="post.html?post=${encodeURIComponent(post.slug)}">
       <img class="card-image" src="${imgSrc}" alt="${post.title}" loading="${isFeatured ? 'eager' : 'lazy'}">
       <div class="card-body">
         <span class="card-tag">${tag}</span>
@@ -405,5 +356,3 @@ function cardHTML(post, index) {
       </div>
     </a>`;
 }
-
-loadPosts();
