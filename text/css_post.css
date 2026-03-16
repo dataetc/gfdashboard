@@ -104,6 +104,12 @@
     padding: 0 2vw 100px;
   }
 
+  @media (max-width: 768px) {
+    .post-article {
+      padding: 0 5vw 100px;
+    }
+  }
+
   .post-content {
     font-size: 1.1rem;
     line-height: 1.8;
