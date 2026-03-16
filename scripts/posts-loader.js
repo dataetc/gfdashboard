@@ -92,6 +92,7 @@ async function loadAllPosts() {
           }
           
           const markdown = await res.text();
+          console.log('RAW:', JSON.stringify(markdown.substring(0, 200)));
           const { data, content } = parseFrontmatter(markdown);
           
           // Validate required fields
