@@ -12,6 +12,7 @@ const languageData = {
     navResources: "Resources",
     navCalendar: "Calendar",
     navSupport: "Support",
+    navBlog: "News",
     navAbout: "About",
     aboutTitle: "What is the GADH?",
     aboutP1: "Communities most impacted by HIV, tuberculosis, and malaria are at the heart of the Global Fund model. Yet communities often face the greatest barriers to meaningful engagement.",
@@ -142,6 +143,7 @@ const languageData = {
     navResources: "Ressources",
     navCalendar: "Calendrier",
     navSupport: "Soutien",
+    navBlog: "Nouvelles",
     navAbout: "À propos",
     aboutTitle: "C'est quoi le GADH ?",
     aboutP1: "Les communautés les plus touchées par le VIH, la tuberculose et le paludisme sont au cœur du modèle du Fonds mondial. Pourtant, les communautés sont souvent confrontées aux plus grands obstacles à un engagement significatif.",
@@ -273,6 +275,7 @@ const languageData = {
     navResources: "Recursos",
     navCalendar: "Calendario",
     navSupport: "Apoyo",
+    navBlog: "Noticias",
     navAbout: "Acerca de",
     aboutTitle: "¿Qué es el GADH?",
     aboutP1: "Las comunidades más afectadas por el VIH, la tuberculosis y la malaria son el núcleo del modelo del Fondo Mundial. Sin embargo, a menudo son ellas las que se enfrentan a los mayores obstáculos para una participación significativa.",
@@ -404,6 +407,7 @@ const languageData = {
     navResources: "Recursos",
     navCalendar: "Calendário",
     navSupport: "Apoio",
+    navBlog: "Notícias",
     navAbout: "Sobre",
     aboutTitle: "O que é o GADH?",
     aboutP1: "As comunidades mais afetadas pelo HIV, tuberculose e malária estão no centro do modelo do Fundo Global. No entanto, as comunidades muitas vezes enfrentam as maiores barreiras para um envolvimento significativo.",
@@ -534,6 +538,7 @@ const languageData = {
     navResources: "Ресурсы",
     navCalendar: "Календарь",
     navSupport: "Поддержка",
+    navBlog: "Новости",
     navAbout: "О нас",
     aboutTitle: "Что такое GADH?",
     aboutP1: "Сообщества, наиболее пострадавшие от ВИЧ, туберкулеза и малярии, находятся в центре модели Глобального фонда. Однако сообщества часто сталкиваются с наибольшими барьерами для полноценного участия.",
@@ -663,6 +668,7 @@ const languageData = {
     navResources: "Rasilimali",
     navCalendar: "Kalenda",
     navSupport: "Msaada",
+    navBlog: "Habari",
     navAbout: "Kuhusu",
     aboutTitle: "GADH ni nini?",
     aboutP1: "Jamii zilizoathiriwa zaidi na VVU, kifua kikuu, na malaria ndizo msingi wa modeli ya Global Fund. Mara nyingi jamii hukabiliana na vikwazo vikubwa zaidi vya ushirikishwaji wenye maana.",
@@ -863,6 +869,7 @@ function changeLanguage(lang) {
   updateElement('nav-calendar', getTranslation('navCalendar'));
   updateElement('nav-about', getTranslation('navAbout'));
   updateElement('nav-support', getTranslation('navSupport'));
+  updateElement('nav-blog', getTranslation('navBlog'));
 
   // About section
   updateElement('about-title', getTranslation('aboutTitle'));

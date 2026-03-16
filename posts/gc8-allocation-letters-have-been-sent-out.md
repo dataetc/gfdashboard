@@ -10,12 +10,39 @@ excerpt: "The GC8 Allocation Letters have just been sent out to countries.  Find
 
 ## What are the Allocation Letters?
 
-The Global Fund operates on a three year cycle.  At the start of the cycle, the Global Fund's Secretariat in Geneva calculates which country and component (HIV, tuberculosis, or malaria) is eligible to receive funding.  Once this calculation is finished, the Secretariat then runs a calculation to determine how much funding each country and component is able to receive for the full three year cycle.
+The Global Fund operates on a three year cycle.  At the start of the cycle, the Global Fund's Secretariat in Geneva calculates which countries and components (HIV, tuberculosis, or malaria) are <a href='https://resources.theglobalfund.org/en/grant-life-cycle/eligibility/' target=_blank>eligible to receive funding</a>.  Once this calculation is finished, the Secretariat then runs a calculation to determine how much funding each country and component is able to receive for the full three year cycle.
 
-Once the amounts have been calculated, the Global Fund sends official Allocation Letters to each Country Coordinating Mechanism (CCM).  This officially marks the beginning of the GC8 planning process, since the next step for the CCM is to begin developing the Funding Requests that will be submitted to the Global Fund.
+<br><br>
+
+Once the amounts have been calculated, the Global Fund sends official Allocation Letters to each Country Coordinating Mechanism (CCM).  This officially marks the beginning of the Grant Cycle 8 (GC8) planning process, since the next step for the CCM is to begin developing the Funding Requests that will be submitted to the Global Fund.
 
 ## What is in the Allocation Letters?
 
-> This data is critical for communities who need to hold donors accountable to their commitments.
+These letters include several important pieces of information, including:
+<br>
+<ul>
+    <li>The allocation amount for each eligible component;</li>
+    <li>The exact dates of the three-year cycle when the funds may be used;</li>
+    <li>Whether the country is eligible for any Catalytic Investments;</li>
+    <li>The 'co-financing' requirements;</li>
+    <li>Guidance from the Secretariat about the types of activities or approaches that should be included in the Funding Request(s);</li>
+    <li>The application and review approach that the Secretariat has decided that the country must use. This can be Full Review, Program Continuation, Tailored for National Strategic Plans, Tailored for Transition, or Tailored for Focused Portfolios.</li>
+</ul>
 
-Visit our Resources page to download the full dataset as a CSV or explore it interactively through our dashboard.
+Want more information about how the Global Fund cycle works?  Check out <a href='https://www.dataetc.org/projects/gf-faq/#section-how-does-gf-work' target=_blank>our community FAQ here</a>. 
+
+## Where can I find my country's Allocation Letter?
+
+While Allocation Letters contain important information that can be useful to advocates, the Global Fund does not release them publicly online.  
+
+<br><br>
+
+To help increase visibility and access to data, the <a href='https://globaladvocacydatahub.org/' target=_blank>Global Advocacy Data Hub</a> (GADH) is collecting Allocation Letters and sharing them on our <a href='https://dataetc.org/projects/gc8-documents' target=_blank>GC8 Documents Portal</a>.  Have a look to see if one of your country partners has already shared your country's Allocation Letter.  
+
+<br><br>
+
+You can also reach out directly to your CCM members to request that they share it.  Don't have their contact information?  You can find it on the GADH's <a href='https://dataetc.org/projects/ccm' target=_blank>CCM Dashboard</a>.
+
+<br><br>
+
+Do you have your country's Allocation Letter?  <a href='https://docs.google.com/forms/d/e/1FAIpQLScd65Ib1bNc2SqlYFgIE-ubLpZGi2IquWZkbWrpMEy2ZWKYRQ/viewform' target=_blank>Share it with us today</a>!  You can also <a href='https://globaladvocacydatahub.org/support' target=_blank>request support</a> from the GADH team and our partners in understanding the contents of the letter. 

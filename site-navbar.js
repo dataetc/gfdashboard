@@ -305,7 +305,8 @@ class SiteNavbar extends HTMLElement {
               <li><a href="/index.html" id="nav-home">Home</a></li>
               <li><a href="/resources.html" id="nav-resources">Resources</a></li>
               <li><a href="/calendar.html" id="nav-calendar">Calendar</a></li>
-              <li><a href="/support.html" id="nav-support">Contact</a></li>
+              <li><a href="/support.html" id="nav-support">Support</a></li>
+              <li><a href="/blog.html" id="nav-blog">News</a></li>
               <li><a href="/about.html" id="nav-about">About</a></li>
               <li class="language-dropdown">
                 <img src="./images/translation-svg-wh.svg" class="language-icon" data-icon="white"> 
@@ -481,6 +482,7 @@ class SiteNavbar extends HTMLElement {
         const navResources = this.shadowRoot.querySelector('#nav-resources');
         const navCalendar = this.shadowRoot.querySelector('#nav-calendar');
         const navSupport = this.shadowRoot.querySelector('#nav-support');
+        const navBlog = this.shadowRoot.querySelector('#nav-blog');
         const navAbout = this.shadowRoot.querySelector('#nav-about');
         const title = this.shadowRoot.querySelector('#title');
         
@@ -498,6 +500,10 @@ class SiteNavbar extends HTMLElement {
         
         if (navSupport && window.languageData[lang].navSupport) {
           navSupport.textContent = window.languageData[lang].navSupport;
+        }
+
+        if (navBlog && window.languageData[lang].navBlog) {
+          navBlog.textContent = window.languageData[lang].navBlog;
         }
         
         if (navAbout && window.languageData[lang].navAbout) {

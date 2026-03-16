@@ -6,6 +6,10 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+header {
+  background-color: #222222;
+}
+
 /* ── PAGE HEADER ── */
 .blog-header {
   background-color: #1a1a1a;
