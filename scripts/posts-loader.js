@@ -101,7 +101,7 @@ async function loadAllPosts() {
           
           return {
             ...data,
-            slug: filename.replace('.md', ''),
+            slug: filename.replace(/\.(md|txt)$/, ''),
             content: markdownToHtml(content)
           };
         } catch (e) {
