@@ -1459,13 +1459,22 @@
 	"language": "French"
 },
 {
-	"date": "2026-03-24",
-	"time": "02:00 PM - 03:30 PM UTC +1 (WAT)",
-	"title": "Information Sessions on Applying for Funding - Applying as Focused Portfolios",
-	"host": "<a href='https://theglobalfund.org/' target=_blank>The Global Fund</a>",
-	"description": "Applying as Focused Portfolios<br><br>Envoyer une demande en tant que portefeuilles ciblés<br><br>Presentar una solicitud como portafolios enfocados",
-	"link": "https://theglobalfund.zoom.us/webinar/register/WN_oWL6Edy6TJyFdN5FkzI4Gw#/registration",
-	"language": "English (translation available in French, Spanish)"
+	"date": "2026-03-18",
+	"time": "09:00 AM - 10:00 AM UTC -5 (Eastern Time)",
+	"title": "GFAN Call (biweekly)",
+	"host": "<a href='https://globalfundadvocatesnetwork.org/' target=_blank>GFAN</a>",
+	"description": "We are moving our biweekly call to next week (Wednesday 18th) - we'll try to discuss what we know about allocation letters, guidance and other GC8 business.",
+	"link": "TBD",
+	"language": "English (translation available in French)"
+},
+{
+	"date": "2026-03-19",
+	"time": "10:00 AM UTC +0 (GMT)",
+	"title": "La Journée Mondiale de Lutte contre la Tuberculose 2026 approche à grand pas !",
+	"host": "<a href='https://globalfundadvocatesnetwork.org/about/gfan-africa/' target=_blank>GFAN Afrique</a>",
+	"description": "Rejoignez les membres du réseau GFAN Afrique ce jeudi, le 19 mars, pour aligner les priorités stratégiques et coordonner nos actions communes.<br><br>Nous explorerons aussi comment amplifier les appels visant à renforcer l’engagement politique et les investissements nécessaires pour mettre fin à la tuberculose.",
+	"link": "https://us02web.zoom.us/meeting/register/ksWWUkWQQGOOd8lQSrLq9Q",
+	"language": "French"
 },
 {
 	"date": "2026-03-25",
@@ -1475,6 +1484,15 @@
 	"description": "We are offering this space weekly to share information we’ve gathered from learnings to-date from countries that have begun negotiation conversations with USG representatives regarding MOUs for health funding. Please feel free to share this link with other colleagues or partners who may be interested in an informal information sharing and learning. The intended audience is MOH colleagues involved in developing their country’s proposals and/or civil society partners who are providing accompaniment to government teams who are developing their plans.",
 	"link": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGEzZWE3NmYtNGNkOS00ODhlLWI4MTAtNTU4MGFjYjc2MmFj%40thread.v2/0?context=%7b%22Tid%22%3a%225254789f-6860-4375-85bc-302509fad508%22%2c%22Oid%22%3a%220057ce0c-a728-46c3-9691-215475322554%22%7d",
 	"language": "English"
+},
+{
+	"date": "2026-03-27",
+	"time": "02:00 PM - 03:00 PM UTC +1 (WAT)",
+	"title": "Information Sessions on Applying for Funding - Applying as Focused Portfolios",
+	"host": "<a href='https://theglobalfund.org/' target=_blank>The Global Fund</a>",
+	"description": "Applying as Focused Portfolios<br><br>Envoyer une demande en tant que portefeuilles ciblés<br><br>Presentar una solicitud como portafolios enfocados",
+	"link": "https://theglobalfund.zoom.us/webinar/register/WN_oWL6Edy6TJyFdN5FkzI4Gw#/registration",
+	"language": "English (translation available in French, Spanish)"
 },
 {
 	"date": "2026-04-01",
