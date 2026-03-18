@@ -1478,6 +1478,15 @@
 },
 {
 	"date": "2026-03-25",
+	"time": "01:30 PM - 03:00 PM UTC +1 (WAT)",
+	"title": "Information Sessions on Applying for Funding - Allocation and Catalytic Investments Outcomes",
+	"host": "<a href='https://theglobalfund.org/' target=_blank>The Global Fund</a>",
+	"description": "Information Sessions on Applying for Funding - Allocation and Catalytic Investments Outcomes",
+	"link": "https://theglobalfund.zoom.us/webinar/register/WN__e930r8ZTjSKauQuv6NoIg?_x_zm_rtaid=40lnhJb7RmGu9II5G-5s4A.1773841992425.1b54a802ee0c76cc24b02b07bf62ec1b&_x_zm_rhtaid=763#/registration",
+	"language": "English (translation available in French, Spanish)"
+},
+{
+	"date": "2026-03-25",
 	"time": "09:00 AM - 10:00 AM UTC -5 (Eastern Time)",
 	"title": "Listening and sharing session: USG G2G MOU negotiations recommendations",
 	"host": "<a href='https://www.pih.org/' target=_blank>Partners in Health</a>",
@@ -1487,7 +1496,7 @@
 },
 {
 	"date": "2026-03-27",
-	"time": "02:00 PM - 03:00 PM UTC +1 (WAT)",
+	"time": "02:00 PM - 03:30 PM UTC +1 (WAT)",
 	"title": "Information Sessions on Applying for Funding - Applying as Focused Portfolios",
 	"host": "<a href='https://theglobalfund.org/' target=_blank>The Global Fund</a>",
 	"description": "Applying as Focused Portfolios<br><br>Envoyer une demande en tant que portefeuilles ciblés<br><br>Presentar una solicitud como portafolios enfocados",
