@@ -6,7 +6,11 @@
       "title": "Integration without loss: Lessons from Kenya’s Health Integration Summit 2026",
       "titles": {
         "EN": "Integration without loss: Lessons from Kenya's Health Integration Summit 2026",
-        "FR": "Intégration sans perte : Leçons du Sommet sur l'intégration de la santé au Kenya 2026"
+        "FR": "Intégration sans perte : Leçons du Sommet sur l'intégration de la santé au Kenya 2026",
+        "ES": "Integración sin pérdidas: lecciones de la Cumbre sobre Integración Sanitaria de Kenia de 2026",
+        "PT": "Integração sem perdas: lições da Cimeira de Integração da Saúde do Quénia de 2026",
+        "RU": "Интеграция без потерь: уроки саммита по интеграции системы здравоохранения в Кении 2026 года",
+        "SW": "Muunganisho bila upotevu: Masomo kutoka Mkutano wa Muunganisho wa Afya wa Kenya 2026"
       },
       "author": "Dr. Richard Muko, Solomon Wambua, Victor Adula",
       "date": "2026-03-30",
@@ -15,12 +19,17 @@
       "excerpt": "Kenya is transitioning from parallel, disease-specific health systems toward an integrated national framework, but lessons from Kenya's Health Integration Summit 2026 show that success will depend on protecting community involvement, preventing service fragmentation, and ensuring local implementation capacity matches national policy ambitions.",
       "excerpts": {
         "EN": "Kenya is transitioning from parallel, disease-specific health systems toward an integrated national framework, but lessons from Kenya's Health Integration Summit 2026 show that success will depend on protecting community involvement, preventing service fragmentation, and ensuring local implementation capacity matches national policy ambitions.",
-        "FR": "Le Kenya est en train de passer de systèmes de santé parallèles, axés sur des maladies spécifiques, à un cadre national intégré ; toutefois, les enseignements tirés du Sommet sur l'intégration de la santé 2026 au Kenya montrent que la réussite dépendra de la préservation de la participation communautaire, de la prévention de la fragmentation des services et de la garantie que les capacités de mise en œuvre locales soient à la hauteur des ambitions de la politique nationale."
+        "FR": "Le Kenya est en train de passer de systèmes de santé parallèles, axés sur des maladies spécifiques, à un cadre national intégré ; toutefois, les enseignements tirés du Sommet sur l'intégration de la santé 2026 au Kenya montrent que la réussite dépendra de la préservation de la participation communautaire, de la prévention de la fragmentation des services et de la garantie que les capacités de mise en œuvre locales soient à la hauteur des ambitions de la politique nationale.",
+        "ES": "Kenia está pasando de unos sistemas sanitarios paralelos y específicos para cada enfermedad a un marco nacional integrado, pero las conclusiones de la Cumbre sobre Integración Sanitaria de Kenia de 2026 indican que el éxito dependerá de que se proteja la participación de la comunidad, se evite la fragmentación de los servicios y se garantice que la capacidad de ejecución local esté a la altura de las ambiciones de las políticas nacionales.",
+        "PT": "O Quénia está a passar de sistemas de saúde paralelos e específicos para cada doença para um quadro nacional integrado, mas as lições retiradas da Cimeira de Integração da Saúde do Quénia de 2026 mostram que o sucesso dependerá da proteção do envolvimento da comunidade, da prevenção da fragmentação dos serviços e da garantia de que a capacidade de implementação local corresponda às ambições das políticas nacionais.",
+        "RU": "Кения переходит от параллельных систем здравоохранения, ориентированных на конкретные заболевания, к интегрированной национальной структуре, однако опыт, полученный в ходе Кенийского саммита по интеграции здравоохранения 2026 года, показывает, что успех будет зависеть от сохранения вовлеченности местных сообществ, предотвращения фрагментации услуг и обеспечения соответствия местного потенциала по внедрению амбициозным целям национальной политики.",
+        "SW": "Kenya inapitia mabadiliko kutoka kwa mifumo ya afya sambamba maalum kwa magonjwa kuelekea mfumo wa kitaifa uliounganishwa, lakini mafunzo kutoka Mkutano wa Juu wa Uunganishaji wa Afya wa Kenya 2026 yanaonyesha kuwa mafanikio yatategemea kulinda ushiriki wa jamii, kuzuia mgawanyiko wa huduma, na kuhakikisha uwezo wa utekelezaji wa ngazi ya mtaa unaendana na malengo ya sera za kitaifa."
       },
       "file": "integration-without-loss.txt",
       "files": {
         "EN": "integration-without-loss.txt",
-        "FR": "integration-without-loss-fr.txt"
+        "FR": "integration-without-loss-fr.txt",
+        "ES": "integration-without-loss-es.txt"
       }
     },
     {
