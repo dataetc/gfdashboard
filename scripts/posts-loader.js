@@ -72,36 +72,53 @@ function parseFrontmatter(markdown) {
  * Loads all markdown posts from the posts/ folder
  * Returns array of post objects with metadata + content
  */
-async function loadAllPosts() {
+function getCurrentLanguage() {
+  return localStorage.getItem('preferredLanguage') ||
+    new URLSearchParams(window.location.search).get('lang') ||
+    'EN';
+}
+
+async function loadAllPosts(lang) {
+  lang = lang || getCurrentLanguage();
   try {
     const response = await fetch('posts-manifest.json');
     if (!response.ok) throw new Error('Could not load posts-manifest.json');
     const manifest = await response.json();
-
     const posts = await Promise.all(
       manifest.posts.map(async (meta) => {
         try {
-          const res = await fetch(`posts/${meta.file}`);
+          // Pick the right file: language-specific → EN → legacy `file` field
+          const fileForLang = meta.files
+            ? (meta.files[lang] || meta.files['EN'] || meta.file)
+            : meta.file;
+
+          // Resolve language-aware metadata fields with EN fallback
+          const resolvedTitle = (meta.titles && (meta.titles[lang] || meta.titles['EN'])) || meta.title;
+          const resolvedExcerpt = (meta.excerpts && (meta.excerpts[lang] || meta.excerpts['EN'])) || meta.excerpt;
+
+          const res = await fetch(`posts/${fileForLang}`);
           if (!res.ok) {
-            console.error(`Failed to load ${meta.file}`);
+            // If the language file is missing, try falling back to EN
+            if (fileForLang !== meta.file && meta.files && meta.files['EN']) {
+              const fallback = await fetch(`posts/${meta.files['EN']}`);
+              if (!fallback.ok) { console.error(`Failed to load ${meta.file}`); return null; }
+              const markdown = await fallback.text();
+              return { ...meta, title: resolvedTitle, excerpt: resolvedExcerpt, content: markdownToHtml(markdown) };
+            }
+            console.error(`Failed to load ${fileForLang}`);
             return null;
           }
           const markdown = await res.text();
-          return {
-            ...meta,
-            content: markdownToHtml(markdown)
-          };
+          return { ...meta, title: resolvedTitle, excerpt: resolvedExcerpt, content: markdownToHtml(markdown) };
         } catch (e) {
           console.error(`Error loading post ${meta.file}:`, e);
           return null;
         }
       })
     );
-
     return posts
       .filter(post => post !== null)
       .sort((a, b) => new Date(b.date) - new Date(a.date));
-
   } catch (e) {
     console.error('Error loading posts:', e);
     return [];

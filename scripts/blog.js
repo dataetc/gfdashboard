@@ -7,6 +7,16 @@ document.addEventListener('DOMContentLoaded', function () {
   navbar.setLanguageSelectorTextColor('#fff');
   navbar.setBottomBorderColor('#fff');
 
+  // ── Reload posts when language changes ──
+  navbar.addEventListener('languagechange', async function (event) {
+    allPosts = await loadAllPosts(event.detail.language);
+    allPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
+    buildTagFilters();
+    buildYearFilters();
+    buildAuthorFilters();
+    filterAndRenderPosts();
+  });
+  
   // Setup topics sidebar toggle
   const sidebarToggle = document.getElementById('sidebar-toggle');
   const filterBar = document.getElementById('filter-bar');

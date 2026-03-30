@@ -4,12 +4,24 @@
       "id": "integration-without-loss",
       "slug": "integration-without-loss",
       "title": "Integration without loss: Lessons from Kenya’s Health Integration Summit 2026",
+      "titles": {
+        "EN": "Integration without loss: Lessons from Kenya's Health Integration Summit 2026",
+        "FR": "Intégration sans perte : Leçons du Sommet sur l'intégration de la santé au Kenya 2026"
+      },
       "author": "Dr. Richard Muko, Solomon Wambua, Victor Adula",
       "date": "2026-03-30",
       "image": "https://globaladvocacydatahub.org/images/blog/integration-without-loss.jpeg",
       "tags": ["Brief"],
       "excerpt": "Kenya is transitioning from parallel, disease-specific health systems toward an integrated national framework, but lessons from Kenya's Health Integration Summit 2026 show that success will depend on protecting community involvement, preventing service fragmentation, and ensuring local implementation capacity matches national policy ambitions.",
-      "file": "integration-without-loss.txt"
+      "excerpts": {
+        "EN": "Kenya is transitioning from parallel, disease-specific health systems toward an integrated national framework, but lessons from Kenya's Health Integration Summit 2026 show that success will depend on protecting community involvement, preventing service fragmentation, and ensuring local implementation capacity matches national policy ambitions.",
+        "FR": "Le Kenya est en train de passer de systèmes de santé parallèles, axés sur des maladies spécifiques, à un cadre national intégré ; toutefois, les enseignements tirés du Sommet sur l'intégration de la santé 2026 au Kenya montrent que la réussite dépendra de la préservation de la participation communautaire, de la prévention de la fragmentation des services et de la garantie que les capacités de mise en œuvre locales soient à la hauteur des ambitions de la politique nationale."
+      },
+      "file": "integration-without-loss.txt",
+      "files": {
+        "EN": "integration-without-loss.txt",
+        "FR": "integration-without-loss-fr.txt"
+      }
     },
     {
       "id": "gc8-allocation-letters-have-been-sent-out",

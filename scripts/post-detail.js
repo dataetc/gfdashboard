@@ -7,10 +7,16 @@ document.addEventListener('DOMContentLoaded', function () {
     navbar.setSecondaryTextColor('#fff');
     navbar.setLanguageSelectorTextColor('#fff');
     navbar.setBottomBorderColor('rgba(255,255,255,0.4)');
+
+    // Reload post content when language changes
+    navbar.addEventListener('languagechange', function (event) {
+      loadPost(event.detail.language);
+    });
   }
-  
+
   loadPost();
 });
+
 
 function getQueryParam(name) {
   return new URLSearchParams(window.location.search).get(name);
@@ -24,26 +30,15 @@ function formatDate(dateStr) {
   });
 }
 
-async function loadPost() {
+async function loadPost(lang) {
   const postSlug = getQueryParam('post');
-  
-  if (!postSlug) {
-    showError('No post specified.');
-    return;
-  }
+  if (!postSlug) { showError('No post specified.'); return; }
 
   try {
-    // Load all posts using your existing function
-    const posts = await loadAllPosts();
-    
-    // Find post by slug
+    const posts = await loadAllPosts(lang); // pass language through
     const post = posts.find(p => p.slug === postSlug);
+    if (!post) { showError('Post not found.'); return; }
     
-    if (!post) {
-      showError('Post not found.');
-      return;
-    }
-
     // Set page title
     document.title = `The GADH: ${post.title}`;
 
