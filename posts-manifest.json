@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "id": "integration-without-loss",
+      "slug": "integration-without-loss",
+      "title": "Integration without loss: Lessons from Kenya’s Health Integration Summit 2026",
+      "author": "GADH Team",
+      "date": "2026-03-30",
+      "image": "https://globaladvocacydatahub.org/images/blog/gc8-allocation-letters-have-been-sent-out.jpg",
+      "tags": ["Brief"],
+      "excerpt": "Kenya is transitioning from parallel, disease-specific health systems toward an integrated national framework, but lessons from Kenya's Health Integration Summit 2026 show that success will depend on protecting community involvement, preventing service fragmentation, and ensuring local implementation capacity matches national policy ambitions.",
+      "file": "integration-without-loss.txt"
+    },
+    {
       "id": "gc8-allocation-letters-have-been-sent-out",
       "slug": "gc8-allocation-letters-have-been-sent-out",
       "title": "GC8 Allocation Letters have been sent out!",
