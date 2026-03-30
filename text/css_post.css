@@ -71,7 +71,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     color: rgba(255,255,255,0.65);
@@ -137,6 +137,13 @@
     color: #1a1a1a;
     margin: 2em 0 0.6em;
   }
+
+  @media (max-width: 768px) {
+    .post-content h3 {
+        font-size: 1.2rem;
+    }
+  }
+
 
   .post-content blockquote {
     border-left: 3px solid #a85a3e;
