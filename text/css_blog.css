@@ -62,8 +62,8 @@ header {
 .blog-container {
   display: flex;
   gap: 2rem;
-  max-width: 1400px;
-  margin: 0 auto;
+  max-width: 2400px;
+  margin: 0;
   padding: 30px 6vw 100px;
 }
 
