@@ -1,0 +1,231 @@
+## Introducttion
+
+In January 2026, the United States Department of State finalized a set of three regulations that fundamentally reshaped the conditions under which organizations can receive U.S. foreign assistance. 
+
+Collectively known as the Promoting Human Flourishing in Foreign Assistance (PHFFA) Policy, these three rules -- Protecting Life in Foreign Assistance (PLFA), Combating Gender Ideology in Foreign Assistance (CGIFA), and Combating Discriminatory Equity Ideology in Foreign Assistance (CDEIFA) -- prohibit recipients of U.S. foreign assistance from providing or promoting abortion as a method of family planning, from promoting what the rules term "gender ideology," and from promoting "discriminatory equity ideology," including diversity, equity, and inclusion programming.  The rules took effect on February 26, 2026, applying immediately to new grants and to existing grants when new funds are added.
+
+The rules do not treat all recipients the same way. How an organization is affected depends significantly on what type of entity it is.
+
+<ul>
+    <li><b>Foreign NGOs and international organizations</b>  face the strictest requirements. They must agree not to promote any of the prohibited activities anywhere outside the United States -- and this prohibition applies to all of their activities, not just those funded by US money. A foreign NGO that receives US foreign assistance cannot promote gender ideology or provide abortion as a method of family planning anywhere, even using funds from entirely separate, non-US sources. There is no carve-out for activities conducted with non-US funds. This is in direct contrast to the treatment of US NGOs, which are permitted to continue these activities outside the scope of US-funded programs as long as they use non-federal funds and maintain physical and financial separation.</li>
+    <li><b>U.S. NGOs</b> face a slightly different set of obligations than foreign NGOs. They must agree not to provide prohibited services outside the United States, and not to promote prohibited activities within any U.S.-funded program. Importantly, however, a U.S. NGO is permitted to continue doing prohibited activities -- such as providing reproductive health services or gender-affirming care -- as long as it uses entirely non-federal funds to do so and maintains strict physical and financial separation between those activities and its U.S.-funded work. In practice this means separate facilities, separate staff, separate bank accounts, and separate signage. This separation requirement is administratively burdensome and costly, particularly for organizations running integrated health programs, but it does preserve the ability of U.S. NGOs to continue this work outside the scope of U.S. funding.</li>
+    <li><b>Foreign governments and parastatals</b> receive lighter-touch treatment, explicitly for foreign policy reasons. They are not required to physically or operationally separate prohibited activities from their other work. Instead, they are required only to ensure that U.S. foreign assistance funds are not used to pay for prohibited activities. Where a government conducts prohibited activities using its own funds, it must place U.S. assistance funds in a segregated bank account -- essentially an accounting requirement rather than an operational one. A government can run a single integrated health program that includes, for example, transgender health services or reproductive health counseling, as long as it can demonstrate that U.S. dollars are not in the pot paying for those specific elements. This is a meaningfully lighter standard than what applies to NGOs, but as we will explain below, it does not insulate governments from the rules' reach in practice.</li>
+</ul>
+
+Across all recipient types, the rules include a mandatory flow-down requirement: any recipient that passes U.S. foreign assistance funds to subrecipients must ensure those subrecipients agree to the same terms. This flow-down obligation is what gives these rules their potential reach into the Global Fund grant architecture.
+
+## Is the Global Fund Directly Affected?
+
+Yes. The PHFFA rules apply to any international organization that receives U.S. foreign assistance -- and the Global Fund meets that definition. It was created by an international agreement among governments, and its governing body is composed principally of government representatives, which is precisely the type of entity the rules cover. The United States is one of the Global Fund's largest donors, and U.S. voluntary contributions to the Global Fund constitute foreign assistance as defined by the PHFFA policy.  (The Global Fund does not qualify as a parastatal under the rules, which covers foreign-government-owned entities in which a single government has a controlling interest.)
+
+This means the Global Fund itself is subject to these award terms as a condition of receiving U.S. contributions. As a foreign international organization, the Global Fund would be required to agree that it will not promote any of the prohibited activities and will not provide financial support to any foreign NGO or international organization that does. It would also be required, through the flow-down mechanism, to pass these same obligations on to the organizations and governments it funds.
+
+In practice, this means the obligations would travel down through the entire grant chain. The Global Fund would need to impose the terms on its Principal Recipients -- whether those are ministries of health or NGOs -- who would in turn be required to impose them on their Sub-Recipients, who would then be required to impose them on any Sub-Sub-Recipients further down the chain. Every grant agreement, at every level, would need to carry the same conditions. A community organization receiving a small sub-grant from an NGO that received funding from a government ministry that received a Global Fund grant would potentially be bound by the same rules as the Global Fund itself. Given that the Global Fund's model depends on this kind of cascading grant architecture -- with the Secretariat making grants to PRs, PRs contracting with SRs, and SRs sometimes contracting with SSRs to reach communities -- the potential reach of these rules into frontline service delivery is very significant.
+
+The rules do allow the Secretary of State to grant waivers for national security or foreign policy reasons, and it is possible the Global Fund could seek or receive such a waiver, either covering the rules in their entirety or specific elements of them. The implications of a waiver are discussed in Section V below.
+
+What is clear is that, absent a waiver, the Global Fund's obligations as a recipient of U.S. foreign assistance do not stop at its own level. They are designed to travel down through the entire grant chain.
+
+##  Are Global Fund Principal Recipients Affected?
+
+This is where the rules' reach becomes most consequential and most complex.
+
+<b>NGO Principal Recipients</b>
+
+NGO PRs that receive Global Fund grants would, under the flow-down requirement, be subject to the same terms that the Global Fund agreed to as a U.S. assistance recipient. As foreign NGOs, they would face the strictest version of the requirements: they could not promote prohibited activities anywhere outside the United States, regardless of which funding stream they used for those activities. The physical and financial separation requirements would apply to their programs, potentially requiring them to restructure service delivery, separate facilities and personnel, and establish distinct accounting systems. 
+
+For many of the NGOs that serve as Global Fund PRs and SRs -- particularly those whose core mission is to serve key populations, provide sexual and reproductive health services, support transgender communities, or deliver harm reduction programs -- this is not a peripheral concern. These rules could effectively prohibit them from carrying out the very work that defines their organizational purpose, not just within U.S.-funded programs but across everything they do. An organization that exists to provide gender-affirming care, or to deliver harm reduction services to people who use drugs, or to reach sex workers with HIV prevention services, could find itself ineligible to receive Global Fund money at all unless it abandons or restructures its core mission. 
+
+The physical and financial separation requirements compound this problem: for community organizations delivering integrated health services, which is common in effective key population programming, separation is operationally disruptive and potentially impossible without significant additional resources. For the smallest and most community-rooted organizations -- often the ones best positioned to reach the most marginalized people -- the administrative burden alone could be disqualifying.
+
+<b>Government Principal Recipients</b>
+
+Ministries of health and finance are the most common Principal Recipients in Global Fund grants, and their situation is the most complicated.
+
+As foreign government entities, ministries receive the lighter-touch treatment under any direct bilateral agreement with the U.S. government. They are required only to ensure U.S. bilateral funds are not used for prohibited activities, and to segregate those funds if the government conducts prohibited activities with its own money.
+
+However, a ministry receiving Global Fund money may find that the Global Fund, bound by its own obligations as a U.S. assistance recipient, is required to flow the award terms down to its PRs, including ministries. Whether the lighter-touch government carve-out applies in this indirect relationship is legally unclear. The rules do not resolve it, and the Department of State has not yet issued guidance on this question.
+
+What is clear is that many governments simultaneously hold both a direct bilateral assistance relationship with the U.S. and a Global Fund grant. These are separate funding streams with separate legal obligations that exist in parallel. Even if a government's Global Fund obligations are limited by the government carve-out, its bilateral obligations remain in force independently. A government running an integrated national health program therefore faces obligations on multiple fronts at once, and the segregation requirement attached to its bilateral funds applies even when the activities being separated from are funded by Global Fund money.
+
+For governments running integrated national programs, this creates an extremely difficult administrative situation. You cannot physically separate a national health system from itself. And this impossibility creates a powerful incentive to resolve the problem not by restructuring, but by simply not programming toward the activities that trigger the obligation in the first place.
+
+## The America First MOU Process: A Parallel Track
+
+Since late 2025, the U.S. government has been signing bilateral health cooperation agreements, or Memoranda of Understanding (MOU), with countries that receive U.S. global health assistance. These MOUs set out five-year health cooperation plans for 2026-2030, with countries committing to increase their domestic health spending as U.S. funding gradually declines. 
+
+The MOUs themselves are not legally binding international agreements -- the MOU documents themselves explicitly state they do not give rise to legal rights or obligations under international or domestic law. However, the MOUs are the political and programmatic framework within which legally binding instruments will follow. As implementation begins and U.S. funding flows, the actual grants, cooperative agreements, and implementing contracts issued under the MOU will be fully legally binding -- and it is those instruments that will carry the PHFFA award terms and other U.S. legal requirements. 
+
+Advocates should be aware of three things about these MOUs.
+
+First, the MOUs signed to date include compliance language limited to the Helms Amendment and do not include explicit language about the CGIFA or CDEIFA rules on gender ideology and discriminatory equity ideology. This may reflect the timing of negotiations, as most MOUs were signed before the PHFFA rules took effect in February 202. What is clear, regardless of the reason, is that the absence of explicit PHFFA language in the MOU does not mean those rules will not apply. The PHFFA rules attach to the grants and implementing instruments through which money actually flows, not to the MOU itself. As implementation begins and new funding instruments are issued, the PHFFA requirements would be expected to attach at that point, consistent with how the rules state they will be applied -- to new awards and to existing awards when new funds are added. Advocates should not assume that because an MOU is silent on gender ideology or DEI, the country is protected from those requirements.
+
+Secondly, the limited scope of the MOU compliance language raises questions that advocates should keep in mind. It is worth noting that limiting political agreements to well-understood, longstanding requirements like Helms -- while reserving fuller conditionality for the less visible implementing instruments that follow -- would be a legally coherent and diplomatically convenient approach. Whether that reflects deliberate strategy or simply the timing of negotiations, the practical effect is the same: governments may have signed MOUs without full visibility into the legal conditions that will attach when funding flows. Advocates should be asking governments directly whether they have received legal advice on what the implementing instruments will require, and whether they understand the full scope of PHFFA conditionality that may follow.
+
+Third, and perhaps most importantly, the fiscal and performance accountability architecture of the MOUs creates its own powerful incentives for KP deprioritization -- entirely independent of any explicit prohibition. The MOUs require governments to progressively increase their own domestic health spending as U.S. funding declines, and the U.S. can reduce its contribution dollar-for-dollar if governments fall short. Performance accountability is tied to narrow, aggregate national metrics: viral suppression rates, malaria deaths in children under five, maternal mortality. Key population programs are expensive to reach, politically sensitive, and their outcomes are often harder to capture in the kind of aggregate national metrics the MOUs use for performance accountability. A government trying to demonstrate co-investment value and hit its performance benchmarks has structural, fiscal, and political reasons to quietly redirect resources away from KP programming even without any explicit instruction to do so from the U.S. government. The MOUs essentially create a measurement and accountability framework that makes KP deprioritization financially rational, without ever mentioning key populations at all. That is a more sophisticated and harder-to-challenge mechanism of harm than a direct prohibition.
+
+## What If the Global Fund Receives a Waiver?
+
+A waiver granted to the Global Fund by the Secretary of State would release the Global Fund from its own obligations under the PHFFA rules, but its downstream effects are genuinely uncertain, and advocates should not assume that a waiver resolves the problem.
+
+The most important thing to understand about a waiver is what it does not do. It does not dissolve the separate obligations that flow from direct bilateral agreements between the U.S. government and individual country governments. Those obligations exist independently of the Global Fund relationship, and a waiver granted to the Global Fund has no legal effect on them. A government that holds both a bilateral U.S. agreement and a Global Fund grant would still be required to segregate its bilateral funds from prohibited activities, regardless of what the Global Fund's own obligations are.
+
+The second critical uncertainty is whether a waiver granted to the Global Fund extinguishes its flow-down obligations to subrecipients. The rules are silent on this. One reading is that if the Global Fund's award terms are waived, its obligation to impose those terms on PRs disappears with them, because that obligation derived from the award terms in the first place. Under this reading, NGO and government PRs would not be independently bound through the Global Fund funding stream. But this interpretation has not been confirmed by any guidance, and organizations operating under this assumption would be doing so at legal risk.
+
+The third concern is more political than legal. Even if a waiver provides legal clarity, it does not change the political environment in which governments and organizations are making programming decisions. Governments that are already inclined to deprioritize key population programming may use the broader political signal sent by these rules, regardless of any waiver, as justification or cover for doing so. The chilling effect of the rules does not depend on their legal application to any particular funding stream.
+
+## What Does This Mean for Community Programs?
+
+The communities most at risk are precisely those that effective HIV, TB, and malaria responses depend on reaching. Understanding which specific program types are endangered requires understanding how broadly the rules define prohibited activities.
+
+Transgender and gender-diverse health services are directly targeted by the CGIFA rule. The rule's definition of "promoting gender ideology" includes providing or promoting gender-affirming procedures, operating service delivery sites that provide counseling about gender-affirming care, referring individuals to gender-affirming services, using educational materials that acknowledge the concept of gender identity, and conducting any public information campaign about gender identity. Programs serving transgender communities, which are central to effective HIV responses in many countries, face serious risk under this definition.
+
+Sexual and reproductive health services face risk under the PLFA rule, which defines "promoting abortion as a method of family planning" broadly to include operating service delivery sites that provide counseling about abortion, referring women to abortion services, and conducting public information campaigns about reproductive options. Programs that operate in facilities shared with family planning services, or that provide integrated sexual and reproductive health care alongside HIV services, may be considered to be in violation even if abortion is not their primary focus.
+
+Harm reduction programs serving people who use drugs may intersect with the CDEIFA rule's prohibition on discriminatory equity ideology, particularly where they incorporate structural or rights-based frameworks, address systemic barriers to health access, or explicitly target marginalized populations.
+
+Gender-transformative programming, including programs addressing gender-based violence, women's economic empowerment, or the structural drivers of HIV, faces scrutiny under the CDEIFA rule if it incorporates analysis of systemic inequality or uses approaches characterized as DEI-related.
+
+Any program explicitly designed to reach key populations as a defined target group may be characterized as engaging in unlawful DEI-related discrimination, using population characteristics as a selection criterion for program participation, under the CDEIFA rule's definitions.
+
+Beyond these specific program types, the most significant risk may be the one that is hardest to see: the quiet deprioritization of key population programming by governments and organizations that want to avoid the complexity, cost, and political risk of navigating these rules. No formal announcement. No visible rule-breaking. Just funding requests that do not include key population components, implementation plans that do not reach the most affected communities, and services that are simply not available to the people who need them most. This is the scenario that existing accountability frameworks are least equipped to detect, and the one that advocates must be most vigilant about.
+
+## What Should We Do?
+
+<b>If you are a Global Fund Board or committee member:</b>
+
+<ul>
+    <li>Formally request that the Global Fund Secretariat provide a public analysis of how the PHFFA rules interact with the Global Fund's own grant requirements, eligibility criteria, and Key Populations Action Plan commitments.</li>
+    <li>Push for the Board to pass an explicit resolution affirming that Global Fund grants cannot be redirected away from key population programming in response to donor country policy pressure, and that the Global Fund's own key population commitments take precedence over external political pressures.</li>
+    <li>Request that the Secretariat report on key population programming allocations across country portfolios from 2025 onward, establishing a documented baseline against which erosion can be measured.</li>
+    <li>Engage other donor country delegations, particularly European governments with strong commitments to key population and sexual and reproductive health programming, to explicitly counterbalance U.S. pressure at the Board level.</li>
+    <li>Request that the Secretariat clarify publicly whether it has sought or intends to seek a waiver, and what the terms of any waiver would be.</li>
+</ul>
+
+<b>If you are a global civil society advocate:</b>
+
+<ul>
+    <li>Begin documenting the baseline now. What key population programming currently exists in Global Fund grants across your network? What does it cost, what populations does it reach, and how is it funded? This evidence base will be essential for future accountability claims.</li>
+    <li>Engage the Global Fund's Office of the Inspector General to explore whether systematic deprioritization of key population programming in response to external political pressure could constitute a grant compliance issue within the OIG's jurisdiction.</li>
+    <li>Engage legal organizations to analyze whether the application of these rules to Global Fund grants is consistent with the Global Fund's governing instruments, and whether the U.S. has obligations as a Board member that conflict with what it is imposing through these rules.</li>
+    <li>Connect with European parliamentary bodies and donor governments to raise these issues and create political accountability for donor behavior at the Global Fund.</li>
+    <li>Amplify community voices documenting harm through international media, UN human rights mechanisms, and global health forums.</li>
+    <li>Push the State Department to issue public guidance clarifying how far the flow-down requirements reach into Global Fund grant chains, both because clarity is needed and because the process of seeking it creates public documentation of the stakes.</li>
+    <li>Engage now with governments that have signed MOUs to ensure they understand that PHFFA requirements will attach to implementing instruments as funding flows, even where the MOU itself is silent on gender ideology and DEI. This is an urgent advocacy window before implementation begins in April 2026.</li>
+</ul>
+
+<b>If you are a CCM community representative:</b>
+
+<ul>
+    <li>Get the specific language of the Global Fund's key population requirements and use it actively in CCM meetings. When funding requests or implementation plans fail to adequately address key population needs, name it explicitly and put your concerns in writing.</li>
+    <li>Document every instance where key population programming proposals are rejected, deprioritized, or excluded from funding requests, and escalate these through CCM processes and directly to the Global Fund Secretariat. The paper trail is essential when harm operates through omission.</li>
+    <li>Engage in funding request development processes as early as possible, before implementation plans are drafted rather than after. Once a funding request has been submitted without key population programming, it is extremely difficult to add it back.</li>
+    <li>Connect with peer CCM representatives in other countries through networks like GADH to understand whether patterns you are seeing are isolated or systemic.</li>
+    <li>Request that your CCM formally document its deliberations on key population programming so that decisions, and who made them, are on the record.</li>
+    <li>Review your country's MOU if it is publicly available, and document the performance metrics it contains. Examine whether those metrics adequately capture key population reach and outcomes. If they do not, raise this explicitly in CCM meetings as a governance concern, since the metrics governments are now accountable to will shape programming priorities over the next five years.v
+</ul>
+
+<b>If you are a community organization or service provider:</b>
+
+<ul>
+    <li>Review your current funding agreements carefully and seek legal support to understand your obligations under any flow-down provisions.</ul>
+    <li>Do not wait to be told that your programming is prohibited. Proactively document what you do, who you serve, and how your programming aligns with Global Fund grant requirements and human rights standards.</ul>
+    <li>Connect with peer organizations in your country and region to share information about what you are hearing from PRs and CCMs about programming changes.</ul>
+    <li>Report changes in programming, funding, and access to services through GADH's community reporting mechanisms so that country-level experience can be aggregated into global evidence.</ul>
+</ul>
+
+## Conclusions
+
+The harm described in this piece is not hypothetical. The regulatory architecture described above creates powerful structural incentives for governments and organizations to quietly move away from programming that serves the communities most affected by HIV, TB, and malaria, without any formal announcement, any visible rule-breaking, or any clear moment of accountability. The communities who will bear the consequences of that quiet deprioritization are the same communities who have always borne the greatest burden of these epidemics and the least access to the systems meant to address them.
+
+## Glossary
+
+<b>Award term.</b> A condition attached to a grant or cooperative agreement that the recipient must agree to in order to receive funding. Under the PHFFA rules, award terms specify what activities recipients are prohibited from conducting.
+
+<b>Bilateral agreement.</b> A formal funding or cooperation agreement between two governments directly, in this context between the U.S. government and an individual country government, as distinct from funding that flows through a multilateral organization like the Global Fund.
+
+<b>CDEIFA</b> (Combating Discriminatory Equity Ideology in Foreign Assistance). One of the three rules that make up the PHFFA policy. It prohibits recipients of U.S. foreign assistance from promoting what the rule terms "discriminatory equity ideology," including diversity, equity, and inclusion programming.
+
+<b>CGIFA</b> (Combating Gender Ideology in Foreign Assistance). One of the three rules that make up the PHFFA policy. It prohibits recipients of U.S. foreign assistance from promoting what the rule terms "gender ideology," including gender-affirming care and services.
+
+<b>Chilling effect</b>. The phenomenon where organizations change or limit their behavior not because they have been formally told to, but because they are uncertain about what is permitted and afraid of the consequences of getting it wrong.
+
+<b>Civil society</b>. Non-governmental organizations, community groups, advocacy networks, and other organizations that operate independently of governments and the private sector, typically focused on public interest or community benefit.
+
+<b>Co-investment</b>. The commitment by a partner country government to increase its own domestic health spending as U.S. funding declines under the MOU framework. Co-investment is calculated based only on funds raised directly by the government and may not include funding from other donors or multilateral organizations such as the Global Fund.
+
+<b>Communities</b>. People who are directly affected by the diseases and health inequities being addressed, including people living with HIV, tuberculosis, or malaria, and key populations who face particular barriers to health access. 
+
+<b>Country Coordinating Mechanism</b> (CCM). The national governance body responsible for overseeing Global Fund grants in a given country. CCMs are required to include representatives of civil society and affected communities alongside government representatives. They are responsible for developing funding requests and overseeing grant implementation.
+
+<b>Cooperative agreement</b>. A type of funding agreement used by the U.S. government, similar to a grant but with a higher level of U.S. government involvement in program activities.
+
+<b>DEI</b> (Diversity, Equity, and Inclusion). An umbrella term for organizational policies and programs designed to ensure fair representation and treatment of people from different backgrounds, particularly those who have historically faced discrimination or exclusion.
+
+<b>Department of State</b>. The U.S. government agency responsible for conducting American foreign policy and managing relationships with foreign governments and international organizations. The Department of State administers a significant portion of U.S. foreign assistance funding and is the agency that issued the PHFFA rules. 
+
+<b>Discriminatory equity ideology</b>. The term used in the CDEIFA rule to describe an ideology the U.S. government considers unlawfully discriminatory. The rule's definition is broad and includes many frameworks used in public health and development programming that address structural inequality.
+
+<b>Flow-down requirement</b>. The obligation, included in the PHFFA rules, for recipients of U.S. foreign assistance to pass the same conditions on to any organizations they fund with those resources. This is what allows the rules to reach organizations that do not have a direct funding relationship with the U.S. government.
+
+<b>Foreign assistance</b>. Funding provided by the U.S. government to support programs and activities in other countries. Under the PHFFA rules, foreign assistance is defined specifically as funding appropriated under particular headings of the annual State Department and Foreign Operations Appropriations Act.
+
+<b>Foreign organization</b>. Under the PHFFA rules, a foreign non-governmental organization is any NGO that is organized or registered under the laws of a country other than the United States. This includes community organizations, advocacy groups, health service providers, and research institutions based outside the U.S.. 
+
+<b>Gender-affirming care</b>. Medical and other services provided to transgender and gender-diverse individuals to support alignment between their gender identity and their physical characteristics or social presentation. This includes but is not limited to hormone therapy, surgical procedures, and counseling.
+
+<b>Gender ideology</b>. The term used in the CGIFA rule to describe an understanding of gender that the U.S. government considers contrary to biological reality. Under the rule, promoting gender ideology is prohibited for recipients of U.S. foreign assistance.
+
+<b>Gender-transformative programming</b>. Health and development programs that explicitly seek to address and change harmful gender norms, power imbalances, and structural inequalities as part of achieving health outcomes.
+
+<b>Global Fund</b>. The Global Fund to Fight AIDS, Tuberculosis and Malaria. An international financing institution that raises money from donor governments and private sources and distributes it as grants to countries to fight the three diseases.
+
+<b>Global Fund Secretariat</b>. The administrative body of the Global Fund, based in Geneva, responsible for managing grant operations, providing technical support to countries, and reporting to the Global Fund Board.
+
+<b>Governing instruments</b>. The foundational legal documents that establish an organization and define its purpose, structure, and operating rules. For the Global Fund, these include its Framework Document and bylaws.
+
+<b>Grant architecture</b>. The structure of funding relationships in a grant program, including who funds whom, under what conditions, and through what intermediate organizations.
+
+<b>Grant chain</b>. The sequence of organizations through which grant funding flows, from the original donor down through recipients, subrecipients, and further downstream implementers.
+
+<b>Harm reduction</b>. A public health approach that aims to reduce the negative consequences of drug use and other behaviors without requiring abstinence. Harm reduction programs include needle and syringe exchanges, opioid substitution therapy, and naloxone distribution.
+
+<b>Helms Amendment</b>. A longstanding U.S. law that prohibits U.S. foreign assistance from being used for the performance of abortion as a method of family planning or to motivate or coerce anyone to practice abortions. The Helms Amendment compliance requirement appears in the bilateral MOUs signed under the America First Global Health Strategy and predates the PHFFA rules.
+
+<b>Integrated health services</b>. Health programs that deliver multiple types of services together, such as HIV testing, sexual and reproductive health care, and mental health support, rather than through separate programs. Integration is considered best practice in reaching key populations effectively.
+
+<b>International organization</b> (IO). Under the PHFFA rules, an organization established by international agreement whose governance includes national government representatives, or certain other multilateral bodies. The Global Fund qualifies as an international organization under this definition.
+
+<b>Key populations</b> (KPs). Groups of people who are disproportionately affected by HIV and face particular barriers to accessing health services, due to legal, social, or structural factors. The Global Fund and UNAIDS recognize gay men and other men who have sex with men, people who inject drugs, sex workers, transgender people, and prisoners as key populations.
+
+<b>Memorandum of Understanding</b> (MOU). A bilateral agreement between the U.S. government and a partner country government setting out a five-year health cooperation plan for 2026-2030. MOUs include commitments from both sides on funding levels, program areas, and performance metrics, as well as co-investment requirements from the partner country. The MOUs are not legally binding international agreements, but they are significant political commitments that shape how U.S. health assistance is structured and delivered. 
+
+<b>Non-Governmental Organization</b> (NGO). An organization that operates independently of government and is typically non-profit in nature, focused on social, health, humanitarian, or advocacy goals. NGOs are major implementers of Global Fund-supported programs, often reaching communities and delivering services that governments cannot or do not reach. 
+
+<b>Office of the Inspector General</b> (OIG). The independent oversight body of the Global Fund, responsible for auditing grant performance, investigating fraud and misuse of funds, and reporting to the Global Fund Board.
+
+<b>Parastatal</b>. A foreign-government-owned organization that operates as a commercial company or other entity, including non-profits, in which a foreign government has a controlling interest.
+
+<b>Performance metrics</b>. The measurable health targets that governments commit to achieving under their MOUs, such as viral suppression rates, malaria deaths in children under five, and maternal mortality rates. Performance against these metrics can affect U.S. funding levels. Notably, the metrics in current MOUs focus on aggregate national outcomes and do not specifically measure reach or outcomes for key populations.
+
+<b>PHFFA</b> (Promoting Human Flourishing in Foreign Assistance). The collective name for the three rules -- PLFA, CGIFA, and CDEIFA -- finalized by the U.S. Department of State in January 2026.
+
+<b>Physical and financial separation</b>. A requirement under the PHFFA rules for U.S. NGOs to maintain distinct facilities, personnel, accounting records, and signage between their U.S.-funded programs and any prohibited activities. Modeled on requirements previously applied to Title X family planning programs.
+
+<b>PLFA</b> (Protecting Life in Foreign Assistance). One of the three rules that make up the PHFFA policy. It implements and expands the Mexico City Policy, prohibiting recipients of U.S. foreign assistance from providing or promoting abortion as a method of family planning.
+
+<b>Principal Recipient</b> (PR). The organization that receives a Global Fund grant directly and is responsible for its management and implementation. PRs are typically ministries of health or large civil society organizations, and they often pass funds to sub-recipients for implementation.
+
+<b>Programmatic deprioritization</b>. The process by which certain activities or populations are given less emphasis, resources, or attention in a program, without necessarily being formally excluded. In this context, the quiet reduction of key population programming without any formal policy decision.
+
+<b>Segregated account</b>. A separate bank account in which specific funds must be held to ensure they are not mixed with funds used for other purposes. Under the PHFFA rules, foreign governments that conduct prohibited activities with their own funds must place U.S. assistance funds in a segregated account.
+
+<b>Sexual and reproductive health</b> (SRH). A broad field of health care that includes family planning, maternal health, prevention and treatment of sexually transmitted infections, and access to safe abortion where legal.
+
+<b>Sub-recipient</b>. An organization that receives funding from a Principal Recipient rather than directly from the Global Fund. Sub-recipients implement specific program activities, often at the community level.
+
+<b>U.S. NGO</b>. Any non-governmental organization organized under the laws of the United States. U.S. NGOs face somewhat different requirements under the PHFFA rules than foreign NGOs, including the physical and financial separation requirement.
+
+<b>Voluntary contribution</b>. A form of funding provided by a donor government to an international organization, as distinct from assessed contributions that member states are obligated to pay. U.S. funding to the Global Fund takes the form of voluntary contributions.
+
+<b>Waiver</b>. An official decision by the Secretary of State to exempt a specific recipient from some or all of the PHFFA award terms, on the grounds that applying the terms would be contrary to U.S. national security or foreign policy interests.
