@@ -1,6 +1,38 @@
 {
   "posts": [
     {
+      "id": "integration-without-loss-both-at-local-and-global-levels-lessons-from-the-msf-gilead-lenacapavir-case",
+      "slug": "integration-without-loss-both-at-local-and-global-levels-lessons-from-the-msf-gilead-lenacapavir-case",
+      "title": "Integration Without Loss both at Local and Global Levels: Lessons from the MSF–Gilead Lenacapavir Case",
+      "titles": {
+        "EN": "Integration Without Loss both at Local and Global Levels: Lessons from the MSF–Gilead Lenacapavir Case",
+        "FR": "Une intégration sans perte, tant au niveau local qu'au niveau mondial : les enseignements tirés de l'affaire MSF-Gilead concernant le lénacapavir",
+        "ES": "Integración sin pérdidas tanto a nivel local como global: lecciones del caso de MSF y Gilead sobre el lenacapavir",
+        "PT": "Integração sem perdas, tanto a nível local como global: lições do caso Lenacapavir entre a MSF e a Gilead",
+        "RU": "Интеграция без потерь как на местном, так и на глобальном уровнях: уроки дела «MSF–Gilead» по препарату ленакапавир"
+      },
+      "author": "Richard Muko",
+      "date": "2026-04-07",
+      "image": "https://globaladvocacydatahub.org/images/blog/integration-without-loss-both-at-local-and-global-levels-lessons-from-the-msf-gilead-lenacapavir-case.png",
+      "tags": ["Brief"],
+      "excerpt": "The new GADH tracker of Allocation Letters lets you easily find your country's letter and understand its contents.  How can advocates use these data?",
+      "excerpts": {
+        "EN": "As lenacapavir access is channelled through centralized procurement, the MSF–Gilead dispute raises urgent questions about whether integration is leaving the most vulnerable populations behind.",
+        "FR": "Étant donné que l'accès au lénacapavir passe par un système d'approvisionnement centralisé, le différend entre MSF et Gilead soulève des questions urgentes quant à savoir si cette intégration ne laisse pas de côté les populations les plus vulnérables.",
+        "ES": "Dado que el acceso al lenacapavir se canaliza a través de un sistema de adquisición centralizado, el conflicto entre MSF y Gilead plantea cuestiones urgentes sobre si la integración está dejando atrás a las poblaciones más vulnerables.",
+        "PT": "Uma vez que o acesso ao lenacapavir é canalizado através de um sistema de aquisição centralizado, o litígio entre a MSF e a Gilead levanta questões urgentes sobre se esta integração está a deixar para trás as populações mais vulneráveis.",
+        "RU": "Поскольку доступ к ленакапавиру осуществляется через систему централизованных закупок, спор между MSF и Gilead поднимает актуальные вопросы о том, не оставляет ли процесс интеграции без внимания наиболее уязвимые группы населения."
+      },
+      "file": "integration-without-loss-both-at-local-and-global-levels-lessons-from-the-msf-gilead-lenacapavir-case.txt",
+      "files": {
+        "EN": "integration-without-loss-both-at-local-and-global-levels-lessons-from-the-msf-gilead-lenacapavir-case.txt",
+        "FR": "grant-cycle-8-GC8-global-fund-allocation-letters-what-do-communities-need-to-know-fr.txt",
+        "ES": "grant-cycle-8-GC8-global-fund-allocation-letters-what-do-communities-need-to-know-es.txt",
+        "PT": "grant-cycle-8-GC8-global-fund-allocation-letters-what-do-communities-need-to-know-pt.txt",
+        "RU": "grant-cycle-8-GC8-global-fund-allocation-letters-what-do-communities-need-to-know-ru.txt"
+      }
+    },
+    {
       "id": "grant-cycle-8-GC8-global-fund-allocation-letters-what-do-communities-need-to-know",
       "slug": "grant-cycle-8-GC8-global-fund-allocation-letters-what-do-communities-need-to-know",
       "title": "Grant Cycle 8 (GC8) Global Fund Allocation Letters: What do communities need to know?",
