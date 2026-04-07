@@ -19,7 +19,7 @@ Le Hub Mondial de Données pour le Plaidoyer (GADH) a commencé à collecter et 
 D'après les 48 lettres reçues au 7 avril 2026, les pays se sont vu allouer en moyenne 16,5 % de financement en moins lors de le CS8 par rapport au CS7, les baisses les plus importantes concernant le financement de la lutte contre le VIH et la tuberculose.
  Toutefois, ces baisses variaient considérablement d'une région à l'autre. D'après cet échantillon, les pays d'Asie à fort impact (40 %), d'Asie du Sud-Est (38 %), d'Amérique latine et des Caraïbes (19 %), ainsi que d'Europe de l'Est et d'Asie centrale (18 %) ont subi les plus fortes réductions de financement.
 
-![Évolution du montant des allocations, par composante](https://globaladvocacydatahub.org/images/blog/grant-cycle-8-GC8-global-fund-allocation-letters-what-do-communities-need-to-know.png)
+![Img](https://globaladvocacydatahub.org/images/blog/grant-cycle-8-GC8-global-fund-allocation-letters-what-do-communities-need-to-know.png)
 
 De plus, 14 des 48 pays comptaient au moins une composante devant passer entièrement au financement public d’ici la fin du CS8. Alors que la plupart des pays planifient cette transition depuis plusieurs années, peu d’entre eux ont réussi à se passer du soutien du Fonds mondial. Le CS8 entraînera donc un retrait rapide et sans précédent du soutien aux programmes de santé publique à travers le monde.
 

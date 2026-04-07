@@ -18,7 +18,7 @@ The Global Advocacy Data Hub (GADH) has begun collecting and analyzing Allocatio
 
 Based on the 48 letters received as of 7 April 2026, on average countries were allocated 16.5% less funding in GC8 than in GC7, with the largest decreases for HIV and tuberculosis funding.  However, these drops varied considerably by region.  Based on this subset, countries in High Impact Asia (40%), South East Asia (38%), Latin America and the Caribbean (19%), and Eastern Europe and Central Asia (18%) had the largest reductions in allocation funding.
 
-![A description of the image](https://globaladvocacydatahub.org/images/blog/grant-cycle-8-GC8-global-fund-allocation-letters-what-do-communities-need-to-know.png)
+![Img](https://globaladvocacydatahub.org/images/blog/grant-cycle-8-GC8-global-fund-allocation-letters-what-do-communities-need-to-know.png)
 
 Additionally, 14 of the 48 countries had at least one component required to transition completely to government funding by the end of GC8. While most countries have been planning for transition for several years, few countries have transitioned from Global Fund support.  GC8 will therefore lead to an unprecedented and rapid withdrawal of support for public health programs around the world.
 
