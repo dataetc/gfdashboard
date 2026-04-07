@@ -1,0 +1,41 @@
+Allocation letters mark the starting point for new Global Fund grant cycles, giving each country specific directions about planning for their Global Fund supported activities through 2028. Understanding what’s in them is a critical starting point for advocating for community priorities over the coming months. Below we break down what allocation letters are, why they matter, and how to use them for advocacy and you can find your country’s allocation letters and <a href='https://www.dataetc.org/projects/allocation-letters/' target=_blank>its details here</a> if it’s been shared with the Global Advocacy Data Hub. 
+
+## What are the Allocation Letters?
+
+The Global Fund operates on a three-year grant-making cycle, with the eighth grant cycle (GC8) taking place from 2026-2028. At the beginning of the cycle, every country eligible to receive grants receives an official Allocation Letter. These letters were sent out on March 13 2026 to the Chairs of the Country Coordinating Mechanism (CCM) in each country.
+
+Allocation letters describe the amount of money that each country (and disease component) can receive. Secondly, the letters explain which components will become ineligible for future grants at the end of the three-year cycle. Beyond this, the letters include detailed guidance about which programmatic areas should be funded, how the grants should be implemented, and how governments should be investing their own resources to complement the Global Fund.
+
+## Why do these letters matter to communities and advocates?
+
+The funding amounts in Allocation Letters are non-negotiable. What advocates can influence is how that money gets allocated, which is decided during the funding request process, when CCMs develop their detailed proposals for how grants will be spent. First, the extent of funding reductions across HIV, TB, and malaria programs tells advocates how much pressure there will be to cut or consolidate programs that were supported in previous cycles. Knowing which components are scheduled to transition out of Global Fund support in GC8 or GC9 helps advocates plan ahead. If a program is in its final cycle, communities need to start asking now whether governments are prepared to absorb it, and whether advocacy is needed to ensure high-priority services continue without interruption. 
+
+Finally, the Allocation Letters describe where CCMs should focus their funding requests and where governments are required to co-invest in order to unlock additional Global Fund resources. Co-financing requires governments to contribute their own funds to specific program areas, while matching funds are additional Global Fund resources that countries can only access if governments meet certain contribution requirements. Advocates should closely track whether governments are fulfilling these commitments and push to ensure that these funds are directed toward community priorities. Where community needs align with the letter's priority areas, this is a strong foundation for advocacy. Where they do not, be prepared for a harder fight and come ready with compelling data and a clear rationale.
+
+## What is in the Allocation Letters?
+
+The Global Advocacy Data Hub (GADH) has begun collecting and analyzing Allocation Letters.  A <a href='https://www.dataetc.org/projects/allocation-letters/' target=_blank>publicly-available web platform</a> allows advocates to find their Allocation Letters and easily analyze what is in them.  
+
+Based on the 48 letters received as of 7 April 2026, on average countries were allocated 16.5% less funding in GC8 than in GC7, with the largest decreases for HIV and tuberculosis funding.  However, these drops varied considerably by region.  Based on this subset, countries in High Impact Asia (40%), South East Asia (38%), Latin America and the Caribbean (19%), and Eastern Europe and Central Asia (18%) had the largest reductions in allocation funding.
+
+Additionally, 14 of the 48 countries had at least one component required to transition completely to government funding by the end of GC8. While most countries have been planning for transition for several years, few countries have transitioned from Global Fund support.  GC8 will therefore lead to an unprecedented and rapid withdrawal of support for public health programs around the world.
+
+In addition to funding from Allocation, which is the largest pot of funding, many countries will also receive Matching Funds, which are meant to "address mission critical needs" that are "not adequately addressed through country allocations alone". In order to unlock these funds, the country must also contribute its own domestic resources to the same priority areas at a matching rate specified in the table below. Matching Funds are incorporated into country grants through the same process as Allocation funds.  The categories of Matching Funds in the letters include integrated HIV prevention, public financial management, integrated community and health services for women and children, addressing human rights and gender barriers to services, digital solutions supporting integration, and social contracting.
+
+The letters also include detailed guidance about how many PRs your country should have, how funding from the Global Fund should be used, and additionally how government co-financing should be used.  These sections are very important and specify how community-focused programs should be politicized, imply whether countries should maintain or remove civil society PRs, which activities should be integrated into primary healthcare, and more.
+
+<b><i>Don’t see your letter on the webpage?</i></b> <a href='https://docs.google.com/forms/d/e/1FAIpQLScd65Ib1bNc2SqlYFgIE-ubLpZGi2IquWZkbWrpMEy2ZWKYRQ/viewform' target=_blank>Share it with us here</a>!
+
+## How can you use these letters for your advocacy?
+
+<ul>
+    <li>With fewer resources available, it will be extremely difficult to advocate for community priorities—<b>be VERY well prepared with data and arguments</b> explaining why they matter.</li>
+    <li>Review the implementation guidelines—if you can demonstrate that community priorities <b>align with these Global Fund recommendations</b>, your advocacy message will be stronger.</li>
+    <li>The letters contain numerous references to community programs, social contracts, community actors responsible for implementation, etc. <b>Find these references</b> and use them in your advocacy!</li>
+    <li><b>Co-financing is an important source of funding</b>, and the Global Fund often requires that some or all of these funds be allocated to communities. Regularly lobby your government to ensure this money is spent wisely.</li>
+    <li>Matching funds are essential and can be a good source of funding for communities. Find out how these funds will be spent. Make sure your government provides the required contribution so the funds are available!</li>
+    <li>The text specifies which services must be <b>integrated or transitioned to the government</b>. Read it carefully and ask questions to ensure that the government continues to fund these programs.</li>
+    <li>Pay close attention to what the letter says regarding the <b>reduction of PRs</b>. There will be strong pressure to end civil society PRs (if your country has any). If the government cannot or will not fund community programs, make your position very clear. In that case, you will need to maintain a community-based program.</li>
+    <li><b>Fully understand <a href='https://dataetc.org/projects/ccm' target=_blank'>the GC7 grants</a></b>, understand what was <a href='https://www.dataetc.org/projects/reprioritization/' target=_blank>cut during the reprioritization</a>, and what was lost in the C19RM so that you can report these gaps (with data!) to the CCM.</li>
+    <li><b>Ask for help!</b> We're all here to support you. If you need data, advice, assistance, or need to report an issue, <a href='https://globaladvocacydatahub.org/support.html' target=_blank>don't hesitate to contact us!</a></li>
+</ul>
