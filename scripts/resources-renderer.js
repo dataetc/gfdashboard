@@ -332,29 +332,75 @@ function updateResourceCounts() {
   });
 }
 
+function initializeSearch() {
+  const searchInput = document.getElementById('searchInput');
+  if (!searchInput) return;
+
+  searchInput.addEventListener('input', function() {
+    const searchTerm = this.value.toLowerCase().trim();
+    const resourceSections = document.querySelectorAll('section');
+
+    resourceSections.forEach(function(section) {
+      const resourceItems = section.querySelectorAll('.image-item');
+      let hasArchivedMatches = false;
+
+      resourceItems.forEach(function(item) {
+  const title = item.querySelector('h5');
+  const isArchived = item.closest('.archived-content');
+  const matches = !searchTerm || (title && title.textContent.toLowerCase().includes(searchTerm));
+item.style.cssText = matches ? '' : 'display: none !important;';
+  
+  // Highlight matched title text
+  if (title) {
+    if (searchTerm && matches) {
+      const regex = new RegExp(`(${searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+      title.innerHTML = title.textContent.replace(regex, '<mark>$1</mark>');
+    } else {
+      title.innerHTML = title.textContent; // Clear highlight
+    }
+  }
+
+  if (matches && isArchived) hasArchivedMatches = true;
+});
+
+      // Auto-open archived section if it has matches
+      if (hasArchivedMatches && searchTerm) {
+        const sectionId = section.getAttribute('id');
+        const archivedContent = document.getElementById(`archived-${sectionId}`);
+        const toggleButton = archivedContent?.previousElementSibling;
+        if (archivedContent && !archivedContent.classList.contains('show')) {
+          archivedContent.classList.add('show');
+          if (toggleButton) toggleButton.classList.add('open');
+        }
+      }
+
+      // Hide the whole section if nothing matches
+      const visibleItems = section.querySelectorAll('.image-item:not([style*="display: none"])');
+      section.style.display = visibleItems.length > 0 ? 'block' : 'none';
+    });
+
+    updateResourceCounts();
+  });
+}
 // Function to initialize all resources
 async function initializeResources() {
-  // Show skeleton loaders instead of plain text
   showSkeletonLoaders();
   
-  // Load data from Google Sheets
   const loaded = await loadResourcesFromSheet();
   
   if (loaded) {
-    // Render all sections
     renderSection('dashboards', resourcesData.dashboards);
     renderSection('guides', resourcesData.guides);
     renderSection('reports', resourcesData.reports);
     renderSection('gf', resourcesData.globalFund);
     renderSection('advocacy', resourcesData.advocacy);
     
-    // Initialize GIF loading for dashboards
     initializeGifLoading();
-    
-    // Update resource counts
     updateResourceCounts();
     
-    // Re-trigger language filter if one is selected
+    // Initialize search AFTER resources are in the DOM
+    initializeSearch();
+    
     const languageFilter = document.getElementById('languageFilter');
     if (languageFilter && languageFilter.value !== 'all') {
       languageFilter.dispatchEvent(new Event('change'));

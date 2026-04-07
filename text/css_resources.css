@@ -861,3 +861,13 @@ select:focus {
   display: block;
   color: #000;
 }
+
+
+
+
+.image-item mark {
+  background-color: #ffe066;
+  color: inherit;
+  border-radius: 2px;
+  padding: 0 2px;
+}
