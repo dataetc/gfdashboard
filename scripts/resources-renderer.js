@@ -341,46 +341,97 @@ function initializeSearch() {
     const resourceSections = document.querySelectorAll('section');
 
     resourceSections.forEach(function(section) {
+      const sectionId = section.getAttribute('id');
       const resourceItems = section.querySelectorAll('.image-item');
+      const archivedContent = document.getElementById(`archived-${sectionId}`);
+      const toggleButton = archivedContent?.previousElementSibling;
+      const archivedDivider = archivedContent?.closest('.archived-section-divider');
+
       let hasArchivedMatches = false;
+      let hasActiveMatches = false;
 
       resourceItems.forEach(function(item) {
-  const title = item.querySelector('h5');
-  const isArchived = item.closest('.archived-content');
-  const matches = !searchTerm || (title && title.textContent.toLowerCase().includes(searchTerm));
-item.style.cssText = matches ? '' : 'display: none !important;';
-  
-  // Highlight matched title text
-  if (title) {
-    if (searchTerm && matches) {
-      const regex = new RegExp(`(${searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
-      title.innerHTML = title.textContent.replace(regex, '<mark>$1</mark>');
-    } else {
-      title.innerHTML = title.textContent; // Clear highlight
-    }
-  }
+        const title = item.querySelector('h5');
+        const isArchived = !!item.closest('.archived-content');
+        const matches = !searchTerm || (title && title.textContent.toLowerCase().includes(searchTerm));
 
-  if (matches && isArchived) hasArchivedMatches = true;
-});
+        item.style.cssText = matches ? '' : 'display: none !important;';
 
-      // Auto-open archived section if it has matches
-      if (hasArchivedMatches && searchTerm) {
-        const sectionId = section.getAttribute('id');
-        const archivedContent = document.getElementById(`archived-${sectionId}`);
-        const toggleButton = archivedContent?.previousElementSibling;
-        if (archivedContent && !archivedContent.classList.contains('show')) {
+        if (title) {
+          if (searchTerm && matches) {
+            const regex = new RegExp(`(${searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+            title.innerHTML = title.textContent.replace(regex, '<mark>$1</mark>');
+          } else {
+            title.innerHTML = title.textContent;
+          }
+        }
+
+        if (matches && isArchived) hasArchivedMatches = true;
+        if (matches && !isArchived) hasActiveMatches = true;
+      });
+
+      // Always keep the section visible (even if no matches, so no-results message shows)
+      section.style.display = 'block';
+
+      // Handle archived section visibility
+      if (archivedContent) {
+        if (!searchTerm) {
+          // No search term — restore default collapsed state
+          archivedContent.classList.remove('show');
+          if (toggleButton) toggleButton.classList.remove('open');
+          if (archivedDivider) archivedDivider.style.display = '';
+        } else if (hasArchivedMatches) {
+          // Has matching archived results — open and show
           archivedContent.classList.add('show');
           if (toggleButton) toggleButton.classList.add('open');
+          if (archivedDivider) archivedDivider.style.display = '';
+        } else {
+          // Searching but no archived matches — hide entire archived divider
+          if (archivedDivider) archivedDivider.style.display = 'none';
         }
       }
 
-      // Hide the whole section if nothing matches
-      const visibleItems = section.querySelectorAll('.image-item:not([style*="display: none"])');
-      section.style.display = visibleItems.length > 0 ? 'block' : 'none';
+      // Inject or remove no-results message for active (non-archived) items
+      const grid = section.querySelector('.image-grid');
+      let noResults = grid ? grid.querySelector('.no-results-message') : null;
+
+      if (!hasActiveMatches && searchTerm && grid) {
+        if (!noResults) {
+          noResults = document.createElement('div');
+          noResults.className = 'no-results-message';
+          grid.appendChild(noResults);
+        }
+        noResults.textContent = getNoResultsText(searchTerm);
+      } else if (noResults) {
+        noResults.remove();
+      }
     });
 
     updateResourceCounts();
   });
+}
+
+// Returns the localised "no results" string
+function getNoResultsText(term) {
+  // If your language-data.js exposes a getCurrentLanguage() or window.currentLang, use it.
+  // Adjust the key name to match whatever key you use in language-data.js.
+  const lang = (typeof getCurrentLanguage === 'function' ? getCurrentLanguage() : null)
+            || window.currentLang
+            || document.documentElement.lang
+            || 'en';
+
+  const messages = {
+    en:         `No results found for "${term}"`,
+    fr:         `Aucun résultat pour « ${term} »`,
+    es:         `No se encontraron resultados para "${term}"`,
+    pt:         `Nenhum resultado encontrado para "${term}"`,
+    ru:         `По запросу «${term}» ничего не найдено`,
+    ar:         `لا توجد نتائج لـ "${term}"`,
+    id:         `Tidak ada hasil untuk "${term}"`,
+  };
+
+  // Try exact match first, then first two chars (e.g. "en-US" → "en")
+  return messages[lang] || messages[lang.slice(0, 2)] || messages['en'];
 }
 // Function to initialize all resources
 async function initializeResources() {

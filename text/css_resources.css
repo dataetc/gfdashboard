@@ -871,3 +871,13 @@ select:focus {
   border-radius: 2px;
   padding: 0 2px;
 }
+
+.no-results-message {
+  width: 100%;
+  padding: 24px 16px;
+  text-align: center;
+  color: #666;
+  font-style: italic;
+  font-size: 1rem;
+  grid-column: 1 / -1; /* spans full grid width */
+}
