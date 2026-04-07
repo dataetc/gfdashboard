@@ -144,6 +144,9 @@ function markdownToHtml(markdown) {
   html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
   html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
   
+  // Images
+  html = html.replace(/!\[(.*?)\]\((.*?)\)/g, '<img src="$2" alt="$1">');
+
   // Line breaks to paragraphs
   const paragraphs = html.split('\n\n').map(para => {
     const trimmed = para.trim();

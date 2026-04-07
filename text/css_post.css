@@ -169,6 +169,20 @@
 
   .post-content li { margin-bottom: 0.5em; margin-top: 0.5em }
 
+  /* -- IMAGES -- */
+
+  img {
+    max-width: 100%;
+    padding: 2vw 7vw 2vw 3vw;
+    height: auto;
+  }
+
+  @media (max-width: 768px) {
+    img {
+      padding: 0;
+    }
+  }
+
   /* ── TAGS ── */
   .post-tags {
     display: flex;
