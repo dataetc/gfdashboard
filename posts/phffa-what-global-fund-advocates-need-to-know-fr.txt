@@ -50,7 +50,7 @@
 
 <p>Ces règles s'appliquent à toute organisation bénéficiant de l'aide étrangère américaine et sont conçues pour s'étendre à l'ensemble de la chaîne de financement, touchant ainsi toutes les organisations sous-bénéficiaires — y compris celles qui n'ont aucune relation directe avec le gouvernement américain.</p>
 
-<aside class="key-point">Ces règles ne se contentent pas de restreindre ce que l'argent américain peut financer, elles limitent également ce que les organisations peuvent faire, où qu'elles se trouvent, en utilisant les fonds provenant de n'importe quel donateur.</aside>
+<aside class="key-point"><span class="callout-label">Point clé</span>Ces règles ne se contentent pas de restreindre ce que l'argent américain peut financer, elles limitent également ce que les organisations peuvent faire, où qu'elles se trouvent, en utilisant les fonds provenant de n'importe quel donateur.</aside>
 
 <h2>À qui s'appliquent ces règles, et comment ?<em>Les règles traitent différemment les différents types d'organisations</em></h2>
 
@@ -84,7 +84,7 @@
 
 <p>En général, tout bénéficiaire qui transfère l'aide étrangère américaine à d'autres organisations doit imposer les mêmes conditions à ces sous-bénéficiaires. C'est ce qu'on appelle l'exigence de répercussion, et c'est l'une des raisons pour lesquelles ces règles peuvent avoir un impact important. Cependant, la manière exacte dont ces exigences de répercussion s'appliqueront au Fonds mondial n'est pas encore claire.</p>
 
-<aside class="key-point">L'acceptation d'un financement américain peut avoir des répercussions non seulement sur le bénéficiaire direct des fonds, mais aussi sur tous les sous-bénéficiaires d'une organisation, qui n'ont peut-être pas de relation de financement directe avec le gouvernement américain. Par exemple, si une ONG locale reçoit une subvention du gouvernement américain et sous-traite à une organisation communautaire avec ces mêmes fonds, cette organisation communautaire se trouverait également liée par les mêmes règles.</aside>
+<aside class="key-point"><span class="callout-label">Point clé</span>L'acceptation d'un financement américain peut avoir des répercussions non seulement sur le bénéficiaire direct des fonds, mais aussi sur tous les sous-bénéficiaires d'une organisation, qui n'ont peut-être pas de relation de financement directe avec le gouvernement américain. Par exemple, si une ONG locale reçoit une subvention du gouvernement américain et sous-traite à une organisation communautaire avec ces mêmes fonds, cette organisation communautaire se trouverait également liée par les mêmes règles.</aside>
 
 <h2>Le Fonds mondial est-il affecté ?<em>Oui, mais l'ampleur des répercussions reste incertaine</em></h2>
 
@@ -128,13 +128,13 @@
 
 <p>Il est important de noter qu'une dérogation n'affecterait pas les accords distincts que les pays ou les organisations ont conclus directement avec le gouvernement américain ou en tant que sous-bénéficiaires d'autres financements d'aide étrangère américains. Ceux-ci resteraient applicables et pourraient s'appliquer aux ressources du Fonds mondial lors de leur transfert vers les bénéficiaires finaux.</p>
 
-<aside class="key-point">Une dérogation pour le Fonds mondial serait importante, mais elle ne rendrait pas ces règles caduques. La politique pourrait toujours s'appliquer aux bénéficiaires du Fonds mondial ou aux gouvernements ayant conclu des accords bilatéraux avec les États-Unis.</aside>
+<aside class="key-point"><span class="callout-label">Point clé</span>Une dérogation pour le Fonds mondial serait importante, mais elle ne rendrait pas ces règles caduques. La politique pourrait toujours s'appliquer aux bénéficiaires du Fonds mondial ou aux gouvernements ayant conclu des accords bilatéraux avec les États-Unis.</aside>
 
 <h2>Comment les récipiendaires de financements du Fonds mondial seraient-ils affectés ?<em>Les règles ont des répercussions différentes selon les types d'organisations</em></h2>
 
 <p><strong>ONG et organisations communautaires.</strong> Pour les ONG agissant en tant que RP, SR ou SSR, les enjeux sont importants. Il est interdit à toutes les organisations de fournir des services interdits. Les organisations non basées aux États-Unis sont soumises aux exigences les plus strictes, car elles ne peuvent pas non plus promouvoir des activités interdites avec aucun financement, et pas seulement avec des fonds américains. Pour de nombreuses organisations dont le travail principal consiste à servir les populations clés, ce n'est pas une préoccupation mineure. Une organisation qui existe pour fournir des soins affirmant le genre, atteindre les travailleurs du sexe avec des services de prévention du VIH ou mettre en œuvre des programmes de réduction des risques pourrait se retrouver inéligible à recevoir des fonds du Fonds mondial à moins de modifier fondamentalement ses activités.</p>
 
-<aside class="key-point">Pour les organisations les plus petites et les plus ancrées dans la communauté (souvent celles qui sont les mieux placées pour atteindre les populations clés et vulnérables), la charge administrative à elle seule pourrait constituer un obstacle. Pour d'autres, rester bénéficiaire pourrait signifier modifier l'orientation ou l'activité principale de leur organisation.</aside>
+<aside class="key-point"><span class="callout-label">Point clé</span>Pour les organisations les plus petites et les plus ancrées dans la communauté (souvent celles qui sont les mieux placées pour atteindre les populations clés et vulnérables), la charge administrative à elle seule pourrait constituer un obstacle. Pour d'autres, rester bénéficiaire pourrait signifier modifier l'orientation ou l'activité principale de leur organisation.</aside>
 
 <p><strong>Recipiendaires gouvernementaux.</strong> Les gouvernements sont les récipiendaires principaux les plus courants des subventions du Fonds mondial, et ils sont soumis à des exigences moins strictes que les ONG : il s'agit essentiellement d'une obligation comptable plutôt que d'une obligation opérationnelle. Mais la situation est plus complexe qu'il n'y paraît à première vue.</p>
 
@@ -144,7 +144,7 @@
 
 <p>La situation pourrait s'avérer extrêmement difficile à gérer dans la pratique. Un gouvernement ne peut pas physiquement scinder son système de santé national en deux parties. Il pourrait donc être fortement incité à éviter le problème non pas en restructurant la gestion de ses fonds, mais plutôt en s'abstenant de financer les activités qui déclenchent l'application de cette politique.</p>
 
-<aside class="key-point">Il se peut que les gouvernements ne se voient jamais officiellement demander de réduire les programmes destinés aux populations clés. Au contraire, la pression pour le faire discrètement est inhérente à la situation elle-même.</aside>
+<aside class="key-point"><span class="callout-label">Point clé</span>Il se peut que les gouvernements ne se voient jamais officiellement demander de réduire les programmes destinés aux populations clés. Au contraire, la pression pour le faire discrètement est inhérente à la situation elle-même.</aside>
 
 <h2>Et les MOU ?<em>Une voie parallèle qui aura un impact</em></h2>
 
@@ -160,7 +160,7 @@
 
 <p>Cependant, les directives contiennent des dispositions stipulant que le Département d'État devra décider si, et comment, la politique s'appliquera à chaque gouvernement étranger. Cela signifie qu'il y aura une incertitude quant à la manière dont la PHFFA s'appliquera jusqu'à ce que les accords définitifs soient rédigés et signés.</p>
 
-<aside class="key-point">En raison du calendrier de publication de la nouvelle politique, les gouvernements ont peut-être signé des MOU sans avoir une vision complète des conditions juridiques qui pourraient s'appliquer lorsque les fonds arriveront effectivement.</aside>
+<aside class="key-point"><span class="callout-label">Point clé</span>En raison du calendrier de publication de la nouvelle politique, les gouvernements ont peut-être signé des MOU sans avoir une vision complète des conditions juridiques qui pourraient s'appliquer lorsque les fonds arriveront effectivement.</aside>
 
 <p class="sub-point">Les indicateurs de performance des MOU créent leurs propres incitations</p>
 
@@ -168,7 +168,7 @@
 
 <p>Étant donné que les objectifs des protocoles d'accord ne se concentrent pas sur les populations clés, les gouvernements peuvent choisir de retirer des ressources aux programmes destinés aux populations clés sans instruction explicite du gouvernement américain et sans qu'aucune règle n'ait jamais été formellement invoquée. C'est particulièrement le cas car ces programmes sont souvent politiquement sensibles et peuvent être plus compliqués ou coûteux à mettre en œuvre pour les gouvernements.</p>
 
-<aside class="key-point">Comme les protocoles d'accord récompensent les programmes de financement qui ne sont pas axés sur les populations clés, les gouvernements pourraient être incités à reléguer discrètement au second plan les programmes destinés aux populations clés, sans jamais mentionner ces dernières. Il peut être plus difficile pour les défenseurs de s'y opposer qu'à une interdiction directe !</aside>
+<aside class="key-point"><span class="callout-label">Point clé</span>Comme les protocoles d'accord récompensent les programmes de financement qui ne sont pas axés sur les populations clés, les gouvernements pourraient être incités à reléguer discrètement au second plan les programmes destinés aux populations clés, sans jamais mentionner ces dernières. Il peut être plus difficile pour les défenseurs de s'y opposer qu'à une interdiction directe !</aside>
 
 <p class="sub-point">Les gouvernements ne comprennent peut-être pas pleinement ce qui les attend</p>
 
@@ -182,7 +182,7 @@
 
 <p>Une dérogation n'aurait aucun effet sur les obligations distinctes découlant des accords bilatéraux directs (de gouvernement à gouvernement) entre les États-Unis et les différents pays. Celles-ci existent indépendamment, et une dérogation accordée au Fonds mondial n'a aucune incidence sur elles. Un gouvernement ayant à la fois un accord bilatéral avec les États-Unis et une subvention du Fonds mondial serait toujours tenu de séparer ses fonds bilatéraux de tout flux de financement utilisé pour des activités interdites.</p>
 
-<aside class="key-point">Une dérogation accordée au Fonds mondial n'affecterait pas les restrictions que les gouvernements ont acceptées dans leurs accords bilatéraux (de gouvernement à gouvernement) avec les États-Unis.</aside>
+<aside class="key-point"><span class="callout-label">Point clé</span>Une dérogation accordée au Fonds mondial n'affecterait pas les restrictions que les gouvernements ont acceptées dans leurs accords bilatéraux (de gouvernement à gouvernement) avec les États-Unis.</aside>
 
 <p>Il n'est pas non plus clair si une dérogation protégerait les organisations situées plus bas dans la chaîne de financement du Fonds mondial. Une interprétation possible est que si les obligations du Fonds mondial lui-même font l'objet d'une dérogation, son obligation de transmettre ces règles aux sous-bénéficiaires disparaît avec elles. Mais cela n'a pas été confirmé, ce qui pourrait créer un risque juridique pour les organisations agissant sur la base de cette hypothèse.</p>
 
@@ -192,7 +192,7 @@
 
 <p>En effet, il y a déjà des signes indiquant que les organisations modifient leur travail pour « se conformer à l'avance » à ces règles, même si elles ne sont pas officiellement en vigueur. Cela inclut la censure d'informations sur les personnes trans et non binaires, la restriction d'informations ou de services liés à la santé reproductive, et même l'abandon de services non liés aux politiques en raison de désinformation ou de crainte.</p>
 
-<aside class="key-point">Il est très important de plaider en faveur d’une dérogation ! Mais une dérogation n’est pas une raison pour cesser d’être vigilant. La pression exercée sur les programmes destinés aux populations clés et à la santé reproductive existe indépendamment du fait que les règles s’appliquent officiellement ou non.</aside>
+<aside class="key-point"><span class="callout-label">Point clé</span>Il est très important de plaider en faveur d’une dérogation ! Mais une dérogation n’est pas une raison pour cesser d’être vigilant. La pression exercée sur les programmes destinés aux populations clés et à la santé reproductive existe indépendamment du fait que les règles s’appliquent officiellement ou non.</aside>
 
 <h2>Qu’est-ce que cela signifie pour les programmes communautaires ?</h2>
 

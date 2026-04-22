@@ -50,7 +50,7 @@
 
 <p>The rules apply to any organization that receives U.S. foreign assistance, and they are designed to pass down the entire funding chain, reaching all sub-grantee organisations &mdash; including those that have no direct relationship with the U.S. government.</p>
 
-<aside class="key-point">The rules do not just restrict what U.S. money can pay for, they restrict what organizations can do anywhere, using any funds from any donor.</aside>
+<aside class="key-point"><span class="callout-label">Key point</span>The rules do not just restrict what U.S. money can pay for, they restrict what organizations can do anywhere, using any funds from any donor.</aside>
 
 <h2>Who do the rules apply to, and how?<em>The rules treat different types of organizations differently</em></h2>
 
@@ -84,7 +84,7 @@
 
 <p>In general, any recipient that passes U.S. foreign assistance to other organizations must impose the same conditions on those subgrantees. This is called the flow-down requirement, and it is one of the reasons why these rules can have a large impact. However, how exactly these flow-down requirements will apply to the Global Fund is still unclear.</p>
 
-<aside class="key-point">Accepting U.S. funding can affect not only the direct recipient of funds, but all of an organization's subgrantees, who may not have a direct funding relationship with the U.S. government. For example, if a local NGO receives a grant from the U.S. government and sub-contracts a community-based organization with those same funds, the community organization would also find itself bound by the same rules.</aside>
+<aside class="key-point"><span class="callout-label">Key point</span>Accepting U.S. funding can affect not only the direct recipient of funds, but all of an organization's subgrantees, who may not have a direct funding relationship with the U.S. government. For example, if a local NGO receives a grant from the U.S. government and sub-contracts a community-based organization with those same funds, the community organization would also find itself bound by the same rules.</aside>
 
 <h2>Is the Global Fund affected?<em>Yes, but how far the effects reach is still uncertain</em></h2>
 
@@ -128,13 +128,13 @@
 
 <p>Importantly, a waiver would not affect the separate agreements that countries or organizations have directly with the U.S. government or as subrecipients of other U.S. foreign assistance funding. Those would still apply and potentially attach to Global Fund resources when flowing down.</p>
 
-<aside class="key-point">A waiver for the Global Fund would be significant, but it would not make these rules irrelevant. The policy could still apply to Global Fund recipients or to governments with bilateral agreements with the U.S.</aside>
+<aside class="key-point"><span class="callout-label">Key point</span>A waiver for the Global Fund would be significant, but it would not make these rules irrelevant. The policy could still apply to Global Fund recipients or to governments with bilateral agreements with the U.S.</aside>
 
 <h2>How would Global Fund funding recipients be affected?<em>The rules impact different types of organizations in different ways</em></h2>
 
 <p><strong>NGOs and community organizations.</strong> For NGOs that serve as PRs, SRs, or SSRs, the stakes are high. All organizations are prohibited from delivering prohibited services. Organizations not based in the US face the strictest requirements, since they also cannot promote prohibited activities with any funds, not just U.S. money. For many organizations whose core work is serving key populations, this is not a small concern. An organisation that exists to provide gender-affirming care, reach sex workers with HIV prevention services, or deliver harm reduction programmes could find itself ineligible to receive Global Fund money unless it fundamentally changes what it does.</p>
 
-<aside class="key-point">For the smallest and most community-rooted organizations (often the ones best placed to reach key and vulnerable populations) the administrative burden alone could be disqualifying. For others, remaining a recipient could mean changing their organization's focus or core work.</aside>
+<aside class="key-point"><span class="callout-label">Key point</span>For the smallest and most community-rooted organizations (often the ones best placed to reach key and vulnerable populations) the administrative burden alone could be disqualifying. For others, remaining a recipient could mean changing their organization's focus or core work.</aside>
 
 <p><strong>Government recipients.</strong> Governments are the most common PRs for Global Fund grants, and they face lighter requirements than NGOs: essentially an accounting obligation rather than an operational one. But the picture is more complicated than it first appears.</p>
 
@@ -144,7 +144,7 @@
 
 <p>The practical result could be extremely difficult to manage. A government cannot physically separate a national health system into two parts. As a result, there could be a powerful incentive to avoid the problem altogether not by restructuring how a government manages its funds, but rather by avoiding funding the activities that trigger the policy in the first place.</p>
 
-<aside class="key-point">It may be that governments are never formally told to cut key population programming. Instead, the pressure to do so quietly is built into the situation itself.</aside>
+<aside class="key-point"><span class="callout-label">Key point</span>It may be that governments are never formally told to cut key population programming. Instead, the pressure to do so quietly is built into the situation itself.</aside>
 
 <h2>What about the MOUs?<em>A parallel track that will have an impact</em></h2>
 
@@ -160,7 +160,7 @@
 
 <p>However, there is language in the policies that says that the State Department will need to decide if, and how, the policy will attach to each foreign government. This means that there will be uncertainty about how the PHFFA will apply until the final agreements are written and signed.</p>
 
-<aside class="key-point">Because of the timing of the new policy's release, governments may have signed MOUs without full visibility into the legal conditions that could apply when the money actually arrives.</aside>
+<aside class="key-point"><span class="callout-label">Key point</span>Because of the timing of the new policy's release, governments may have signed MOUs without full visibility into the legal conditions that could apply when the money actually arrives.</aside>
 
 <p class="sub-point">The MOU's performance metrics create their own incentives</p>
 
@@ -168,7 +168,7 @@
 
 <p>Since the targets in the MOUs don't focus on key populations, governments may choose to shift resources away from KP programs without explicit instruction from the U.S. government and without any rule ever being formally invoked. This is particularly the case since these programs are often politically sensitive and may be more complicated or expensive for governments to operate.</p>
 
-<aside class="key-point">Because the MOUs reward funding programs that are not focused on KPs, governments may be incentivized to quietly deprioritize key population programs, without ever mentioning KPs at all. This can be more challenging for advocates to push back on than a direct prohibition!</aside>
+<aside class="key-point"><span class="callout-label">Key point</span>Because the MOUs reward funding programs that are not focused on KPs, governments may be incentivized to quietly deprioritize key population programs, without ever mentioning KPs at all. This can be more challenging for advocates to push back on than a direct prohibition!</aside>
 
 <p class="sub-point">Governments may not fully understand what is coming</p>
 
@@ -182,7 +182,7 @@
 
 <p>A waiver would have no effect on the separate obligations that arise from direct bilateral (government-to-government) agreements between the U.S. and individual countries. Those exist independently, and a waiver granted to the Global Fund does not impact them. A government that has both a bilateral U.S. agreement and a Global Fund grant would still be required to segregate its bilateral funds from any funding streams being used for prohibited activities.</p>
 
-<aside class="key-point">A waiver for the Global Fund would not affect any restrictions that governments have accepted in their bilateral (government-to-government) agreements with the U.S.</aside>
+<aside class="key-point"><span class="callout-label">Key point</span>A waiver for the Global Fund would not affect any restrictions that governments have accepted in their bilateral (government-to-government) agreements with the U.S.</aside>
 
 <p>It is also unclear whether a waiver would protect the organizations further down the Global Fund funding chain. One reading is that if the Global Fund's own obligations are waived, its obligation to pass the rules down to sub-recipients disappears with them. But this has not been confirmed, which could create a legal risk for organizations acting on that assumption.</p>
 
@@ -192,7 +192,7 @@
 
 <p>Indeed, there are already signs that organizations are altering their work to "comply in advance" with these rules even if not formally in place. This includes censoring information about trans and non-binary people, restricting information or services about reproductive health, and even dropping services not related to the policies due to misinformation or fear.</p>
 
-<aside class="key-point">Advocating for a waiver is very important! But a waiver is not a reason to stop paying attention. The pressure on programming for key populations and reproductive health exists independently of whether the rules formally apply.</aside>
+<aside class="key-point"><span class="callout-label">Key point</span>Advocating for a waiver is very important! But a waiver is not a reason to stop paying attention. The pressure on programming for key populations and reproductive health exists independently of whether the rules formally apply.</aside>
 
 <h2>What does this mean for community programs?</h2>
 

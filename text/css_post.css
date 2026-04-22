@@ -393,18 +393,6 @@
   color: #2e2820;
 }
 
-.post-content .key-point::before {
-  content: "KEY POINT";
-  display: block;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 1.2rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  color: #a85a3e;
-  margin-bottom: 0.75em;
-  text-transform: uppercase;
-}
-
 .post-content .key-point p { margin-bottom: 0.75em; }
 .post-content .key-point p:last-child { margin-bottom: 0; }
 
@@ -423,16 +411,19 @@
   color: #2e2820;
 }
 
-.post-content .warning::before {
-  content: "PLEASE NOTE";
+.post-content .key-point .callout-label,
+.post-content .warning .callout-label {
   display: block;
-  font-size: 0.72rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.2rem;
   font-weight: 700;
-  letter-spacing: 0.18em;
-  color: #cb764e;
-  margin-bottom: 8px;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.75em;
   text-transform: uppercase;
 }
+
+.post-content .key-point .callout-label { color: #a85a3e; }
+.post-content .warning .callout-label   { color: #cb764e; }
 
 /* ── POST TABLES ─────────────────────────────────────────── */
 .post-content .table-wrap {
