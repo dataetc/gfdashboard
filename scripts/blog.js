@@ -91,30 +91,51 @@ function setupSearchInput() {
   });
 }
 
+// ── Split a raw author string into individual author names ──
+function splitAuthors(raw) {
+  if (!raw) return ['GADH Team'];
+  return raw
+    .split(/,|\bin partnership with\b|\band\b/i)
+    .map(s => s.trim())
+    .filter(Boolean);
+}
+
+// ── Canonical form for dedupe / comparison (case + whitespace insensitive) ──
+function normalizeAuthor(name) {
+  return name.toLowerCase().replace(/\s+/g, ' ').trim();
+}
+
 function buildAuthorFilters() {
-  const authors = [...new Set(allPosts.map(p => p.author || 'GADH Team'))];
-  authors.sort();
-  
+  // Collect unique authors across all posts, preserving display case from first occurrence
+  const seen = new Map(); // normalized -> display
+  allPosts.forEach(p => {
+    splitAuthors(p.author).forEach(name => {
+      const key = normalizeAuthor(name);
+      if (!seen.has(key)) seen.set(key, name);
+    });
+  });
+  const authors = [...seen.values()].sort((a, b) => a.localeCompare(b));
+
   const bar = document.getElementById('author-filter-bar');
   bar.innerHTML = '';
-  
+
   authors.forEach(author => {
     const label = document.createElement('label');
     label.className = 'filter-checkbox';
-    
+
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
     checkbox.value = author;
     checkbox.className = 'checkbox-input';
-    
+
     const span = document.createElement('span');
     span.className = 'checkbox-label';
     span.textContent = author;
-    
+
     label.appendChild(checkbox);
     label.appendChild(span);
     bar.appendChild(label);
-    
+
     checkbox.addEventListener('change', () => {
       handleAuthorFilterChange();
     });
@@ -307,8 +328,10 @@ function filterAndRenderPosts() {
   
   if (activeAuthorFilters.size > 0) {
     filtered = filtered.filter(p => {
-      const postAuthor = p.author || 'GADH Team';
-      return activeAuthorFilters.has(postAuthor);
+      const postAuthors = splitAuthors(p.author).map(normalizeAuthor);
+      return [...activeAuthorFilters].some(f =>
+        postAuthors.includes(normalizeAuthor(f))
+      );
     });
   }
   
