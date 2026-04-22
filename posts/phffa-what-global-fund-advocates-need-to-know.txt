@@ -1,0 +1,243 @@
+<p class="lead">In January 2026, the United States government published new rules that change the conditions under which organizations can receive U.S. foreign assistance. These rules affect the Global Fund, the organizations it funds, and the communities those organizations serve. This brief explains what the rules say, who they affect, and what advocates can do right now.</p>
+
+<div class="at-a-glance">
+<h2>At a glance</h2>
+<dl>
+<dt>What happened?</dt>
+<dd>The U.S. finalized three rules, collectively called the "Promoting Human Flourishing in Foreign Assistance" (PHFFA) policy, that prohibit recipients of U.S. foreign assistance from providing 1) abortion services and advocacy, 2) "gender ideology" activities, including gender-affirming care services, or 3) diversity and inclusion programming and related speech.</dd>
+
+<dt>When did it happen?</dt>
+<dd>Rules were published on 27 January 2026 and went into effect on 26 February 2026. They apply immediately to new U.S. foreign assistance grants, and to existing grants only when new funds are added.</dd>
+
+<dt>What does it mean for Global Fund grants?</dt>
+<dd>The rules could affect the Global Fund and its Principal Recipients (PRs) and sub-recipients (SRs), but how, and how much, is not yet clear. The Global Fund could seek a waiver or be deemed exempt. Governments may interpret and react to the rules differently. There is considerable uncertainty because the Memoranda of Understanding (MOU) process is ongoing, which could affect how the policy would impact governments. What is clear is that some programs serving key populations face serious risk, and advocates should be paying close attention now.</dd>
+
+<dt>What is at risk?</dt>
+<dd>Key population (KP) programs face risks at multiple levels: direct prohibition of certain services; censorship of KP health information; organizations restructuring their work to avoid triggering the rules; and governments quietly shifting resources away from key populations to avoid key policy administrative challenges or to meet MOU performance targets.</dd>
+
+<dt>What you can do</dt>
+<dd>Understand the policy, know what is in your Global Fund grant, and consider what is in your country's MOU. Get involved in Funding Request planning now, advocate for community programs, document and report changes in programming. Share updates with your communities and networks.</dd>
+</dl>
+</div>
+
+<h2>What is the PHFFA policy?<em>New U.S. government policy with potentially large impact on global health programs</em></h2>
+
+<p>In January 2026, the U.S. Department of State finalized three rules that together make up the "Promoting Human Flourishing in Foreign Assistance" (PHFFA) policy. Each rule targets a different area:</p>
+
+<div class="table-wrap">
+<table class="post-table label-value">
+<thead>
+<tr><th>Rule</th><th>What it prohibits</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.federalregister.gov/documents/2026/01/27/2026-01519/protecting-life-in-foreign-assistance" target="_blank">Protecting Life in Foreign Assistance (PLFA)</a></td>
+<td>Providing or promoting abortion as a method of family planning, including counseling, referrals, abortion advocacy, and public information campaigns</td>
+</tr>
+<tr>
+<td><a href="https://www.federalregister.gov/documents/2026/01/27/2026-01516/combating-gender-ideology-in-foreign-assistance" target="_blank">Combating Gender Ideology in Foreign Assistance (CGIFA)</a></td>
+<td>Providing or promoting transgender health services, gender-affirming care, or any programming that acknowledges or promotes gender identity</td>
+</tr>
+<tr>
+<td><a href="https://www.federalregister.gov/documents/2026/01/27/2026-01517/combating-discriminatory-equity-ideology-in-foreign-assistance-rules" target="_blank">Combating Discriminatory Equity Ideology in Foreign Assistance (CDEIFA)</a></td>
+<td>Diversity, equity and inclusion (DEI) programming, speech, and policies, including certain rights-based or structural approaches to health that the rules characterize as discriminatory</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p>The rules were published on 27 January 2026 and went into effect on 26 February 2026, and apply immediately to new U.S. foreign assistance grants and to existing grants only once new funds are added.</p>
+
+<p>The rules apply to any organization that receives U.S. foreign assistance, and they are designed to pass down the entire funding chain, reaching all sub-grantee organisations &mdash; including those that have no direct relationship with the U.S. government.</p>
+
+<aside class="key-point">The rules do not just restrict what U.S. money can pay for, they restrict what organizations can do anywhere, using any funds from any donor.</aside>
+
+<h2>Who do the rules apply to, and how?<em>The rules treat different types of organizations differently</em></h2>
+
+<p>Not all recipients face the same requirements. The table below sets out the key distinctions.</p>
+
+<div class="table-wrap">
+<table class="post-table label-value">
+<thead>
+<tr><th>Recipient type</th><th>How the policy applies</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>International organizations</td>
+<td>The strictest requirements. Cannot promote prohibited activities anywhere, using any of their organization's funds, not just U.S. money. There is no option to ringfence prohibited work using separate funding.</td>
+</tr>
+<tr>
+<td>NGOs not based in the United States <em>("foreign" NGOs)</em></td>
+<td>Similar requirements as foreign nongovernmental organizations (NGOs).</td>
+</tr>
+<tr>
+<td>NGOs that are based in the United States <em>(U.S. NGOs)</em></td>
+<td>May not provide abortion as a method of family planning, engage in "unlawful DEI-related discrimination", or "sex-rejecting procedures" with any funds, including separate non-U.S. funds. Can engage in non-service delivery forms of speech (such as discussing, counseling, or promoting) prohibited activities using entirely separate, non-U.S. funds, but only with strict separation: different facilities, staff, bank accounts, and signage.</td>
+</tr>
+<tr>
+<td>Governments</td>
+<td>Lighter requirements. Must ensure U.S. funds are not used for prohibited activities, and must keep U.S. funds in a separate bank account if they run prohibited programs with their own money. Operational separation is not required. However, if the government subgrants U.S. money to a local NGO, it must attach the rules to that organization.</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p>In general, any recipient that passes U.S. foreign assistance to other organizations must impose the same conditions on those subgrantees. This is called the flow-down requirement, and it is one of the reasons why these rules can have a large impact. However, how exactly these flow-down requirements will apply to the Global Fund is still unclear.</p>
+
+<aside class="key-point">Accepting U.S. funding can affect not only the direct recipient of funds, but all of an organization's subgrantees, who may not have a direct funding relationship with the U.S. government. For example, if a local NGO receives a grant from the U.S. government and sub-contracts a community-based organization with those same funds, the community organization would also find itself bound by the same rules.</aside>
+
+<h2>Is the Global Fund affected?<em>Yes, but how far the effects reach is still uncertain</em></h2>
+
+<p>The Global Fund qualifies as an international organization under the rules, and the U.S. is one of its largest donors. This means that the Global Fund would be directly subject to the PHFFA rules as a condition of receiving U.S. contributions and would be required to agree that it will not promote any prohibited activities. The Global Fund could then be required to pass these same obligations on to some, or all, of the organisations and governments it funds.</p>
+
+<p>Whether all Global Fund PRs would have the policy applied to them is still not clear. However, depending on how the policy is applied, the rules could flow down throughout the entire Global Fund grant chain:</p>
+
+<div class="table-wrap">
+<table class="post-table label-value">
+<thead>
+<tr><th>Level</th><th>How the policy could apply</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>The Global Fund</td>
+<td>Must agree not to promote prohibited activities and not to fund organizations that do.</td>
+</tr>
+<tr>
+<td>Principal Recipients (PRs)</td>
+<td>All PRs must agree not to fund prohibited activities with their Global Fund resources. Governments could potentially be required to segregate funds if they run prohibited programs separately, although how the policy would apply to governments is still unclear. All NGOs would be blocked from providing prohibited services using any funds. U.S. NGOs could conduct some prohibited speech activities with separate funds, if strict operational and financial separation between funding streams is maintained.</td>
+</tr>
+<tr>
+<td>Sub-Recipients (SRs)</td>
+<td>All SRs must agree not to fund prohibited activities with the resources passed to them. The same distinctions apply: NGOs are prohibited from providing prohibited services and government entities could face fund segregation requirements.</td>
+</tr>
+<tr>
+<td>Sub-Sub-Recipients (SSRs)</td>
+<td>Same requirements as SRs, based on type of organization.</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p><strong>There is an important open question here.</strong> The Secretary of State has the power to grant the Global Fund a waiver, which would exempt it from some or all of the rules. A waiver would significantly change the picture, but it would not resolve everything. Since these rules are new, some important questions don't have answers yet:</p>
+
+<ul>
+<li>The Global Fund could apply for a waiver that would exempt it from some or all of the rules. We don't know if one would be granted.</li>
+<li>If a waiver is granted, we don't know if it would also protect the Global Fund's PRs, SRs, and SSRs.</li>
+<li>We don't know how the policy would be applied to government PRs and SRs.</li>
+</ul>
+
+<p>Importantly, a waiver would not affect the separate agreements that countries or organizations have directly with the U.S. government or as subrecipients of other U.S. foreign assistance funding. Those would still apply and potentially attach to Global Fund resources when flowing down.</p>
+
+<aside class="key-point">A waiver for the Global Fund would be significant, but it would not make these rules irrelevant. The policy could still apply to Global Fund recipients or to governments with bilateral agreements with the U.S.</aside>
+
+<h2>How would Global Fund funding recipients be affected?<em>The rules impact different types of organizations in different ways</em></h2>
+
+<p><strong>NGOs and community organizations.</strong> For NGOs that serve as PRs, SRs, or SSRs, the stakes are high. All organizations are prohibited from delivering prohibited services. Organizations not based in the US face the strictest requirements, since they also cannot promote prohibited activities with any funds, not just U.S. money. For many organizations whose core work is serving key populations, this is not a small concern. An organisation that exists to provide gender-affirming care, reach sex workers with HIV prevention services, or deliver harm reduction programmes could find itself ineligible to receive Global Fund money unless it fundamentally changes what it does.</p>
+
+<aside class="key-point">For the smallest and most community-rooted organizations (often the ones best placed to reach key and vulnerable populations) the administrative burden alone could be disqualifying. For others, remaining a recipient could mean changing their organization's focus or core work.</aside>
+
+<p><strong>Government recipients.</strong> Governments are the most common PRs for Global Fund grants, and they face lighter requirements than NGOs: essentially an accounting obligation rather than an operational one. But the picture is more complicated than it first appears.</p>
+
+<p>Many governments maintain two separate relationships with the U.S. simultaneously: a direct bilateral agreement and a Global Fund grant. These are distinct funding streams with separate legal obligations. Even if a government's Global Fund obligations are limited by a waiver, its bilateral obligations remain in force independently. A government running an integrated national health programme therefore faces requirements from two directions at once.</p>
+
+<p>It is also not yet clear whether the lighter-touch treatment that governments receive in direct bilateral agreements would apply when they receive Global Fund money indirectly. That question has not been resolved.</p>
+
+<p>The practical result could be extremely difficult to manage. A government cannot physically separate a national health system into two parts. As a result, there could be a powerful incentive to avoid the problem altogether not by restructuring how a government manages its funds, but rather by avoiding funding the activities that trigger the policy in the first place.</p>
+
+<aside class="key-point">It may be that governments are never formally told to cut key population programming. Instead, the pressure to do so quietly is built into the situation itself.</aside>
+
+<h2>What about the MOUs?<em>A parallel track that will have an impact</em></h2>
+
+<p>Since late 2025, the U.S. government has been signing bilateral health cooperation agreements, or Memoranda of Understanding (MOU), with countries that receive U.S. global health assistance. These MOUs set out multi-year health cooperation plans, with countries committing to increase their domestic health spending as U.S. funding gradually declines.</p>
+
+<p>MOUs are not legally binding, but they are significant political commitments. The legally binding obligations come later, in the individual grants and contracts issued under the MOU, and those instruments are expected to carry the PHFFA requirements.</p>
+
+<p>Advocates should be aware of three things about these MOUs:</p>
+
+<p class="sub-point">The PHFFA rules are not mentioned in the MOUs, but they may still apply</p>
+
+<p>The MOUs signed so far include compliance language about abortion, drawn from a longstanding U.S. law called the Helms Amendment, but say nothing about gender ideology or diversity and inclusion. Since these were signed before the PHFFA rules took effect, this makes sense. But this timing does not mean protection. When the legal implementing instruments are issued and funding begins to flow, the PHFFA requirements could then attach at that point.</p>
+
+<p>However, there is language in the policies that says that the State Department will need to decide if, and how, the policy will attach to each foreign government. This means that there will be uncertainty about how the PHFFA will apply until the final agreements are written and signed.</p>
+
+<aside class="key-point">Because of the timing of the new policy's release, governments may have signed MOUs without full visibility into the legal conditions that could apply when the money actually arrives.</aside>
+
+<p class="sub-point">The MOU's performance metrics create their own incentives</p>
+
+<p><strong>This is very important!</strong> The MOUs require governments to hit specific health targets, for example viral suppression or maternal mortality rates. A government trying to demonstrate value and hit its targets has practical, financial, and political reasons to redirect resources toward the programs that will most directly lead to those targets.</p>
+
+<p>Since the targets in the MOUs don't focus on key populations, governments may choose to shift resources away from KP programs without explicit instruction from the U.S. government and without any rule ever being formally invoked. This is particularly the case since these programs are often politically sensitive and may be more complicated or expensive for governments to operate.</p>
+
+<aside class="key-point">Because the MOUs reward funding programs that are not focused on KPs, governments may be incentivized to quietly deprioritize key population programs, without ever mentioning KPs at all. This can be more challenging for advocates to push back on than a direct prohibition!</aside>
+
+<p class="sub-point">Governments may not fully understand what is coming</p>
+
+<p>Advocates should be asking governments directly whether they have received legal advice on what the government-to-government agreements will require, and whether they understand the full scope of PHFFA conditions that may follow. Implementation is beginning now, so this is an important advocacy window.</p>
+
+<h2>What if the Global Fund gets a waiver?<em>A waiver would help, but it would not make these rules go away</em></h2>
+
+<p>The Secretary of State has the power to grant the Global Fund a waiver, releasing it from some or all of its obligations under the rules. This would be significant! But advocates should not assume a waiver resolves the problem, because in important ways it would not.</p>
+
+<p class="sub-point">What a waiver may not do</p>
+
+<p>A waiver would have no effect on the separate obligations that arise from direct bilateral (government-to-government) agreements between the U.S. and individual countries. Those exist independently, and a waiver granted to the Global Fund does not impact them. A government that has both a bilateral U.S. agreement and a Global Fund grant would still be required to segregate its bilateral funds from any funding streams being used for prohibited activities.</p>
+
+<aside class="key-point">A waiver for the Global Fund would not affect any restrictions that governments have accepted in their bilateral (government-to-government) agreements with the U.S.</aside>
+
+<p>It is also unclear whether a waiver would protect the organizations further down the Global Fund funding chain. One reading is that if the Global Fund's own obligations are waived, its obligation to pass the rules down to sub-recipients disappears with them. But this has not been confirmed, which could create a legal risk for organizations acting on that assumption.</p>
+
+<p class="sub-point">The chilling effect does not need a rule to be in force</p>
+
+<p>Maybe most importantly, a waiver would not change the political environment in which governments and organizations are making decisions. Governments already inclined to deprioritize KP programming may use the broader political signal sent by these rules (regardless of any waiver!) as justification or cover for doing so. The chilling effect does not depend on the rules being legally in force.</p>
+
+<p>Indeed, there are already signs that organizations are altering their work to "comply in advance" with these rules even if not formally in place. This includes censoring information about trans and non-binary people, restricting information or services about reproductive health, and even dropping services not related to the policies due to misinformation or fear.</p>
+
+<aside class="key-point">Advocating for a waiver is very important! But a waiver is not a reason to stop paying attention. The pressure on programming for key populations and reproductive health exists independently of whether the rules formally apply.</aside>
+
+<h2>What does this mean for community programs?</h2>
+
+<aside class="warning">The following is <strong>not</strong> a list of programs that should be removed from grants. One of the biggest risks right now is organizations cutting activities that nobody has actually prohibited, acting on fear and uncertainty rather than on any actual rules. This is sometimes called "complying in advance" and is a huge risk.</aside>
+
+<p>The rules are new, contested, and in many respects unclear. What they will mean in practice, and for which organizations, will depend on decisions still being made at multiple levels. What community advocates need right now is an understanding of which activities may face pressure to be removed, so that they may be prepared to defend them.</p>
+
+<p>Here are some of the program areas <strong>where questions are most likely to be raised:</strong></p>
+
+<ul>
+<li>Transgender and gender-diverse health services</li>
+<li>Sexual and reproductive health services</li>
+<li>Harm reduction programs</li>
+<li>Human rights and gender-transformative programming</li>
+<li>Programs explicitly designed to reach key populations</li>
+</ul>
+
+<p>But the policy's official prohibitions are only part of the picture. The more likely scenario in many places is quieter: Funding Requests that never include key population components; implementation plans that do not name or reach the most marginalized communities; services that are simply no longer available to the people who need them most.</p>
+
+<p>This can happen without any announcement or visible rule-breaking: programs could quietly shrink or disappear. In 2017, when a more narrow form of these policies was in place, <a href="https://www.healthaffairs.org/doi/full/10.1377/hlthaff.2020.00061" target="_blank">researchers found that</a> 28% of PEPFAR implementing organizations stopped or reduced the provision of HIV testing and counseling, pregnancy counseling, providing contraceptives, and giving patients information about sexual and reproductive health. Yet these services were not actually prohibited by U.S. law! This means that organizations may choose to voluntarily reduce programs that were actually allowed, either out of a misunderstanding of the policy or a fear of accidentally violating the rules. These are difficult risks to monitor and will need active advocacy attention.</p>
+
+<h2>What can community advocates do?<em>A checklist for community advocates</em></h2>
+
+<div class="checklist">
+<h3>Know your starting point</h3>
+<ul>
+<li>Find out if your country has signed an MOU with the U.S. government, and if it is publicly available, read it. You can check whether your MOU has <a href="https://www.dataetc.org/projects/gc8-documents/" target="_blank">already been published here</a>. If it's not already available, ask partners in civil society, government contacts, and Country Coordinating Mechanism (CCM) representatives to share it.</li>
+<li>When looking at the MOU, pay particular attention to the performance metrics: what health outcomes is your government now being held accountable for, and do they include key population-related outcomes?</li>
+<li>Take stock of what key population and community programs are currently funded in your country's Global Fund grants. This will help you establish a baseline so you can ensure these activities are not cut in GC8. You can find <a href="https://www.dataetc.org/projects/ccm/" target="_blank">grant data for your country here</a>.</li>
+<li>Look back at what <a href="https://www.dataetc.org/projects/reprioritization/" target="_blank">was cut or deprioritized</a> during the GC7 reprioritization exercise in your country, since those programs are likely to be the most vulnerable again in GC8.</li>
+</ul>
+
+<h3>Get into the right spaces</h3>
+<ul>
+<li>Find out when your country's GC8 Funding Request process is starting and make sure community voices are part of it from the beginning, not just consulted at the end. You can find which window your country is <a href="https://www.dataetc.org/projects/ccm/" target="_blank">registered for here</a>, as well as your CCM's contact information. Ask your CCM to be included in the community consultations and the national dialogue and, if possible, to engage directly with the writing team. If you run into barriers contacting your CCM, <a href="https://globaladvocacydatahub.org/support.html" target="_blank">request support from the GADH and other partners here</a>.</li>
+<li>Engage in any national health dialogues or government consultations on the MOU implementation process, if any exist. If your MOU is already in place, continue to advocate for community priorities as the government-to-government agreements are finalized.</li>
+<li>If you don't already have ways to engage with your government, work with community partners and networks to create opportunities to engage with your Ministry of Health about the activities it funds. This could involve the CCM, or be something separate.</li>
+</ul>
+
+<h3>Advocate, monitor, and document</h3>
+<ul>
+<li>If you have contacts with the Ministry of Health, such as through the CCM, ask them about the PHFFA. Ask directly how programs focused on reproductive healthcare, gender-related programs, and activities for KPs will be funded if these provisions are attached to their U.S. government funding.</li>
+<li>In all of your engagements with the Ministry of Health, your local government, the CCM, and the U.S. government, push for clear commitments around how the health needs of KPs will be prioritized, funded, and implemented.</li>
+<li>If you are on the CCM, ask your government and/or non-governmental PRs how the PHFFA will impact them and how they intend to continue funding programs focused on gender, KPs, and SRH.</li>
+<li>If programs focused on gender, sexual and reproductive care, and KPs are excluded from Funding Requests, deprioritized, or restructured, document it: who made the decision, when, and what reason was given?</li>
+<li>Escalate any changes in programming, funding, and service availability. You can begin by escalating to the CCM itself. If this fails, you can also reach out directly to the Portfolio Managers at the Global Fund in Geneva that supports your country (their contact information is available here). You can also escalate through community networks and organizations, <a href="https://globaladvocacydatahub.org/support" target="_blank">such as the GADH</a>, the CRG Learning Hubs, and KP networks.</li>
+</ul>
+</div>

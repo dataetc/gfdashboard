@@ -53,7 +53,7 @@ async function loadPost(lang) {
 
     // Meta
     document.getElementById('post-title').textContent = post.title;
-    document.getElementById('post-author').textContent = post.author || 'GADH Team';
+    document.getElementById('post-author').innerHTML = post.author || 'GADH Team';
     document.getElementById('post-date').textContent = formatDate(post.date);
     
     // First tag (or default)

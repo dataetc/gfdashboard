@@ -1,6 +1,26 @@
 {
   "posts": [
     {
+      "id": "phffa-what-global-fund-advocates-need-to-know",
+      "slug": "phffa-what-global-fund-advocates-need-to-know",
+      "title": "New U.S. government policies on health: What Global Fund advocates need to know about the PHFFA and what they can do",
+      "titles": {
+        "EN": "New U.S. government policies on health: What Global Fund advocates need to know about the PHFFA and what they can do"
+      },
+      "author": "GADH team, in partnership with AVAC",
+      "date": "2026-04-22",
+      "image": "https://globaladvocacydatahub.org/images/blog/phffa-what-global-fund-advocates-need-to-know.png",
+      "tags": ["Brief", "Analysis"],
+      "excerpt": "In January 2026, the U.S. finalized three rules that change the conditions under which organizations can receive foreign assistance. This brief explains what the PHFFA policy says, how it could affect the Global Fund and its recipients, and what community advocates can do right now.",
+      "excerpts": {
+        "EN": "In January 2026, the U.S. finalized three rules that change the conditions under which organizations can receive foreign assistance. This brief explains what the PHFFA policy says, how it could affect the Global Fund and its recipients, and what community advocates can do right now."
+      },
+      "file": "phffa-what-global-fund-advocates-need-to-know.txt",
+      "files": {
+        "EN": "phffa-what-global-fund-advocates-need-to-know.txt"
+      }
+    },
+    {
       "id": "integration-without-loss-both-at-local-and-global-levels-lessons-from-the-msf-gilead-lenacapavir-case",
       "slug": "integration-without-loss-both-at-local-and-global-levels-lessons-from-the-msf-gilead-lenacapavir-case",
       "title": "Integration Without Loss both at Local and Global Levels: Lessons from the MSF–Gilead Lenacapavir Case",
