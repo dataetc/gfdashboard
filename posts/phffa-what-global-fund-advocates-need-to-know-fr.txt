@@ -1,0 +1,243 @@
+<p class="lead">En janvier 2026, le gouvernement américain a publié de nouvelles règles modifiant les conditions dans lesquelles les organisations peuvent bénéficier de l'aide étrangère des États-Unis. Ces règles ont des répercussions sur le Fonds mondial, les organisations qu'il finance et les communautés que ces organisations servent. Cette note d'information explique le contenu de ces règles, les personnes concernées et les mesures que les défenseurs des droits peuvent prendre dès maintenant.</p>
+
+<div class="at-a-glance">
+<h2>En bref</h2>
+<dl>
+<dt>Qu'est-ce qui s'est passé ?</dt>
+<dd>Les États-Unis ont finalisé trois règlements, regroupés sous le nom de politique « Promoting Human Flourishing in Foreign Assistance » (PHFFA), qui interdisent aux bénéficiaires de l'aide étrangère américaine de fournir 1) des services d'avortement et de plaidoyer en faveur de l'avortement, 2) des activités liées à l'« idéologie du genre », y compris les services de soins d'affirmation du genre, ou 3) des programmes de diversité et d'inclusion ainsi que les discours qui s'y rapportent.</dd>
+
+<dt>Quand est-ce qu'il s'est passé ?</dt>
+<dd>Les règles ont été publiées le 27 janvier 2026 et sont entrées en vigueur le 26 février 2026. Elles s'appliquent immédiatement aux nouvelles subventions d'aide étrangère des États-Unis, et aux subventions existantes uniquement lorsque de nouveaux fonds sont ajoutés.</dd>
+
+<dt>Qu'est-ce que cela signifie pour les subventions du Fonds mondial ?</dt>
+<dd>Ces règles pourraient avoir des répercussions sur le Fonds mondial, ses récipiendaires principaux (RP) et ses sous-récipiendaires (SR), mais la nature et l’ampleur de ces répercussions ne sont pas encore claires. Le Fonds mondial pourrait demander une dérogation ou être considéré comme exempté. Les gouvernements pourraient interpréter ces règles et y réagir différemment. Une grande incertitude règne car le processus des protocoles d’accord (MOU) est en cours, ce qui pourrait influencer l’impact de cette politique sur les gouvernements. Ce qui est clair, c’est que certains programmes destinés aux populations clés courent un risque sérieux, et les défenseurs de ces causes devraient y prêter une attention particulière dès maintenant.</dd>
+
+<dt>Quels sont les risques ?</dt>
+<dd>Les programmes destinés aux populations clés (PC) sont confrontés à des risques à plusieurs niveaux : interdiction directe de certains services ; censure des informations sanitaires concernant les populations clés ; restructuration des organisations pour éviter de déclencher l’application des règles ; et réaffectation discrète des ressources par les gouvernements au détriment des populations clés afin d’éviter des défis administratifs majeurs ou d’atteindre les objectifs de performance des MOU. </dd>
+
+<dt>Que pouvez-vous faire ?</dt>
+<dd>Comprenez la politique, sachez ce que contient votre subvention du Fonds mondial et examinez le contenu du MOU de votre pays. Impliquez-vous dès maintenant dans la planification des demandes de financement, défendez les programmes communautaires, documentez et signalez les changements apportés aux programmes. Partagez les mises à jour avec vos communautés et vos réseaux.</dd>
+</dl>
+</div>
+
+<h2>Qu'est-ce que la politique PHFFA ?<em>Nouvelle politique du gouvernement américain susceptible d'avoir un impact considérable sur les programmes de santé mondiaux</em></h2>
+
+<p>En janvier 2026, le Département d'État américain a finalisé trois règles qui, ensemble, constituent la politique « Promoting Human Flourishing in Foreign Assistance » (PHFFA). Chaque règle cible un domaine différent :</p>
+
+<div class="table-wrap">
+<table class="post-table label-value">
+<thead>
+<tr><th>Règle</th><th>Ce qu'elle interdit</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.federalregister.gov/documents/2026/01/27/2026-01519/protecting-life-in-foreign-assistance" target="_blank">Protecting Life in Foreign Assistance (PLFA)</a></td>
+<td>Fournir ou promouvoir l'avortement comme méthode de planification familiale, y compris le conseil, l'orientation vers des services d'avortement, la promotion de l'avortement et les campagnes d'information publique</td>
+</tr>
+<tr>
+<td><a href="https://www.federalregister.gov/documents/2026/01/27/2026-01516/combating-gender-ideology-in-foreign-assistance" target="_blank">Combating Gender Ideology in Foreign Assistance (CGIFA)</a></td>
+<td>Fournir ou promouvoir des services de santé pour les personnes transgenres, des soins affirmant le genre ou tout programme qui reconnaît ou promeut l'identité de genre</td>
+</tr>
+<tr>
+<td><a href="https://www.federalregister.gov/documents/2026/01/27/2026-01517/combating-discriminatory-equity-ideology-in-foreign-assistance-rules" target="_blank">Combating Discriminatory Equity Ideology in Foreign Assistance (CDEIFA)</a></td>
+<td>Programmes, discours et politiques en matière de diversité, d'équité et d'inclusion (DEI), y compris certaines approches de la santé fondées sur les droits ou structurelles que les règles qualifient de discriminatoires</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p>Ces règles ont été publiées le 27 janvier 2026 et sont entrées en vigueur le 26 février 2026 ; elles s'appliquent immédiatement aux nouvelles subventions d'aide étrangère des États-Unis et aux subventions existantes uniquement lorsque de nouveaux fonds sont ajoutés.</p>
+
+<p>Ces règles s'appliquent à toute organisation bénéficiant de l'aide étrangère américaine et sont conçues pour s'étendre à l'ensemble de la chaîne de financement, touchant ainsi toutes les organisations sous-bénéficiaires — y compris celles qui n'ont aucune relation directe avec le gouvernement américain.</p>
+
+<aside class="key-point">Ces règles ne se contentent pas de restreindre ce que l'argent américain peut financer, elles limitent également ce que les organisations peuvent faire, où qu'elles se trouvent, en utilisant les fonds provenant de n'importe quel donateur.</aside>
+
+<h2>À qui s'appliquent ces règles, et comment ?<em>Les règles traitent différemment les différents types d'organisations</em></h2>
+
+<p>Tous les bénéficiaires ne sont pas soumis aux mêmes exigences. Le tableau ci-dessous présente les principales distinctions.</p>
+
+<div class="table-wrap">
+<table class="post-table label-value">
+<thead>
+<tr><th>Type de bénéficiaire</th><th>Comment la politique s'applique</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Organisations internationales</td>
+<td>Exigences les plus strictes. Ne peuvent promouvoir des activités interdites nulle part, en utilisant les fonds de leur organisation, et pas seulement les fonds américains. Il n'est pas possible de cantonner les activités interdites à un financement distinct.</td>
+</tr>
+<tr>
+<td>ONG non basées aux États-Unis <em>(ONG « étrangères »)</em></td>
+<td>Exigences similaires à celles des organisations non gouvernementales (ONG) étrangères.</td>
+</tr>
+<tr>
+<td>ONG basées aux États-Unis <em>(ONG américaines)</em></td>
+<td>Ne peuvent pas proposer l'avortement comme méthode de planification familiale, se livrer à une « discrimination illégale liée à la DEI » ou « des procédures de rejet du sexe » avec aucun financement, y compris des fonds non américains distincts. Peuvent s’engager dans des formes d’expression non liées à la prestation de services (telles que la discussion, le conseil ou la promotion) d’activités interdites en utilisant des fonds non américains entièrement distincts, mais uniquement avec une séparation stricte : locaux, personnel, comptes bancaires et signalétique différents.</td>
+</tr>
+<tr>
+<td>Gouvernements</td>
+<td>Exigences allégées. Doivent s'assurer que les fonds américains ne sont pas utilisés pour des activités interdites, et doivent conserver les fonds américains sur un compte bancaire distinct s'ils gèrent des programmes interdits avec leurs propres fonds. La séparation opérationnelle n'est pas requise. Cependant, si le gouvernement accorde une subvention à une ONG locale avec des fonds américains, il doit imposer ces règles à cette organisation.</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p>En général, tout bénéficiaire qui transfère l'aide étrangère américaine à d'autres organisations doit imposer les mêmes conditions à ces sous-bénéficiaires. C'est ce qu'on appelle l'exigence de répercussion, et c'est l'une des raisons pour lesquelles ces règles peuvent avoir un impact important. Cependant, la manière exacte dont ces exigences de répercussion s'appliqueront au Fonds mondial n'est pas encore claire.</p>
+
+<aside class="key-point">L'acceptation d'un financement américain peut avoir des répercussions non seulement sur le bénéficiaire direct des fonds, mais aussi sur tous les sous-bénéficiaires d'une organisation, qui n'ont peut-être pas de relation de financement directe avec le gouvernement américain. Par exemple, si une ONG locale reçoit une subvention du gouvernement américain et sous-traite à une organisation communautaire avec ces mêmes fonds, cette organisation communautaire se trouverait également liée par les mêmes règles.</aside>
+
+<h2>Le Fonds mondial est-il affecté ?<em>Oui, mais l'ampleur des répercussions reste incertaine</em></h2>
+
+<p>Le Fonds mondial est considéré comme une organisation internationale au sens de ces règles, et les États-Unis sont l'un de ses principaux donateurs. Cela signifie que le Fonds mondial serait directement soumis aux règles de la PHFFA comme condition pour recevoir les contributions américaines et serait tenu de s'engager à ne promouvoir aucune activité interdite. Le Fonds mondial pourrait alors être tenu de répercuter ces mêmes obligations sur certaines, voire toutes, les organisations et les gouvernements qu'il finance.</p>
+
+<p>Il n'est pas encore clair si cette politique s'appliquera à tous les RP du Fonds mondial. Toutefois, selon la manière dont la politique sera appliquée, les règles pourraient se répercuter sur l'ensemble de la chaîne de subventions du Fonds mondial :</p>
+
+<div class="table-wrap">
+<table class="post-table label-value">
+<thead>
+<tr><th>Niveau</th><th>Comment la politique pourrait s'appliquer</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Le Fonds mondial</td>
+<td>Doit s'engager à ne pas promouvoir les activités interdites et à ne pas financer les organisations qui le font.</td>
+</tr>
+<tr>
+<td>Récipiendaires principaux (RP)</td>
+<td>ous les RP doivent s'engager à ne pas financer d'activités interdites avec leurs ressources du Fonds mondial. Les gouvernements pourraient être tenus de séparer les fonds s'ils gèrent des programmes interdits de manière distincte, bien que la manière dont la politique s'appliquerait aux gouvernements reste encore floue. Toutes les ONG se verraient interdire de fournir des services interdits en utilisant des fonds, quels qu'ils soient. Les ONG américaines pourraient mener certaines activités de communication interdites avec des fonds distincts, à condition de maintenir une séparation opérationnelle et financière stricte entre les sources de financement.</td>
+</tr>
+<tr>
+<td>Sous-récipiendaires (SR)</td>
+<td>Tous les SR doivent s'engager à ne pas financer d'activités interdites avec les ressources qui leur sont transférées. Les mêmes distinctions s'appliquent : il est interdit aux ONG de fournir des services interdits et les entités gouvernementales pourraient être soumises à des exigences de séparation des fonds.</td>
+</tr>
+<tr>
+<td>Sous-sous-récipiendaires (SSR)</td>
+<td>Mêmes exigences que pour les SR, en fonction du type d'organisation.</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p><strong>Une question importante reste en suspens ici.</strong> Le secrétaire d'État a le pouvoir d'accorder une dérogation au Fonds mondial, ce qui l'exempterait de tout ou partie des règles. Une dérogation changerait considérablement la donne, mais ne résoudrait pas tout. Ces règles étant nouvelles, certaines questions importantes restent sans réponse :</p>
+
+<ul>
+<li>Le Fonds mondial pourrait demander une dérogation qui l'exempterait de tout ou partie des règles. Nous ne savons pas si une telle dérogation serait accordée.</li>
+<li>Si une dérogation était accordée, nous ne savons pas si elle protégerait également les RP, SR et SSR du Fonds mondial.</li>
+<li>Nous ne savons pas comment cette politique s'appliquerait aux RP et SR gouvernementaux.</li>
+</ul>
+
+<p>Il est important de noter qu'une dérogation n'affecterait pas les accords distincts que les pays ou les organisations ont conclus directement avec le gouvernement américain ou en tant que sous-bénéficiaires d'autres financements d'aide étrangère américains. Ceux-ci resteraient applicables et pourraient s'appliquer aux ressources du Fonds mondial lors de leur transfert vers les bénéficiaires finaux.</p>
+
+<aside class="key-point">Une dérogation pour le Fonds mondial serait importante, mais elle ne rendrait pas ces règles caduques. La politique pourrait toujours s'appliquer aux bénéficiaires du Fonds mondial ou aux gouvernements ayant conclu des accords bilatéraux avec les États-Unis.</aside>
+
+<h2>Comment les récipiendaires de financements du Fonds mondial seraient-ils affectés ?<em>Les règles ont des répercussions différentes selon les types d'organisations</em></h2>
+
+<p><strong>ONG et organisations communautaires.</strong> Pour les ONG agissant en tant que RP, SR ou SSR, les enjeux sont importants. Il est interdit à toutes les organisations de fournir des services interdits. Les organisations non basées aux États-Unis sont soumises aux exigences les plus strictes, car elles ne peuvent pas non plus promouvoir des activités interdites avec aucun financement, et pas seulement avec des fonds américains. Pour de nombreuses organisations dont le travail principal consiste à servir les populations clés, ce n'est pas une préoccupation mineure. Une organisation qui existe pour fournir des soins affirmant le genre, atteindre les travailleurs du sexe avec des services de prévention du VIH ou mettre en œuvre des programmes de réduction des risques pourrait se retrouver inéligible à recevoir des fonds du Fonds mondial à moins de modifier fondamentalement ses activités.</p>
+
+<aside class="key-point">Pour les organisations les plus petites et les plus ancrées dans la communauté (souvent celles qui sont les mieux placées pour atteindre les populations clés et vulnérables), la charge administrative à elle seule pourrait constituer un obstacle. Pour d'autres, rester bénéficiaire pourrait signifier modifier l'orientation ou l'activité principale de leur organisation.</aside>
+
+<p><strong>Recipiendaires gouvernementaux.</strong> Les gouvernements sont les récipiendaires principaux les plus courants des subventions du Fonds mondial, et ils sont soumis à des exigences moins strictes que les ONG : il s'agit essentiellement d'une obligation comptable plutôt que d'une obligation opérationnelle. Mais la situation est plus complexe qu'il n'y paraît à première vue.</p>
+
+<p>De nombreux gouvernements entretiennent simultanément deux relations distinctes avec les États-Unis : un accord bilatéral direct et une subvention du Fonds mondial. Il s'agit de sources de financement distinctes assorties d'obligations juridiques distinctes. Même si les obligations d'un gouvernement vis-à-vis du Fonds mondial sont limitées par une dérogation, ses obligations bilatérales restent en vigueur indépendamment. Un gouvernement menant un programme national de santé intégré est donc confronté à des exigences provenant de deux sources à la fois.</p>
+
+<p>Il n'est pas encore clair non plus si le traitement plus souple dont bénéficient les gouvernements dans le cadre des accords bilatéraux directs s'appliquerait lorsqu'ils reçoivent indirectement des fonds du Fonds mondial. Cette question n'a pas encore été résolue.</p>
+
+<p>La situation pourrait s'avérer extrêmement difficile à gérer dans la pratique. Un gouvernement ne peut pas physiquement scinder son système de santé national en deux parties. Il pourrait donc être fortement incité à éviter le problème non pas en restructurant la gestion de ses fonds, mais plutôt en s'abstenant de financer les activités qui déclenchent l'application de cette politique.</p>
+
+<aside class="key-point">Il se peut que les gouvernements ne se voient jamais officiellement demander de réduire les programmes destinés aux populations clés. Au contraire, la pression pour le faire discrètement est inhérente à la situation elle-même.</aside>
+
+<h2>Et les MOU ?<em>Une voie parallèle qui aura un impact</em></h2>
+
+<p>Depuis fin 2025, le gouvernement américain signe des accords bilatéraux de coopération en matière de santé, ou protocoles d'accord (MOU), avec les pays qui bénéficient de l'aide américaine en matière de santé mondiale. Ces protocoles d'accord définissent des plans de coopération sanitaire pluriannuels, dans lesquels les pays s'engagent à augmenter leurs dépenses de santé nationales à mesure que le financement américain diminue progressivement.</p>
+
+<p>Les MOU ne sont pas juridiquement contraignants, mais ils constituent des engagements politiques importants. Les obligations juridiquement contraignantes interviennent plus tard, dans les subventions et contrats individuels émis en vertu du MOUs, et ces instruments devraient intégrer les exigences de la PHFFA.</p>
+
+<p>Les militants doivent garder à l'esprit trois points concernant ces MOU :</p>
+
+<p class="sub-point">Les règles de la PHFFA ne sont pas mentionnées dans les MOU, mais elles peuvent néanmoins s'appliquer</p>
+
+<p>Les MOU signés à ce jour contiennent des dispositions relatives à l'avortement, tirées d'une loi américaine de longue date appelée « amendement Helms », mais ne font aucune mention de l'idéologie de genre, de la diversité ou de l'inclusion. Étant donné qu'ils ont été signés avant l'entrée en vigueur des règles de la PHFFA, cela est logique. Mais ce timing ne garantit pas une protection. Lorsque les instruments juridiques de mise en œuvre seront publiés et que les fonds commenceront à être versés, les exigences de la PHFFA pourraient alors s'appliquer à ce moment-là.</p>
+
+<p>Cependant, les directives contiennent des dispositions stipulant que le Département d'État devra décider si, et comment, la politique s'appliquera à chaque gouvernement étranger. Cela signifie qu'il y aura une incertitude quant à la manière dont la PHFFA s'appliquera jusqu'à ce que les accords définitifs soient rédigés et signés.</p>
+
+<aside class="key-point">En raison du calendrier de publication de la nouvelle politique, les gouvernements ont peut-être signé des MOU sans avoir une vision complète des conditions juridiques qui pourraient s'appliquer lorsque les fonds arriveront effectivement.</aside>
+
+<p class="sub-point">Les indicateurs de performance des MOU créent leurs propres incitations</p>
+
+<p><strong>Ceci est très important !</strong> Les protocoles d'accord exigent des gouvernements qu'ils atteignent des objectifs de santé spécifiques, par exemple la suppression virale ou les taux de mortalité maternelle. Un gouvernement cherchant à démontrer sa valeur et à atteindre ses objectifs a des raisons pratiques, financières et politiques de réorienter ses ressources vers les programmes qui mèneront le plus directement à ces objectifs.</p>
+
+<p>Étant donné que les objectifs des protocoles d'accord ne se concentrent pas sur les populations clés, les gouvernements peuvent choisir de retirer des ressources aux programmes destinés aux populations clés sans instruction explicite du gouvernement américain et sans qu'aucune règle n'ait jamais été formellement invoquée. C'est particulièrement le cas car ces programmes sont souvent politiquement sensibles et peuvent être plus compliqués ou coûteux à mettre en œuvre pour les gouvernements.</p>
+
+<aside class="key-point">Comme les protocoles d'accord récompensent les programmes de financement qui ne sont pas axés sur les populations clés, les gouvernements pourraient être incités à reléguer discrètement au second plan les programmes destinés aux populations clés, sans jamais mentionner ces dernières. Il peut être plus difficile pour les défenseurs de s'y opposer qu'à une interdiction directe !</aside>
+
+<p class="sub-point">Les gouvernements ne comprennent peut-être pas pleinement ce qui les attend</p>
+
+<p>Les militants devraient demander directement aux gouvernements s'ils ont reçu des conseils juridiques sur ce qu'exigeront les accords intergouvernementaux, et s'ils comprennent toute la portée des conditions de la PHFFA qui pourraient en découler. La mise en œuvre commence maintenant, c'est donc une période cruciale pour le plaidoyer.</p>
+
+<h2>Et si le Fonds mondial obtenait une dérogation ?<em>Une dérogation serait utile, mais elle ne ferait pas disparaître ces règles</em></h2>
+
+<p>Le secrétaire d'État a le pouvoir d'accorder une dérogation au Fonds mondial, le libérant de tout ou partie de ses obligations au titre de ces règles. Ce serait significatif ! Mais les militants ne doivent pas supposer qu'une dérogation résoudrait le problème, car ce ne serait pas le cas à bien des égards.</p>
+
+<p class="sub-point">Ce qu'une dérogation ne peut pas faire</p>
+
+<p>Une dérogation n'aurait aucun effet sur les obligations distinctes découlant des accords bilatéraux directs (de gouvernement à gouvernement) entre les États-Unis et les différents pays. Celles-ci existent indépendamment, et une dérogation accordée au Fonds mondial n'a aucune incidence sur elles. Un gouvernement ayant à la fois un accord bilatéral avec les États-Unis et une subvention du Fonds mondial serait toujours tenu de séparer ses fonds bilatéraux de tout flux de financement utilisé pour des activités interdites.</p>
+
+<aside class="key-point">Une dérogation accordée au Fonds mondial n'affecterait pas les restrictions que les gouvernements ont acceptées dans leurs accords bilatéraux (de gouvernement à gouvernement) avec les États-Unis.</aside>
+
+<p>Il n'est pas non plus clair si une dérogation protégerait les organisations situées plus bas dans la chaîne de financement du Fonds mondial. Une interprétation possible est que si les obligations du Fonds mondial lui-même font l'objet d'une dérogation, son obligation de transmettre ces règles aux sous-bénéficiaires disparaît avec elles. Mais cela n'a pas été confirmé, ce qui pourrait créer un risque juridique pour les organisations agissant sur la base de cette hypothèse.</p>
+
+<p class="sub-point">L'effet dissuasif n'a pas besoin qu'une règle soit en vigueur</p>
+
+<p>Peut-être plus important encore, une dérogation ne changerait pas l'environnement politique dans lequel les gouvernements et les organisations prennent leurs décisions. Les gouvernements déjà enclins à déprioriser les programmes de lutte contre le paludisme pourraient utiliser le signal politique plus large envoyé par ces règles (quelle que soit la dérogation !) comme justification ou prétexte pour le faire. L'effet dissuasif ne dépend pas de la force de loi des règles.</p>
+
+<p>En effet, il y a déjà des signes indiquant que les organisations modifient leur travail pour « se conformer à l'avance » à ces règles, même si elles ne sont pas officiellement en vigueur. Cela inclut la censure d'informations sur les personnes trans et non binaires, la restriction d'informations ou de services liés à la santé reproductive, et même l'abandon de services non liés aux politiques en raison de désinformation ou de crainte.</p>
+
+<aside class="key-point">Il est très important de plaider en faveur d’une dérogation ! Mais une dérogation n’est pas une raison pour cesser d’être vigilant. La pression exercée sur les programmes destinés aux populations clés et à la santé reproductive existe indépendamment du fait que les règles s’appliquent officiellement ou non.</aside>
+
+<h2>Qu’est-ce que cela signifie pour les programmes communautaires ?</h2>
+
+<aside class="warning">Ce qui suit n'est <strong>pas</strong> une liste de programmes devant être retirés des subventions. L'un des plus grands risques actuels est que des organisations suppriment des activités que personne n'a réellement interdites, agissant par peur et incertitude plutôt que sur la base de règles concrètes. On appelle parfois cela « se conformer à l'avance » et c'est un risque énorme.</aside>
+
+<p>Les règles sont nouvelles, contestées et, à bien des égards, floues. Ce qu’elles signifieront dans la pratique, et pour quelles organisations, dépendra de décisions qui sont encore en cours d’élaboration à plusieurs niveaux. Ce dont les militants communautaires ont besoin dès maintenant, c’est de comprendre quelles activités risquent de faire l’objet de pressions pour être supprimées, afin qu’ils puissent se préparer à les défendre.</p>
+
+<p>Voici quelques-uns des domaines d'intervention <strong>où des questions sont le plus susceptibles d'être soulevées :</strong></p>
+
+<ul>
+<li>Services de santé pour les personnes transgenres et de genre divers</li>
+<li>Services de santé sexuelle et reproductive</li>
+<li>Programmes de réduction des risques</li>
+<li>Programmes en faveur des droits humains et programmation transformatrice en matière de genre</li>
+<li>Programmes explicitement conçus pour atteindre les populations clés</li>
+</ul>
+
+<p>Mais les interdictions officielles de cette politique ne sont qu'une partie du tableau. Le scénario le plus probable dans de nombreux endroits est plus discret : des demandes de financement qui n'incluent jamais de composantes relatives aux populations clés ; des plans de mise en œuvre qui ne mentionnent pas ou n'atteignent pas les communautés les plus marginalisées ; des services qui ne sont tout simplement plus accessibles aux personnes qui en ont le plus besoin.</p>
+
+<p>Cela peut se produire sans aucune annonce ni violation visible des règles : les programmes pourraient se réduire ou disparaître discrètement. En 2017, alors qu’une version plus restrictive de ces politiques était en vigueur, <a href="https://www.healthaffairs.org/doi/full/10.1377/hlthaff.2020.00061" target="_blank">des chercheurs ont constaté que</a> 28 % des organisations chargées de la mise en œuvre du PEPFAR avaient cessé ou réduit la fourniture de tests de dépistage du VIH et de conseils, de conseils en matière de grossesse, de distribution de contraceptifs et d'informations aux patients sur la santé sexuelle et reproductive. Pourtant, ces services n'étaient en réalité pas interdits par la loi américaine ! Cela signifie que les organisations peuvent choisir de réduire volontairement des programmes qui étaient en réalité autorisés, soit par méconnaissance de la politique, soit par crainte d'enfreindre accidentellement les règles. Ces risques sont difficiles à surveiller et nécessiteront une attention particulière de la part des défenseurs des droits</p>
+
+<h2>Que peuvent faire les militants communautaires ?<em>Une liste de contrôle pour les militants communautaires</em></h2>
+
+<div class="checklist">
+<h3>Connaissez votre point de départ</h3>
+<ul>
+<li>Vérifiez si votre pays a signé un MOU avec le gouvernement américain et, s'il est accessible au public, lisez-le. Vous pouvez vérifier si votre protocole d'accord a <a href="https://www.dataetc.org/projects/gc8-documents/?lang=fr" target="_blank">déjà été publié ici</a>. S'il n'est pas encore disponible, demandez à vos partenaires de la société civile, à vos contacts au sein du gouvernement et aux représentants de l'Instance de coordination nationale (ICN) de vous le communiquer.</li>
+<li>Lorsque vous examinez le MOU, prêtez une attention particulière aux indicateurs de performance : de quels résultats sanitaires votre gouvernement est-il désormais tenu responsable, et incluent-ils des résultats liés aux populations clés ?</li>
+<li>Faites le point sur les programmes destinés aux populations clés et aux communautés actuellement financés par les subventions du Fonds mondial dans votre pays. Cela vous aidera à établir une base de référence afin de vous assurer que ces activités ne soient pas supprimées lors du CS8. Vous pouvez trouver <a href="https://www.dataetc.org/projects/ccm/" target="_blank">les données relatives aux subventions pour votre pays ici</a>.</li>
+<li>Réexaminez ce qui <a href="https://www.dataetc.org/projects/reprioritization/?lang=fr" target="_blank">a été supprimé ou dépriorisé</a> lors de l'exercice de redéfinition des priorités du CS7 dans votre pays, car ces programmes risquent fort d'être à nouveau les plus vulnérables lors du CS8.</li>
+</ul>
+
+<h3>Rejoignez les bons espaces</h3>
+<ul>
+<li>Renseignez-vous sur la date de lancement du processus de demande de financement CS8 dans votre pays et assurez-vous que les voix des communautés y soient prises en compte dès le début, et non pas seulement consultées à la fin. Vous pouvez trouver ici la période pour laquelle votre pays est <a href="https://www.dataetc.org/projects/ccm/" target="_blank">inscrit</a>, ainsi que les coordonnées de votre ICN. Demandez à votre ICN d'être inclus dans les consultations communautaires et le dialogue national et, si possible, de collaborer directement avec l'équipe de rédaction. Si vous rencontrez des difficultés pour contacter votre ICN, <a href="https://globaladvocacydatahub.org/support.html?lang=FR" target="_blank">demandez de l'aide au GADH et à d'autres partenaires ici</a>.</li>
+<li>Participez à tout dialogue national sur la santé ou à toute consultation gouvernementale concernant le processus de mise en œuvre du MOU, s'il y en a. Si votre MOU est déjà en place, continuez à défendre les priorités de la communauté pendant la finalisation des accords intergouvernementaux.</li>
+<li>Si vous ne disposez pas encore de moyens pour dialoguer avec votre gouvernement, collaborez avec des partenaires et des réseaux communautaires afin de créer des occasions d'échanger avec votre ministère de la Santé au sujet des activités qu'il finance. Cela peut impliquer l'ICN ou s'inscrire dans un cadre distinct.</li>
+</ul>
+
+<h3>Plaider, monitorer et documenter</h3>
+<ul>
+<li>Si vous avez des contacts au sein du ministère de la Santé, par exemple via l'ICN, interrogez-les sur le PHFFA. Demandez-leur directement comment les programmes axés sur la santé reproductive, les programmes liés au genre et les activités destinées aux populations clés seront financés si ces dispositions sont liées au financement du gouvernement américain.</li>
+<li>Dans toutes vos interactions avec le ministère de la Santé, votre gouvernement local, l'ICN et le gouvernement américain, insistez pour obtenir des engagements clairs sur la manière dont les besoins de santé des populations clés seront priorisés, financés et mis en œuvre.</li>
+<li>Si vous faites partie de l'ICN, demandez à vos représentants gouvernementaux et/ou non gouvernementaux quel sera l’impact de la PHFFA sur eux et comment ils comptent continuer à financer les programmes axés sur le genre, les populations clés et la santé sexuelle et reproductive.</li>
+<li>Si les programmes axés sur le genre, les soins sexuels et reproductifs et les populations clés sont exclus des demandes de financement, relégués au second plan ou restructurés, documentez-le : qui a pris la décision, quand et quelle raison a été donnée ?</li>
+<li>Faites remonter tout changement concernant la programmation, le financement et la disponibilité des services. Vous pouvez commencer par en faire part à l'ICN lui-même. Si cela échoue, vous pouvez également contacter directement les gestionnaires de portefeuille du Fonds mondial à Genève qui soutiennent votre pays (leurs coordonnées sont <a href='https://dataetc.org/projects/ccm' target=_blank>disponibles ici</a>). Vous pouvez également signaler ces changements via les réseaux et organisations communautaires, <a href="https://globaladvocacydatahub.org/support?lang=FR" target="_blank">tels que le GADH</a>, les hubs d'apprentissage du CRG et les réseaux de populations clés.</li>
+</ul>
+</div>
