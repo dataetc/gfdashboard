@@ -1802,15 +1802,6 @@
 },
 {
 	"date": "2026-04-30",
-	"time": "10:00 AM - 11:30 AM UTC +0 (GMT)",
-	"title": "Analyse des recommandations du GC8 sur le paludisme : Du point de vue d’une communauté",
-	"host": "Les Hubs d’Apprentissage Communautés, droits et Genre du Fonds Mondial, <a href='https://cs4me.org/' target=_blank>CS4ME</a>",
-	"description": "Rejoignez-nous pour un échange régional organisé par le Hub d’Apprentissage Communautés, droits et Genre du Fonds Mondial pour l’Afrique Francophone en collaboration avec les 05 autres Hubs d'Apprentissage régionaux et CS4ME.<br><br>Ce webinaire vise à :<br><br>    🌐Sensibiliser et mieux comprendre les recommandations du GC8 sur le paludisme, ses éléments essentiels et ses principaux changements.<br><br>    ⚖️ Mettre en lumière les opportunités clés du GC8 pour réduire les obstacles liés à l’équité, aux droits humains et au genre.<br><br>    📚 Présenter les ressources disponibles pour les communautés et la société civile dans le cadre du GC8.<br><br>    💡 Renforcer les capacités des OSC, OBC et communautés à participer à l’élaboration des demandes de financement, y compris la hiérarchisation des interventions clés.<br><br>Cible publique :<br><br>    Militants communautaires et de la société civile engagés dans la lutte contre le paludisme, défenseurs impliqués dans les mesures nationales de lutte contre le paludisme<br>    Représentants des communautés touchées par le paludisme<br>    Membres des CCM, notamment issus du secteur non gouvernemental<br>    Représentants d’ONG et d’organisations communautaires participant à la mise en œuvre des subventions du Fonds mondial pour la lutte contre le paludisme en tant que PR, SR ou SSR.",
-	"link": "https://rame-int.us12.list-manage.com/track/click?u=be2cc23fb198ff39af4d4d4a5&id=e93dbe8cd1&e=d033478854",
-	"language": "French (translation available in Arabic, English, French, Portuguese, Russian, Spanish)"
-},
-{
-	"date": "2026-04-30",
 	"time": "12:00 PM - 01:30 PM UTC +1 (WAT)",
 	"title": "Global Fund Grant Cycle 8 in Focus: Smart Advocacy for Fair Financing",
 	"host": "<a href='https://cs4me.org/' target=_blank>CS4ME</a>, <a href='https://globalfundadvocatesnetwork.org/' target=_blank>GFAN</a>, <a href='https://wacihealth.org/gfan/' target=_blank>GFAN Africa</a>, <a href='https://gfanasiapacific.org/' target=_blank>GFAN AP</a>, <a href='https://www.msf.org/' target=_blank>MSF</a>",
@@ -1835,6 +1826,15 @@
 	"description": "What does health sovereignty look like for communities?<br><br>You are invited to join the conversation during the webinar 'People's voices on African health sovereignty' scheduled on Thursday, April 30th at 1:00 PM WAT | 12:00 PM GMT | 2:00 PM CEST/SAST | 3:00 PM EAT. <br><br>Ahead of the Africa Forward Summit, civil society and communities will share their vision and asks for a healthier world, based on health sovereignty and international solidarity. <br><br>Comment les communautés conçoivent-elles la souveraineté sanitaire ?<br><br>Vous êtes invité·e à participer à la discussion lors du webinaire « La voix des peuples sur la souveraineté sanitaire en Afrique », prévu le jeudi 30 avril à 13 h WAT | 12 h GMT | 14 h CEST/SAST | 15 h EAT.<br><br>En amont du sommet Africa Forward, la société civile et les communautés partageront leur vision et leurs revendications pour améliorer l'état de la santé mondiale, en alliant souveraineté sanitaire et solidarité internationale.",
 	"link": "https://us02web.zoom.us/webinar/register/WN_Xp67L8WgRamQHKFFIajkLw",
 	"language": "English (translation available in French)"
+},
+{
+	"date": "2026-04-30",
+	"time": "09:00 AM - 10:00 AM UTC -5 (Eastern Time)",
+	"title": "CHANGE update call - The US funding freeze",
+	"host": "CHANGE",
+	"description": "CHANGE update call - the U.S. Funding Freeze",
+	"link": "https://us02web.zoom.us/j/89492656688",
+	"language": "English"
 },
 {
 	"date": "2026-05-04",
@@ -1909,6 +1909,15 @@
 	"language": "English"
 },
 {
+	"date": "2026-05-06",
+	"time": "08:00 AM - 09:00 AM UTC -5 (Eastern Time)",
+	"title": "GFAN Call - HIV HLM and TB Treatment pipeline",
+	"host": "<a href='https://globalfundadvocatesnetwork.org/' target=_blank>GFAN</a>",
+	"description": "On this call we are joined by aidsfonds and members of the Multistakeholder Taskforce to talk about the stakes of the HIV HLM and avenues of engagement; we will also hear from colleagues at TAG to discuss the TB treatment pipeline.",
+	"link": "https://us06web.zoom.us/j/86140489953",
+	"language": "English (translation available in French)"
+},
+{
 	"date": "2026-05-07",
 	"time": "09:00 AM UTC +8 (Kuala Lumpur, Manila)",
 	"title": "Launch of the APEC (Asia-Pacific Economic Cooperation) Action Plan to End the HIV Epidemic (2026–2031)",
@@ -1942,6 +1951,15 @@
 	"host": "<a href='https://www.pih.org/' target=_blank>Partners in Health</a>",
 	"description": "We are offering this space weekly to share information we’ve gathered from learnings to-date from countries that have begun negotiation conversations with USG representatives regarding MOUs for health funding. Please feel free to share this link with other colleagues or partners who may be interested in an informal information sharing and learning. The intended audience is MOH colleagues involved in developing their country’s proposals and/or civil society partners who are providing accompaniment to government teams who are developing their plans.",
 	"link": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGEzZWE3NmYtNGNkOS00ODhlLWI4MTAtNTU4MGFjYjc2MmFj%40thread.v2/0?context=%7b%22Tid%22%3a%225254789f-6860-4375-85bc-302509fad508%22%2c%22Oid%22%3a%220057ce0c-a728-46c3-9691-215475322554%22%7d",
+	"language": "English"
+},
+{
+	"date": "2026-05-21",
+	"time": "02:00 PM UTC +1 (WAT)",
+	"title": "Global Fund Secretariat Leadership Townhall @WHA",
+	"host": "<a href='https://globalfundadvocatesnetwork.org/' target=_blank>GFAN</a>, <a href='https://theglobalfund.org/' target=_blank>The Global Fund</a>",
+	"description": "For those of you who will be in Geneva during the World Health Assembly, we are organising a leadership townhall for civil society and communities with the Global Fund Secretariat on May 21st (Thursday), at 2pm CET. <br><br>Seating will be limited and entry reserved for registered participants: if you would like to join, please let us know before May 6th through this link: https://forms.gle/zFXY5k2gEAwnsmkc7",
+	"link": "In-person only: https://forms.gle/zFXY5k2gEAwnsmkc7",
 	"language": "English"
 },
 {
