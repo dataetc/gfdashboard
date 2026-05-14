@@ -2027,6 +2027,15 @@
 },
 {
 	"date": "2026-05-20",
+	"time": "03:00 PM - 04:00 PM UTC +2 (CAT)",
+	"title": "CLM Integration Webinar / Webinaire sur l’intégration du CLM",
+	"host": "<a href='https://itpcglobal.org/' target=_blank>ITPC Global</a>",
+	"description": "Join us as we share practical lessons and experiences on how CLM is supporting more integrated, sustainable, and people-centered HIV, TB, and malaria responses across 16 African countries.",
+	"link": "https://us06web.zoom.us/webinar/register/WN_LOy5mLOlTnKwsicz4dOVwQ?utm_source=chatgpt.com#/registration",
+	"language": "English (translation available in French)"
+},
+{
+	"date": "2026-05-20",
 	"time": "10:00 AM UTC -5 (Eastern Time)",
 	"title": "Inside the Decisions that Changed Global Health: An AVAC Conversation with Nicholas Enrich",
 	"host": "<a href='https://avac.org/' target=_blank>AVAC</a>",
