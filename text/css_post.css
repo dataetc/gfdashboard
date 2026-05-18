@@ -118,7 +118,7 @@
   }
 
   .post-content p {
-    margin-bottom: 1.5em;
+    margin-bottom: 1.0em;
   }
 
   .post-content h2 {
@@ -126,7 +126,7 @@
     font-size: 2.2rem;
     font-weight: bold;
     color: #1a1a1a;
-    margin: 1em 0 0.75em;
+    margin: 0.75em 0 0.75em;
     line-height: 1.2;
   }
 
@@ -173,7 +173,6 @@
 
   img {
     max-width: 100%;
-    padding: 2vw 7vw 2vw 3vw;
     height: auto;
   }
 
@@ -181,6 +180,19 @@
     img {
       padding: 0;
     }
+  }
+
+.post-content .img-wrap { 
+  margin: 0; padding: 0; line-height: normal; 
+}
+
+.post-content .img-wrap .img-subtitle {
+    display: block;
+    font-size: 0.85rem;
+    color: #666;
+    line-height: 1.2 !important;
+    margin: 0.25rem 0 0 0 !important;
+    padding-bottom: 10px;
   }
 
   /* ── TAGS ── */
