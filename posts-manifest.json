@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "ahas2026-in-kigali-advancing-equity-innovation-and-resilience-in-global-health",
+      "slug": "ahas2026-in-kigali-advancing-equity-innovation-and-resilience-in-global-health",
+      "title": "AHAS2026 in Kigali: Advancing Equity, Innovation and Resilience in Global Health",
+      "titles": {
+        "EN": "AHAS2026 in Kigali: Advancing Equity, Innovation and Resilience in Global Health",
+        "FR": "AHAS2026 à Kigali : Promouvoir l'équité, l'innovation et la résilience dans le domaine de la santé mondiale"
+      },
+      "author": "Elizabeth Otaye",
+      "date": "2026-05-18",
+      "image": "https://globaladvocacydatahub.org/images/blog/ahas2026-in-kigali-advancing-equity-innovation-and-resilience-in-global-health.png",
+      "tags": ["Announcement"],
+      "excerpt": "XXX",
+      "excerpts": {
+        "EN": "XXX",
+        "FR": "XXX"
+      },
+      "file": "ahas2026-in-kigali-advancing-equity-innovation-and-resilience-in-global-health.txt",
+      "files": {
+        "EN": "ahas2026-in-kigali-advancing-equity-innovation-and-resilience-in-global-health.txt",
+        "FR": "ahas2026-in-kigali-advancing-equity-innovation-and-resilience-in-global-health-fr.txt"
+      }
+    },
+    {
       "id": "phffa-what-global-fund-advocates-need-to-know",
       "slug": "phffa-what-global-fund-advocates-need-to-know",
       "title": "New U.S. government policies on health: What Global Fund advocates need to know about the PHFFA and what they can do",
