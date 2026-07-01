@@ -36,11 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const isMatchingLanguage = selectedLanguage === 'all' || 
                                        itemLanguages.includes(selectedLanguage);
 
-            if (isAllLanguage || isMatchingLanguage) {
-                item.style.display = 'block'; // Show the image item
-            } else {
-                item.style.display = 'none'; // Hide the image item
-            }
+            item.style.cssText = (isAllLanguage || isMatchingLanguage) ? '' : 'display: none !important;';
         });
         
         // Update counts after filtering

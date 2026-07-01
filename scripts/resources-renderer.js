@@ -22,8 +22,6 @@ function parseCSV(csvText) {
     h.replace(/^\uFEFF/, '').replace(/"/g, '').trim()
   );
 
-  console.log('CSV headers detected:', headers); // handy for debugging
-
   const data = [];
   
   for (let i = 1; i < lines.length; i++) {
@@ -144,7 +142,6 @@ async function loadResourcesFromSheet() {
       }
     });
     
-    console.log('Resources loaded successfully from Google Sheets');
     return true;
   } catch (error) {
     console.error('Error loading resources from Google Sheets:', error);
@@ -192,7 +189,6 @@ function createResourceItem(resource) {
   let formattedDate = '';
   if (hasDate) {
     const raw = resource.date.trim();
-    console.log('Raw date value:', JSON.stringify(raw)); // debug
     const parts = raw.split('/');
     if (parts.length === 3) {
       const m = parseInt(parts[0], 10);
