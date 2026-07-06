@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "beyond-the-vote-what-the-2026-un-political-declaration-on-hivaids-means-for-global-hiv-advocacy",
+      "slug": "beyond-the-vote-what-the-2026-un-political-declaration-on-hivaids-means-for-global-hiv-advocacy",
+      "title": "Beyond the Vote: What the 2026 UN Political Declaration on HIV/AIDS Means for Global HIV Advocacy",
+      "titles": {
+        "EN": "Beyond the Vote: What the 2026 UN Political Declaration on HIV/AIDS Means for Global HIV Advocacy",
+        "FR": "AHAS2026 à Kigali : Promouvoir l'équité, l'innovation et la résilience dans le domaine de la santé mondiale"
+      },
+      "author": "GADH team",
+      "date": "2026-07-06",
+      "image": "https://globaladvocacydatahub.org/images/blog/beyond-the-vote-what-the-2026-un-political-declaration-on-hivaids-means-for-global-hiv-advocacy.png",
+      "tags": ["Brief"],
+      "excerpt": "The Global Advocacy Data Hub (GADH) was honored as Outstanding Team of the Year at AHAS2026 in Kigali for empowering community-led, data-driven advocacy to strengthen equity, innovation, and resilience in African health systems.",
+      "excerpts": {
+        "EN": "The Global Advocacy Data Hub (GADH) was honored as Outstanding Team of the Year at AHAS2026 in Kigali for empowering community-led, data-driven advocacy to strengthen equity, innovation, and resilience in African health systems.",
+        "FR": "Le Hub Mondial de Données pour le Plaidoyer (GADH) a été désigné « Équipe de l'année » lors de l'AHAS2026 à Kigali pour avoir favorisé un plaidoyer mené par les communautés et fondé sur les données, dans le but de renforcer l'équité, l'innovation et la résilience des systèmes de santé africains."
+      },
+      "file": "beyond-the-vote-what-the-2026-un-political-declaration-on-hivaids-means-for-global-hiv-advocacy.txt",
+      "files": {
+        "EN": "beyond-the-vote-what-the-2026-un-political-declaration-on-hivaids-means-for-global-hiv-advocacy.txt",
+        "FR": "ahas2026-in-kigali-advancing-equity-innovation-and-resilience-in-global-health-fr.txt"
+      }
+    },
+    {
       "id": "ahas2026-in-kigali-advancing-equity-innovation-and-resilience-in-global-health",
       "slug": "ahas2026-in-kigali-advancing-equity-innovation-and-resilience-in-global-health",
       "title": "AHAS2026 in Kigali: Advancing Equity, Innovation and Resilience in Global Health",
