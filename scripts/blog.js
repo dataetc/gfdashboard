@@ -368,11 +368,25 @@ function formatDate(dateStr) {
   return d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
 }
 
+// ── Truncate to a fixed character length, cutting on a word boundary ──
+const EXCERPT_TRUNCATE_LENGTH = 140; // adjust to taste
+
+function truncateText(text, maxLength) {
+  if (!text) return '';
+  if (text.length <= maxLength) return text;
+  const cut = text.slice(0, maxLength);
+  // avoid chopping a word in half — back up to the last space if it's not too far back
+  const lastSpace = cut.lastIndexOf(' ');
+  const clean = lastSpace > maxLength * 0.6 ? cut.slice(0, lastSpace) : cut;
+  return clean.trimEnd().replace(/[.,;:!?]$/, '') + ' ...';
+}
+
 function cardHTML(post, index) {
   const isFeatured = index === 0;
   const imgSrc = post.image ? post.image : 'images/blog-placeholder.jpg';
   const tag = (post.tags && post.tags[0]) ? post.tags[0] : 'Update';
-  const excerpt = post.excerpt || post.content.substring(0, 160) + '…';
+  const rawExcerpt = post.excerpt || post.content.substring(0, 160) + '…';
+  const excerpt = isFeatured ? rawExcerpt : truncateText(rawExcerpt, EXCERPT_TRUNCATE_LENGTH);
   return `
     <a class="post-card" href="post.html?post=${encodeURIComponent(post.slug)}">
       <img class="card-image" src="${imgSrc}" alt="${post.title}" loading="${isFeatured ? 'eager' : 'lazy'}">
