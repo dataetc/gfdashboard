@@ -1,5 +1,3 @@
-// Google Sheets CSV URL - Replace with your published CSV URL
-// To get this: File > Share > Publish to web > Choose CSV format
 const GOOGLE_SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS2OExrmL9SLRTO0rtOWoQTvBbDAQYs7cAMhdDoXFWu3Xz6-vFk31LsosX5uSl_p5JW4ZuxPWP0KTNv/pub?gid=0&single=true&output=csv';
 
 // Global variable to store loaded resources
