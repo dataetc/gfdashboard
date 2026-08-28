@@ -18,6 +18,7 @@ const languageData = {
     aboutP1: "Communities most impacted by HIV, tuberculosis, and malaria are at the heart of the Global Fund model. Yet communities often face the greatest barriers to meaningful engagement.",
     aboutP2: "The <span>Global Advocacy Data Hub</span> (GADH) is a one-stop shop for communities, advocates, CCM representatives, and other health system stakeholders.  Here you may find publicly-available information, data, guides, and other resources designed to help communities fully participate in decision-making about their lives, communities, and countries.",
     aboutP3: "This web platform is built for advocates, by advocates.",
+    aboutGADHOverview: "Watch the GADH Overview",
     aboutButton: "Explore Resources",
     whoTitle: "Who we are:",
     whoP1: "The GADH is a <span>global, collective effort</span> of advocacy organizations, community networks and coalitions, and technical partners.  Together we are working for accountable, accessible, and acceptable healthcare for all people living with and affected by HIV, tuberculosis, and malaria.",
@@ -149,6 +150,7 @@ const languageData = {
     aboutP1: "Les communautés les plus touchées par le VIH, la tuberculose et le paludisme sont au cœur du modèle du Fonds mondial. Pourtant, les communautés sont souvent confrontées aux plus grands obstacles à un engagement significatif.",
     aboutP2: "Le <span>Hub Mondial de Données pour le Plaidoyer</span> (GADH) est un guichet unique pour les communautés, les défenseurs, les représentants des ICN et les autres acteurs du système de santé.  Vous y trouverez des informations, des données, des guides et d'autres ressources accessibles au public, conçus pour aider les communautés à participer pleinement à la prise de décisions concernant leur vie, leur communauté et leur pays.",
     aboutP3: "Cette plateforme web est conçue pour les militants, par les militants.",
+    aboutGADHOverview: "Regarder la présentation du GADH",
     aboutButton: "Explorer les ressources",
     whoTitle: "Qui sommes-nous ?",
     whoP1: "Le GADH est un <span>effort global et collectif</span> mené par des organisations de plaidoyer, des réseaux et coalitions communautaires et des partenaires techniques. Ensemble, nous œuvrons pour que toutes les personnes vivant avec et affectées par le VIH, la tuberculose et le paludisme aient accès à des soins de santé responsables, accessibles et acceptables.",
@@ -281,6 +283,7 @@ const languageData = {
     aboutP1: "Las comunidades más afectadas por el VIH, la tuberculosis y la malaria son el núcleo del modelo del Fondo Mundial. Sin embargo, a menudo son ellas las que se enfrentan a los mayores obstáculos para una participación significativa.",
     aboutP2: "El <span>Hub Global de Datos para la Abogacía</span> (GADH) es una ventanilla única para comunidades, defensores, representantes de MCP y otras partes interesadas del sistema sanitario.  Aquí podrá encontrar información, datos, guías y otros recursos de acceso público diseñados para ayudar a las comunidades a participar plenamente en la toma de decisiones sobre sus vidas, comunidades y países.",
     aboutP3: "Esta plataforma web ha sido creada por abogados y para abogados.",
+    aboutGADHOverview: "Mira la presentación general de GADH",
     aboutButton: "Explorar recursos",
     whoTitle: "Quiénes somos:",
     whoP1: "La GADH es una <span>iniciativa global y colectiva</span> de organizaciones de abogacía, redes y coaliciones comunitarias y colaboradores técnicos.  Juntos trabajamos para lograr una atención sanitaria responsable, accesible y aceptable para todas las personas que viven con y están afectadas por el VIH, la tuberculosis y la malaria.",
@@ -413,6 +416,7 @@ const languageData = {
     aboutP1: "As comunidades mais afetadas pelo HIV, tuberculose e malária estão no centro do modelo do Fundo Global. No entanto, as comunidades muitas vezes enfrentam as maiores barreiras para um envolvimento significativo.",
     aboutP2: "O <span>Centro Global de Dados de Advocacia</span> (GADH) é um balcão único para comunidades, defensores, representantes do MCP e outras partes interessadas do sistema de saúde. Aqui você pode encontrar informações, dados, guias e outros recursos públicos projetados para ajudar as comunidades a participar plenamente da tomada de decisões sobre suas vidas, comunidades e países.",
     aboutP3: "Esta plataforma web é construída por defensores, para defensores.",
+    aboutGADHOverview: "Veja a apresentação geral do GADH",
     aboutButton: "Explorar Recursos",
     whoTitle: "Quem somos:",
     whoP1: "A GADH é um <span>esforço global e coletivo</span> de organizações de advocacia, redes e coligações comunitárias e parceiros técnicos. Juntos, estamos a trabalhar por cuidados de saúde responsáveis, acessíveis e aceitáveis para todas as pessoas que vivem com e são afetadas pelo VIH, tuberculose e malária.",
@@ -544,6 +548,7 @@ const languageData = {
     aboutP1: "Сообщества, наиболее пострадавшие от ВИЧ, туберкулеза и малярии, находятся в центре модели Глобального фонда. Однако сообщества часто сталкиваются с наибольшими барьерами для полноценного участия.",
     aboutP2: "<span>Глобальный центр данных для адвокации</span> (GADH) - это единое окно для сообществ, адвокатов, представителей страновых координационных комитетов и других заинтересованных сторон системы здравоохранения. Здесь вы можете найти общедоступную информацию, данные, руководства и другие ресурсы, призванные помочь сообществам в полной мере участвовать в принятии решений, касающихся их жизни, сообществ и стран.",
     aboutP3: "Эта веб-платформа создана для адвокатов, силами адвокатов.",
+    aboutGADHOverview: "Посмотрите обзор GADH",
     aboutButton: "Изучить ресурсы",
     whoTitle: "Кто мы:",
     whoP1: "GADH представляет собой <span>глобальную коллективную инициативу</span>, объединяющую правозащитные организации, общественные сети и коалиции, а также технических партнеров. Вместе мы стремимся обеспечить подотчётную, доступную и приемлемую медицинскую помощь для всех людей, живущих с ВИЧ, туберкулезом и малярией, а также для тех, кто подвержен риску заражения этими заболеваниями.",
@@ -674,6 +679,7 @@ const languageData = {
     aboutP1: "Jamii zilizoathiriwa zaidi na VVU, kifua kikuu, na malaria ndizo msingi wa modeli ya Global Fund. Mara nyingi jamii hukabiliana na vikwazo vikubwa zaidi vya ushirikishwaji wenye maana.",
     aboutP2: "<span>Kituo Kikuu Cha Data Cha Utetezi Wa Kimataifa</span> (GADH) ni kituo kimoja cha jamii, mawakili, wawakilishi wa CCM, na washikadau wengine wa mfumo wa afya. Hapa unaweza kupata taarifa, data, miongozo na nyenzo nyingine zinazopatikana kwa umma zilizoundwa ili kusaidia jamii kushiriki kikamilifu katika kufanya maamuzi kuhusu maisha, jamii na nchi zao.",
     aboutP3: "Jukwaa hili la wavuti limeundwa kwa ajili ya mawakili, na watetezi.",
+    aboutGADHOverview: "Tazama muhtasari wa GADH",
     aboutButton: "Chunguza Rasilimali",
     whoTitle: "Sisi ni nani:",
     whoP1: "GADH ni <span>jitihada ya pamoja ya kimataifa</span> ya mashirika ya utetezi, mitandao ya jamii na muungano, pamoja na washirika wa kiufundi.  Pamoja tunafanya kazi kwa ajili ya huduma za afya zenye uwajibikaji, zinazopatikana kwa urahisi, na zinazokubalika kwa watu wote wanaoishi na walioathiriwa na VVU, kifua kikuu, na malaria.",
@@ -876,6 +882,7 @@ function changeLanguage(lang) {
   updateElement('about-p1', getTranslation('aboutP1'), true);
   updateElement('about-p2', getTranslation('aboutP2'), true);
   updateElement('about-p3', getTranslation('aboutP3'), true);
+  updateElement('about-GADH-overview', getTranslation('aboutGADHOverview'));
   updateElement('hero-resources-btn', getTranslation('aboutButton'), true);
   updateElement('who-title', getTranslation('whoTitle'), true);
   updateElement('who-p1', getTranslation('whoP1'), true);
