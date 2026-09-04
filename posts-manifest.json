@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "id": "launch-of-the-global-advocacy-data-hub-and-community-quilt-at-aids2026",
+      "slug": "launch-of-the-global-advocacy-data-hub-and-community-quilt-at-aids2026",
+      "title": "Launch of the Global Advocacy Data Hub and community quilt at AIDS2026",
+      "titles": {
+        "EN": "Launch of the Global Advocacy Data Hub and community quilt at AIDS2026",
+        "FR": "Au-delà du vote : ce que la Déclaration politique des Nations unies de 2026 sur le VIH/sida signifie pour la lutte mondiale contre le VIH"
+      },
+      "author": "GADH team",
+      "date": "2026-09-04",
+      "image": "https://globaladvocacydatahub.org/images/blog/launch-of-the-global-advocacy-data-hub-and-community-quilt-at-aids2026.png",
+      "tags": ["Brief"],
+      "excerpt": "The 2026 UN Political Declaration on HIV/AIDS was adopted overwhelmingly, reaffirming ending AIDS by 2030 while surfacing sharper disputes over human rights, SRHR and LGBTQ+ protections, national sovereignty, and sustainable financing, signaling that global HIV advocacy must now work with a more contested geopolitical landscape to turn commitments into real-life progress.",
+      "excerpts": {
+        "EN": "The 2026 UN Political Declaration on HIV/AIDS was adopted overwhelmingly, reaffirming ending AIDS by 2030 while surfacing sharper disputes over human rights, SRHR and LGBTQ+ protections, national sovereignty, and sustainable financing, signaling that global HIV advocacy must now work with a more contested geopolitical landscape to turn commitments into real-life progress.",
+        "FR": "La Déclaration politique des Nations unies de 2026 sur le VIH/sida a été adoptée à une écrasante majorité, réaffirmant l’objectif de mettre fin au sida d’ici 2030, tout en mettant en évidence des divergences plus marquées concernant les droits de l’homme, la santé et les droits sexuels et reproductifs (SDSR) ainsi que la protection des personnes LGBTQ+, la souveraineté nationale et le financement durable. Cela indique que les acteurs mondiaux de la lutte contre le VIH doivent désormais évoluer dans un contexte géopolitique plus conflictuel pour transformer ces engagements en progrès concrets."
+      },
+      "file": "launch-of-the-global-advocacy-data-hub-and-community-quilt-at-aids2026.txt",
+      "files": {
+        "EN": "launch-of-the-global-advocacy-data-hub-and-community-quilt-at-aids2026.txt",
+        "FR": "launch-of-the-global-advocacy-data-hub-and-community-quilt-at-aids2026-fr.txt"
+      }
+    },
+    {
       "id": "beyond-the-vote-what-the-2026-un-political-declaration-on-hivaids-means-for-global-hiv-advocacy",
       "slug": "beyond-the-vote-what-the-2026-un-political-declaration-on-hivaids-means-for-global-hiv-advocacy",
       "title": "Beyond the Vote: What the 2026 UN Political Declaration on HIV/AIDS Means for Global HIV Advocacy",
